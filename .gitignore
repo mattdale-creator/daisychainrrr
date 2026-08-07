@@ -17,6 +17,8 @@ node_modules/
 commercial/private/
 *.pem
 !free_core/provenance/fixtures/*.pem
+!examples/keys/demo.public.pem
+!site/demo/demo.public.pem
 
 # local secrets + purchase receipts (may contain account ids)
 ops/secrets.local.env
