@@ -26,6 +26,20 @@ This repository is the organisational skeleton for the TTLLM project: free publi
 
 ---
 
+
+---
+
+## Architecture tree (architect-complete)
+
+Full executable HOWTO for every founding branch (ethos, product, technology, security, business, ten transparency domains, org, ops, epochs 00–05):
+
+- **[docs/architecture-tree/00-MASTER-TREE.md](docs/architecture-tree/00-MASTER-TREE.md)** — start here
+- [STATUS.md](docs/architecture-tree/STATUS.md) — rollup
+- [ARCHITECT-COMPLETE.md](docs/architecture-tree/10-checklists/ARCHITECT-COMPLETE.md) — checklist
+- [HUMAN-CAPITAL-GATES.md](docs/architecture-tree/10-checklists/HUMAN-CAPITAL-GATES.md) — what only humans/money open
+
+Vault mirror (local SoT): `TTLLMS.com BUILD/11-architecture-tree/`
+
 ## Repository map (every major branch)
 
 ```
@@ -38,6 +52,10 @@ daisychainrrr/
 │   ├── manifesto.md                   ← public principle
 │   ├── glossary.md
 │   ├── architecture/
+│   ├── architecture-tree/             ← FULL HOWTO tree (architect-complete)
+│   │   ├── 00-MASTER-TREE.md
+│   │   ├── 00-meta/ … 10-checklists/
+│   │   └── STATUS.md
 │   │   ├── free-public-core.md
 │   │   ├── ttlink.md
 │   │   ├── stream.md

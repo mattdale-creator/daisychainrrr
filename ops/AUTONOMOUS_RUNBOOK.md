@@ -1,5 +1,13 @@
 # Autonomous runbook — TTLLM / ttllms.com
 
+**On-disk source of truth (this Mac):**  
+`/Users/hattr/Downloads/TTLLMS.com BUILD`
+
+**Code repo path:**  
+`/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr`  
+(also symlinked at `/Users/hattr/daisychainrrr`)
+
+
 **Contact for all project email:** **md@0265.au**  
 **Primary site:** https://ttllms.com  
 **Secondary:** https://ttllms.org  
