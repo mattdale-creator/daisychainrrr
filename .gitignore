@@ -17,3 +17,10 @@ node_modules/
 commercial/private/
 *.pem
 !free_core/provenance/fixtures/*.pem
+
+# local secrets + purchase receipts (may contain account ids)
+ops/secrets.local.env
+ops/last_*.json
+ops/last_*.txt
+node_modules/
+package-lock.json

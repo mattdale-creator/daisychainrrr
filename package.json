@@ -1,0 +1,8 @@
+{
+  "name": "daisychainrrr",
+  "private": true,
+  "scripts": {
+    "register-ttllms": "bash ops/one_shot_ttllms.sh",
+    "cf-whoami": "npx wrangler whoami"
+  }
+}
