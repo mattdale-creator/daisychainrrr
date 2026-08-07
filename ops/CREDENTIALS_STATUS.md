@@ -169,3 +169,14 @@ With a valid token in env or `ops/secrets.local.env`, the agent will:
 3. Record results in-repo (receipts; not the token)  
 4. Continue DNS + site wiring as far as token permissions allow  
 '''
+
+
+---
+
+## Update 2026-08-07 domains purchased
+
+- **ttllms.com** + **ttllms.org** active on account 03bac8b3…
+- Pages project **ttllms** live at https://ttllms.pages.dev
+- Custom domains pending CNAME (token 403 on DNS edit)
+- **All project email → md@0265.au**
+- Still need: Zone DNS Edit on token OR manual CNAMEs

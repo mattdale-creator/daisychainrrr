@@ -4,6 +4,10 @@
 
 > The product *is* the proof.
 
+Primary site: **https://ttllms.com** · secondary **https://ttllms.org**  
+Project email: **md@0265.au**  
+Pages: **https://ttllms.pages.dev**  
+
 Public monorepo: [`mattdale-creator/daisychainrrr`](https://github.com/mattdale-creator/daisychainrrr)  
 Intended home domain: **ttllms.com**
 
