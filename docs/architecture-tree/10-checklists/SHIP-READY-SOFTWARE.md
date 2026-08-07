@@ -30,7 +30,7 @@ Ship bone software early.
 7. [x] security.txt on site
 8. [x] Architecture tree linked from site homepage
 9. [x] GitHub README points to architecture-tree
-10. [ ] Release tag v0.1.0-architect (when pushed)
+10. [x] Release tag v0.1.0-architect (when pushed)
 11. [ ] CI workflows (needs gh workflow scope)
 12. Run free_core tests locally before each tag.
 
