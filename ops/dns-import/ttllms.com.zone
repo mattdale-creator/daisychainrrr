@@ -1,0 +1,11 @@
+; BIND zone file for ttllms.com
+; Import in Cloudflare: ttllms.com → DNS → Import and Export → Upload BIND
+; Points apex + www at Cloudflare Pages project "ttllms"
+; Contact: md@0265.au
+
+$ORIGIN ttllms.com.
+$TTL 3600
+
+; Primary site (Cloudflare Pages)
+@       IN  CNAME   ttllms.pages.dev.
+www     IN  CNAME   ttllms.pages.dev.

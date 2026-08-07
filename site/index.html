@@ -3,58 +3,63 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TTLLM — Totally Transparent LLMs</title>
-  <meta name="description" content="Down to the bone. Free public core. ttlink provenance. The product is the proof." />
+  <title>Totally Transparent LLMs — TTLLM</title>
+  <meta name="description" content="Totally Transparent LLMs — down to the bone. Free public core, ttlink, cryptographic provenance." />
   <link rel="canonical" href="https://ttllms.com/" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main>
-    <p class="eyebrow">ttllms.com · daisychainrrr</p>
+  <div class="wrap">
+    <header class="site">
+      <a class="brand" href="index.html">ttllms.com</a>
+      <nav>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="definition.html" >Definition</a>
+        <a href="free-core.html" >Free core</a>
+        <a href="demo.html" >Demo</a>
+        <a href="stream.html" >Stream</a>
+        <a href="founding.html" >Founding</a>
+        <a href="architecture.html" >Architecture</a>
+        <a href="contact.html" >Contact</a>
+      </nav>
+    </header>
+    
+    <p class="eyebrow">ttllms.com · daisychainrrr · v0.2.0</p>
     <h1>Totally Transparent LLMs</h1>
     <p class="tagline">Down to the binary. Down to the bone.<br/>The product <em>is</em> the proof.</p>
+    <div class="card">
+      <p>We should be able to inspect what trained the systems that influence us. Open weights alone are not enough. A <strong>TTLLM</strong> publishes the skeleton: data path, training code, checkpoints, metrics, and human-viewable provenance (<strong>ttlink</strong>).</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <h3>Free public core</h3>
+        <p>Weights, code, data path, checkpoints, basic ttlink, manifests — free forever.</p>
+        <p><a class="btn secondary" href="free-core.html">Boundary →</a></p>
+      </div>
+      <div class="card">
+        <h3>Live demos</h3>
+        <p>Query a reference ttlink index in your browser. Inspect the public stream hash chain.</p>
+        <p><a class="btn" href="demo.html">Try ttlink →</a></p>
+      </div>
+      <div class="card">
+        <h3>Full architecture</h3>
+        <p>Executable HOWTOs for every founding branch — ethos through epochs.</p>
+        <p><a class="btn secondary" href="architecture.html">Tree →</a></p>
+      </div>
+    </div>
+    <h2>Status (honest)</h2>
+    <table>
+      <tr><th>Surface</th><th>State</th></tr>
+      <tr><td>Site + free_core tools + architecture tree</td><td class="status-ok">Built / public</td></tr>
+      <tr><td>Reference ttlink + stream + Merkle seals</td><td class="status-ok">Built (small-corpus)</td></tr>
+      <tr><td>Production multi-trillion ttlink / trained TTLLM model</td><td class="status-def">Deferred (capital)</td></tr>
+      <tr><td>Legal entity / R2 enable / .org DNS records</td><td class="status-def">Human gates</td></tr>
+    </table>
 
-    <section>
-      <h2>Principle</h2>
-      <p>We should be able to inspect what trained the systems that influence us. Open weights alone are not enough — a TTLLM publishes the skeleton: data path, training code, checkpoints, metrics, and human-viewable provenance (<strong>ttlink</strong>).</p>
-    </section>
-
-    <section>
-      <h2>Free public core</h2>
-      <ul>
-        <li>Weights, data, checkpoints, training code</li>
-        <li>Public stream of real process artefacts</li>
-        <li>ttlink — outputs linked to sources</li>
-        <li>Cryptographic manifests anyone can re-verify</li>
-      </ul>
-      <p>Never paywalled. Paid layers buy reliability and service — not the bone.</p>
-    </section>
-
-    <section>
-      <h2>Commercial outer layers</h2>
-      <p>Reliability, compliance, convenience — never a paywall on the skeleton. See <code>commercial/BOUNDARY.md</code> in the repo.</p>
-    </section>
-
-    <section>
-      <h2>Architecture (full how-to tree)</h2>
-      <p>Every founding branch is documented as executable HOWTO in the public repo:</p>
-      <ul>
-        <li><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/docs/architecture-tree">docs/architecture-tree/</a> — master index <code>00-MASTER-TREE.md</code></li>
-        <li>Status rollup · epochs 00–05 · ten transparency domains · ops</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Skeleton</h2>
-      <p><a href="https://github.com/mattdale-creator/daisychainrrr">github.com/mattdale-creator/daisychainrrr</a></p>
-      <p>Primary: <a href="https://ttllms.com">ttllms.com</a> · also <a href="https://ttllms.org">ttllms.org</a></p>
-      <p><a href="/.well-known/security.txt">security.txt</a></p>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>Project email: <a href="mailto:md@0265.au">md@0265.au</a></p>
-    </section>
-  </main>
+    <footer>
+      <p>Free public core never paywalled · <a href="https://github.com/mattdale-creator/daisychainrrr">GitHub</a> · <a href=".well-known/security.txt">security.txt</a> · md@0265.au</p>
+      <p class="mono">Down to the binary. The product is the proof.</p>
+    </footer>
+  </div>
 </body>
 </html>

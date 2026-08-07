@@ -24,3 +24,8 @@ ops/last_*.json
 ops/last_*.txt
 node_modules/
 package-lock.json
+
+# production keys (demo keys under examples/keys may be committed with README warning)
+keys/*.private.pem
+*.private.pem
+!examples/keys/demo.private.pem

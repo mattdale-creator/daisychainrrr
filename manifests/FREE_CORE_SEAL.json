@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "064a18b5a8463aa0c57a543a720b3d95214dd29bbe79da1b41c6aeb28d0eb3bf",
-  "count": 77,
+  "merkle_root": "3d1957c75ea3d158cdb1aa18bf4bc5bfb46475bb131e55f2fe8f0d8f321d51b9",
+  "count": 184,
   "leaves": [
     {
       "path": "LICENSE",
@@ -10,23 +10,428 @@
     },
     {
       "path": "Makefile",
-      "sha256": "5c80982ec895eb72bf14356bbc5da6111f2e1f05c1f6a8d1b7001b395d45beb4",
-      "bytes": 253
+      "sha256": "88db0628b8df15b1eb4af4aeffab34b5ce62f5d3b35c8d3756cef3908190e757",
+      "bytes": 676
     },
     {
       "path": "README.md",
-      "sha256": "334464086bedc8d53f408b42eb6a5ec098551cfc691f7287a2d8a1f64913c045",
-      "bytes": 5735
+      "sha256": "aa180069bbc39bf660ae4ad86dbc8ff390aeb5c91e4f496846f038ca5bfd987c",
+      "bytes": 6847
+    },
+    {
+      "path": "commercial/BOUNDARY.md",
+      "sha256": "a0fccaf2bf7af06bb0af1afc954056fad57bf84bd16ee2fce1324ef787a39ab9",
+      "bytes": 843
+    },
+    {
+      "path": "commercial/README.md",
+      "sha256": "76b4592053c12441fd3119e60a3468618b3617abfc9ae4bc57c407394f1ec38c",
+      "bytes": 88
     },
     {
       "path": "continuity/ASSET_INVENTORY.md",
-      "sha256": "69746a7148bcd34574c08b7a49688a23fcecb6a6a0f1d5dd82d95850eed6979d",
-      "bytes": 288
+      "sha256": "742ac44313aa81367d46ca6cea7ff70d7509c50f87ce347849daf10b3d1fb429",
+      "bytes": 598
     },
     {
       "path": "continuity/COVENANT.md",
-      "sha256": "77399597d6b77b25e44b8210465d10dc3cf65918ca26ded487b3d36c8d859186",
-      "bytes": 397
+      "sha256": "49afa4a3dd9553162b932aa26e27f4ebaa1402643b8cd89b4505b393aebd959e",
+      "bytes": 585
+    },
+    {
+      "path": "docs/architecture-tree/00-MASTER-TREE.md",
+      "sha256": "86173f440de592816ad21fa7cd006437e4d0ea29b24d30e17af696234267d3ec",
+      "bytes": 7405
+    },
+    {
+      "path": "docs/architecture-tree/00-meta/COMPLETION-DEFINITION.md",
+      "sha256": "fa14ff824cc417110f55aff5e5aaa6074247e62f110530a4192ace035050237b",
+      "bytes": 2015
+    },
+    {
+      "path": "docs/architecture-tree/00-meta/FOUNDING-TURN-INDEX.md",
+      "sha256": "438af55ab8e4ffabd145fa4d072ba7b9c1623cc13f3f8c80d867ebacdea6ba6a",
+      "bytes": 3363
+    },
+    {
+      "path": "docs/architecture-tree/00-meta/HOW-TO-READ.md",
+      "sha256": "762ca0e79595d9d79eea98c3206bab5c748abcb933bd2d3a246143a04af7fd50",
+      "bytes": 2137
+    },
+    {
+      "path": "docs/architecture-tree/00-meta/SOURCE-OF-TRUTH.md",
+      "sha256": "b848c9ab8da95f4ee7704f7e62caf30d13d350a83161c1ab220c97c8738985b6",
+      "bytes": 1967
+    },
+    {
+      "path": "docs/architecture-tree/01-ethos/01-definition-ttllm.md",
+      "sha256": "49dae8b0cc5eb17731c079fd9fa0779d85d9ea3429431c24eae0413eb108bcbe",
+      "bytes": 1912
+    },
+    {
+      "path": "docs/architecture-tree/01-ethos/02-down-to-the-bone.md",
+      "sha256": "ef3cc0fbee5df1d8927ebe23e2c1c1546b63a451d967619c77b43964efe17208",
+      "bytes": 1645
+    },
+    {
+      "path": "docs/architecture-tree/01-ethos/03-topology-optimisation.md",
+      "sha256": "8aa9d948624c3563169a4f9a301206149757f893ccf4ade384c7c294dac2934f",
+      "bytes": 1541
+    },
+    {
+      "path": "docs/architecture-tree/01-ethos/04-company-culture.md",
+      "sha256": "71fc6e7eca2c5e46c43fc29c2afdeaedc17fc1a40411fcae2111c7f59e7aac61",
+      "bytes": 1542
+    },
+    {
+      "path": "docs/architecture-tree/01-ethos/05-org-as-demonstration.md",
+      "sha256": "63dcbe3493e1de9f06a122acc10f869c21606b151ee727a121b3d0ab98b0e7b9",
+      "bytes": 1549
+    },
+    {
+      "path": "docs/architecture-tree/01-ethos/06-remember-youre-on-drugs.md",
+      "sha256": "c540cf46a5046413ac5da0a8aab26c4b61318bfa6e191b73ed764969a453842c",
+      "bytes": 1571
+    },
+    {
+      "path": "docs/architecture-tree/01-ethos/07-human-movement.md",
+      "sha256": "0e6af8a4528c7b15965f8097a971a263243da5e153692574d42089a618114bdc",
+      "bytes": 1615
+    },
+    {
+      "path": "docs/architecture-tree/02-product/01-matrix-surface.md",
+      "sha256": "698786d08b96a871c90a59300f185c7b29fa48b6ea86abd1bf894e350e5821d4",
+      "bytes": 1526
+    },
+    {
+      "path": "docs/architecture-tree/02-product/02-public-stream.md",
+      "sha256": "e5691bbaf77cc46692c565839dbc70c567aacbfdf277db87a8f5b6c63529379f",
+      "bytes": 1687
+    },
+    {
+      "path": "docs/architecture-tree/02-product/03-ttlink.md",
+      "sha256": "0b13cd0bd3cbfdf3f17aa608c0e6b2e4d92d79edf08f1f55aaab1ff36c3ca87a",
+      "bytes": 1796
+    },
+    {
+      "path": "docs/architecture-tree/02-product/04-free-public-core.md",
+      "sha256": "2481dc1836a52c0ded1edab0575937cc9875562180b7a5a7212d45e6634bbc6f",
+      "bytes": 1608
+    },
+    {
+      "path": "docs/architecture-tree/02-product/05-commercial-outer-layers.md",
+      "sha256": "e3f0a84d8808a8cdcd5dcd785d12648ca50b70a9a08808330fca3b613845788d",
+      "bytes": 1545
+    },
+    {
+      "path": "docs/architecture-tree/02-product/06-website-ttllms-com.md",
+      "sha256": "37d1723c221fd539e5f0f93f736fd2d6eb15e3f932827726b19b9eeb6b44b0a9",
+      "bytes": 1690
+    },
+    {
+      "path": "docs/architecture-tree/02-product/07-publish-founding-conversation.md",
+      "sha256": "5e1199abcf6074840dd39d26baa84994255e4178a6c9363f307dfd51aad386bc",
+      "bytes": 1581
+    },
+    {
+      "path": "docs/architecture-tree/03-technology/01-prior-art-olmo-llm360.md",
+      "sha256": "c9cf52b192bc18d2e8c106d2031e4d825be885bcc782aaf39a3c089b86967900",
+      "bytes": 1417
+    },
+    {
+      "path": "docs/architecture-tree/03-technology/02-training-stack.md",
+      "sha256": "adec61a75fc3b9aa570adc83034f9a9db6b89208b63f2a3b42d5fc02056f9944",
+      "bytes": 1840
+    },
+    {
+      "path": "docs/architecture-tree/03-technology/03-checkpointing.md",
+      "sha256": "2da2af2a5a839db3bf188f51a60d0d2a46c4497208088983b954b08b9bff3002",
+      "bytes": 1424
+    },
+    {
+      "path": "docs/architecture-tree/03-technology/04-data-release.md",
+      "sha256": "b1b6c9dc38274117a2941ef63f0117d428a42ad19a9477d949b663bbeb1e877b",
+      "bytes": 1415
+    },
+    {
+      "path": "docs/architecture-tree/03-technology/05-ttlink-engine-production.md",
+      "sha256": "88bb511a22fb37b2b5b1c5e9f679d02d5ee3f41ce22065bf2fa3152f00c427cd",
+      "bytes": 1455
+    },
+    {
+      "path": "docs/architecture-tree/03-technology/06-cryptographic-provenance.md",
+      "sha256": "a87c4bf4c2c81195543859f4169b6f3a1dcb86a7c23408b9b4e2f59714a5f6b6",
+      "bytes": 1530
+    },
+    {
+      "path": "docs/architecture-tree/03-technology/07-public-stream-infra.md",
+      "sha256": "fb593967083e113e96e8e3f16b89a9715c56f952766696049e8ed2ac2d4a7a50",
+      "bytes": 1297
+    },
+    {
+      "path": "docs/architecture-tree/03-technology/08-reference-implementation.md",
+      "sha256": "088b9f56ee520556987331f1e7870ffcf8426c82e87c35023b915470fe9d0d3d",
+      "bytes": 1383
+    },
+    {
+      "path": "docs/architecture-tree/03-technology/09-multi-ai-prompt-battery.md",
+      "sha256": "bb6069a2048d5112963cb2d091ddb4d574f15f1c1a4bbec5f2cb175d219f730a",
+      "bytes": 1503
+    },
+    {
+      "path": "docs/architecture-tree/04-security/01-threat-model.md",
+      "sha256": "e12a80c3f0d9de8c6c916be6979b9dd2d5f01cff0b52559b2333459fa7eb5201",
+      "bytes": 1433
+    },
+    {
+      "path": "docs/architecture-tree/04-security/02-frontier-red-team.md",
+      "sha256": "ea87b5907d7b3202750f7e31f71c2dc1fef9aa379aa9e5b5dc03f67293a784c3",
+      "bytes": 1467
+    },
+    {
+      "path": "docs/architecture-tree/04-security/03-adversarial-cco.md",
+      "sha256": "b005b8ebc4686cc48f46e6d115c344d1be59957bfd8860926c0dce48491b5917",
+      "bytes": 1376
+    },
+    {
+      "path": "docs/architecture-tree/04-security/04-protect-profit-arm.md",
+      "sha256": "a44e8801818293a1948441d5dd5a161ca14e415212f6689d018ff62cfd0b84ea",
+      "bytes": 1511
+    },
+    {
+      "path": "docs/architecture-tree/04-security/05-index-and-provenance-integrity.md",
+      "sha256": "1f30a53ef0daa402c2b96daaae4558794285222f2fd3aeae410a6c9b473f504b",
+      "bytes": 1348
+    },
+    {
+      "path": "docs/architecture-tree/05-business/01-unit-economics-math-physics.md",
+      "sha256": "e2ed032bfdf21252bacdc0cc56738c0a6a0e296c075ac87e446bfbb7d1936a10",
+      "bytes": 1563
+    },
+    {
+      "path": "docs/architecture-tree/05-business/02-paid-layers-catalog.md",
+      "sha256": "2be39abe0573b38f1b2b34ec97c3028c9f2c7693ad51f4c3f4dacfc89366b287",
+      "bytes": 1410
+    },
+    {
+      "path": "docs/architecture-tree/05-business/03-financial-model-10y.md",
+      "sha256": "ac294fe1473ed7b81d54cd86ac714df211ff94ecfb3aeba5b47f460f4a37e2d5",
+      "bytes": 1371
+    },
+    {
+      "path": "docs/architecture-tree/05-business/04-pitch-scholarly.md",
+      "sha256": "6d49a89df917a92a8a59f24b463dd268e69f19540826595a7a04542af022e150",
+      "bytes": 1935
+    },
+    {
+      "path": "docs/architecture-tree/05-business/05-pitch-short.md",
+      "sha256": "b1611ddc6d4eb2ecfed204ddbe5c2237c716dec4f571c4820dfcf59f82945999",
+      "bytes": 1863
+    },
+    {
+      "path": "docs/architecture-tree/05-business/06-sales-pitch.md",
+      "sha256": "f61da46bee884a0f69c4e1e9806cab8e0058451238b61cfa20d097ba438ad355",
+      "bytes": 1663
+    },
+    {
+      "path": "docs/architecture-tree/05-business/07-mba-business-plan.md",
+      "sha256": "d1a3f89b66a8c072db1194d232bb231a5fbc3d40bca6c7bba7bc001f5b25dd41",
+      "bytes": 1659
+    },
+    {
+      "path": "docs/architecture-tree/05-business/08-motives-mass-backing.md",
+      "sha256": "b67dd8a1166cb8ec3c9ea5d828524d05c003fd02eee96ded0f33a6619a2b691b",
+      "bytes": 1396
+    },
+    {
+      "path": "docs/architecture-tree/05-business/09-tinder-framing.md",
+      "sha256": "6d64e84fb266b5464663ce1d35bf8fab64c6627fe35de44613de56449de5d89b",
+      "bytes": 1484
+    },
+    {
+      "path": "docs/architecture-tree/05-business/10-vs-closed-labs-positioning.md",
+      "sha256": "530a1a35ecdbc470b9dc96105b2166d3c148bf4ef73894315c48b37bec7a124c",
+      "bytes": 1427
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/00-master.md",
+      "sha256": "64cb046ceb2079e32fcb8b09ab5936cb2aecab2e34204b73a7232e1a39876f66",
+      "bytes": 1656
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/01-governance.md",
+      "sha256": "f9f9bb65d2b1859e39fecda5336ab102896d6464316a87f30b7292678a56d87a",
+      "bytes": 1775
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/02-ownership-funding.md",
+      "sha256": "9d97c80f26a284944b51ab84d72c6b6ee1e3f54aebb4f3d209de7114322e15ec",
+      "bytes": 1822
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/03-data-governance.md",
+      "sha256": "98059e387963917f3a75c65467981b8c9b9da087d94ab6dc7805c87dadc47025",
+      "bytes": 1729
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/04-evaluation.md",
+      "sha256": "6fd6f0e4090083f68a638a59c7ac891e84b7b766ee68103774289c51cbbc17d6",
+      "bytes": 1721
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/05-incident-disclosure.md",
+      "sha256": "2bc2e8f4c6f8f3f2f8d4e04afe8794687d13a0286014ebf5ed99e45863b969c0",
+      "bytes": 1728
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/06-compensation.md",
+      "sha256": "62d1d7eb5ea13c4648cfed96fce917fb0f42df1aaea486171bd7d5b3b1119dc9",
+      "bytes": 1743
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/07-supply-chain.md",
+      "sha256": "2c4ead6f48971c82c9ba26b55f7df8268cf5c1192f56e295e965e51a4194e2fe",
+      "bytes": 1728
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/08-boundary-rules.md",
+      "sha256": "bfc69c0d6ecf40be9629689e8da6053341ef7e8ca9757b710e410e02f070c9bb",
+      "bytes": 1783
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/09-stewardship.md",
+      "sha256": "da7198896f92bf7b88e1dae4975bafa0e5e416e4575188160558400b631d588b",
+      "bytes": 1775
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/10-red-team-publication.md",
+      "sha256": "e9479d90dc29a68f085a093b465f016419f71d9f06ed42a4097c40b5a918cd23",
+      "bytes": 1736
+    },
+    {
+      "path": "docs/architecture-tree/06-transparency/11-domain-prompt-battery.md",
+      "sha256": "89456947662a36113e279c83ff238e9d2ab7e206edcab36ca36572a6a5f928af",
+      "bytes": 1431
+    },
+    {
+      "path": "docs/architecture-tree/07-organization/01-entity-formation.md",
+      "sha256": "b6563e43973f7550f3be14433c590e779d0a40869c57359481358e4ac473e095",
+      "bytes": 1574
+    },
+    {
+      "path": "docs/architecture-tree/07-organization/02-roles-and-hiring.md",
+      "sha256": "94e28fc5c88c328d1ae88a33a4495826ca249e232f092e1349b16bed295a5e61",
+      "bytes": 1404
+    },
+    {
+      "path": "docs/architecture-tree/07-organization/03-decision-logs.md",
+      "sha256": "13047869336c4b8d06f54d82545f41b015b3f43cceb0be5deafee54ae95e3dbd",
+      "bytes": 1288
+    },
+    {
+      "path": "docs/architecture-tree/07-organization/04-continuity-covenant.md",
+      "sha256": "b64e62655c82993d9dc792aee7d8893098e08de32852d5debee89a8271161fd8",
+      "bytes": 1559
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/01-vault-layout.md",
+      "sha256": "21b74d15fc775bd1fb759ee2bf9317bfd314ba767468309bf68463048a187b69",
+      "bytes": 1632
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/02-cloudflare-account.md",
+      "sha256": "32dd52e772a21ded983c26b1aa163b3c1ddda28654f431d854808c54c014bc63",
+      "bytes": 1619
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/03-domains-dns-pages.md",
+      "sha256": "c21c34c71c50aeac70a20d3740a0297de82c0606adb34d3abec05ae541907350",
+      "bytes": 1695
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/04-secrets-and-tokens.md",
+      "sha256": "cb308de1d45fd6062d6a3348d33f2436ec3d8dce0282acb7471791c467d9606a",
+      "bytes": 1481
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/05-precompact-continuity.md",
+      "sha256": "d37f29fee648a7f8f013a5b16e30acb5fcc9a178c5ecf5f5723d47c50aa3737d",
+      "bytes": 1646
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/06-github-daisychainrrr.md",
+      "sha256": "ee8afaa09ee91a863da9b60dfd67ce350b620ee72bcce6f3b59073525938e915",
+      "bytes": 1498
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/07-r2-storage.md",
+      "sha256": "a9419eb8a3c5d4a2ee7e21c71001a889d2fba038ab4cea192d82e273df9f9987",
+      "bytes": 1514
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/08-email-md-0265.md",
+      "sha256": "00fa2d76466013df47c22855a38a4e9253fd872d5f451b6b2a86dd918b04cf31",
+      "bytes": 1252
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/09-proof-rip-provenance.md",
+      "sha256": "5c5d8efffddccebca05103ae59cd7a5a1baac91cf7659b35284256571660973f",
+      "bytes": 1530
+    },
+    {
+      "path": "docs/architecture-tree/08-ops/10-new-session-handoff-dormant.md",
+      "sha256": "3472585263380d8e9a7547a5e01ff247229163771af00bc2978b3965c0e920ae",
+      "bytes": 1486
+    },
+    {
+      "path": "docs/architecture-tree/09-epochs/EPOCH-00-foundation.md",
+      "sha256": "df96720ec82cd79ca88ca2c157d5f8140d3c0fd8e674c9c4461cc7ff579a049a",
+      "bytes": 1372
+    },
+    {
+      "path": "docs/architecture-tree/09-epochs/EPOCH-01-public-skeleton.md",
+      "sha256": "197553c78a9c8ce1ada2d37569972fc1e61ecd48d19f8fe3620ef0d4aa0e93e7",
+      "bytes": 1341
+    },
+    {
+      "path": "docs/architecture-tree/09-epochs/EPOCH-02-first-model-release.md",
+      "sha256": "5304d8e0d63aee1c0ffd677ae64e313fb4a07c53f26894aa309694849ac4a388",
+      "bytes": 1468
+    },
+    {
+      "path": "docs/architecture-tree/09-epochs/EPOCH-03-ttlink-production.md",
+      "sha256": "e615818c3e89e59eb92d451b1c0aebad76349af2ba522d4f1d090a21adf8c689",
+      "bytes": 1434
+    },
+    {
+      "path": "docs/architecture-tree/09-epochs/EPOCH-04-commercial-outer.md",
+      "sha256": "e88f45dfae5bb4c5004ec28f8c60092f9b9fbd17f1b76085b48a9e8e5fbe8386",
+      "bytes": 1507
+    },
+    {
+      "path": "docs/architecture-tree/09-epochs/EPOCH-05-movement-and-scale.md",
+      "sha256": "5cfc1b3246741f00b34282969e6b86dede184c251e8f66a0367053914a9cc773",
+      "bytes": 1497
+    },
+    {
+      "path": "docs/architecture-tree/10-checklists/ARCHITECT-COMPLETE.md",
+      "sha256": "1c82ad3057b7f5299702125911d546b39784a13222366ed4fc45375258bfd32d",
+      "bytes": 1799
+    },
+    {
+      "path": "docs/architecture-tree/10-checklists/HUMAN-CAPITAL-GATES.md",
+      "sha256": "bb86966bf1213543064d7c5c73353c0271696fd61a8180249da688b8b89780f3",
+      "bytes": 1631
+    },
+    {
+      "path": "docs/architecture-tree/10-checklists/SHIP-READY-SOFTWARE.md",
+      "sha256": "87798badf0b110e4c4aa46fc2026375e12dd82705ef9b42aff361076ef0b4823",
+      "bytes": 1573
+    },
+    {
+      "path": "docs/architecture-tree/STATUS.md",
+      "sha256": "461b9aed0619d56870585b4bba81d6647e431c028a97a1ab3dbe2b897e4e6263",
+      "bytes": 800
     },
     {
       "path": "docs/architecture/commercial-layers.md",
@@ -35,8 +440,8 @@
     },
     {
       "path": "docs/architecture/free-public-core.md",
-      "sha256": "e49dc2b1aca601f78cb7ce4017772d9a199355b69c94a68d88728a5e0e328ff1",
-      "bytes": 866
+      "sha256": "29db6f44b978569539fdd07d73e6b680a7766c9f2bb5b84df7a194f5d5f089bf",
+      "bytes": 351
     },
     {
       "path": "docs/architecture/matrix-surface.md",
@@ -45,53 +450,53 @@
     },
     {
       "path": "docs/architecture/stream.md",
-      "sha256": "59dff6975670d642deaddcec47426523983f9df7dd5861ad1df501d320380727",
-      "bytes": 519
+      "sha256": "c0b886520dfeba58afd7682a6aad0578aa98c6345710153099f8416d69496739",
+      "bytes": 445
     },
     {
       "path": "docs/architecture/ttlink.md",
-      "sha256": "853a41f0caa6749e17c0a10da776a60cd2c5a0510bbaf183fa64b89da722ff2d",
-      "bytes": 934
+      "sha256": "a987e7e44b58b46cf13f48a005a10d2914ae4bab2fee5469db4205ddfa65086a",
+      "bytes": 831
     },
     {
       "path": "docs/business/financial-model-10y.md",
-      "sha256": "121636c239b63c21041e09bd0d3977a10d7ff4fee3bc1da830c50befd0b789b5",
-      "bytes": 1077
+      "sha256": "6596adebb49fca87b67fe16384d717a1f84fcb60113e664b6f199a7eb6b7f3e9",
+      "bytes": 833
     },
     {
       "path": "docs/business/mba-business-plan.md",
-      "sha256": "e934467d25ae47f40670fbd36f8aaa059b4d031a67423de15717c9c116d152c0",
-      "bytes": 1307
+      "sha256": "6d027339990a707eb6b1f26b20b4d1cd33e486536d2e89aa70941c3888f953af",
+      "bytes": 902
     },
     {
       "path": "docs/business/paid-layers.md",
-      "sha256": "06018be4f469228a8da25a976a17669a00bc0cb3936ff6adf77bb50bbcd6601d",
-      "bytes": 292
+      "sha256": "55349eae071a0327a5b3415ecdc927168c7ae2b5ad366db78745b73389bda00a",
+      "bytes": 513
     },
     {
       "path": "docs/business/pitch.md",
-      "sha256": "a0a6053f865a3bdd9c7f0d086ef6f053861361c5d47a380b5ace221e4be4e077",
-      "bytes": 929
+      "sha256": "0d1b68dd351a8af20491ff7251736e12804da95e513943d48b3780b4fb078ad1",
+      "bytes": 1127
     },
     {
       "path": "docs/business/sales-pitch.md",
-      "sha256": "6f4417e80411a40bebff14e673c07413575ef1cd1dd7cc8a88aad0e71a467a9a",
-      "bytes": 587
+      "sha256": "f2b8f0d2ef1377a5d37613497cfcb4833777faf14c19e8f035bb49e21db30ba6",
+      "bytes": 468
     },
     {
       "path": "docs/culture/company-culture.md",
-      "sha256": "aa1dad6bf6ad0d70abac0dfb409b8c58ae9fe26b0f4016e0d4e3ed15f00dca4a",
-      "bytes": 520
+      "sha256": "6af016b57c66aab242c62215b11ee0797e0492253de22c07d74fa8b25fbc07bc",
+      "bytes": 272
     },
     {
       "path": "docs/culture/down-to-the-bone.md",
-      "sha256": "767efe7a42a5c4532670f4dbbf08f29d3eebe52d697e51df8b64ac10e6543b7a",
-      "bytes": 236
+      "sha256": "0b38451793ff40c9714263d51d98461a6c73f77651eb1726d13c5380b798faad",
+      "bytes": 297
     },
     {
       "path": "docs/culture/remember-youre-on-drugs.md",
-      "sha256": "b417bfbe89d3a6f07bd3c84711b6d65492f14f49e915d21d9a474692f6cea0fc",
-      "bytes": 361
+      "sha256": "ee9651a2b13d132c772cd204dc4e83ed5790a51112aa2ba0fe5b0edcca7a4b62",
+      "bytes": 259
     },
     {
       "path": "docs/glossary.md",
@@ -100,8 +505,8 @@
     },
     {
       "path": "docs/manifesto.md",
-      "sha256": "432a0abf9321f56c6dd5dc34461f5a0f5e1e57ae9479fa44319d0b7478dee9b0",
-      "bytes": 2413
+      "sha256": "943a1d1a585bd861a660d72046f2ab514dac244201228843d5ae525d9a331a36",
+      "bytes": 1700
     },
     {
       "path": "docs/security/pliny-cco-notes.md",
@@ -115,83 +520,118 @@
     },
     {
       "path": "docs/security/threat-model.md",
-      "sha256": "c2e9136d64e7473bd110f99b61746c5c16c9496eeeb6ad9b379f74bd6aebb813",
-      "bytes": 828
+      "sha256": "db0346f0d6d1cda084346f8d8601549b4953d166f92a36bc6cbf2e7a1eda0281",
+      "bytes": 627
     },
     {
       "path": "docs/specs/00-master.md",
-      "sha256": "a3b2e210449341ea4849b6f8e318d8d4570176efe591c4065d189ed8493747aa",
-      "bytes": 904
+      "sha256": "51bdc14f346a692f7027287210813dbed1bbd6eba0b3dda69ea5f5a3538b38dc",
+      "bytes": 773
     },
     {
       "path": "docs/specs/01-governance.md",
-      "sha256": "c65ab021dc5a8c91dc0bda53f8a9762c5e032db061a77053dfe089e56b60e14f",
-      "bytes": 1033
+      "sha256": "ad601c6bf357cd2f4209daedc45da5b27e63bbf7b5bc7bbb4d7ccd2fd7fe8e9c",
+      "bytes": 463
     },
     {
       "path": "docs/specs/02-ownership-funding.md",
-      "sha256": "e7a2d3712b0abf760f92a416de3ff003c7c356314181d54514ca82e5be259385",
-      "bytes": 678
+      "sha256": "7bf423d10f4ff42468b40cd446d73cf27ec7b9f5e171bd222f5da9d27da959fc",
+      "bytes": 421
     },
     {
       "path": "docs/specs/03-data-governance.md",
-      "sha256": "0b1a3f1c9f5b169af742e32aff786847bbc12af804c3d7240065617ae0f54280",
-      "bytes": 610
+      "sha256": "18f9d08ed0437a874ce8ccc176b5be166f6940f8c17e4e63d97fe68212984fed",
+      "bytes": 424
     },
     {
       "path": "docs/specs/04-evaluation.md",
-      "sha256": "735a0d271156e0526d181077808a4b6780f49676c43d0c7e06b495d9308c629a",
-      "bytes": 459
+      "sha256": "01ad2098ca04108354724bd9f8f2503c6f7cd2e4d5e4426c89be6b0ce7a3a73d",
+      "bytes": 374
     },
     {
       "path": "docs/specs/05-incident-disclosure.md",
-      "sha256": "47db432c0da03919f8e199dbb9887c88bb3c88646a68d4e27cd95f749fb90fe5",
-      "bytes": 496
+      "sha256": "03f6d127604c29c4564bfb0dcb3bcfb78b952d2c03035292522a759fe880c776",
+      "bytes": 337
     },
     {
       "path": "docs/specs/06-compensation.md",
-      "sha256": "c1fbbc123870311e1f4e80fe463cc625ceed993f1bbd6b17ea685a7c6106517e",
-      "bytes": 422
+      "sha256": "5035802867fb1bf4997af70420062673982199a6c6a7eef76ddf5cc11aa8aa04",
+      "bytes": 382
     },
     {
       "path": "docs/specs/07-supply-chain.md",
-      "sha256": "9f9e895f78637945a052925c1659733385001ee1753210db2c6c539e459970ed",
-      "bytes": 439
+      "sha256": "b9a9daace31ff6e358a5170c5751687447b71d2d4ed8c8a2e275fbab35f345da",
+      "bytes": 367
     },
     {
       "path": "docs/specs/08-boundary-rules.md",
-      "sha256": "2de63be4544f5fc6045dab76419888e51b9a55304466f89a21ae8db7c772d79f",
-      "bytes": 850
+      "sha256": "61b265f59c7223669747b01de473961ebf8b652b0f3800f7fb68db00ab84e656",
+      "bytes": 185
     },
     {
       "path": "docs/specs/09-stewardship.md",
-      "sha256": "ee44b38b963c28e2b3a83003d6f8c61421ef40528cbd19142280af553cc49302",
-      "bytes": 541
+      "sha256": "d35220c3097ceabd63c36c3514a6000fb46a5f346ccf5d01d45a858605cd4819",
+      "bytes": 330
     },
     {
       "path": "docs/specs/10-red-team-publication.md",
-      "sha256": "5d5a87d2558fa50729516e3d55ef92cc0e445020f2270430116d157ad91939e5",
-      "bytes": 649
+      "sha256": "91ebb00769b5e648c77cc0075d78aa79dee84dcd693373ed9e7e7d53a01f826a",
+      "bytes": 299
     },
     {
       "path": "examples/corpus/01_manifesto_excerpt.txt",
-      "sha256": "171e184f68f1031a3f1ae2a9a25bc4f1cbda35778d8ed52c0f96b84b4f4c9b15",
-      "bytes": 195
+      "sha256": "5b23e099b8df088dcc8bc35c28685efb1e19dfcec679d9f4b143f756328cf661",
+      "bytes": 293
     },
     {
       "path": "examples/corpus/02_olmo_note.txt",
-      "sha256": "49a13426f7b0876ee01b672b06b4fd02357b3c33ef60eefc2d672112761d35f6",
-      "bytes": 134
+      "sha256": "d0747f995045c30511a3e452c21c59e470755a11b874dc297e6287461c906390",
+      "bytes": 226
     },
     {
       "path": "examples/corpus/03_business.txt",
-      "sha256": "ec5f382e384759a76513ce25f14137ca25a1e4b46a573c6db691183b05a40d40",
-      "bytes": 131
+      "sha256": "c277e274f16e5110a70c9f8fc2993319de6b33e98744a853800f77cfd150df65",
+      "bytes": 219
+    },
+    {
+      "path": "examples/corpus/04_definition.txt",
+      "sha256": "929c39df3b893220c68c20058cb90ee3f22ac622d6b5024d8c24fd491f265317",
+      "bytes": 272
+    },
+    {
+      "path": "examples/corpus/05_founding_line.txt",
+      "sha256": "6c820c04f2db1be564c4f2bec1af7653dfa3a8f816c10646bc7bd516bb269dcf",
+      "bytes": 252
+    },
+    {
+      "path": "examples/keys/README.md",
+      "sha256": "85d2853187babc4c899cb54e0f60300cdd456f9b599b04bef08785728bf643f6",
+      "bytes": 224
+    },
+    {
+      "path": "examples/keys/demo.private.pem",
+      "sha256": "4dfe45d5a1462c9f2c9dfdfc1ba34a4c2df04677af646927f1d1901b8c76cc6f",
+      "bytes": 119
+    },
+    {
+      "path": "examples/keys/demo.public.pem",
+      "sha256": "911839f16a97d4961b40e7a431eac936b347d7368c644805ed820c2f52677e8c",
+      "bytes": 113
+    },
+    {
+      "path": "examples/stream/public_log.json",
+      "sha256": "529e249fcb1366c2c33b4380f7deb0b024ee11ed176979556202267fb7cb02dc",
+      "bytes": 3506
+    },
+    {
+      "path": "examples/ttlink_binding.json",
+      "sha256": "861ff6968be994a2ef8f472f3b231ad970dbea143c9cb43f3b7201a3e2294d77",
+      "bytes": 1226
     },
     {
       "path": "examples/ttlink_index.json",
-      "sha256": "243a797b2d9d0ea812819afdf02fa83b48884ca15c594d5aec855932b01fc044",
-      "bytes": 1151
+      "sha256": "fed013121f66d878bcd7b360f2a2448512ab5a59f1d09438df9f5fe177e81b8e",
+      "bytes": 2703
     },
     {
       "path": "founding/PROVENANCE.md",
@@ -270,18 +710,18 @@
     },
     {
       "path": "free_core/__init__.py",
-      "sha256": "b7b2cd385cdcaad6f61915ad566c43bc3d8987f02823efdd1b0676ed96d6974d",
+      "sha256": "5e46d48efef3f33406d5fdb488556961453c6a000868b7a45da4a6f64e795ff5",
       "bytes": 52
     },
     {
       "path": "free_core/provenance/__init__.py",
-      "sha256": "7027d30d66ffdefe99fd030fda73c5d70a04ff1b27910ca7829ab695c86b781b",
-      "bytes": 182
+      "sha256": "29b62fc1530101e2363fe2c2ad72a574cc92debe5bad7bbb1ce4d9ba8e0fe11b",
+      "bytes": 235
     },
     {
       "path": "free_core/provenance/cli.py",
-      "sha256": "4935e97367de1ad7aac9046720794121488122b3ba8fdc42d55a94ddaec7ff96",
-      "bytes": 2903
+      "sha256": "52d54e10176d2facd0686b85bfc7ce7c8582833319175657c6c1388aad95f42d",
+      "bytes": 6003
     },
     {
       "path": "free_core/provenance/hashing.py",
@@ -292,6 +732,11 @@
       "path": "free_core/provenance/manifest.py",
       "sha256": "b440cf61d7e33088d1d49e7b42435a13acb86b9113233190f811d2282b489054",
       "bytes": 3693
+    },
+    {
+      "path": "free_core/provenance/proof.py",
+      "sha256": "435cb44ddfee46a46d19c7ef1c4e8c331117df92cbac8d30848683a2ffe6a77b",
+      "bytes": 1982
     },
     {
       "path": "free_core/provenance/sign.py",
@@ -305,18 +750,23 @@
     },
     {
       "path": "free_core/stream/__init__.py",
-      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "bytes": 1
+      "sha256": "b99107ef21c0c8d932e6bb7aa5793c2d8d090cc7efb7056abc16321d10cf8a73",
+      "bytes": 72
     },
     {
       "path": "free_core/stream/cli.py",
-      "sha256": "ac0fbb0fcfad25ad386210e40bee716f11a6b1a6a18ca0bb3ca83387bdf2d279",
-      "bytes": 436
+      "sha256": "f940941d203995374cf463ed387dd60bfa187fa80840931ce8eb06ed1e326a3c",
+      "bytes": 1897
+    },
+    {
+      "path": "free_core/stream/log.py",
+      "sha256": "9a496db9119f9ad5eebcda46685d635352021640d543d91ed3e30b34771dabd5",
+      "bytes": 2400
     },
     {
       "path": "free_core/stream/schema.py",
-      "sha256": "5f30426390e3ea20e9da74f0a3c6a4dc15a29b2d9181d4c4980f67b6a7d8bf41",
-      "bytes": 1310
+      "sha256": "9c14d1a052d644b8b9a6ad1b6b70933adacde1d2a30b82bc155bce41e30f1702",
+      "bytes": 2079
     },
     {
       "path": "free_core/ttlink/__init__.py",
@@ -325,13 +775,13 @@
     },
     {
       "path": "free_core/ttlink/cli.py",
-      "sha256": "7ac726f40950d07f9662fc1d970aae2c6e0a70c5d465430f260c18dad55548ef",
-      "bytes": 1293
+      "sha256": "0c1804ca8b2c124905eab8fd5d8af8d2b1f92542b151de281d4464de90954748",
+      "bytes": 1675
     },
     {
       "path": "free_core/ttlink/index.py",
-      "sha256": "873a732b11c607f46ba10937834490ed7152ea8c06576808303aafa4bc730274",
-      "bytes": 3445
+      "sha256": "3557845d70b581907c3bd31f802e2540cf632cbc1eff6d872481de7dc882eca6",
+      "bytes": 3978
     },
     {
       "path": "prompts/FOUNDING_BATTERY_v1.md",
@@ -350,13 +800,13 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "f8a1c84e385064f6a973270f684255e146d5d7a1756047bf6b56ed9fec6a28ca",
+      "sha256": "1102351de62d0a68a25d82607e9633b1c6af03d1a33b63c897cbf6fcd55abf44",
       "bytes": 754
     },
     {
       "path": "registers/decision_log.md",
-      "sha256": "28236640e57f1e2c65b895fd9826ef0cf688e4ffe752ed9ec8838e8827db9614",
-      "bytes": 361
+      "sha256": "507f44890b89338e3bb94d899de7c5f245dba1f641147eb24aacde7a3eef0dc3",
+      "bytes": 1009
     },
     {
       "path": "registers/funding.md",
@@ -374,23 +824,109 @@
       "bytes": 273
     },
     {
+      "path": "scripts/build_public_artefacts.py",
+      "sha256": "8ff13076e80ada85ed5ec41f22c9d6470def5c8eb1d0093ef9b5d61bb5913f53",
+      "bytes": 3186
+    },
+    {
+      "path": "site/.well-known/security.txt",
+      "sha256": "49eeaf4825d37f27e352e942cf8edf1310176fc38e4bc437184e6f63430cb7cd",
+      "bytes": 235
+    },
+    {
       "path": "site/README.md",
       "sha256": "d31e8c616aebd76f1dc7319d0080cd34fa4137d9fe097c570f1087afbc5c818a",
       "bytes": 73
     },
     {
+      "path": "site/architecture.html",
+      "sha256": "8611dfa20531361c8bf2eb8f11fffcc7a5f0d712aaa5c9d9739c63f2f75cbc48",
+      "bytes": 2353
+    },
+    {
+      "path": "site/contact.html",
+      "sha256": "bedf55503663f9b0db92499645c2ba41f34d2eb625e916c78f2cb4de4b4ffd73",
+      "bytes": 1769
+    },
+    {
+      "path": "site/definition.html",
+      "sha256": "c21fe54ccefba89e841b922306b2d4345554303cd1124b77dda20f4e370aa876",
+      "bytes": 2700
+    },
+    {
+      "path": "site/demo.html",
+      "sha256": "258875cd3233ba196de038b08f2e7ff002d47e2a7d9e04436f731990f1db131c",
+      "bytes": 2460
+    },
+    {
+      "path": "site/demo/demo.public.pem",
+      "sha256": "911839f16a97d4961b40e7a431eac936b347d7368c644805ed820c2f52677e8c",
+      "bytes": 113
+    },
+    {
+      "path": "site/demo/public_log.json",
+      "sha256": "529e249fcb1366c2c33b4380f7deb0b024ee11ed176979556202267fb7cb02dc",
+      "bytes": 3506
+    },
+    {
+      "path": "site/demo/stream_demo.js",
+      "sha256": "6bf0c0ab72483665f45b53e1266aa926352e361a824b7689ea0077870308c7fe",
+      "bytes": 935
+    },
+    {
+      "path": "site/demo/ttlink_demo.js",
+      "sha256": "af88c2c524d6a0d95d91fe827633b22a1477c460040598fa337dec764cd15bba",
+      "bytes": 2581
+    },
+    {
+      "path": "site/demo/ttlink_index.json",
+      "sha256": "fed013121f66d878bcd7b360f2a2448512ab5a59f1d09438df9f5fe177e81b8e",
+      "bytes": 2703
+    },
+    {
+      "path": "site/founding.html",
+      "sha256": "51c7e28d16d2934800714eea03190a5320ddfe94de6aca6aca2046233570e09f",
+      "bytes": 2535
+    },
+    {
+      "path": "site/free-core.html",
+      "sha256": "9657b1276aaf61dbdca305803e9ce1cd98d8885f00bbd677bcaa6196b531e2d5",
+      "bytes": 2786
+    },
+    {
       "path": "site/index.html",
-      "sha256": "3a50ae6c88c76150e60ef5e9fc8688b48bb7a9d4b7c4077d5aa71b95f26c6bdc",
-      "bytes": 1268
+      "sha256": "e378e9cd810c1c037feaa7da6b89061824c9cb544523d2b569a726218a64cfb8",
+      "bytes": 3105
+    },
+    {
+      "path": "site/robots.txt",
+      "sha256": "6494cb473da7d39d068a7e929026751b7179ed27e2b38709e1fc6afc7f4f1025",
+      "bytes": 63
+    },
+    {
+      "path": "site/security.txt",
+      "sha256": "49eeaf4825d37f27e352e942cf8edf1310176fc38e4bc437184e6f63430cb7cd",
+      "bytes": 235
+    },
+    {
+      "path": "site/sitemap.xml",
+      "sha256": "210483d45c7987024f128f00d79e66d9704abb32c58c5a896ee70eb23f7d6f48",
+      "bytes": 621
+    },
+    {
+      "path": "site/stream.html",
+      "sha256": "3741c8cf023d655757190b57db4fd0df27dc81a17b55f16db1b472b2f5c6e386",
+      "bytes": 1794
     },
     {
       "path": "site/styles.css",
-      "sha256": "f29dacd785fb7eb85a3fbd18c02df651ef87c3c85622c6848da23d60ad27d648",
-      "bytes": 719
+      "sha256": "bd571cb39dee7239b1d2a4b7903e67bf5b11fc6006263772637d1aa79c13c625",
+      "bytes": 3571
     }
   ],
   "extra": {
     "seal": "free_public_core",
-    "repo": "daisychainrrr"
+    "repo": "daisychainrrr",
+    "version": "0.2.0"
   }
 }

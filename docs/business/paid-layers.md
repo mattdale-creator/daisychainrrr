@@ -1,10 +1,13 @@
-# Paid Layers
+# Paid layers catalog (draft)
 
-1. Hosted / managed infrastructure (SLA)  
-2. Enterprise ttlink & audit tools  
-3. Transparency-as-a-service  
-4. Certified fine-tunes & derivatives  
-5. Analysis & visualisation products  
-6. Training & methodology licensing  
+**Updated:** 2026-08-07
 
-All inherit: free core remains free and public.
+| SKU (draft) | Free core unaffected |
+|-------------|----------------------|
+| Hosted API with SLA | Weights/code/data/ttlink basic remain public |
+| Enterprise SSO / VPC service | Same |
+| Priority support | Same |
+| Custom eval harness (service) | Methods published when they define public model claims |
+| Long retention of customer logs | Customer data private; not a substitute for free-core training data |
+
+No SKU sells exclusive free-core weights.

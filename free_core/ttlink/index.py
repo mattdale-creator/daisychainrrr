@@ -8,11 +8,10 @@ binding* are real and testable — the skeleton, not soft tissue theatre.
 """
 from __future__ import annotations
 import json
-import re
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
-from free_core.provenance.hashing import sha256_bytes, sha256_file
+from typing import Dict, List, Optional
+from free_core.provenance.hashing import sha256_bytes
 
 
 @dataclass
@@ -23,6 +22,7 @@ class Hit:
     end: int
     context: str
     doc_sha256: str
+    match: str
 
 
 class TtlinkIndex:
@@ -51,15 +51,24 @@ class TtlinkIndex:
                 n += 1
         return n
 
-    def query(self, span: str, *, context_chars: int = 80, max_hits: int = 20) -> List[Hit]:
+    def query(
+        self,
+        span: str,
+        *,
+        context_chars: int = 80,
+        max_hits: int = 20,
+        case_sensitive: bool = True,
+    ) -> List[Hit]:
         if not span:
             return []
         hits: List[Hit] = []
         for doc_id, doc in self.docs.items():
             text = doc["text"]
+            hay = text if case_sensitive else text.lower()
+            needle = span if case_sensitive else span.lower()
             start = 0
             while True:
-                i = text.find(span, start)
+                i = hay.find(needle, start)
                 if i < 0:
                     break
                 a = max(0, i - context_chars)
@@ -71,11 +80,19 @@ class TtlinkIndex:
                     end=i + len(span),
                     context=text[a:b],
                     doc_sha256=doc["sha256"],
+                    match=text[i:i + len(span)],
                 ))
                 if len(hits) >= max_hits:
                     return hits
                 start = i + 1
         return hits
+
+    def stats(self) -> dict:
+        return {
+            "documents": len(self.docs),
+            "total_bytes": sum(d["bytes"] for d in self.docs.values()),
+            "doc_ids": sorted(self.docs.keys()),
+        }
 
     def save(self, path: Path) -> None:
         path = Path(path)
@@ -84,7 +101,11 @@ class TtlinkIndex:
             "schema": "ttllm.ttlink_index.v1",
             "docs": self.docs,
         }
-        path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+
+    def save_public_bundle(self, path: Path) -> None:
+        """Bundle safe for browser demos (same as save; explicit name)."""
+        self.save(path)
 
     @classmethod
     def load(cls, path: Path) -> "TtlinkIndex":
@@ -94,7 +115,6 @@ class TtlinkIndex:
         return idx
 
     def manifest_binding(self) -> dict:
-        """Hashes of every indexed document — binds ttlink to provenance."""
         leaves = sorted(
             [{"path": d["path"], "sha256": d["sha256"], "bytes": d["bytes"]} for d in self.docs.values()],
             key=lambda x: x["path"],

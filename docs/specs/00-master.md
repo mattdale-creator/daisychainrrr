@@ -1,20 +1,21 @@
-# TTLLM Total Transparency Specification — Master
+**Updated:** 2026-08-07
 
-## Domains
+# Total Transparency Specification — Master
 
-1. [Governance and Decision-Making](01-governance.md)
-2. [Ownership, Funding, and Influence](02-ownership-funding.md)
-3. [Data Governance and Legal Response](03-data-governance.md)
-4. [Evaluation and Benchmarking](04-evaluation.md)
-5. [Incident, Failure, and Red-Team Disclosure](05-incident-disclosure.md)
-6. [Internal Incentives and Compensation](06-compensation.md)
-7. [Supply-Chain and Dependency Transparency](07-supply-chain.md)
-8. [Boundary Rules: Public Core vs Commercial](08-boundary-rules.md)
-9. [Stewardship and Continuity](09-stewardship.md)
-10. [Red-Team Findings Publication Standard](10-red-team-publication.md)
+Ten domains complete the practical map with free-core architecture. Score every release against all domains. Tombstone gaps publicly.
 
-Together with free-core architecture, these complete the practical map from the founding conversation.
+| # | Domain | Path |
+|---|--------|------|
+| 1 | Governance | 01-governance.md |
+| 2 | Ownership & funding | 02-ownership-funding.md |
+| 3 | Data governance | 03-data-governance.md |
+| 4 | Evaluation | 04-evaluation.md |
+| 5 | Incident disclosure | 05-incident-disclosure.md |
+| 6 | Compensation | 06-compensation.md |
+| 7 | Supply chain | 07-supply-chain.md |
+| 8 | Boundary rules | 08-boundary-rules.md |
+| 9 | Stewardship | 09-stewardship.md |
+| 10 | Red-team publication | 10-red-team-publication.md |
 
-## Change control
+Release scorecard: met / partial / tombstone per domain.
 
-Spec changes are material decisions → Domain 1 Decision Log + PR in this repository.

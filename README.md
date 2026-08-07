@@ -2,6 +2,8 @@
 
 **Down to the binary. Down to the bone.**
 
+**Software:** free_core **0.2.0** · live demos on https://ttllms.com/demo.html · `make verify-all`
+
 > The product *is* the proof.
 
 Primary site: **https://ttllms.com** · secondary **https://ttllms.org**  

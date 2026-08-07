@@ -1,15 +1,14 @@
-# 7. Supply-Chain and Dependency Transparency
+**Updated:** 2026-08-07
 
-**TTLLM Total Transparency Specification**
+# Domain 7 — Supply chain
 
-## Purpose
-Models and indexes depend on hardware, cloud, base models, datasets, libraries — disclose the chain.
+**Purpose:** Hardware, cloud, critical dependencies.
 
-## Artefacts
-- SBOM for release software
-- Hardware/cloud providers list for training runs
-- Base model / data lineage graph
-- Third-party audit reports when exist
+**Current:**
+- Hosting: Cloudflare Pages (ttllms)
+- DNS/Registrar: Cloudflare
+- Source: GitHub mattdale-creator/daisychainrrr
+- free_core: Python stdlib + optional cryptography
 
-## Processes
-- Each public release ships SBOM + provenance manifest
+**Failure modes:** Undisclosed training regions/providers when training begins.
+

@@ -1,15 +1,12 @@
-# 5. Incident, Failure, and Red-Team Disclosure Policy
+**Updated:** 2026-08-07
 
-**TTLLM Total Transparency Specification**
+# Domain 5 — Incident disclosure
 
-## Purpose
-Incidents and failures affecting the core or users are disclosed on a pre-committed timeline.
+**Purpose:** Public timeline for security, safety, integrity, proof-system outages.
 
-## Artefacts
-- Incident Register
-- Severity rubric
-- Post-mortems (structure, not PR)
+**Minimum artefacts:** Severity rubric; incident archive; tabletop notes.
 
-## Processes
-- Detect → contain → assess → disclose → remediate → residual risk
-- Transparency is not turned off during incidents; only exploit detail may be delayed under Domain 10 exemptions
+**Contact:** md@0265.au · security.txt
+
+**Failure modes:** Silent cover-ups; severity inflation/deflation for PR.
+

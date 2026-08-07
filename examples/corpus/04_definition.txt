@@ -1,0 +1,7 @@
+A TTLLM release includes:
+- weights and intermediate checkpoints (or honest tombstone)
+- training code and hyperparameters
+- data composition or lawful access path
+- metrics and logs
+- cryptographic manifests (SHA-256, Merkle, signatures)
+- basic ttlink for public models

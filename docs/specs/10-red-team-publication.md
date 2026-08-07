@@ -1,18 +1,10 @@
-# 10. Red-Team Findings Publication Standard
+**Updated:** 2026-08-07
 
-**TTLLM Total Transparency Specification**
+# Domain 10 — Red-team publication
 
-## Purpose
-Red-teaming without publication recreates soft tissue.
+**Purpose:** Publish methods/results with dual-use honesty.
 
-## Artefacts
-- Red-Team Publication Standard (this doc)
-- Public Red-Team Findings Register (`registers/red_team_findings.md`)
-- Detailed reports with permitted redactions
-- Remediation & Residual Risk Tracker
+**Current:** Standards drafted in `docs/security/`. Standing red team deferred (human/capital gate).
 
-## Default rule
-Significant findings are published with ID, dates, component/version hashes, severity, summary, remediation status, residual risk.
+**Policy classes:** publishable summaries vs restricted exploit detail.
 
-## Exemptions
-Temporary withhold of exploit detail under written severity criteria and max delay; existence of finding still logged.

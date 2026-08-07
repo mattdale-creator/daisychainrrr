@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Free public core — TTLLM</title>
+  <meta name="description" content="Totally Transparent LLMs — down to the bone. Free public core, ttlink, cryptographic provenance." />
+  <link rel="canonical" href="https://ttllms.com/free-core.html" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a class="brand" href="index.html">ttllms.com</a>
+      <nav>
+        <a href="index.html" >Home</a>
+        <a href="definition.html" >Definition</a>
+        <a href="free-core.html" aria-current="page">Free core</a>
+        <a href="demo.html" >Demo</a>
+        <a href="stream.html" >Stream</a>
+        <a href="founding.html" >Founding</a>
+        <a href="architecture.html" >Architecture</a>
+        <a href="contact.html" >Contact</a>
+      </nav>
+    </header>
+    
+    <p class="eyebrow">Never paywalled</p>
+    <h1>Free public core</h1>
+    <p class="tagline">Bone is public. Muscle (services) may be paid. Never enclose the bone.</p>
+    <div class="card">
+      <h3>Must remain free</h3>
+      <ul class="clean">
+        <li>Weights &amp; checkpoints under the TTLLM promise</li>
+        <li>Training code for public releases</li>
+        <li>Data composition / access path</li>
+        <li>Basic ttlink for public models</li>
+        <li>Cryptographic manifests &amp; public stream events</li>
+        <li>Transparency specs &amp; founding conversation</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>May be commercial</h3>
+      <ul class="clean">
+        <li>Hosted SLAs, SSO, VPC service deploys</li>
+        <li>Enterprise retention &amp; support</li>
+        <li>Custom eval harnesses as service</li>
+        <li>Customer private documents (never secret free-core weights)</li>
+      </ul>
+    </div>
+    <p>Normative text: <a href="https://github.com/mattdale-creator/daisychainrrr/blob/main/commercial/BOUNDARY.md">commercial/BOUNDARY.md</a></p>
+    <h2>Install tools</h2>
+    <pre>git clone https://github.com/mattdale-creator/daisychainrrr
+cd daisychainrrr
+pip install -e ".[dev,crypto]"
+make verify-all</pre>
+    <h2>CLIs</h2>
+    <pre>ttllm-manifest seal-repo .
+ttllm-manifest verify --manifest manifests/FREE_CORE_SEAL.json --base .
+ttllm-ttlink query "free public core"
+ttllm-stream verify examples/stream/public_log.json</pre>
+
+    <footer>
+      <p>Free public core never paywalled · <a href="https://github.com/mattdale-creator/daisychainrrr">GitHub</a> · <a href=".well-known/security.txt">security.txt</a> · md@0265.au</p>
+      <p class="mono">Down to the binary. The product is the proof.</p>
+    </footer>
+  </div>
+</body>
+</html>

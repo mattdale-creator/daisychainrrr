@@ -1,21 +1,16 @@
-# Free Public Core
+# Free public core
 
-## What must stay free
+**Updated:** 2026-08-07
 
-1. Model weights (and intermediate checkpoints under the public promise)  
-2. Training data (or precise composition + access where law requires constraint — logged, not hidden)  
-3. Training code and configs  
-4. Basic ttlink index + query for public core models  
-5. Public stream of process artefacts (or restorable cold path with honest SLAs)  
-6. Governance artefacts and decision logs for the public core  
-7. Cryptographic manifests for all of the above  
+Normative boundary: `commercial/BOUNDARY.md`.
 
-## What may never be done
+Installable tools: `ttllm-manifest`, `ttllm-ttlink`, `ttllm-stream`.
 
-- Charge for access to the skeleton itself  
-- Quietly move a core guarantee into a paid-only path  
-- Hide checkpoints/data while claiming TTLLM status  
+Seal the repo:
 
-## Honest availability
+```bash
+python3 scripts/build_public_artefacts.py
+python3 -m free_core.provenance.cli verify --manifest manifests/FREE_CORE_SEAL.json --base .
+```
 
-Hot vs cold storage is allowed if published. Instant access is not a requirement for every checkpoint; **restorability + cryptographic identity** is.
+Version: free_core 0.2.0

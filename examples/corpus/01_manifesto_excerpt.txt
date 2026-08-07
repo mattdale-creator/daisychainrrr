@@ -1,4 +1,4 @@
 Down to the binary is the machine version of down to the bone.
 The free public core cannot be monetised by closing the skeleton.
 ttlink makes outputs human-viewable by linking spans to sources.
-
+Totally Transparent LLMs go beyond open weights: data, code, checkpoints, metrics, and provenance.

@@ -1,23 +1,28 @@
-# ttlink Architecture
+# ttlink architecture
+
+**Updated:** 2026-08-07
 
 ## Purpose
 
-Make the real process **human-viewable**: from any output span (or decision id) to source documents, checkpoint versions, and provenance.
-
-## Layers
-
-1. **Corpus layer** — content-addressed documents/shards (`sha256`)  
-2. **Index layer** — exact-match structure (production: suffix array / FM-index / infini-gram family; reference: substring index in this repo)  
-3. **Binding layer** — Merkle manifest of indexed docs + index shards  
-4. **Query layer** — span → hits with offsets, context, doc hashes  
-5. **Surface layer** — UI/API/Matrix visual that *only* points at real links  
-
-## Non-goals for the free core
-
-- Pretty lies  
-- Approximate “inspired by” without exact match disclosure when exact match exists  
-- Enterprise-only linking for the public model  
+Make provenance **usable**. Exact (or honestly approximate) links from a model output span to training or reference sources, with document hashes bound into Merkle manifests.
 
 ## Reference implementation
 
-See `free_core/ttlink/` — intentionally small-scale, interface-complete, testable.
+Package: `free_core.ttlink`
+
+```bash
+ttllm-ttlink index examples/corpus -o examples/ttlink_index.json
+ttllm-ttlink query "free public core"
+```
+
+Browser demo: https://ttllms.com/demo.html
+
+## Production path (deferred)
+
+Suffix-array / FM-index / infini-gram class systems over multi-trillion token corpora. See architecture-tree `03-technology/05-ttlink-engine-production.md` and Epoch 03.
+
+## Honesty rules
+
+- Exact match vs approximate must be labeled  
+- Basic public linking for free-core models is not paywalled  
+- Index leaves bind to sha256 of source docs  

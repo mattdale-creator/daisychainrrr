@@ -1,28 +1,14 @@
-# 1. Governance and Decision-Making
+**Updated:** 2026-08-07
 
-**TTLLM Total Transparency Specification**
+# Domain 1 — Governance
 
-## Purpose
-Material decisions that affect the free public core must be public by default, logged, and verifiable — no soft-tissue governance.
+**Purpose:** How decisions are made; who has authority; public decision logs for material choices.
 
-## Artefacts
-- Decision Log (append-only, IDs, date, summary, rationale, dissent, links to evidence)
-- Governance Charter (who decides what; conflict rules)
-- Meeting records for material decisions (or explicit waiver with reason)
-- Signed policy versions in this repo under `registers/`
+**Minimum artefacts**
+- Governance overview (founder-led is OK if stated)
+- Decision log for definition, BOUNDARY, license, major partnerships
 
-## Processes
-- Propose → discuss → decide → publish → implement
-- Emergency decisions allowed with post-hoc full log within fixed SLA (e.g. 72h)
+**Current:** `registers/decision_log.md` active. Pre-entity: founder accountability.
 
-## Roles
-- Steward board / leads for core
-- Decision owner per entry
-- Public can inspect; challenge path published
+**Failure modes:** Unlogged power; private "real" governance vs public theater.
 
-## Tensions
-- Speed vs disclosure
-- Personal privacy vs material influence transparency
-
-## Interaction
-Commercial product roadmaps may have private detail **only** if they do not change public-core guarantees; boundary decisions log in Domain 8.

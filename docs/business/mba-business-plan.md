@@ -1,40 +1,29 @@
-# TTLLM Business Plan (MBA-level skeleton)
+# Business plan (MBA-level skeleton)
 
-## 1. Opportunity
+**Updated:** 2026-08-07
 
-Opacity in frontier AI is rising as systems embed deeper in knowledge work. Open-weight is not open process. Buyers (research, public sector, regulated enterprise) increasingly need inspectability.
+## Opportunity
+Capability without process transparency creates legitimacy risk for institutions and publics.
 
-## 2. Solution
+## Solution
+TTLLM free public core + commercial outer layers per BOUNDARY.
 
-Totally Transparent LLMs + ttlink + organisational transparency standard + free core / paid outer layers.
+## Market
+Research reproducibility, regulated enterprise auditability, public-sector legitimacy, coalition movement.
 
-## 3. Market
+## Competition
+Closed labs (capability, opacity); open-weight labs (partial process). Differentiation: full bar + org domains + usable ttlink.
 
-Primary: research labs, education, public sector, compliance-heavy enterprise.  
-Secondary: developers who want reproducible science.  
-Movement layer: cultural demand for “show me the binary.”
+## GTM
+Publish-first → design partners → paid outer. Never close core for ARR.
 
-## 4. Competition / prior art
+## Financials
+See financial-model-10y.md and unit economics HOWTO. Training is capital-intensive; free core is a cost center funded by outer + aligned capital.
 
-OLMo, LLM360, Granite/FMTI leaders — technical predecessors.  
-TTLLM differentiates on **org-level bone** + **business model that forbids monetising opacity**.
+## Risks
+Capital intensity, dual-use, profit-arm capture, talent, regulatory.
 
-## 5. Go-to-market
-
-1. Publish founding conversation + domain + free-core tools  
-2. Ship reference provenance + ttlink  
-3. First model release at honest scale  
-4. Enterprise outer layer  
-5. TaaS for other orgs  
-
-## 6. Operations
-
-Public decision logs, red-team register, continuity covenant, supply-chain SBOMs.
-
-## 7. Risks
-
-Legal on data; dual-use; cost of storage/index; attack surface of public systems; culture failure (soft tissue returns).
-
-## 8. Governance
-
-See Total Transparency Spec domains 1–10.
+## Appendix
+- Architecture tree  
+- BOUNDARY.md  
+- Decision log  

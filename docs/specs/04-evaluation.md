@@ -1,15 +1,12 @@
-# 4. Evaluation and Benchmarking Practices
+**Updated:** 2026-08-07
 
-**TTLLM Total Transparency Specification**
+# Domain 4 — Evaluation
 
-## Purpose
-Reported numbers must be reproducible; contamination and selective reporting are soft tissue.
+**Purpose:** Public eval methods, datasets, limitations, reproduction.
 
-## Artefacts
-- Eval suite versions (hashed)
-- Full score tables + configs + seeds
-- Contamination reports relative to public training data via ttlink where applicable
-- Leaderboard submission packages
+**Minimum artefacts:** Eval suite inventory; result cards; contamination notes.
 
-## Processes
-- Pin eval code; publish failures as well as wins
+**Current:** free_core unit tests are software evals, not model evals. Model suite deferred to Epoch 02.
+
+**Failure modes:** Private leaderboards presented as science.
+

@@ -1,17 +1,10 @@
-# 9. Stewardship and Continuity
+**Updated:** 2026-08-07
 
-**TTLLM Total Transparency Specification**
+# Domain 9 — Stewardship & continuity
 
-## Purpose
-Core must survive acquisition, insolvency, or leadership change.
+**Artefacts:** `continuity/COVENANT.md`, `continuity/ASSET_INVENTORY.md`
 
-## Artefacts
-- Continuity & Stewardship Covenant (`continuity/COVENANT.md`)
-- Public Core Asset Inventory
-- Succession & Failure Mode Plan
-- Key & Signing Continuity Design
-- Annual Continuity Attestation
+**Current:** Drafts. Signed covenant deferred to entity formation.
 
-## Processes
-- Escrow / multi-party stewardship options for critical keys and mirrors
-- No unilateral withdrawal of already-released core artefacts except Domain 3 legal tombstones
+**Assets:** domains ttllms.com/org, GitHub, Cloudflare account, vault path, signing keys (demo keys are not production).
+

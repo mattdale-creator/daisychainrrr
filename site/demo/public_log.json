@@ -1,0 +1,101 @@
+{
+  "schema": "ttllm.stream_log.v1",
+  "count": 7,
+  "tip": "bd3a9afd01ec36a185876d4b34ec9b4cb073452512009587b7a479c6d31c72d1",
+  "events": [
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "decision",
+      "timestamp_utc": "2026-08-07T19:47:54Z",
+      "artefact_sha256": null,
+      "payload": {
+        "decision_id": "D-0001",
+        "summary": "Publish founding conversation as first public act",
+        "ethos": "down_to_the_bone"
+      },
+      "prev_hash": null,
+      "seq": 0,
+      "event_hash": "118967d286744ef66847565197c0fe70a3216645862be9d86c15d2509bb73c32"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "decision",
+      "timestamp_utc": "2026-08-07T19:47:54Z",
+      "artefact_sha256": null,
+      "payload": {
+        "decision_id": "D-0002",
+        "summary": "Free public core never paywalled; commercial only outside BOUNDARY",
+        "ref": "commercial/BOUNDARY.md"
+      },
+      "prev_hash": "118967d286744ef66847565197c0fe70a3216645862be9d86c15d2509bb73c32",
+      "seq": 1,
+      "event_hash": "1911f347f474396dae46f57139e5b551213073f4c6cd74f846005e1a87b6bf14"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "release",
+      "timestamp_utc": "2026-08-07T19:47:54Z",
+      "artefact_sha256": null,
+      "payload": {
+        "name": "daisychainrrr free public core",
+        "version": "0.2.0",
+        "tag": "v0.2.0-build"
+      },
+      "prev_hash": "1911f347f474396dae46f57139e5b551213073f4c6cd74f846005e1a87b6bf14",
+      "seq": 2,
+      "event_hash": "04aa43d9fbe4f04ed55d40eb0d70fef1a4bf5fb5bf37fae380a1b5772f27f4b1"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "seal",
+      "timestamp_utc": "2026-08-07T19:47:54Z",
+      "artefact_sha256": null,
+      "payload": {
+        "manifest": "manifests/FREE_CORE_SEAL.json",
+        "note": "Merkle seal of free public core artefacts"
+      },
+      "prev_hash": "04aa43d9fbe4f04ed55d40eb0d70fef1a4bf5fb5bf37fae380a1b5772f27f4b1",
+      "seq": 3,
+      "event_hash": "c35d80cd08d0ceb5d94e378a6375294dcca9b2d4edc2ce2c4d37a987a98c8b00"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "site_deploy",
+      "timestamp_utc": "2026-08-07T19:47:54Z",
+      "artefact_sha256": null,
+      "payload": {
+        "url": "https://ttllms.com",
+        "project": "ttllms"
+      },
+      "prev_hash": "c35d80cd08d0ceb5d94e378a6375294dcca9b2d4edc2ce2c4d37a987a98c8b00",
+      "seq": 4,
+      "event_hash": "bfcddbe602d1f28df0183c3ace11533b76abdafaecaaef3316992cbac8468986"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "architect",
+      "timestamp_utc": "2026-08-07T19:47:54Z",
+      "artefact_sha256": null,
+      "payload": {
+        "tree": "docs/architecture-tree/",
+        "status": "architect-complete"
+      },
+      "prev_hash": "bfcddbe602d1f28df0183c3ace11533b76abdafaecaaef3316992cbac8468986",
+      "seq": 5,
+      "event_hash": "03ead2d96f2fd636d7612f4407de46de984fac78c300acc66c2d9242eb8584af"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "build",
+      "timestamp_utc": "2026-08-07T19:47:54Z",
+      "artefact_sha256": null,
+      "payload": {
+        "script": "scripts/build_public_artefacts.py",
+        "ttlink_docs": 5
+      },
+      "prev_hash": "03ead2d96f2fd636d7612f4407de46de984fac78c300acc66c2d9242eb8584af",
+      "seq": 6,
+      "event_hash": "bd3a9afd01ec36a185876d4b34ec9b4cb073452512009587b7a479c6d31c72d1"
+    }
+  ]
+}

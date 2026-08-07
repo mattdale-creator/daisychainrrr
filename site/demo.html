@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ttlink demo — TTLLM</title>
+  <meta name="description" content="Totally Transparent LLMs — down to the bone. Free public core, ttlink, cryptographic provenance." />
+  <link rel="canonical" href="https://ttllms.com/demo.html" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a class="brand" href="index.html">ttllms.com</a>
+      <nav>
+        <a href="index.html" >Home</a>
+        <a href="definition.html" >Definition</a>
+        <a href="free-core.html" >Free core</a>
+        <a href="demo.html" aria-current="page">Demo</a>
+        <a href="stream.html" >Stream</a>
+        <a href="founding.html" >Founding</a>
+        <a href="architecture.html" >Architecture</a>
+        <a href="contact.html" >Contact</a>
+      </nav>
+    </header>
+    
+    <p class="eyebrow">Reference implementation · small corpus</p>
+    <h1>ttlink demo</h1>
+    <p class="tagline">Exact substring → source document + SHA-256. Production scale is deferred; the interface is real.</p>
+    <div class="card">
+      <label for="q">Query span</label>
+      <input id="q" type="text" value="free public core" />
+      <p style="margin-top:.75rem">
+        <button class="btn" id="run" type="button">Search</button>
+        <button class="btn secondary" id="ex1" type="button">ttlink</button>
+        <button class="btn secondary" id="ex2" type="button">OLMo</button>
+        <button class="btn secondary" id="ex3" type="button">checkpoints</button>
+      </p>
+      <p class="mono" id="stats">Loading index…</p>
+    </div>
+    <div id="results"></div>
+    <h2>What this proves</h2>
+    <ul class="clean">
+      <li>Hits include document path, offsets, context, and <code>doc_sha256</code></li>
+      <li>Index is generated from <code>examples/corpus/</code> in the public repo</li>
+      <li>This is <em>not</em> a multi-trillion-token production index — we do not cosplay scale</li>
+    </ul>
+    <script src="demo/ttlink_demo.js"></script>
+
+    <footer>
+      <p>Free public core never paywalled · <a href="https://github.com/mattdale-creator/daisychainrrr">GitHub</a> · <a href=".well-known/security.txt">security.txt</a> · md@0265.au</p>
+      <p class="mono">Down to the binary. The product is the proof.</p>
+    </footer>
+  </div>
+</body>
+</html>

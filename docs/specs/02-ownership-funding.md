@@ -1,19 +1,14 @@
-# 2. Ownership, Funding, and Influence
+**Updated:** 2026-08-07
 
-**TTLLM Total Transparency Specification**
+# Domain 2 — Ownership & funding
 
-## Purpose
-Who owns, who funds, who can steer — published so influence is not soft tissue.
+**Purpose:** Who owns and funds the project; capture risk visibility.
 
-## Artefacts
-- Cap table summary / beneficial ownership disclosure at agreed thresholds
-- Funding register (round, date, amount range, investor identity rules)
-- Influence map (board seats, veto rights, exclusive licenses)
-- Related-party transaction log
+**Minimum artefacts**
+- Ownership statement
+- Material funding disclosure when funding exists
 
-## Processes
-- Pre-announce material ownership changes affecting the core
-- Funding that requires core opacity is **rejected by charter**
+**Current:** Individual founder project contact md@0265.au; no institutional round disclosed. Update when capital arrives.
 
-## Tensions
-- Investor NDAs vs radical disclosure (prefer range disclosure + identity of control rights)
+**Failure modes:** Hidden strategic investors requiring closed core.
+

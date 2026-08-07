@@ -1,5 +1,7 @@
-# Remember You’re on Drugs
+# Remember you're on drugs
 
-Human corollary for interrupting mystification: a short, deliberate reminder that the experience is constructed/affected — effective because it is load-bearing and unpolished.
+**Updated:** 2026-08-07
 
-TTLLM is the industrial form: continuous public confrontation with the mechanical skeleton so projection of mind/intent onto the system becomes harder.
+Builders and AI assistants are biased and confabulatory. Counter with measurement, red team, multi-AI batteries, and public artefacts.
+
+Never let a single model session be sole authority on safety or cost.

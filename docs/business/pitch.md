@@ -1,11 +1,26 @@
-# Pitch: Totally Transparent LLMs
+# TTLLM pitch (scholarly + short)
 
-The dominant trajectory of large-scale AI has been capability with opacity. Even “open” models are often open-weights only. Training data, intermediate states, and organisational process remain soft tissue.
+**Updated:** 2026-08-07
 
-**TTLLM** makes the product the proof: full stack release, public stream, ttlink from outputs to sources, cryptographic manifests, and an organisation that publishes its own generative process.
+## Short (≤1 page)
 
-**Business model:** free public core; revenue from reliability, compliance, and convenience layers that enterprises pay for once they can inspect the skeleton.
+Most AI is soft tissue: impressive demos, closed process. **Totally Transparent LLMs (TTLLM)** publish the skeleton — weights, code, data path, checkpoints, metrics, and **ttlink** provenance humans can follow. Free public core never paywalled; paid layers buy reliability and service, not the bone.
 
-**Why now:** corporate transparency scores have been declining (FMTI); working counter-examples (OLMo, LLM360) prove feasibility; public demand for accountability is rising.
+**Live proof:** https://ttllms.com · https://github.com/mattdale-creator/daisychainrrr · md@0265.au
 
-**Ask:** domain + founding publication + free-core engineering runway to first reproducible 7B–32B-class transparent release and hosted outer layer.
+**Ask:** compute partnership, data partnership, red-team collaboration, or capital that accepts BOUNDARY.
+
+## Scholarly outline
+
+1. Opacity as civilisational risk as capability rises  
+2. Definition of TTLLM vs open-weight  
+3. Prior art (OLMo, LLM360) and remaining gap  
+4. Product: free core + ttlink + stream + manifests  
+5. Org transparency domains 1–10  
+6. Economics without closing core  
+7. Roadmap epochs 00–05 (honest deferred training)  
+8. Ask + contact  
+
+## Status honesty
+
+We have shipped the public skeleton and architecture. We have **not** shipped a 32B fully TTLLM-compliant trained model. Do not claim otherwise.

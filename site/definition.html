@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Definition — TTLLM</title>
+  <meta name="description" content="Totally Transparent LLMs — down to the bone. Free public core, ttlink, cryptographic provenance." />
+  <link rel="canonical" href="https://ttllms.com/definition.html" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a class="brand" href="index.html">ttllms.com</a>
+      <nav>
+        <a href="index.html" >Home</a>
+        <a href="definition.html" aria-current="page">Definition</a>
+        <a href="free-core.html" >Free core</a>
+        <a href="demo.html" >Demo</a>
+        <a href="stream.html" >Stream</a>
+        <a href="founding.html" >Founding</a>
+        <a href="architecture.html" >Architecture</a>
+        <a href="contact.html" >Contact</a>
+      </nav>
+    </header>
+    
+    <p class="eyebrow">What TTLLM means</p>
+    <h1>Definition</h1>
+    <p class="tagline">Beyond open weights — full stack for reproducibility and inspection.</p>
+    <div class="card">
+      <p>A <strong>Totally Transparent LLM</strong> release includes:</p>
+      <ul class="clean">
+        <li>Model weights and intermediate checkpoints (or public tombstone of what is missing)</li>
+        <li>Training code, hyperparameters, seeds</li>
+        <li>Training data release <em>or</em> precise composition + lawful access path</li>
+        <li>Metrics, logs, and eval methods</li>
+        <li>Cryptographic manifests (SHA-256, Merkle roots, signatures)</li>
+        <li>Basic <strong>ttlink</strong> — human-followable links from outputs to sources</li>
+      </ul>
+    </div>
+    <h2>Not TTLLM</h2>
+    <ul class="clean">
+      <li>Open weights with closed data and closed training code</li>
+      <li>Marketing claims without re-hashable artefacts</li>
+      <li>Paywalled verification of public-core claims</li>
+    </ul>
+    <h2>Prior art</h2>
+    <p>We stand on Ai2 <strong>OLMo</strong> / OLMoTrace, <strong>LLM360</strong>, and related process-open work. Credit them. Differentiate with artefacts: free-core covenant, org transparency domains 1–10, and usable ttlink.</p>
+    <p><a href="https://github.com/mattdale-creator/daisychainrrr/blob/main/docs/manifesto.md">Manifesto in repo →</a></p>
+
+    <footer>
+      <p>Free public core never paywalled · <a href="https://github.com/mattdale-creator/daisychainrrr">GitHub</a> · <a href=".well-known/security.txt">security.txt</a> · md@0265.au</p>
+      <p class="mono">Down to the binary. The product is the proof.</p>
+    </footer>
+  </div>
+</body>
+</html>

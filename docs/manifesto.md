@@ -1,61 +1,45 @@
 # TTLLM Manifesto
 
-## Principle
+**Updated:** 2026-08-07  
+**Site:** https://ttllms.com  
+**Contact:** md@0265.au
 
-**We should be able to inspect what trained the systems that influence us.**
+## The claim
 
-## Down to the bone
+Powerful language models influence law, medicine, media, and daily judgment. If we cannot inspect what trained them, we are governed by soft tissue — marketing, access policies, and closed process — rather than bone.
 
-When you strip a human to the bone you remove every soft layer that can hide, soften, or perform.  
-**Down to the binary** is the machine’s version of the same act.
+**Totally Transparent LLMs (TTLLM)** publish the skeleton:
 
-We do not stop at polished outputs, system prompts, safety theatre, or even open weights.  
-We keep going until what remains is structure: training data, gradient history, intermediate checkpoints, loss curves, data mixtures — the computational skeleton.
-
-Most “transparency” stops at the skin.  
-A few projects reach the muscle.  
-Almost none go all the way to the bone.
-
-## The organisation is the demonstration
-
-The only reliable way for large numbers of humans to stop treating AI as quasi-magical is repeated public confrontation with its mechanical skeleton — produced by an organisation willing to live the same standard.
-
-If the model is transparent but the company is soft tissue, the demonstration fails.
+1. Weights and intermediate checkpoints  
+2. Training code and configuration  
+3. Data composition or lawful access path  
+4. Metrics, logs, and evaluation methods  
+5. Cryptographic manifests anyone can re-hash  
+6. **ttlink** — human-viewable links from outputs toward sources  
 
 ## Free public core
 
-- Weights, training data, intermediate checkpoints, training code  
-- Public continuous (or on-demand) stream of real process artefacts  
-- Basic **ttlink** — human-viewable links from outputs to sources  
-- Public documentation of major decisions  
+The bone is free. Forever. Monetisation lives in outer layers: reliability, hosted convenience, enterprise compliance tooling — never exclusive custody of the skeleton.
 
-This layer is free. Monetising it by closing it ends the project.
+See `commercial/BOUNDARY.md`.
 
-## Monetise outside the core
+## Organisation as demonstration
 
-Hosted reliability, enterprise audit, transparency-as-a-service, certified fine-tunes that inherit the guarantees, analysis tools, methodology licensing.  
-Commercial layers never require the skeleton to become opaque.
+An organisation that sells transparency while operating as opacity is soft tissue. Governance, funding disclosure, incidents, red-team publication, and continuity are part of the product.
 
-## ttlink
+See `docs/specs/` and `docs/architecture-tree/`.
 
-The Matrix rain is soft tissue if it only *feels* like the machine.  
-It becomes legitimate when every cascade links to real data.  
-**ttlink** is that linking layer.
+## Prior art
 
-## Cryptographic provenance
+OLMo, OLMoTrace, LLM360, and other process-open efforts. We credit them. We aim to make provenance *usable* and org transparency *mandatory*.
 
-Every released artefact is content-addressed. Merkle manifests bind leaves. Releases can be signed. Anyone can re-hash and verify. Silent swaps are detectable.
+## Remember you are on drugs
 
-## Publish the generative process
+Builders and models confabulate. Counter with measurement, adversarial pressure, multi-reviewer batteries, and public artefacts.
 
-This project begins by publishing the conversation that created it.  
-That is the organisational equivalent of releasing training data and checkpoints.
+## Proof
 
-## Remember you’re on drugs
-
-A human corollary: deliberate, short, load-bearing reminders that interrupt mystification.  
-TTLLM is the industrial form of that reminder applied to AI.
-
----
-
-*Totally Transparent LLMs. Product is the proof.*
+- Site: https://ttllms.com  
+- Repo: https://github.com/mattdale-creator/daisychainrrr  
+- Architecture tree: `docs/architecture-tree/00-MASTER-TREE.md`  
+- Seal: `manifests/FREE_CORE_SEAL.json`

@@ -1,10 +1,7 @@
-# Company Culture
+# Company culture
 
-Built like topology optimisation: repeatedly delete non-load-bearing material.
+**Updated:** 2026-08-07
 
-- Status for removing unnecessary process and unverifiable claims  
-- Artefacts mandatory, not optional “transparency projects”  
-- Post-mortems publish structure, not theatre  
-- Security failures treated with the same honesty as model failures  
+First principles, high agency, public error, bone-level honesty. Not personality cult. Not move-fast-and-hide-the-mess.
 
-Musk companies partially map to physical topology-optimisation culture; public epistemic “down to the binary” for models is a different, required muscle for TTLLM.
+Reward finding soft tissue; punish silent cover-ups. Default to public decision logs for material choices.

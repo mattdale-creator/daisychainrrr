@@ -1,14 +1,12 @@
-# 6. Internal Incentives and Compensation
+**Updated:** 2026-08-07
 
-**TTLLM Total Transparency Specification**
+# Domain 6 — Compensation
 
-## Purpose
-Incentives that reward opacity are structural soft tissue. Publish how people are paid to behave.
+**Purpose:** Incentives visible enough to detect anti-free-core pressure.
 
-## Artefacts
-- Compensation philosophy
-- Bonus metric definitions (must not reward hiding core issues)
-- Conflict-of-interest policy
+**Minimum artefacts:** Compensation principles; ban sales incentives that close core.
 
-## Processes
-- Annual public summary of incentive structure (not necessarily every salary)
+**Current:** Pre-headcount principles — equity/cash intent TBD with entity; no sales team yet.
+
+**Failure modes:** Commission structures that reward core closure.
+

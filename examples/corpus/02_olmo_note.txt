@@ -1,3 +1,3 @@
 Ai2 OLMo and OLMoTrace are prior art for totally transparent LLMs at useful scale.
 LLM360 emphasises dense intermediate checkpoints.
-
+TTLLM stands on their shoulders and adds org transparency domains and human-viewable ttlink.

@@ -1,14 +1,18 @@
-# Public Stream
+# Public stream architecture
 
-The stream is the mechanism left open — not a cinematic representation.
+**Updated:** 2026-08-07
 
-## Event types
+## Purpose
 
-- `data_shard` — new public shard released  
-- `checkpoint` — intermediate or final weights published  
-- `ttlink_hit` — optional public query telemetry (privacy-preserving)  
-- `decision` — material organisational decision affecting the core  
-- `loss_metric` — training metrics snapshots  
-- `release` — versioned package release  
+Append-only public events for seals, releases, decisions, evals — hash-chained so tip proves history.
 
-Schema: `free_core/stream/schema.py` (`ttllm.stream_event.v1`).
+## Reference implementation
+
+```bash
+ttllm-stream build-demo-log -o examples/stream/public_log.json
+ttllm-stream verify examples/stream/public_log.json
+```
+
+Browser: https://ttllms.com/stream.html
+
+Schema: `ttllm.stream_log.v1` with per-event `event_hash` and `prev_hash`.

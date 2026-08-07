@@ -1,9 +1,16 @@
-# Continuity & Stewardship Covenant (v0.1 draft)
+# Continuity covenant (DRAFT — not yet signed by entity)
 
-1. Keep released free public core available or cryptographically tombstoned (Domain 3).
-2. Maintain Public Core Asset Inventory.
-3. Publish succession plans for acquisition/insolvency/dissolution.
-4. Structure signing keys against silent unilateral rewrite.
-5. Annual Continuity Attestation.
+**Updated:** 2026-08-07
 
-Binding when signed and recorded in the Decision Log.
+## Intent
+Ensure free public core and critical assets survive founder incapacity or departure.
+
+## Commitments (draft)
+1. Free public core remains public per BOUNDARY.md  
+2. Domains, GitHub, and Cloudflare access have documented succession  
+3. Signing keys (when production) have multi-person recovery  
+4. Annual attestation of this inventory  
+5. Tombstone rather than silent deletion of public bone  
+
+## Status
+Unsigned draft until legal entity exists. Still operationally useful as checklist.

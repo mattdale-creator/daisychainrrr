@@ -1,19 +1,12 @@
-# 3. Data Governance and Legal Response Process
+**Updated:** 2026-08-07
 
-**TTLLM Total Transparency Specification**
+# Domain 3 — Data governance
 
-## Purpose
-How data enters the public core; how takedowns and legal process work without silent rewriting of history.
+**Purpose:** Sources, licenses, filters, PII, access, takedown.
 
-## Artefacts
-- Data Acquisition Policy
-- Dataset cards / mixture docs
-- Legal Request Log (type, date, outcome, redactions policy)
-- Tombstone protocol for removed items (hash remains; content may become unavailable with public reason)
+**Minimum artefacts:** Data card template; mixture table; filter code; access procedure.
 
-## Processes
-- No silent purge: removals leave cryptographic tombstones
-- Appeals path published
+**Current:** Pre-training — publish template before first serious run. Coordinate with architecture-tree data-release HOWTO.
 
-## Tensions
-- Privacy/copyright law vs permanent public corpus
+**Failure modes:** "Open data" claims for unobtainable corpora; silent re-filters.
+

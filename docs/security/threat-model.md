@@ -1,28 +1,14 @@
-# Threat Model (Free Core + ttlink)
+# Threat model (summary)
 
-## Model layer
+**Updated:** 2026-08-07
 
-- Jailbreak / capability elicitation  
-- Membership inference & extraction (public data changes, does not eliminate)  
-- Poisoning / backdoors in train & post-train  
-- Adversarial inputs  
+| Asset | Threats | Mitigations |
+|-------|---------|-------------|
+| Manifest roots | Forgery, rollback | Signatures, mirrors (Epoch 05), canaries |
+| Signing keys | Theft | Demo keys ≠ prod; HSM later; rotation policy |
+| Domains/DNS | Hijack | Registrar lock, account 2FA/hardware keys |
+| ttlink index | Poisoning | Canary docs, signed leaves |
+| Free core narrative | Capture by commercial arm | BOUNDARY.md, Domain 8 audits |
+| Training (future) | Data leakage, dual-use | Domain 3/5/10 processes |
 
-## Transparency infrastructure
-
-- Index integrity (tamper / selective rewrite)  
-- Availability (DoS on stream/query)  
-- Query abuse (bulk scrape via link API)  
-- Supply-chain swaps of checkpoints/index shards  
-
-## Organisational
-
-- Insider threat  
-- Legal/abuse pressure used to force opacity  
-- Incident response that “turns off” transparency  
-
-## Mitigations (skeleton)
-
-- Cryptographic manifests + signed releases  
-- Rate limits that do not erase the public promise  
-- Published threat model + red-team register  
-- Continuity covenant against unilateral withdrawal  
+Full HOWTO: `docs/architecture-tree/04-security/01-threat-model.md`
