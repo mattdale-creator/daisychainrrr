@@ -1,0 +1,23 @@
+{
+  "schema": "ttllm.ttlink_index.v1",
+  "docs": {
+    "01_manifesto_excerpt.txt": {
+      "path": "examples/corpus/01_manifesto_excerpt.txt",
+      "text": "Down to the binary is the machine version of down to the bone.\nThe free public core cannot be monetised by closing the skeleton.\nttlink makes outputs human-viewable by linking spans to sources.\n\n",
+      "sha256": "171e184f68f1031a3f1ae2a9a25bc4f1cbda35778d8ed52c0f96b84b4f4c9b15",
+      "bytes": 195
+    },
+    "02_olmo_note.txt": {
+      "path": "examples/corpus/02_olmo_note.txt",
+      "text": "Ai2 OLMo and OLMoTrace are prior art for totally transparent LLMs at useful scale.\nLLM360 emphasises dense intermediate checkpoints.\n\n",
+      "sha256": "49a13426f7b0876ee01b672b06b4fd02357b3c33ef60eefc2d672112761d35f6",
+      "bytes": 134
+    },
+    "03_business.txt": {
+      "path": "examples/corpus/03_business.txt",
+      "text": "Hosted infrastructure, enterprise audit tools, and transparency-as-a-service sit outside the free core.\nThe product is the proof.\n\n",
+      "sha256": "ec5f382e384759a76513ce25f14137ca25a1e4b46a573c6db691183b05a40d40",
+      "bytes": 131
+    }
+  }
+}

@@ -1,0 +1,1950 @@
+{
+  "generated": "2026-08-08 01:22:28",
+  "count": 55,
+  "aggregates": {
+    "makes": {
+      "None": 55
+    },
+    "models": {
+      "None": 55
+    },
+    "software": {
+      "None": 55
+    },
+    "timezones": {
+      "Australia/Perth\n": 55
+    },
+    "importers": {
+      "SpringBoard\n": 55
+    },
+    "creators": {
+      "com.apple.springboard\n": 55
+    }
+  },
+  "records": [
+    {
+      "filename": "IMG_3305.PNG",
+      "sha256": "82bc9ed237aeeb443ca3d2eed451cb0c6fbd4b6ddb0d88952ef8008d33342221",
+      "size": 514144,
+      "birth": "2026-08-08 00:04:33",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 00:04:33",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T00:04:33"
+      },
+      "assetsd": {
+        "UUID": "b'ie\\xb7\\xceu\\x1cI\\x19\\xa7\\xb1\\x97\\xb1\\xd7je3\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13\\x1c\\xc8\\xdf\\xeex\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13\\x1c\\xc8\\x80\\n'",
+        "originalFilename": "IMG_3305.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "6965B7CE-751C-4919-A7B1-97B1D76A6533\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;9A966D24-2449-4EE0-9631-A5BDB80C7862\n"
+      }
+    },
+    {
+      "filename": "IMG_3306.PNG",
+      "sha256": "b31a4f8b25a9acf7fe16d2226ae43f79e551f90a96d4726f7f0fb9196d833baf",
+      "size": 524231,
+      "birth": "2026-08-08 00:05:34",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 00:05:34",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T00:05:34"
+      },
+      "assetsd": {
+        "UUID": "b'\\xbb\\xd7\\xa7\\xa9\\xce\\xcfN\\xff\\x9d\\xeaFfE\\x1b04\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13\\x1c\\xe7\\x10\\x887\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13\\x1c\\xe7\\n'",
+        "originalFilename": "IMG_3306.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "BBD7A7A9-CECF-4EFF-9DEA-4666451B3034\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;B436BF3A-CACE-4530-AFED-E78B494DD173\n"
+      }
+    },
+    {
+      "filename": "IMG_3307.PNG",
+      "sha256": "054c634dd9b1b9146affa0cb1e31a972b9c5ce220b9c615b2f94aa97d6f94010",
+      "size": 436691,
+      "birth": "2026-08-08 00:16:28",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 00:16:28",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T00:16:28"
+      },
+      "assetsd": {
+        "UUID": "b'\\xa9\\x83\\xcf\\xb1\\xff\\x13H\\x9c\\xa6\\xc7\\xa9\\x8dc\\x1e\\x1d\\xd9\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13\\x1e.(\\x8b\\xfc\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13\\x1e.\\n'",
+        "originalFilename": "IMG_3307.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "A983CFB1-FF13-489C-A6C7-A98D631E1DD9\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;0B59F7AA-104A-46AF-96BC-17B6C14462C3\n"
+      }
+    },
+    {
+      "filename": "IMG_3308.PNG",
+      "sha256": "3bb3b28f8fe4f405e7cd07675a3e23b77d99e8f6613523e60a180dc6494ca6cb",
+      "size": 489577,
+      "birth": "2026-08-08 00:21:46",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 00:21:46",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T00:21:46"
+      },
+      "assetsd": {
+        "UUID": "b'\\xcd_\\xe3e\\x97gKT\\x81\\xaf\\x9bW\\xb1\\x90\\x01\\x9d\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13\\x1e\\xcd\"\\xe5\\x82\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13\\x1e\\xcd\\n'",
+        "originalFilename": "IMG_3308.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "CD5FE365-9767-4B54-81AF-9B57B190019D\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;9F58E277-DE12-4A21-B1EA-4B6FDC6D05A1\n"
+      }
+    },
+    {
+      "filename": "IMG_3309.PNG",
+      "sha256": "e574026be41b632f05d08fbaed797fa48f51a69ac2eaf7dc0c2ffad71f367a99",
+      "size": 735173,
+      "birth": "2026-08-08 01:01:46",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:01:46",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:01:46"
+      },
+      "assetsd": {
+        "UUID": "b'L4\\x08\\n\\x16\\xd6M\\xc2\\xb0\\x0f\\xc7\\x9bX\":^\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#}~<\\xb0\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#}\\n'",
+        "originalFilename": "IMG_3309.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "4C34080A-16D6-4DC2-B00F-C79B58223A5E\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;9C512A52-7DD1-4DA6-BF06-5D122BA77F9D\n"
+      }
+    },
+    {
+      "filename": "IMG_3310.PNG",
+      "sha256": "33ce1c1d49a3034a816d9f19f2cb2b1c1e1a37d068f8c1ee0375bfcbfaefa98a",
+      "size": 583421,
+      "birth": "2026-08-08 01:02:53",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:02:53",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:02:53"
+      },
+      "assetsd": {
+        "UUID": "b'\\xec\\x90\\xdeZJ\\xc0L\\xe5\\xb5ws\\xc1\\xeb\\xf9As\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\x9e\\xef7e\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\x9e\\x80\\n'",
+        "originalFilename": "IMG_3310.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "EC90DE5A-4AC0-4CE5-B577-73C1EBF94173\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;96F3DE85-ECA9-4BE2-84EF-B0F50BE6D219\n"
+      }
+    },
+    {
+      "filename": "IMG_3311.PNG",
+      "sha256": "1f3b07ba0b26628936fc973c0bc4dfb0fdb4b5a03c26c36f03b520ab62d1f8b4",
+      "size": 454490,
+      "birth": "2026-08-08 01:03:01",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:03:01",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:03:01"
+      },
+      "assetsd": {
+        "UUID": "b'\\xd3w\\x98\\x05\\xa7%Ks\\x8e\\xdc\\xc0\\xcd\\xaf\\xcf\\x7f\\x8b\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xa2\\x96\\xf6\\x83\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xa2\\x80\\n'",
+        "originalFilename": "IMG_3311.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "D3779805-A725-4B73-8EDC-C0CDAFCF7F8B\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;9F2BDF52-BD22-48C7-9253-D73F41056A79\n"
+      }
+    },
+    {
+      "filename": "IMG_3312.PNG",
+      "sha256": "0ba69ee3ecae5d97855ec3b891e57b08d5bfc6adcd2c9652495c0aa8e865a704",
+      "size": 414405,
+      "birth": "2026-08-08 01:03:04",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:03:04",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:03:04"
+      },
+      "assetsd": {
+        "UUID": "b'\\xef\\xf9\\xac\\xfe\\xe5aIi\\x9f2\\xd5\\xce\\xc5\\xef\\xb1\\xde\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xa4i\\xb0\\x0c\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xa4\\n'",
+        "originalFilename": "IMG_3312.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "EFF9ACFE-E561-4969-9F32-D5CEC5EFB1DE\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;97951AD3-6850-4395-8E23-EB981E29528C\n"
+      }
+    },
+    {
+      "filename": "IMG_3313.PNG",
+      "sha256": "0cb5d8b359c40d78a773e7bd93aaa890f091406ab2ce6dd98c772c6bfbbc16d6",
+      "size": 518100,
+      "birth": "2026-08-08 01:04:08",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:04:08",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:04:08"
+      },
+      "assetsd": {
+        "UUID": "b'sRx\\xad\\xeb[Ml\\xb1\\xd2S\\xaa\\xb9\\xaf\\xf7\\x92\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xc4i\\xec\\x89\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xc4\\n'",
+        "originalFilename": "IMG_3313.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "735278AD-EB5B-4D6C-B1D2-53AAB9AFF792\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;89265280-A418-41A6-977E-4233F54291DA\n"
+      }
+    },
+    {
+      "filename": "IMG_3314.PNG",
+      "sha256": "75dba17f6856cccb46bfbb157e6cc3bb473dd0f12b18e399bf6af1aeaa5b675e",
+      "size": 496485,
+      "birth": "2026-08-08 01:04:14",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:04:14",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:04:14"
+      },
+      "assetsd": {
+        "UUID": "b'\\x07<\\xb3\\x9b\\xf2\\xa8C\\xa1\\xb8\\xa6\\xc8\\xce+\\x9f\\xe0(\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xc78\\xca\\xcd\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xc7\\n'",
+        "originalFilename": "IMG_3314.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "073CB39B-F2A8-43A1-B8A6-C8CE2B9FE028\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;72CF01FB-AE04-4831-B6F9-B60413EB4AE3\n"
+      }
+    },
+    {
+      "filename": "IMG_3315.PNG",
+      "sha256": "84c456e0c318fd92d777a91cf1efb9a3a7aedb33ee58456b2c77e9ba7b23eeef",
+      "size": 538996,
+      "birth": "2026-08-08 01:04:17",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:04:17",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:04:17"
+      },
+      "assetsd": {
+        "UUID": "b'\\x97\\x84X\\xed\\x04WDe\\xb9\\x90\\xad7\\xc2\\xab\\xfcj\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xc8\\xae\\xdf@\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xc8\\x80\\n'",
+        "originalFilename": "IMG_3315.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "978458ED-0457-4465-B990-AD37C2ABFC6A\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;473B2A02-8D48-4ABF-9969-02CDCED3FEFE\n"
+      }
+    },
+    {
+      "filename": "IMG_3316.PNG",
+      "sha256": "ae92643d459d6b2c3740fa99c0a7555ab154172dd8a1a742f42a74fdd9d9edb5",
+      "size": 488567,
+      "birth": "2026-08-08 01:04:20",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:04:20",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:04:20"
+      },
+      "assetsd": {
+        "UUID": "b';\\x04\\xb8M\\xdc\\xbdH\\xa6\\xa7\\xfb\\xf4R\\xa9\\x9dL\\xd2\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xca8D\\xe9\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xca\\n'",
+        "originalFilename": "IMG_3316.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "3B04B84D-DCBD-48A6-A7FB-F452A99D4CD2\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;E54DFE9B-74AA-4E73-B056-68412BFBBA77\n"
+      }
+    },
+    {
+      "filename": "IMG_3317.PNG",
+      "sha256": "c364c27a66992e3e012eb98fd5a4d04533bb1db746dd7b133c155e2deed8be50",
+      "size": 431152,
+      "birth": "2026-08-08 01:04:21",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:04:21",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:04:21"
+      },
+      "assetsd": {
+        "UUID": "b'o*\\x0bQ\\x924F\\xaa\\xbe|\\xc5\\x85n\\xcd@\\xa2\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xcb\\x05\\x9b\\xcc\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xca\\x80\\n'",
+        "originalFilename": "IMG_3317.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "6F2A0B51-9234-46AA-BE7C-C5856ECD40A2\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;ED11414C-83A6-4DD2-ABA6-D0FA682B8966\n"
+      }
+    },
+    {
+      "filename": "IMG_3318.PNG",
+      "sha256": "e80fb769c4d50758bd40fe4b58a1efb18b16aa2a022ee2d198f9d91a0bd51cd4",
+      "size": 435336,
+      "birth": "2026-08-08 01:05:05",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:05:05",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:05:05"
+      },
+      "assetsd": {
+        "UUID": "b'r\\xfa<<\\xddz@\\xec\\xb9\\xcb\\x18\\x0e\\x8d]4\\x98\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xe0\\xfa\\x1a&\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xe0\\x80\\n'",
+        "originalFilename": "IMG_3318.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "72FA3C3C-DD7A-40EC-B9CB-180E8D5D3498\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;3ED8BC45-13C3-47D9-BEE9-2A02C30A85AC\n"
+      }
+    },
+    {
+      "filename": "IMG_3319.PNG",
+      "sha256": "2cd730da1cdc3723bb23f6ab9c293c728d2d5e94f40ff3b5860a3b2c19d42dc8",
+      "size": 414512,
+      "birth": "2026-08-08 01:05:22",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:05:22",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:05:22"
+      },
+      "assetsd": {
+        "UUID": "b'\\xe0\\x01\\xa8;\\r\\xe7E\\xd9\\xa0\\x87\\xac\\xf7\\xb8\\xc4\\x14\\xf0\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xe9@\\xce\\xd5\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xe9\\n'",
+        "originalFilename": "IMG_3319.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "E001A83B-0DE7-45D9-A087-ACF7B8C414F0\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;CBD44F11-396B-49B5-A7BB-5222257F164C\n"
+      }
+    },
+    {
+      "filename": "IMG_3320.PNG",
+      "sha256": "ee27692c450252169875b5f32e285439bd425afe3c6378f872a2c65186d963ef",
+      "size": 528158,
+      "birth": "2026-08-08 01:05:52",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:05:52",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:05:52"
+      },
+      "assetsd": {
+        "UUID": "b'\\x9c\"\\xe0\\nt\\xcfI\\x0e\\xab\\xe3\\xba7\\xa0\\xa5*S\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xf8\\x1d9\\x8f\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xf8\\n'",
+        "originalFilename": "IMG_3320.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "9C22E00A-74CF-490E-ABE3-BA37A0A52A53\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;E24C3CC6-DEF6-454A-B6D0-94707B044ED2\n"
+      }
+    },
+    {
+      "filename": "IMG_3321.PNG",
+      "sha256": "86211ea3202f2b28db7d796537e0a9e1b28e2e8f2d2245400ff9f92a7229e534",
+      "size": 401679,
+      "birth": "2026-08-08 01:05:56",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:05:56",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:05:56"
+      },
+      "assetsd": {
+        "UUID": "b'\\xa8\\x07\\xa4/\\xcb~H\\xe3\\x89\\x81V\\x83l\\xcc\\xc4\\x90\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xfa\\x0f\\x06\\xd5\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xfa\\n'",
+        "originalFilename": "IMG_3321.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "A807A42F-CB7E-48E3-8981-56836CCCC490\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;B5BBEC2F-A59D-47DF-874E-A9711501E1F3\n"
+      }
+    },
+    {
+      "filename": "IMG_3322.PNG",
+      "sha256": "dbcda0432826189b083c53ae69eaf269f97e9f873e1dc0ce545b09dfbb785b97",
+      "size": 371890,
+      "birth": "2026-08-08 01:05:58",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:05:58",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:05:58"
+      },
+      "assetsd": {
+        "UUID": "b'\\x18\\x808\\x0c\\xe7zE\\xdc\\x9d\\xad=du>#%\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13#\\xfb\\x14\\xdb\\xbe\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13#\\xfb\\n'",
+        "originalFilename": "IMG_3322.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "1880380C-E77A-45DC-9DAD-3D64753E2325\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;61FFD8C1-D07B-4821-86DC-C29928B35B7A\n"
+      }
+    },
+    {
+      "filename": "IMG_3323.PNG",
+      "sha256": "84f02f25ab82f814f544093ada97a4bdaaecc82a2c7844425d34af0d20d38f58",
+      "size": 386185,
+      "birth": "2026-08-08 01:06:13",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:13",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:13"
+      },
+      "assetsd": {
+        "UUID": "b'\\x83\\xe6&\\xcd\\x9f\\xe5G\\xd4\\x9c\\xbd\\xcd\\nB\\x89\\x81\\xa3\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x02\\xaa\\x80\\x84\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x02\\x80\\n'",
+        "originalFilename": "IMG_3323.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "83E626CD-9FE5-47D4-9CBD-CD0A428981A3\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;9E98B331-0B7D-42AD-BC53-1A22CCE958C9\n"
+      }
+    },
+    {
+      "filename": "IMG_3324.PNG",
+      "sha256": "5e4e7ad9d5ef5d23cc0bd14704c0c38197e0e448f07bc0833bf0e0dc682d39cb",
+      "size": 533336,
+      "birth": "2026-08-08 01:06:15",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:15",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:15"
+      },
+      "assetsd": {
+        "UUID": "b'(\\t7H\\x84\\x14OR\\x90\\xa7\\rt\\x92`\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x03\\xda\\x19]\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x03\\x80\\n'",
+        "originalFilename": "IMG_3324.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "28093748-8414-4F52-90A7-0D7492600040\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;4F4CDC45-E888-4CFA-8B2A-0D2E51FDB9BA\n"
+      }
+    },
+    {
+      "filename": "IMG_3325.PNG",
+      "sha256": "83b8b9257e3bba655e06f79c40fd096ab8d5f675766316321712dd52425f35f6",
+      "size": 370717,
+      "birth": "2026-08-08 01:06:20",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:20",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:20"
+      },
+      "assetsd": {
+        "UUID": "b'\\xb7%\\x19,\\xa4\\x05J>\\x85\\x8e\")\\xd9v\\x1d\\x17\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x06U\\x1d6\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x06\\n'",
+        "originalFilename": "IMG_3325.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "B725192C-A405-4A3E-858E-2229D9761D17\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;8EE9A93C-B3D1-4F12-89FF-AE095F7560CC\n"
+      }
+    },
+    {
+      "filename": "IMG_3326.PNG",
+      "sha256": "2efb83c102fa9e0ed2cdebf887014e3d771f9070de23728e7ab79cf8159ee9a3",
+      "size": 471853,
+      "birth": "2026-08-08 01:06:29",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:29",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:29"
+      },
+      "assetsd": {
+        "UUID": "b\"E\\x80l#A7A'\\xb6'\\xabr\\xfa\\xe2T\\xc6\\n\"",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\n\\xb6\\x16\\x94\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\n\\x80\\n'",
+        "originalFilename": "IMG_3326.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "45806C23-4137-4127-B627-AB72FAE254C6\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;1C1C1113-37AD-4C23-B8C4-BFBC633B14F2\n"
+      }
+    },
+    {
+      "filename": "IMG_3327.PNG",
+      "sha256": "7546bdbf738ece9d5d8eadafba50909ac6193455c1390d3894b00e64b4b327d3",
+      "size": 497445,
+      "birth": "2026-08-08 01:06:34",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:34",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:34"
+      },
+      "assetsd": {
+        "UUID": "b'\\xac\\xe5I\\xe1\\xebaD]\\x97\\xaf\\xd0N\\xed\\x15\\xd6\\xb5\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\ro\\xde\\xf0\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\r\\n'",
+        "originalFilename": "IMG_3327.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "ACE549E1-EB61-445D-97AF-D04EED15D6B5\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;C011BB63-D79A-436D-A51A-32E18DE85005\n"
+      }
+    },
+    {
+      "filename": "IMG_3328.PNG",
+      "sha256": "4f104cddf40a3a13cd4ade39c37cec0d2c8842860fb47c275a6d8afb0c09720d",
+      "size": 471802,
+      "birth": "2026-08-08 01:06:37",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:37",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:37"
+      },
+      "assetsd": {
+        "UUID": "b'\\xdb\\x894\\xfbh\\xe3I\\xfa\\xb7\\x9f\\xdf\\xc5\\xe5\\x8d#\\xd3\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x0e\\x99\\x1a]\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x0e\\x80\\n'",
+        "originalFilename": "IMG_3328.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "DB8934FB-68E3-49FA-B79F-DFC5E58D23D3\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;E46D3131-35EB-41AC-9140-3D325665CDAD\n"
+      }
+    },
+    {
+      "filename": "IMG_3329.PNG",
+      "sha256": "299246ca29b62696a07fe8a3dc44842f541c886c8138140c81b998c176dcd1b8",
+      "size": 509774,
+      "birth": "2026-08-08 01:06:39",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:39",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:39"
+      },
+      "assetsd": {
+        "UUID": "b'<\\xab\\xa3\\xee\\xcc\\xf5N$\\x9a$Z\\xe5\\xfd14\\xb1\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x0f\\xbcP\\r\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x0f\\x80\\n'",
+        "originalFilename": "IMG_3329.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "3CABA3EE-CCF5-4E24-9A24-5AE5FD3134B1\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;E01C926C-5BB3-4F3C-9036-69045752CEB6\n"
+      }
+    },
+    {
+      "filename": "IMG_3330.PNG",
+      "sha256": "0028060f0caee1d0d88f7fcecc03105157b6f65477bf38cb1100845a2c7c7c62",
+      "size": 499427,
+      "birth": "2026-08-08 01:06:41",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:41",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:41"
+      },
+      "assetsd": {
+        "UUID": "b'\\xbbE(\\xbd\\x07\\xceO\\xdc\\xa8LBWR\\x10\\xec/\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x10\\xcc\\x9bt\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x10\\x80\\n'",
+        "originalFilename": "IMG_3330.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "BB4528BD-07CE-4FDC-A84C-42575210EC2F\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;5556D466-015D-4DFC-8E29-999B644C83BB\n"
+      }
+    },
+    {
+      "filename": "IMG_3331.PNG",
+      "sha256": "1934e006391d0a4f4dad006206e81cccbe5e38b1778b85f363f5e490b5663ca0",
+      "size": 449607,
+      "birth": "2026-08-08 01:06:43",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:43",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:43"
+      },
+      "assetsd": {
+        "UUID": "b'\\xa6\\x9e\\x87\\x81\\xc5xO\\xf5\\x9fv\\xc3OXL\\xe1\\x1e\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x11\\xaa\\xf1\\xcc\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x11\\x80\\n'",
+        "originalFilename": "IMG_3331.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "A69E8781-C578-4FF5-9F76-C34F584CE11E\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;B6900E5E-B123-4AAF-9EAA-EB8B8C98397C\n"
+      }
+    },
+    {
+      "filename": "IMG_3332.PNG",
+      "sha256": "d51cb0ff2a88566b6bd02177f67ab63333b5c58f633ebdc5261b3de775d9512b",
+      "size": 465238,
+      "birth": "2026-08-08 01:06:44",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:44",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:44"
+      },
+      "assetsd": {
+        "UUID": "b'\\x0f\\xe5\\xbey4vE\\xc5\\x85.h4l\\xb2;\\xcc\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x12\\x80\\x93S\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x12\\n'",
+        "originalFilename": "IMG_3332.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "0FE5BE79-3476-45C5-852E-68346CB23BCC\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;67603C8D-E1A7-42BD-AA02-856298130E31\n"
+      }
+    },
+    {
+      "filename": "IMG_3333.PNG",
+      "sha256": "4e994977cc161a4bb9d0be618e950c8b865d0495ee4741831fabb3a41c6e43b0",
+      "size": 457986,
+      "birth": "2026-08-08 01:06:46",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:46",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:46"
+      },
+      "assetsd": {
+        "UUID": "b'\\xf2O\\xb9\\xf0\\x04\\tB\\x0c\\x95\\x88\\x8f\\x9b\\x1b]\\x05\\xde\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x13I\\x12\\xa1\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x13\\n'",
+        "originalFilename": "IMG_3333.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "F24FB9F0-0409-420C-9588-8F9B1B5D05DE\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;965BB5E8-360D-48DA-908E-7A45C8BF3480\n"
+      }
+    },
+    {
+      "filename": "IMG_3334.PNG",
+      "sha256": "a66ab1342d0a9654be86c18e78cb35edee056c899597d1da3d4e9e6419142aeb",
+      "size": 523015,
+      "birth": "2026-08-08 01:06:48",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:48",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:48"
+      },
+      "assetsd": {
+        "UUID": "b'9 \\xc9\\x85\\xf4\\x04C\\x92\\xa6B\\x11\\xecI\\xea\\x06f\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x145o\\xd2\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x14\\n'",
+        "originalFilename": "IMG_3334.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "3920C985-F404-4392-A642-11EC49EA0666\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;432B5C7C-F354-480B-A789-04C98084AFCB\n"
+      }
+    },
+    {
+      "filename": "IMG_3335.PNG",
+      "sha256": "b4f1b5d8d4c50c6ae7b272f73d1072bf14e8d0eee4b146eadee1419abe643417",
+      "size": 517206,
+      "birth": "2026-08-08 01:06:50",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:50",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:50"
+      },
+      "assetsd": {
+        "UUID": "b'H\\x8c\\xfa0V\\xd3@\\n\\xab\\xcc\\xcd\\x97\\xbd\\xe1\\tH\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x151\\xa3\\xe4\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x15\\n'",
+        "originalFilename": "IMG_3335.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "488CFA30-56D3-400A-ABCC-CD97BDE10948\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;402FCA33-A432-45D2-BF90-C9623C96D03A\n"
+      }
+    },
+    {
+      "filename": "IMG_3336.PNG",
+      "sha256": "fb098e752fe5a727a1b82bc3b14a48f893ecd914d5054fd77ed389a4828222a5",
+      "size": 456904,
+      "birth": "2026-08-08 01:06:52",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:52",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:52"
+      },
+      "assetsd": {
+        "UUID": "b'\\xf7,\\xd4\\xf8\\x82#N\\x8d\\xb5Dp\\xea\\x80\\x9b\\xf5R\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x16xy%\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x16\\n'",
+        "originalFilename": "IMG_3336.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "F72CD4F8-8223-4E8D-B544-70EA809BF552\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;F135A6CF-EFA4-434D-9A23-2F9BCD571DD2\n"
+      }
+    },
+    {
+      "filename": "IMG_3337.PNG",
+      "sha256": "90d2cc09f85ede4d0d9d606cab685dbc50c853ef9614fe3cf4b84a9373daab62",
+      "size": 511895,
+      "birth": "2026-08-08 01:06:54",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:54",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:54"
+      },
+      "assetsd": {
+        "UUID": "b'\\xe1\\x95\\xcaQn\\x87K\\xc3\\xa8\\x0f\\x1f\\xd3z\\xca\\x82\\x9f\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x17j\\xb0\\xfb\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x17\\n'",
+        "originalFilename": "IMG_3337.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "E195CA51-6E87-4BC3-A80F-1FD37ACA829F\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;3CE0B0B9-8E01-40E5-B036-2056A91BFA85\n"
+      }
+    },
+    {
+      "filename": "IMG_3338.PNG",
+      "sha256": "d001c7de3c4855133ac8722f11a6842989c35833e89c31d752a4a0feb7f03638",
+      "size": 521289,
+      "birth": "2026-08-08 01:06:56",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:56",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:56"
+      },
+      "assetsd": {
+        "UUID": "b'9>H{\\x15tB\\x12\\x80P\\x18Agj\\x9b\\x12\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x18[\\xf8\\xec\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x18\\n'",
+        "originalFilename": "IMG_3338.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "393E487B-1574-4212-8050-1841676A9B12\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;EE2F9FB6-908E-4E99-90FB-C30CEA4045AF\n"
+      }
+    },
+    {
+      "filename": "IMG_3339.PNG",
+      "sha256": "fb3de90c23e180e4f2f9efbd44fb294cda2ddede9a7283586e11165e060550e5",
+      "size": 487305,
+      "birth": "2026-08-08 01:06:59",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:06:59",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:06:59"
+      },
+      "assetsd": {
+        "UUID": "b'\\x0c\\x84\\xe1st0A\\xb6\\xa5X(3\\x17e\\xbd;\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x1a\\x06\\xf9\\xd3\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x19\\x80\\n'",
+        "originalFilename": "IMG_3339.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "0C84E173-7430-41B6-A558-28331765BD3B\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;341357FC-FF9D-4402-A272-EDDEB01D480D\n"
+      }
+    },
+    {
+      "filename": "IMG_3340.PNG",
+      "sha256": "55ee702047cefd318b8e51d65f0f1901715b014349bc7a666abcd3e63540dfb6",
+      "size": 441869,
+      "birth": "2026-08-08 01:07:02",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:02",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:02"
+      },
+      "assetsd": {
+        "UUID": "b'\\xee/\\xf8\\xf6\\x05\\xfeE\\xee\\xb4w\\xe3\\x8f\\xf5\\x07\\xc2\\xe6\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x1b#\\xd0t\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x1b\\n'",
+        "originalFilename": "IMG_3340.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "EE2FF8F6-05FE-45EE-B477-E38FF507C2E6\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;F96B0EF3-0FDB-44DF-8E4A-3C0D9094C8A3\n"
+      }
+    },
+    {
+      "filename": "IMG_3341.PNG",
+      "sha256": "256ef7154c6c1947b0799b52993d070e75388dcb33f1e7992a2bd7764f39fd5a",
+      "size": 436920,
+      "birth": "2026-08-08 01:07:04",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:04",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:04"
+      },
+      "assetsd": {
+        "UUID": "b',\\x87\\x83$\\x1b\\x9bC\\xf3\\xbcI\\xe9\\x03\\xfb\\xb0\\x0c\\xaa\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x1c\\x19u\\xd1\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x1c\\n'",
+        "originalFilename": "IMG_3341.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "2C878324-1B9B-43F3-BC49-E903FBB00CAA\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;CD50FE66-D4F1-4A91-A787-959F0A592565\n"
+      }
+    },
+    {
+      "filename": "IMG_3342.PNG",
+      "sha256": "47f5b2beed02ee0f2cf45fb810016803331fe9386a8636347968918a534ba521",
+      "size": 455439,
+      "birth": "2026-08-08 01:07:06",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:06",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:06"
+      },
+      "assetsd": {
+        "UUID": "b'_\\xdf\\x13R\\xa7\\x17Ee\\xab\\x08V\\xc3\\xbd\\xc0\\xea\\r\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x1d\\x10\\xe6\\xeb\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x1d\\n'",
+        "originalFilename": "IMG_3342.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "5FDF1352-A717-4565-AB08-56C3BDC0EA0D\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;9BD6AD51-6B29-452C-8E99-F80145787D0B\n"
+      }
+    },
+    {
+      "filename": "IMG_3343.PNG",
+      "sha256": "871bfb81ec9de2427854e60d660c8091362d4d6bb87b4bfd3762799ff42ece4d",
+      "size": 457682,
+      "birth": "2026-08-08 01:07:08",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:08",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:08"
+      },
+      "assetsd": {
+        "UUID": "b'\\xb5\\xbb\\xa4\\xea+\\xc3D?\\x9b\\xaa\\xd3\\x9c\\x1eU&\\xcd\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x1e\\x11=S\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x1e\\n'",
+        "originalFilename": "IMG_3343.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "B5BBA4EA-2BC3-443F-9BAA-D39C1E5526CD\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;6A488AEC-DF7E-42F2-AE7F-52096556BF5D\n"
+      }
+    },
+    {
+      "filename": "IMG_3344.PNG",
+      "sha256": "f10046f921f4dd1b6c8c71f326373434956d9b0d830b7239f9ffed7959b5fa7b",
+      "size": 471544,
+      "birth": "2026-08-08 01:07:10",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:10",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:10"
+      },
+      "assetsd": {
+        "UUID": "b'\\x96B\\xa3\\xa3\\xb0MJ\\xc9\\x92\\xf8\\xbd\\xc9\\xafXIS\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\x1f\\x131\\n\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x1f\\n'",
+        "originalFilename": "IMG_3344.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "9642A3A3-B04D-4AC9-92F8-BDC9AF584953\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;CFDA81CE-1A0F-44E5-9B26-04D87D94CED3\n"
+      }
+    },
+    {
+      "filename": "IMG_3345.PNG",
+      "sha256": "e5bea6a3005208c3c4cfe3506a733646a5607f9083ccf19695eac0d9ff19cc96",
+      "size": 469773,
+      "birth": "2026-08-08 01:07:11",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:11",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:11"
+      },
+      "assetsd": {
+        "UUID": "b'\\xcd\\xee%\\xa2\\xe2\\xc3F\\x80\\xa0f\\xd6j\\xferDE\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$ \\x04\\x03\\x8a\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\x1f\\x80\\n'",
+        "originalFilename": "IMG_3345.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "CDEE25A2-E2C3-4680-A066-D66AFE724445\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;3A2373FC-E7DA-442A-A2D1-CE087E465FE4\n"
+      }
+    },
+    {
+      "filename": "IMG_3346.PNG",
+      "sha256": "26caf788c9ae3a07030e46e905a88e8eccfb677aba036064c0c408430b70d1ea",
+      "size": 455903,
+      "birth": "2026-08-08 01:07:16",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:16",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:16"
+      },
+      "assetsd": {
+        "UUID": "b\"D}\\xcb\\xf5\\xe5'Ow\\xa2\\x85d\\xd8\\x90\\xf6\\x86\\xe1\\n\"",
+        "addedDate": "b'bplist003A\\xc8\\x13$\"\\x13\\xec\\x81\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\"\\n'",
+        "originalFilename": "IMG_3346.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "447DCBF5-E527-4F77-A285-64D890F686E1\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;C94A310E-6EBC-4FD4-8EA7-15CF06F843E5\n"
+      }
+    },
+    {
+      "filename": "IMG_3347.PNG",
+      "sha256": "9ed00b4898ae60ce5eb2be55c7ac9753c56f79ab74ea69c9a8e77324ebff0715",
+      "size": 473357,
+      "birth": "2026-08-08 01:07:18",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:18",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:18"
+      },
+      "assetsd": {
+        "UUID": "b'\\xd9i\\xba^\\t\\x1eD\\xfc\\x95_\\x97,I\\xb1\\x95\\xbb\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$#\\x87V;\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$#\\n'",
+        "originalFilename": "IMG_3347.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "D969BA5E-091E-44FC-955F-972C49B195BB\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;ACE90FCB-D00B-42B4-80D8-0B99FE808E4F\n"
+      }
+    },
+    {
+      "filename": "IMG_3348.PNG",
+      "sha256": "ed2b6b4e1fb1d2e1ddb6049d4b4254cebec9674d7ce319308f1fb6547d9c476c",
+      "size": 467646,
+      "birth": "2026-08-08 01:07:21",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:21",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:21"
+      },
+      "assetsd": {
+        "UUID": "b'3\"1\\xfc\"\\x0bG@\\x88\\xcf.\\x84\\x84!\\xdbt\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$$\\xc8iI\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$$\\x80\\n'",
+        "originalFilename": "IMG_3348.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "332231FC-220B-4740-88CF-2E848421DB74\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;0281FA64-1705-401A-B7E6-80A2F14809E7\n"
+      }
+    },
+    {
+      "filename": "IMG_3349.PNG",
+      "sha256": "58811eff200e26d779c4230e53bd06525d5e4cce5d24be3ec4923469c005c2cd",
+      "size": 497240,
+      "birth": "2026-08-08 01:07:23",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:23",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:23"
+      },
+      "assetsd": {
+        "UUID": "b'\\xa0\\x8cX\\x98\\x97\\x8eH\\xfe\\x8c\\xdb\\xd9Ybc\\xee\\x1e\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$%\\xf3\\xe2i\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$%\\x80\\n'",
+        "originalFilename": "IMG_3349.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "A08C5898-978E-48FE-8CDB-D9596263EE1E\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;C5C48AD5-EF98-4ECA-AF80-AB610B0F2CDD\n"
+      }
+    },
+    {
+      "filename": "IMG_3350.PNG",
+      "sha256": "74d196529d41f9ea2b92de3f0e67a063deee4a6df8c438a0ecab6af8cb0516c0",
+      "size": 514994,
+      "birth": "2026-08-08 01:07:26",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:26",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:26"
+      },
+      "assetsd": {
+        "UUID": "b'1\\x1f\\xb3^!nM\\xb9\\x8c\\xbcu\\xc3\\x89\\xac\\x83\\x84\\n'",
+        "addedDate": "b\"bplist003A\\xc8\\x13$'0\\xd2\\xc4\\x08\\n\"",
+        "customCreationDate": "b\"bplist003A\\xc8\\x13$'\\n\"",
+        "originalFilename": "IMG_3350.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "311FB35E-216E-4DB9-8CBC-75C389AC8384\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;A36A74A3-C3BC-41EF-AD9D-D22BC2550F7A\n"
+      }
+    },
+    {
+      "filename": "IMG_3351.PNG",
+      "sha256": "3c926dd23da799c6cff6906e8a6e724f6865af248496e0791d4a0832617c0211",
+      "size": 455690,
+      "birth": "2026-08-08 01:07:28",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:28",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:28"
+      },
+      "assetsd": {
+        "UUID": "b'\\x1fo\\xe6\\x1c\\xff\\x01Mv\\x9fp\\xcc\\xb2\\xa1_\\xac\\xaa\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$(Lu\\x0c\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$(\\n'",
+        "originalFilename": "IMG_3351.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "1F6FE61C-FF01-4D76-9F70-CCB2A15FACAA\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;310AD788-F825-4055-84AE-5089E8061E0F\n"
+      }
+    },
+    {
+      "filename": "IMG_3352.PNG",
+      "sha256": "bd715d65667db81531814a179d72bd12b7f7bd5df51c3edabcb6e67a6f1c1594",
+      "size": 507399,
+      "birth": "2026-08-08 01:07:31",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:31",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:31"
+      },
+      "assetsd": {
+        "UUID": "b'\\xeb\\xe6Z9j\\xed@\\xb5\\x92\\x0b\\xd3\\x13\\x0b\\xe1\\xa4\\xd6\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$)\\xb6?\\x03\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$)\\x80\\n'",
+        "originalFilename": "IMG_3352.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "EBE65A39-6AED-40B5-920B-D3130BE1A4D6\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;372CC418-C7A1-4728-98B0-6D3686397498\n"
+      }
+    },
+    {
+      "filename": "IMG_3353.PNG",
+      "sha256": "7ad94a4d10b415df2b9228fa21f21f962e4b7b56fb7c2843372253502480590d",
+      "size": 484538,
+      "birth": "2026-08-08 01:07:33",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:33",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:33"
+      },
+      "assetsd": {
+        "UUID": "b'\\x8f;\\xe9\\x99\\x0f\"O\\xd1\\x98z\\xbaV\\xa6\\x9a|\\xcc\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$*\\xb9g<\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$*\\x80\\n'",
+        "originalFilename": "IMG_3353.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "8F3BE999-0F22-4FD1-987A-BA56A69A7CCC\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;D65CE527-F177-41FA-ACE7-22D11C597C3E\n"
+      }
+    },
+    {
+      "filename": "IMG_3354.PNG",
+      "sha256": "b5388773afb85df91f15d7b276db011e48f4a3d4de5947c25fb06b50571c62bc",
+      "size": 400140,
+      "birth": "2026-08-08 01:07:35",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:35",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:35"
+      },
+      "assetsd": {
+        "UUID": "b'\\xcb\\xd20~NCD\\x8c\\x8f\\x1e\\xbf\\xc6\\xbe\\xb9V\\xce\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$+\\xc2\\xc3\\xdb\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$+\\x80\\n'",
+        "originalFilename": "IMG_3354.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "CBD2307E-4E43-448C-8F1E-BFC6BEB956CE\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;0097800B-7608-42DD-B042-87702E244C7C\n"
+      }
+    },
+    {
+      "filename": "IMG_3355.PNG",
+      "sha256": "d75b5ac82795db95d8993604e1fb9c4af4b01463d641a32d6d5c65d889a9585a",
+      "size": 420553,
+      "birth": "2026-08-08 01:07:38",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:38",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:38"
+      },
+      "assetsd": {
+        "UUID": "b'\\xa3\\x89\\xedW\\xfb\\xbeG\\x9a\\xae\\xe6)Y\\x8f\\x13@\\xa9\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$-\\x14\\x0e\\xb6\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$-\\n'",
+        "originalFilename": "IMG_3355.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "A389ED57-FBBE-479A-AEE6-29598F1340A9\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;78ADD910-C776-4E1A-9853-92A1E2D46D30\n"
+      }
+    },
+    {
+      "filename": "IMG_3356.PNG",
+      "sha256": "7a5535efc9d736a047a2e53783aa6441f7f5255ade770f2bcf2c41c0e7d29f88",
+      "size": 484856,
+      "birth": "2026-08-08 01:07:40",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:40",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:40"
+      },
+      "assetsd": {
+        "UUID": "b'\"h\\x9c\\xe4x\\xecO\\x16\\x8aT\\xd8\\x1ad\\xe7\\x19\\xda\\n'",
+        "addedDate": "b\"bplist003A\\xc8\\x13$.'\\x9c\\xfa\\x08\\n\"",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$.\\n'",
+        "originalFilename": "IMG_3356.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "22689CE4-78EC-4F16-8A54-D81A64E719DA\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;1125DBA9-C4A3-4EE0-81E4-0FC784C60F4E\n"
+      }
+    },
+    {
+      "filename": "IMG_3357.PNG",
+      "sha256": "12032fd3eccca4cf5a9a6e96154ef4dda19bc6b69f73dde5150a27d9ae102ce9",
+      "size": 522303,
+      "birth": "2026-08-08 01:07:42",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:42",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:42"
+      },
+      "assetsd": {
+        "UUID": "b'\\x1f\\xa7f\\x7f\\xaa\\xadM\\x80\\xbe\\x1c\\xe4>\\x88\\xadGI\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$/&-\\x95\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$/\\n'",
+        "originalFilename": "IMG_3357.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "1FA7667F-AAAD-4D80-BE1C-E43E88AD4749\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;C091CE3C-EF19-41EC-AC72-7CA4B2A8F727\n"
+      }
+    },
+    {
+      "filename": "IMG_3358.PNG",
+      "sha256": "f4159cfe4f295825b3b9baae331d8ae9a32099403182bc94de903428cccf2c91",
+      "size": 532686,
+      "birth": "2026-08-08 01:07:45",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:07:45",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "ColorSpace": 1,
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:07:45"
+      },
+      "assetsd": {
+        "UUID": "b'3\\x9d\\xef8\\xe4R@\\xd2\\x84\\x12\\x9cS@{\\xa04\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$0\\xda\\xf0\\xd0\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$0\\x80\\n'",
+        "originalFilename": "IMG_3358.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "339DEF38-E452-40D2-8412-9C53407BA034\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;0014787D-2730-4031-8D5E-D93F0B29AF12\n"
+      }
+    },
+    {
+      "filename": "IMG_3359.PNG",
+      "sha256": "93dbc26c54828d1cfef0ac615a2ff755da7a5a4d8ef6638735b75adc6e05eba3",
+      "size": 2569646,
+      "birth": "2026-08-08 01:13:19",
+      "exif": {
+        "Orientation": 1,
+        "ExifIFDPointer": 38,
+        "Exif": {
+          "DateTimeOriginal": "2026:08:08 01:13:19",
+          "UserComment": "415343494900000053637265656e73686f74",
+          "PixelXDimension": 1284,
+          "PixelYDimension": 2778
+        }
+      },
+      "xmp": {
+        "exif:UserComment": "Screenshot",
+        "photoshop:DateCreated": "2026-08-08T01:13:19"
+      },
+      "assetsd": {
+        "UUID": "b'8\\x86\\xb3\\x9a&\\x19O9\\xba7qV\\x82\\xdb.\\xa3\\n'",
+        "addedDate": "b'bplist003A\\xc8\\x13$\\xd7\\xb5\\x8f\\x04\\x08\\n'",
+        "customCreationDate": "b'bplist003A\\xc8\\x13$\\xd7\\x80\\n'",
+        "originalFilename": "IMG_3359.PNG\n",
+        "creatorBundleID": "com.apple.springboard\n",
+        "importedBy": "\b\n",
+        "importedByDisplayName": "SpringBoard\n",
+        "timeZoneName": "Australia/Perth\n",
+        "timeZoneOffset": "b'\\x80p\\n'",
+        "cloudAsset.UUID": "3886B39A-2619-4F39-BA37-715682DB2EA3\n",
+        "assetType": "\u0003\n",
+        "quarantine": "0081;6a761239;sharingd;1C038F63-FFD6-4666-BC6A-01650EB92181\n"
+      }
+    }
+  ]
+}

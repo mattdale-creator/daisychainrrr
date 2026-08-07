@@ -1,0 +1,396 @@
+{
+  "schema": "ttllm.manifest.v1",
+  "merkle_root": "064a18b5a8463aa0c57a543a720b3d95214dd29bbe79da1b41c6aeb28d0eb3bf",
+  "count": 77,
+  "leaves": [
+    {
+      "path": "LICENSE",
+      "sha256": "337a232fcdbebfdcf117bf0298e5f705da3fe7c3034cf5a6fdf78fd144b4d572",
+      "bytes": 981
+    },
+    {
+      "path": "Makefile",
+      "sha256": "5c80982ec895eb72bf14356bbc5da6111f2e1f05c1f6a8d1b7001b395d45beb4",
+      "bytes": 253
+    },
+    {
+      "path": "README.md",
+      "sha256": "334464086bedc8d53f408b42eb6a5ec098551cfc691f7287a2d8a1f64913c045",
+      "bytes": 5735
+    },
+    {
+      "path": "continuity/ASSET_INVENTORY.md",
+      "sha256": "69746a7148bcd34574c08b7a49688a23fcecb6a6a0f1d5dd82d95850eed6979d",
+      "bytes": 288
+    },
+    {
+      "path": "continuity/COVENANT.md",
+      "sha256": "77399597d6b77b25e44b8210465d10dc3cf65918ca26ded487b3d36c8d859186",
+      "bytes": 397
+    },
+    {
+      "path": "docs/architecture/commercial-layers.md",
+      "sha256": "f1e34e87064bbd6be96bef917d9b898655502f59ebb85f8687eb333f01f3986f",
+      "bytes": 712
+    },
+    {
+      "path": "docs/architecture/free-public-core.md",
+      "sha256": "e49dc2b1aca601f78cb7ce4017772d9a199355b69c94a68d88728a5e0e328ff1",
+      "bytes": 866
+    },
+    {
+      "path": "docs/architecture/matrix-surface.md",
+      "sha256": "2cca1c1c19a2e1fb1aa9a1dabbacd3b187ff25eb8653e7a47512b2a9435d8189",
+      "bytes": 367
+    },
+    {
+      "path": "docs/architecture/stream.md",
+      "sha256": "59dff6975670d642deaddcec47426523983f9df7dd5861ad1df501d320380727",
+      "bytes": 519
+    },
+    {
+      "path": "docs/architecture/ttlink.md",
+      "sha256": "853a41f0caa6749e17c0a10da776a60cd2c5a0510bbaf183fa64b89da722ff2d",
+      "bytes": 934
+    },
+    {
+      "path": "docs/business/financial-model-10y.md",
+      "sha256": "121636c239b63c21041e09bd0d3977a10d7ff4fee3bc1da830c50befd0b789b5",
+      "bytes": 1077
+    },
+    {
+      "path": "docs/business/mba-business-plan.md",
+      "sha256": "e934467d25ae47f40670fbd36f8aaa059b4d031a67423de15717c9c116d152c0",
+      "bytes": 1307
+    },
+    {
+      "path": "docs/business/paid-layers.md",
+      "sha256": "06018be4f469228a8da25a976a17669a00bc0cb3936ff6adf77bb50bbcd6601d",
+      "bytes": 292
+    },
+    {
+      "path": "docs/business/pitch.md",
+      "sha256": "a0a6053f865a3bdd9c7f0d086ef6f053861361c5d47a380b5ace221e4be4e077",
+      "bytes": 929
+    },
+    {
+      "path": "docs/business/sales-pitch.md",
+      "sha256": "6f4417e80411a40bebff14e673c07413575ef1cd1dd7cc8a88aad0e71a467a9a",
+      "bytes": 587
+    },
+    {
+      "path": "docs/culture/company-culture.md",
+      "sha256": "aa1dad6bf6ad0d70abac0dfb409b8c58ae9fe26b0f4016e0d4e3ed15f00dca4a",
+      "bytes": 520
+    },
+    {
+      "path": "docs/culture/down-to-the-bone.md",
+      "sha256": "767efe7a42a5c4532670f4dbbf08f29d3eebe52d697e51df8b64ac10e6543b7a",
+      "bytes": 236
+    },
+    {
+      "path": "docs/culture/remember-youre-on-drugs.md",
+      "sha256": "b417bfbe89d3a6f07bd3c84711b6d65492f14f49e915d21d9a474692f6cea0fc",
+      "bytes": 361
+    },
+    {
+      "path": "docs/glossary.md",
+      "sha256": "812c805e1cfe27ab0c5ab78c91e4ccdd25b325fcf21da68a600b41d99f0d6e57",
+      "bytes": 1280
+    },
+    {
+      "path": "docs/manifesto.md",
+      "sha256": "432a0abf9321f56c6dd5dc34461f5a0f5e1e57ae9479fa44319d0b7478dee9b0",
+      "bytes": 2413
+    },
+    {
+      "path": "docs/security/pliny-cco-notes.md",
+      "sha256": "a64f9c85bd6b22042e325b479b0015af8a12a96587b2a2ed0a08bad68c22f305",
+      "bytes": 459
+    },
+    {
+      "path": "docs/security/red-team-standard.md",
+      "sha256": "0b220776a864d1a41ac3d4802b98338f063c17518b6a2ef3b6a29545f8f2cb0f",
+      "bytes": 439
+    },
+    {
+      "path": "docs/security/threat-model.md",
+      "sha256": "c2e9136d64e7473bd110f99b61746c5c16c9496eeeb6ad9b379f74bd6aebb813",
+      "bytes": 828
+    },
+    {
+      "path": "docs/specs/00-master.md",
+      "sha256": "a3b2e210449341ea4849b6f8e318d8d4570176efe591c4065d189ed8493747aa",
+      "bytes": 904
+    },
+    {
+      "path": "docs/specs/01-governance.md",
+      "sha256": "c65ab021dc5a8c91dc0bda53f8a9762c5e032db061a77053dfe089e56b60e14f",
+      "bytes": 1033
+    },
+    {
+      "path": "docs/specs/02-ownership-funding.md",
+      "sha256": "e7a2d3712b0abf760f92a416de3ff003c7c356314181d54514ca82e5be259385",
+      "bytes": 678
+    },
+    {
+      "path": "docs/specs/03-data-governance.md",
+      "sha256": "0b1a3f1c9f5b169af742e32aff786847bbc12af804c3d7240065617ae0f54280",
+      "bytes": 610
+    },
+    {
+      "path": "docs/specs/04-evaluation.md",
+      "sha256": "735a0d271156e0526d181077808a4b6780f49676c43d0c7e06b495d9308c629a",
+      "bytes": 459
+    },
+    {
+      "path": "docs/specs/05-incident-disclosure.md",
+      "sha256": "47db432c0da03919f8e199dbb9887c88bb3c88646a68d4e27cd95f749fb90fe5",
+      "bytes": 496
+    },
+    {
+      "path": "docs/specs/06-compensation.md",
+      "sha256": "c1fbbc123870311e1f4e80fe463cc625ceed993f1bbd6b17ea685a7c6106517e",
+      "bytes": 422
+    },
+    {
+      "path": "docs/specs/07-supply-chain.md",
+      "sha256": "9f9e895f78637945a052925c1659733385001ee1753210db2c6c539e459970ed",
+      "bytes": 439
+    },
+    {
+      "path": "docs/specs/08-boundary-rules.md",
+      "sha256": "2de63be4544f5fc6045dab76419888e51b9a55304466f89a21ae8db7c772d79f",
+      "bytes": 850
+    },
+    {
+      "path": "docs/specs/09-stewardship.md",
+      "sha256": "ee44b38b963c28e2b3a83003d6f8c61421ef40528cbd19142280af553cc49302",
+      "bytes": 541
+    },
+    {
+      "path": "docs/specs/10-red-team-publication.md",
+      "sha256": "5d5a87d2558fa50729516e3d55ef92cc0e445020f2270430116d157ad91939e5",
+      "bytes": 649
+    },
+    {
+      "path": "examples/corpus/01_manifesto_excerpt.txt",
+      "sha256": "171e184f68f1031a3f1ae2a9a25bc4f1cbda35778d8ed52c0f96b84b4f4c9b15",
+      "bytes": 195
+    },
+    {
+      "path": "examples/corpus/02_olmo_note.txt",
+      "sha256": "49a13426f7b0876ee01b672b06b4fd02357b3c33ef60eefc2d672112761d35f6",
+      "bytes": 134
+    },
+    {
+      "path": "examples/corpus/03_business.txt",
+      "sha256": "ec5f382e384759a76513ce25f14137ca25a1e4b46a573c6db691183b05a40d40",
+      "bytes": 131
+    },
+    {
+      "path": "examples/ttlink_index.json",
+      "sha256": "243a797b2d9d0ea812819afdf02fa83b48884ca15c594d5aec855932b01fc044",
+      "bytes": 1151
+    },
+    {
+      "path": "founding/PROVENANCE.md",
+      "sha256": "d173c9833db9f01fbed4d3bcefae53b8eed7bf5836d7ece5a81d4222cd54eea9",
+      "bytes": 1165
+    },
+    {
+      "path": "founding/conversation/FULL_CONVERSATION_WITH_THOUGHTS.md",
+      "sha256": "a82f074149d3c248f2588637bd7a416a15b3bacd807edfb987be6c3881b89912",
+      "bytes": 244423
+    },
+    {
+      "path": "founding/conversation/README.md",
+      "sha256": "401e30c6c0ec1aaa460eafab3f38602e4c7ef4ab0ba02409348c029644cd0b50",
+      "bytes": 926
+    },
+    {
+      "path": "founding/conversation/STATS.json",
+      "sha256": "50af2141c38f80140222b67f3c36f88db0094c9aace1a5087066f9894af4a1d9",
+      "bytes": 5671
+    },
+    {
+      "path": "founding/conversation/TRANSCRIPT_ONLY.md",
+      "sha256": "76d57d5a2c9778f322b6779b4783f3dfc5238907f4d4aece2ff0f45309e02f2e",
+      "bytes": 199021
+    },
+    {
+      "path": "founding/conversation/USER_PROMPTS.md",
+      "sha256": "516387285794384980b8c346556f390381706e61bd37163afac4d34de94c85f7",
+      "bytes": 17576
+    },
+    {
+      "path": "founding/conversation/conversation_raw.json",
+      "sha256": "610bf0df0365e85eaf5bd8bf26a73b25aa4443425add1e7e6340c203c797a77f",
+      "bytes": 1441923
+    },
+    {
+      "path": "founding/proof_rip/PROOF_RIP_MASTER_INDEX.csv",
+      "sha256": "5176ad3154a1cf34f542c5871dffc97ad19ff5336c210487a77a22f9bbac008d",
+      "bytes": 18856
+    },
+    {
+      "path": "founding/proof_rip/PROOF_RIP_MASTER_INDEX.json",
+      "sha256": "c6c4dcf7c00d189b139ac1d767cc5267a94f76284954898a9bed8cb44c9f3280",
+      "bytes": 79000
+    },
+    {
+      "path": "founding/proof_rip/PROOF_RIP_METADATA_EVIDENCE.md",
+      "sha256": "fdefce57d987a0e309f467c8a8efb1e48e19d8c8069f069b83acafe206ad98dc",
+      "bytes": 359043
+    },
+    {
+      "path": "founding/proof_rip/PROOF_RIP_METADATA_FULL.json",
+      "sha256": "0a46c1124f9f874dcdf35369cb1d96d3d5ec68b1a8825e26f610cc95b93f4147",
+      "bytes": 402802
+    },
+    {
+      "path": "founding/proof_rip/PROOF_RIP_ORIGIN_TIME_DEEP.json",
+      "sha256": "f808d639c960f174a1c74e4ea59258534b963aba315c2e14004a169a7064d781",
+      "bytes": 73964
+    },
+    {
+      "path": "founding/proof_rip/PROOF_RIP_SHA256_MANIFEST.txt",
+      "sha256": "2d2066390acbaeffc65bf0265f9add4911b0c8507cb6aab07c94d0961febddcf",
+      "bytes": 4345
+    },
+    {
+      "path": "founding/proof_rip/PROOF_RIP_TIME_ORIGIN_REPORT.md",
+      "sha256": "96455eaecb4108768bade7b0a9eea1854dcd2c74477d3c45c178ae581a7922e5",
+      "bytes": 23793
+    },
+    {
+      "path": "founding/proof_rip/README.md",
+      "sha256": "5152f00113dfe5d78c57ee1b4b746441295e683534437b37d470bea7d63e8a85",
+      "bytes": 476
+    },
+    {
+      "path": "free_core/__init__.py",
+      "sha256": "b7b2cd385cdcaad6f61915ad566c43bc3d8987f02823efdd1b0676ed96d6974d",
+      "bytes": 52
+    },
+    {
+      "path": "free_core/provenance/__init__.py",
+      "sha256": "7027d30d66ffdefe99fd030fda73c5d70a04ff1b27910ca7829ab695c86b781b",
+      "bytes": 182
+    },
+    {
+      "path": "free_core/provenance/cli.py",
+      "sha256": "4935e97367de1ad7aac9046720794121488122b3ba8fdc42d55a94ddaec7ff96",
+      "bytes": 2903
+    },
+    {
+      "path": "free_core/provenance/hashing.py",
+      "sha256": "d4a76cd1a1f0ca7c176700d5c745c100de5fa05d6c0ea5f3f3d1ed3fb0997a45",
+      "bytes": 641
+    },
+    {
+      "path": "free_core/provenance/manifest.py",
+      "sha256": "b440cf61d7e33088d1d49e7b42435a13acb86b9113233190f811d2282b489054",
+      "bytes": 3693
+    },
+    {
+      "path": "free_core/provenance/sign.py",
+      "sha256": "011be18e212af313f16fc8409cdfe38eef9f2150ce3a2ecd1211d2e56862f67b",
+      "bytes": 2629
+    },
+    {
+      "path": "free_core/schemas/manifest.schema.json",
+      "sha256": "ea18c99dc3b9e0f1da598174883a3219250f79a5468670729f662d341d31b379",
+      "bytes": 719
+    },
+    {
+      "path": "free_core/stream/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "free_core/stream/cli.py",
+      "sha256": "ac0fbb0fcfad25ad386210e40bee716f11a6b1a6a18ca0bb3ca83387bdf2d279",
+      "bytes": 436
+    },
+    {
+      "path": "free_core/stream/schema.py",
+      "sha256": "5f30426390e3ea20e9da74f0a3c6a4dc15a29b2d9181d4c4980f67b6a7d8bf41",
+      "bytes": 1310
+    },
+    {
+      "path": "free_core/ttlink/__init__.py",
+      "sha256": "6b97d223b86601a5d4e77b061b9a8401e568f4a73e64830ecb70ed39631d7d78",
+      "bytes": 31
+    },
+    {
+      "path": "free_core/ttlink/cli.py",
+      "sha256": "7ac726f40950d07f9662fc1d970aae2c6e0a70c5d465430f260c18dad55548ef",
+      "bytes": 1293
+    },
+    {
+      "path": "free_core/ttlink/index.py",
+      "sha256": "873a732b11c607f46ba10937834490ed7152ea8c06576808303aafa4bc730274",
+      "bytes": 3445
+    },
+    {
+      "path": "prompts/FOUNDING_BATTERY_v1.md",
+      "sha256": "516387285794384980b8c346556f390381706e61bd37163afac4d34de94c85f7",
+      "bytes": 17576
+    },
+    {
+      "path": "prompts/MULTI_AI_PROTOCOL.md",
+      "sha256": "ec91fa94892fccbc50772f0e038616c39d3659c01f071ae9a575a32ed6656aac",
+      "bytes": 269
+    },
+    {
+      "path": "prompts/README.md",
+      "sha256": "c8e7952f409e64e4dcd8e6ec3562f6ad814cc7c50ad8b58d8b0c89701735c01e",
+      "bytes": 180
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f8a1c84e385064f6a973270f684255e146d5d7a1756047bf6b56ed9fec6a28ca",
+      "bytes": 754
+    },
+    {
+      "path": "registers/decision_log.md",
+      "sha256": "28236640e57f1e2c65b895fd9826ef0cf688e4ffe752ed9ec8838e8827db9614",
+      "bytes": 361
+    },
+    {
+      "path": "registers/funding.md",
+      "sha256": "dc5970ae5c139f5379c0820257506e058dfa9a71b715770cbefe46742ced6341",
+      "bytes": 169
+    },
+    {
+      "path": "registers/legal_requests.md",
+      "sha256": "ade2d056e14dddf7dceefceef0f8673979be5cb371d83f6bbea64015a9e6e036",
+      "bytes": 135
+    },
+    {
+      "path": "registers/red_team_findings.md",
+      "sha256": "8ddeec2cd94dde7c0687e42323a75827224111df0b8ac2f1bc0e19663eddb701",
+      "bytes": 273
+    },
+    {
+      "path": "site/README.md",
+      "sha256": "d31e8c616aebd76f1dc7319d0080cd34fa4137d9fe097c570f1087afbc5c818a",
+      "bytes": 73
+    },
+    {
+      "path": "site/index.html",
+      "sha256": "3a50ae6c88c76150e60ef5e9fc8688b48bb7a9d4b7c4077d5aa71b95f26c6bdc",
+      "bytes": 1268
+    },
+    {
+      "path": "site/styles.css",
+      "sha256": "f29dacd785fb7eb85a3fbd18c02df651ef87c3c85622c6848da23d60ad27d648",
+      "bytes": 719
+    }
+  ],
+  "extra": {
+    "seal": "free_public_core",
+    "repo": "daisychainrrr"
+  }
+}

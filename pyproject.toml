@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ttllm-free-core"
+version = "0.1.0"
+description = "TTLLM free public core: cryptographic provenance + reference ttlink"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "TTLLM / daisychainrrr contributors" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+crypto = ["cryptography>=42.0"]
+
+[project.scripts]
+ttllm-manifest = "free_core.provenance.cli:main"
+ttllm-ttlink = "free_core.ttlink.cli:main"
+ttllm-stream = "free_core.stream.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["free_core*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

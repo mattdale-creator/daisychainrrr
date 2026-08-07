@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ttllms.com/schemas/manifest.v1.json",
+  "title": "TTLLM Merkle Manifest v1",
+  "type": "object",
+  "required": ["schema", "merkle_root", "count", "leaves"],
+  "properties": {
+    "schema": { "const": "ttllm.manifest.v1" },
+    "merkle_root": { "type": ["string", "null"] },
+    "count": { "type": "integer" },
+    "leaves": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": { "type": "string" },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "bytes": { "type": "integer" }
+        }
+      }
+    }
+  }
+}
