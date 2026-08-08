@@ -23,18 +23,26 @@
 | Zones on Cloudflare NS | dahlia / george |
 | Free-core monorepo + founding pack | yes |
 | Pages project `ttllms` | created; site deployed |
-| Custom domains on Pages | attached (pending CNAME) |
+| Custom domains on Pages | attached; **ttllms.com apex HTTPS live** |
 | Secrets | `ops/secrets.local.env` (gitignored) |
 | Contact policy | **md@0265.au** |
+| free_core | **0.6.2** (local + ttllms.com status) |
 
-## One human step left for apex HTTPS
+## DNS status (honest, 2026-08-08 reevaluation)
 
-API token **cannot** edit DNS (403). Either:
+| Host | Status |
+|------|--------|
+| https://ttllms.com | **Live** (200) |
+| https://www.ttllms.com | **Live** |
+| https://ttllms.pages.dev | **Live** |
+| ttllms.org / www | **Not resolving** — hard gate **T1** |
+
+API token still **cannot** edit DNS (403). For **.org** only:
 
 1. Add **Zone → DNS → Edit** to the API token and say **DNS token updated**, or  
-2. Manually add the 4 CNAMEs in `ops/DNS_CNAMES_REQUIRED.md` (~2 minutes)
+2. Manually add org CNAMEs in `ops/DNS_CNAMES_REQUIRED.md` (~2 minutes)
 
-Until then: **https://ttllms.pages.dev** is live; **ttllms.com** waits on CNAME.
+Primary site does **not** wait on that step.
 
 ## After DNS — agent continues alone
 

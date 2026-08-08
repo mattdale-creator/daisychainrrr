@@ -3,7 +3,7 @@
   "ethos": "product is the proof \u2014 offline, unpaid, free public core",
   "manifest": "manifests/FREE_CORE_SEAL.json",
   "path": "README.md",
-  "merkle_root": "f1378acdfd3c2fd96926cba773a1f95b262099172b242461979ed7613e9d1c23",
+  "merkle_root": "1dc5eb773613389a1d2140cafd90f691b2c8923f7f9b889b15cb32431c47af9f",
   "leaf_count": 10552,
   "proof": {
     "schema": "ttllm.merkle_proof.v1",
@@ -64,10 +64,10 @@
       },
       {
         "position": "right",
-        "hash": "189d673d842cf640c23e2ce8ec4a8af88a787281e5bb84138d1abc7fd6a1afcd"
+        "hash": "e13f172193b264b1342c65146fb831dd94b3232a9a4f30220e10daf1cd9467ac"
       }
     ],
-    "root": "f1378acdfd3c2fd96926cba773a1f95b262099172b242461979ed7613e9d1c23",
+    "root": "1dc5eb773613389a1d2140cafd90f691b2c8923f7f9b889b15cb32431c47af9f",
     "path": "README.md"
   },
   "verified": true,

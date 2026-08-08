@@ -79,7 +79,16 @@ def write_nano_stream_tips(
     dest: Optional[Path] = None,
     copy_logs: bool = True,
 ) -> Dict[str, Any]:
-    """Write site/demo/nano_stream_tips.json and optionally mirror logs into site/demo/nano*."""
+    """Write site/demo/nano_stream_tips.json and optionally mirror logs into site/demo/nano*.
+
+    Stability: wall-clock ``utc`` is preserved when tip payload is unchanged so
+    FREE_CORE_SEAL does not go stale on no-op republish (soft tissue fix).
+    """
+    import json
+    import shutil
+
+    from free_core.provenance.hashing import sha256_bytes
+
     root = _repo_root(repo)
     tips = collect_nano_stream_tips(root)
     if dest is None:
@@ -88,9 +97,6 @@ def write_nano_stream_tips(
     dest.parent.mkdir(parents=True, exist_ok=True)
 
     if copy_logs:
-        import json
-        import shutil
-
         models = root / "models"
         for d in sorted(models.glob("ttllm-nano*")):
             if not d.is_dir():
@@ -103,8 +109,30 @@ def write_nano_stream_tips(
             out_dir.mkdir(parents=True, exist_ok=True)
             shutil.copy2(src, out_dir / "public_log.json")
 
-    import json
+    # Content-stable seal: ignore wall-clock utc / meta when comparing; skip rewrite if unchanged
+    meta_keys = ("utc", "wrote", "content_sha256")
+    core = {k: v for k, v in tips.items() if k not in meta_keys}
+    core_digest = sha256_bytes(
+        json.dumps(core, sort_keys=True, separators=(",", ":")).encode()
+    )
+    if dest.is_file():
+        try:
+            prev = json.loads(dest.read_text(encoding="utf-8"))
+            prev_core = {k: v for k, v in prev.items() if k not in meta_keys}
+            prev_digest = sha256_bytes(
+                json.dumps(prev_core, sort_keys=True, separators=(",", ":")).encode()
+            )
+            if prev_digest == core_digest:
+                # Keep exact prior bytes — no-op republish must not break FREE_CORE_SEAL
+                tips = dict(prev)
+                tips["wrote"] = str(dest.relative_to(root))
+                tips["content_sha256"] = prev.get("content_sha256") or core_digest
+                tips["_noop_republish"] = True
+                return tips
+        except (json.JSONDecodeError, OSError, TypeError):
+            pass
 
+    tips["content_sha256"] = core_digest
     dest.write_text(json.dumps(tips, indent=2) + "\n", encoding="utf-8")
     tips["wrote"] = str(dest.relative_to(root))
     return tips

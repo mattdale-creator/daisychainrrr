@@ -18,3 +18,4 @@
 | 2026-08-08 | Testing loop-1 closed (SoT→suite→RTC→BHA); cadence encoded | TESTING_LOOP.md §8–9, LOOP_2026-08-08 CLOSED, run_testing_loop.py, D-0034 |
 | 2026-08-08 | Post-loop continue 0.6.1: edge QueryGuard, inclusion demo, status testing_loop | free_core 0.6.1, functions/api/ttlink.js, demo_inclusion_proof.py, D-0035 |
 | 2026-08-08 | Post-OS-crash resume → free-core continue 0.6.2 multi-nano stream tips | free_core/stream/nano_tips.py, publish_nano_stream_tips.py, site/stream, D-0036 |
+| 2026-08-08 | Full SoT reevaluation post-crash: reload founding, soft-tissue DNS docs, seal-stable nano tips | nano_tips stable write, AUTONOMOUS_RUNBOOK, vault README, reseal, D-0037 |

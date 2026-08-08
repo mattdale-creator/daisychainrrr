@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.nano_stream_tips.v1",
-  "utc": "2026-08-08T15:17:14Z",
+  "utc": "2026-08-08T15:21:13Z",
   "ethos": "hash-chained public streams \u2014 real process events, not a screensaver",
   "all_chain_ok": true,
   "nano_count": 4,
@@ -51,5 +51,6 @@
     }
   ],
   "verify": "python3 -c \"from free_core.stream.log import StreamLog; from pathlib import Path; print(StreamLog.load(Path('models/ttllm-nano/stream/public_log.json')).verify_chain())\"",
-  "publish": "python3 scripts/publish_nano_stream_tips.py"
+  "publish": "python3 scripts/publish_nano_stream_tips.py",
+  "content_sha256": "9b796b2667464db0be030280070400f2a84d0a82ec3c6d84c8735f7628671a55"
 }
