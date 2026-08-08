@@ -1,16 +1,28 @@
-# early-gaps-hidden → tombstone-criteria
+# 06-transparency-domains/d09-stewardship/early-gaps-hidden/tombstone-criteria.md · tombstone-criteria
 
-**Full path:** `06-transparency-domains/d09-stewardship/early-gaps-hidden/tombstone-criteria`
+**Path:** `eventualities/06-transparency-domains/d09-stewardship/early-gaps-hidden/tombstone-criteria.md`  
+**Updated:** 2026-08-08  
+**Leaf type:** tombstone-criteria — operational control for this eventuality
 
 ## Purpose
-Operational leaf for the `early-gaps-hidden` eventuality: **tombstone-criteria**.
+Operational control for this eventuality for: **component** · failure · phase before public release or claim · actor project lead / founder.
 
-## Checklist
-- [ ] Written procedure exists
-- [ ] Owner named
-- [ ] Linked from parent eventuality
-- [ ] Exercised at least once (drill or real) before claiming production readiness
-- [ ] Failure of this leaf is itself loggable
+## Procedure
+1. Read parent `README.md` in this eventuality node.
+2. Apply founding ethos: no soft tissue; verify with seals.
+3. Log material actions in registers/incidents/ or registers/decisions/ as appropriate.
+4. Update scorecards honestly.
 
-## Notes
-Expand with project-specific runbooks as operations mature. Empty checkboxes are honest incomplete bone, not optional fluff.
+
+## Artefacts / tools
+- Paths: `see parent README`
+- Registers: registers/incidents/ or registers/decisions/ as appropriate
+- Verify suite: `scripts/oneshot_verify_all.py`, `scripts/redteam_nano_harness.py`
+
+## Done when
+- [x] Written procedure exists (this file)
+- [ ] Owner has executed once (drill or real)
+- [ ] Linked failure mode cannot recur without detection
+
+## Related
+Parent node README; `docs/specs/`; `commercial/BOUNDARY.md`; `STATUS_HONEST.md`

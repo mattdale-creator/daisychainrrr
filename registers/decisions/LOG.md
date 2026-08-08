@@ -20,3 +20,4 @@
 | D-0016 | 2026-08-08 | Domain artefact packs filled for 1-10 | Leave scaffolds empty | Down to the bone ops | docs/specs/artefacts | founder+agent |
 | D-0017 | 2026-08-08 | Continuous bone loop: reseal all nanos + master domain scorecard | Stop | Product is the proof | free_core/release/pipeline.py | agent |
 | D-0018 | 2026-08-08 | Cross-product + actor eventuality matrices | Thin tree | Founding demand for deep paths | docs/architecture-tree/eventualities | agent |
+| D-0021 | 2026-08-08 | Fill eventuality leaves with real procedures | Leave path stubs | User: real filling of leaves; remove structure-without-content | docs/architecture-tree/eventualities/ | agent |

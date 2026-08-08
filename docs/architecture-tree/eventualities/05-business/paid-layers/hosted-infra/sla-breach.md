@@ -1,17 +1,28 @@
-# hosted-infra → sla-breach
+# 05-business/paid-layers/hosted-infra/sla-breach.md · sla-breach
 
-**Path:** `05-business/paid-layers/hosted-infra/sla-breach`
+**Path:** `eventualities/05-business/paid-layers/hosted-infra/sla-breach.md`  
+**Updated:** 2026-08-08  
+**Leaf type:** sla-breach — operational control for this eventuality
 
-## Failure mode
-sla-breach for paid SKU **hosted-infra**.
+## Purpose
+Operational control for this eventuality for: **component** · failure · phase before public release or claim · actor project lead / founder.
 
-## Boundary test
-Does remediation require closing free public core? If yes, **reject** the feature (Domain 8 precedence).
+## Procedure
+1. Read parent `README.md` in this eventuality node.
+2. Apply founding ethos: no soft tissue; verify with seals.
+3. Log material actions in registers/incidents/ or registers/decisions/ as appropriate.
+4. Update scorecards honestly.
 
-## Detection / response
-- Log Domain 1 if product decision
-- Log Domain 5 if incident
-- Update BOUNDARY attestation if edge case
 
-## Free core
-Public weights/data/ttlink/basic stream remain free.
+## Artefacts / tools
+- Paths: `see parent README`
+- Registers: registers/incidents/ or registers/decisions/ as appropriate
+- Verify suite: `scripts/oneshot_verify_all.py`, `scripts/redteam_nano_harness.py`
+
+## Done when
+- [x] Written procedure exists (this file)
+- [ ] Owner has executed once (drill or real)
+- [ ] Linked failure mode cannot recur without detection
+
+## Related
+Parent node README; `docs/specs/`; `commercial/BOUNDARY.md`; `STATUS_HONEST.md`

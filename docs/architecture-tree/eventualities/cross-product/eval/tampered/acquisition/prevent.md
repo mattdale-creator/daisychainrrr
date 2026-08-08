@@ -1,7 +1,33 @@
-# eval/tampered/acquisition/prevent
+# eval · tampered · acquisition · prevent
 
-- [ ] Procedure defined
-- [ ] Owner named (default: project lead)
-- [ ] Drill or automated test exists
-- [ ] Failure logs to correct register
-- [ ] Public claim gate updated if needed
+**Path:** `eventualities/cross-product/eval/tampered/acquisition/prevent.md`  
+**Updated:** 2026-08-08  
+**Leaf type:** prevent — controls that stop recurrence
+
+## Purpose
+Controls that stop recurrence for: **eval** · content no longer matches published hash / expected state · phase under change-of-control or acquisition pressure · actor project lead / founder.
+
+## Preventive controls
+1. **Release gate:** checklist requires this layer/artefact healthy or explicitly tombstoned before “TTLLM” claims.
+2. **Automation:** prefer scripts (`oneshot_verify_all`, redteam harness, manifest verify) over memory.
+3. **BOUNDARY:** commercial SKUs cannot require opacity here if free-core (`commercial/BOUNDARY.md`).
+4. **Cadence:** monthly decision-log audit; quarterly domain report (`docs/specs/artefacts/*/QUARTERLY_REPORT_TEMPLATE.md`).
+5. **Access:** least-privilege tokens; secrets never in git (`ops/HUMAN_GATES.md` for scope gaps).
+6. **Culture:** reward finding gaps; punish silent cover-ups (“remember you’re on drugs”).
+
+## Design rule
+If a control is not written here and not automated, assume it will fail under pressure.
+
+
+## Artefacts / tools
+- Paths: `models/*/evals/`
+- Registers: registers/decisions/ if claim involved
+- Verify suite: `scripts/oneshot_verify_all.py`, `scripts/redteam_nano_harness.py`
+
+## Done when
+- [x] Written procedure exists (this file)
+- [ ] Owner has executed once (drill or real)
+- [ ] Linked failure mode cannot recur without detection
+
+## Related
+Parent node README; `docs/specs/`; `commercial/BOUNDARY.md`; `STATUS_HONEST.md`

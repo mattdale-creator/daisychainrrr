@@ -1,7 +1,37 @@
-# checkpoints/partial-release/release/scorecard
+# checkpoints · partial-release · release · scorecard
 
-- [ ] Procedure defined
-- [ ] Owner named (default: project lead)
-- [ ] Drill or automated test exists
-- [ ] Failure logs to correct register
-- [ ] Public claim gate updated if needed
+**Path:** `eventualities/cross-product/checkpoints/partial-release/release/scorecard.md`  
+**Updated:** 2026-08-08  
+**Leaf type:** scorecard — how scorecards/tombstones must reflect this
+
+## Purpose
+How scorecards/tombstones must reflect this for: **checkpoints** · only a subset of promised bone was shipped without disclosure · phase at seal/publish time · actor project lead / founder.
+
+## Scorecard rules
+1. Cannot mark **MET** for related domain/layer if this eventuality is active without remediation.
+2. If incomplete by design (e.g. nano scale), mark **TOMBSTONE** with plain-language limit — never silent.
+3. Update:
+   - `models/*/cards/TRANSPARENCY_SCORECARD.md` for model releases
+   - `docs/specs/artefacts/MASTER_DOMAIN_SCORECARD.md` for org domains
+4. Re-run `python3 scripts/domain_scorecard_all.py` after changes.
+
+## Example rows
+| Status | When |
+|--------|------|
+| MET | Verify green; artefact present; claim matches bone |
+| PARTIAL | Bootstrap only; staffed process incomplete |
+| TOMBSTONE | Intentionally not shipped (e.g. not 32B) with public note |
+
+
+## Artefacts / tools
+- Paths: `models/*/checkpoints/step_*.pt`
+- Registers: registers/incidents/ + scorecard
+- Verify suite: `scripts/oneshot_verify_all.py`, `scripts/redteam_nano_harness.py`
+
+## Done when
+- [x] Written procedure exists (this file)
+- [ ] Owner has executed once (drill or real)
+- [ ] Linked failure mode cannot recur without detection
+
+## Related
+Parent node README; `docs/specs/`; `commercial/BOUNDARY.md`; `STATUS_HONEST.md`
