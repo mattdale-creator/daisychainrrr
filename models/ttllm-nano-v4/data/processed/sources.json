@@ -1,0 +1,71 @@
+[
+  {
+    "id": "pg1342_pride_prejudice_excerpt",
+    "url": "https://www.gutenberg.org/files/1342/1342-0.txt",
+    "title": "Pride and Prejudice (Jane Austen) \u2014 full text PG",
+    "license": "Public domain (US) \u2014 Project Gutenberg",
+    "full_sha256": "a5666f87abf2cbfdaa27ea8c73bd284da9649b9a2ab27b4e6c8f6aeab1bd1c88",
+    "full_bytes": 738046,
+    "trainslice_sha256": "e8035130fcf49aabdbff8d1c63b86d0a097d51c74d25a4edef095984611386b6",
+    "trainslice_chars": 120000,
+    "trainslice_path": "data/raw/pg1342_pride_prejudice_excerpt.trainslice.txt",
+    "fetched_utc": "2026-08-08T08:36:54Z"
+  },
+  {
+    "id": "pg11_alice_excerpt",
+    "url": "https://www.gutenberg.org/files/11/11-0.txt",
+    "title": "Alice's Adventures in Wonderland (Lewis Carroll)",
+    "license": "Public domain (US) \u2014 Project Gutenberg",
+    "full_sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+    "full_bytes": 151191,
+    "trainslice_sha256": "02c34df7cb8614058b8570c4586588d28e51fb57bc51da3ce10a2bf86198fab5",
+    "trainslice_chars": 80000,
+    "trainslice_path": "data/raw/pg11_alice_excerpt.trainslice.txt",
+    "fetched_utc": "2026-08-08T08:36:55Z"
+  },
+  {
+    "id": "pg84_frankenstein_excerpt",
+    "url": "https://www.gutenberg.org/files/84/84-0.txt",
+    "title": "Frankenstein (Mary Shelley)",
+    "license": "Public domain (US) \u2014 Project Gutenberg",
+    "full_sha256": "06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77",
+    "full_bytes": 421633,
+    "trainslice_sha256": "a02b29c4e829dd61101a94ffc67c3393b18dcc01ad3c3a6da07380fa16073b66",
+    "trainslice_chars": 100000,
+    "trainslice_path": "data/raw/pg84_frankenstein_excerpt.trainslice.txt",
+    "fetched_utc": "2026-08-08T08:36:57Z"
+  },
+  {
+    "id": "pg1661_sherlock",
+    "url": "https://www.gutenberg.org/files/1661/1661-0.txt",
+    "title": "The Adventures of Sherlock Holmes",
+    "license": "Public domain (US) \u2014 Project Gutenberg",
+    "full_sha256": "b9c105a5c0cf9fcb37c7d0211658851ed56074519c9455d15e20f04c0c5a3174",
+    "full_bytes": 607504,
+    "trainslice_sha256": "a98c41d2218e19233f89bf055d8b58ede062bc35926a8ff51f848a1083123cb5",
+    "trainslice_chars": 100000,
+    "fetched_utc": "2026-08-08T09:16:03Z"
+  },
+  {
+    "id": "pg98_two_cities",
+    "url": "https://www.gutenberg.org/files/98/98-0.txt",
+    "title": "A Tale of Two Cities",
+    "license": "Public domain (US) \u2014 Project Gutenberg",
+    "full_sha256": "e3dfeb67feb904ac0f73a35204a175c58248422c2be8556802cb8820d958d67c",
+    "full_bytes": 771600,
+    "trainslice_sha256": "9b7144fd03843c77bed16863d19d2fda152b13257402ca948335d44c3831020c",
+    "trainslice_chars": 100000,
+    "fetched_utc": "2026-08-08T09:16:05Z"
+  },
+  {
+    "id": "pg174_dorian",
+    "url": "https://www.gutenberg.org/files/174/174-0.txt",
+    "title": "The Picture of Dorian Gray",
+    "license": "Public domain (US) \u2014 Project Gutenberg",
+    "full_sha256": "7782dd93e6a457979ef451735c9fe4bd666968c314859d545f0d27a8c9b86aa2",
+    "full_bytes": 446090,
+    "trainslice_sha256": "ef5b468b8e3d38e4452e360d58dc0a0fc39a2304fed907cc794e5dfa9fd76f7c",
+    "trainslice_chars": 80000,
+    "fetched_utc": "2026-08-08T09:16:07Z"
+  }
+]

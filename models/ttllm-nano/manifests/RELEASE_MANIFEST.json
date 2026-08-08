@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "d1ae16c2b1738a9ffcf86bf97e545cccc1f7941005cbefe4f6cd0d8ef19c0fd6",
+  "merkle_root": "5e3a8cf6793b49fd1b51d6203767806950fbfeea5bc08a0a475a2e8438abc3bf",
   "count": 40,
   "leaves": [
     {
@@ -135,7 +135,7 @@
     },
     {
       "path": "manifests/RELEASE_MANIFEST.json",
-      "sha256": "c083979c1eb13cffb5e9bde82988518c579e018bed9ef09230a24e65e9f4fb9a",
+      "sha256": "60cc234e3040ea343f9fe44612d0eb30d8c6ee62bfc3eb33d8b683543b5b1c77",
       "bytes": 6768
     },
     {

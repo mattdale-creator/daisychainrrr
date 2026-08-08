@@ -14,3 +14,6 @@ Same verifiable data + **pure-Python BPE** tokenizer, denser model, val perplexi
 | Eval | basic | `eval_pack.py` (ppl + BPE roundtrip + ttlink) |
 
 **Neither is frontier-scale.** Tombstones required on all public claims.
+
+## ttllm-nano-v4
+Iteration train on expanded PG corpus (in progress / sealed when complete).

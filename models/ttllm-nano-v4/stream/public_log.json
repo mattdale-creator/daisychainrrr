@@ -1,0 +1,32 @@
+{
+  "schema": "ttllm.stream_log.v1",
+  "count": 2,
+  "tip": "57fa7657f771a1d9b700ada32e241fee120670a064662534cab66877520c5813",
+  "events": [
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "training_finished",
+      "timestamp_utc": "2026-08-08T09:54:10Z",
+      "artefact_sha256": null,
+      "payload": {
+        "steps": 400,
+        "version": "0.4.0"
+      },
+      "prev_hash": null,
+      "seq": 0,
+      "event_hash": "d54338623b992b1e3041f96e7ae09b0e4d5a7ebe0948de34b944a8bb9c91e18e"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "release",
+      "timestamp_utc": "2026-08-08T09:54:10Z",
+      "artefact_sha256": "8d3581d6a916502299d02cb0920f86d74d4c78654e7c870965d9bd024f93e3f6",
+      "payload": {
+        "merkle": "8d3581d6a916502299d02cb0920f86d74d4c78654e7c870965d9bd024f93e3f6"
+      },
+      "prev_hash": "d54338623b992b1e3041f96e7ae09b0e4d5a7ebe0948de34b944a8bb9c91e18e",
+      "seq": 1,
+      "event_hash": "57fa7657f771a1d9b700ada32e241fee120670a064662534cab66877520c5813"
+    }
+  ]
+}

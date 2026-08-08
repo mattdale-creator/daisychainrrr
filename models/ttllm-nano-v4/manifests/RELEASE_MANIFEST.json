@@ -1,0 +1,121 @@
+{
+  "schema": "ttllm.manifest.v1",
+  "merkle_root": "8d3581d6a916502299d02cb0920f86d74d4c78654e7c870965d9bd024f93e3f6",
+  "count": 22,
+  "leaves": [
+    {
+      "path": "code/generate.py",
+      "sha256": "ee05337fcfc19b9878130d4b56feeb5c0c8fe3f7ae364b02bcc3af00459193cb",
+      "bytes": 1288
+    },
+    {
+      "path": "code/model.py",
+      "sha256": "3bf99d7ad7998608a616f70eccfe59f320f2445125771f32ed829855b022c9f5",
+      "bytes": 4047
+    },
+    {
+      "path": "code/train.py",
+      "sha256": "d477a60bc1c8c8a89c17fc44288b3e96da7e8d44b707c77ef8a7a23b346b74f3",
+      "bytes": 5185
+    },
+    {
+      "path": "data/DATA_CARD.md",
+      "sha256": "2716c7b13c7eb17bf98dc772b022832039ced3a5c89f1783e17f0f11b4ca2591",
+      "bytes": 1903
+    },
+    {
+      "path": "data/processed/corpus.txt",
+      "sha256": "b26077bd9f598f145ded5693c2ad5ce02e61695a9644555cb8361194ffc5c5b0",
+      "bytes": 588198
+    },
+    {
+      "path": "data/processed/meta.json",
+      "sha256": "719f47b52388d5cfb995438335fc6f87f4e3552ffc3d706bf28f70c243ce356e",
+      "bytes": 3041
+    },
+    {
+      "path": "data/processed/sources.json",
+      "sha256": "c4d21ae0eb3448d156c5d3aeeecb7008c206e5dce708942c3f2488098ebe6c58",
+      "bytes": 3199
+    },
+    {
+      "path": "data/raw/pg11_alice_excerpt.full.txt",
+      "sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+      "bytes": 151191
+    },
+    {
+      "path": "data/raw/pg11_alice_excerpt.trainslice.txt",
+      "sha256": "02c34df7cb8614058b8570c4586588d28e51fb57bc51da3ce10a2bf86198fab5",
+      "bytes": 83211
+    },
+    {
+      "path": "data/raw/pg1342_pride_prejudice_excerpt.full.txt",
+      "sha256": "a5666f87abf2cbfdaa27ea8c73bd284da9649b9a2ab27b4e6c8f6aeab1bd1c88",
+      "bytes": 738046
+    },
+    {
+      "path": "data/raw/pg1342_pride_prejudice_excerpt.trainslice.txt",
+      "sha256": "e8035130fcf49aabdbff8d1c63b86d0a097d51c74d25a4edef095984611386b6",
+      "bytes": 122137
+    },
+    {
+      "path": "data/raw/pg1661_sherlock.full.txt",
+      "sha256": "b9c105a5c0cf9fcb37c7d0211658851ed56074519c9455d15e20f04c0c5a3174",
+      "bytes": 607504
+    },
+    {
+      "path": "data/raw/pg1661_sherlock.trainslice.txt",
+      "sha256": "a98c41d2218e19233f89bf055d8b58ede062bc35926a8ff51f848a1083123cb5",
+      "bytes": 102654
+    },
+    {
+      "path": "data/raw/pg174_dorian.full.txt",
+      "sha256": "7782dd93e6a457979ef451735c9fe4bd666968c314859d545f0d27a8c9b86aa2",
+      "bytes": 446090
+    },
+    {
+      "path": "data/raw/pg174_dorian.trainslice.txt",
+      "sha256": "ef5b468b8e3d38e4452e360d58dc0a0fc39a2304fed907cc794e5dfa9fd76f7c",
+      "bytes": 81767
+    },
+    {
+      "path": "data/raw/pg84_frankenstein_excerpt.full.txt",
+      "sha256": "06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77",
+      "bytes": 421633
+    },
+    {
+      "path": "data/raw/pg84_frankenstein_excerpt.trainslice.txt",
+      "sha256": "a02b29c4e829dd61101a94ffc67c3393b18dcc01ad3c3a6da07380fa16073b66",
+      "bytes": 100392
+    },
+    {
+      "path": "data/raw/pg98_two_cities.full.txt",
+      "sha256": "e3dfeb67feb904ac0f73a35204a175c58248422c2be8556802cb8820d958d67c",
+      "bytes": 771600
+    },
+    {
+      "path": "data/raw/pg98_two_cities.trainslice.txt",
+      "sha256": "9b7144fd03843c77bed16863d19d2fda152b13257402ca948335d44c3831020c",
+      "bytes": 101466
+    },
+    {
+      "path": "metrics/hyperparams.json",
+      "sha256": "b9bb6b08a5686c00394dbb971fb4fa63526088a4af2317f5a5ec56dbd9c62c5a",
+      "bytes": 445
+    },
+    {
+      "path": "metrics/train.jsonl",
+      "sha256": "c240bc701f952654e36aae6cd40cee471871bc9446b7113e18679dbebb5bab06",
+      "bytes": 1262
+    },
+    {
+      "path": "metrics/train_console.log",
+      "sha256": "3b3fcbddd44c679be7af18bbcf95e98cd34fe51ac846cd18cbbe8bf498a05dd4",
+      "bytes": 1115
+    }
+  ],
+  "extra": {
+    "release": "ttllm-nano-v4",
+    "version": "0.4.0"
+  }
+}
