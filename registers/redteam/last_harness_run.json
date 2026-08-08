@@ -12,6 +12,14 @@
     {
       "test": "query_guard_rate_limit",
       "pass": true
+    },
+    {
+      "test": "canary_present",
+      "pass": true
+    },
+    {
+      "test": "canary_absent",
+      "pass": true
     }
   ],
   "all_pass": true
