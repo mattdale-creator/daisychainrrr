@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ttllm-nano — TTLLM</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="canonical" href="https://ttllms.com/nano" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a class="brand" href="index.html">ttllms.com</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="definition.html">Definition</a>
+        <a href="free-core.html">Free core</a>
+        <a href="demo.html">Demo</a>
+        <a href="nano.html" aria-current="page">Nano model</a>
+        <a href="stream.html">Stream</a>
+        <a href="founding.html">Founding</a>
+        <a href="architecture.html">Architecture</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <p class="eyebrow">Mac-local minimal TTLLM · public domain data</p>
+    <h1>ttllm-nano</h1>
+    <p class="tagline">The <em>shape</em> of total transparency at nano scale — not a frontier model, not soft tissue cosplay of one.</p>
+    <div class="card">
+      <p>Trained on this Mac (Apple M1 / MPS) with a character-level Transformer on <strong>Project Gutenberg public-domain</strong> train slices (Pride and Prejudice, Alice, Frankenstein). Full downloads retained and hashed. Dense intermediate checkpoints, metrics JSONL, Merkle release manifest, ttlink over train docs, hash-chained stream.</p>
+      <ul class="clean">
+        <li><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/models/ttllm-nano">models/ttllm-nano/</a> on GitHub</li>
+        <li><a href="demo/nano/DATA_CARD.md">Data card</a> · <a href="demo/nano/SCORECARD.md">Transparency scorecard</a></li>
+        <li><a href="demo/nano/public_log.json">Nano public stream JSON</a></li>
+        <li><a href="demo/nano/ttlink_index.json">Nano ttlink index</a></li>
+      </ul>
+    </div>
+    <h2>Reproduce</h2>
+    <pre>cd daisychainrrr
+python3 models/ttllm-nano/code/prepare_data.py
+python3 models/ttllm-nano/code/train.py --steps 800
+python3 models/ttllm-nano/code/seal_release.py
+python3 models/ttllm-nano/code/generate.py --prompt "Alice "</pre>
+    <h2>Tombstones (required honesty)</h2>
+    <ul class="clean">
+      <li>Not multi-trillion-token data · not 32B · not production FM-index</li>
+      <li>Sample text quality is expected to be poor; the product under test is the <strong>process skeleton</strong></li>
+    </ul>
+    <footer>
+      <p>Free public core · <a href="https://github.com/mattdale-creator/daisychainrrr">GitHub</a> · md@0265.au</p>
+    </footer>
+  </div>
+</body>
+</html>

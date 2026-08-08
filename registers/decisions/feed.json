@@ -1,0 +1,24 @@
+{
+  "schema": "ttllm.decision_feed.v1",
+  "updated": "2026-08-08T08:36:51.334834+00:00",
+  "entries": [
+    {
+      "id": "D-0007",
+      "date": "2026-08-08",
+      "title": "Admit prior completion claims were soft tissue",
+      "outcome": "GAP_AUDIT + deep rebuild"
+    },
+    {
+      "id": "D-0008",
+      "date": "2026-08-08",
+      "title": "Ship Mac-local ttllm-nano",
+      "outcome": "models/ttllm-nano"
+    },
+    {
+      "id": "D-0009",
+      "date": "2026-08-08",
+      "title": "Domain specs full founding plans",
+      "outcome": "docs/specs"
+    }
+  ]
+}

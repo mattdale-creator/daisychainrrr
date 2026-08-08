@@ -42,6 +42,22 @@ Full executable HOWTO for every founding branch (ethos, product, technology, sec
 
 Vault mirror (local SoT): `TTLLMS.com BUILD/11-architecture-tree/`
 
+
+## ttllm-nano (built on this Mac)
+
+Minimal totally-transparent **shape**: public-domain Gutenberg train slices, open training code, dense checkpoints, metrics, Merkle seal, ttlink, stream.
+
+```bash
+python3 models/ttllm-nano/code/prepare_data.py
+python3 models/ttllm-nano/code/train.py --steps 800
+python3 models/ttllm-nano/code/seal_release.py
+make test
+```
+
+Live: https://ttllms.com/nano  
+
+**Honesty:** nano ≠ OLMo-scale. Gap audit: `docs/audits/GAP_AUDIT_vs_FOUNDING_TRANSCRIPT.md`.
+
 ## Repository map (every major branch)
 
 ```

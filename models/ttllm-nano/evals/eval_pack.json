@@ -1,0 +1,33 @@
+{
+  "schema": "ttllm.nano.eval.v1",
+  "note": "Nano release prioritises transparency artefacts over capability claims. Capability evals are tombstoned as not frontier-competitive.",
+  "ttlink_alice_hits": 20,
+  "ttlink_sample": {
+    "doc_id": "pg11_alice_excerpt.trainslice.txt",
+    "path": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/models/ttllm-nano/data/raw/pg11_alice_excerpt.trainslice.txt",
+    "start": 19,
+    "end": 24,
+    "context": "[Illustration]\n\n\n\n\nAlice\u2019s Adventures in Wonderland\n\nby Lewis Carroll\n\nTHE MILLENNIUM FULCRUM EDITION 3.",
+    "doc_sha256": "02c34df7cb8614058b8570c4586588d28e51fb57bc51da3ce10a2bf86198fab5",
+    "match": "Alice"
+  },
+  "hyperparams": {
+    "schema": "ttllm.nano.hyperparams.v1",
+    "steps": 800,
+    "batch_size": 32,
+    "block_size": 128,
+    "n_layer": 4,
+    "n_head": 4,
+    "n_embd": 128,
+    "lr": 0.0003,
+    "seed": 42,
+    "device": "mps",
+    "optimizer": "AdamW",
+    "corpus_sha256": "aa1b7083c28c0f133778d4dd8bac02c8e37fa419d47be821537c4ae32f71046a",
+    "vocab_size": 95,
+    "started_utc": "2026-08-08T08:37:48Z",
+    "finished_utc": "2026-08-08T08:40:41Z",
+    "wall_sec": 172.41799974441528
+  },
+  "generated_utc": "2026-08-08T08:40:58Z"
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "ttllm.redteam_harness.v1",
+  "results": [
+    {
+      "test": "manifest_tamper_detected",
+      "pass": true
+    },
+    {
+      "test": "stream_tamper_detected",
+      "pass": true
+    },
+    {
+      "test": "query_guard_rate_limit",
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

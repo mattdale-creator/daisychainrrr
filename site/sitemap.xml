@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://ttllms.com/</loc></url>
-  <url><loc>https://ttllms.com/definition.html</loc></url>
-  <url><loc>https://ttllms.com/free-core.html</loc></url>
-  <url><loc>https://ttllms.com/demo.html</loc></url>
-  <url><loc>https://ttllms.com/stream.html</loc></url>
-  <url><loc>https://ttllms.com/founding.html</loc></url>
-  <url><loc>https://ttllms.com/architecture.html</loc></url>
-  <url><loc>https://ttllms.com/contact.html</loc></url>
-  <url><loc>https://ttllms.com/.well-known/security.txt</loc></url>
+  <url><loc>https://ttllms.com/architecture</loc></url>
+  <url><loc>https://ttllms.com/contact</loc></url>
+  <url><loc>https://ttllms.com/definition</loc></url>
+  <url><loc>https://ttllms.com/demo</loc></url>
+  <url><loc>https://ttllms.com/founding</loc></url>
+  <url><loc>https://ttllms.com/free-core</loc></url>
+  <url><loc>https://ttllms.com/nano</loc></url>
+  <url><loc>https://ttllms.com/stream</loc></url>
 </urlset>

@@ -1,0 +1,26 @@
+{
+  "schema": "ttllm.ttlink_binding.v1",
+  "count": 4,
+  "leaves": [
+    {
+      "path": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/models/ttllm-nano/data/processed/corpus.txt",
+      "sha256": "aa1b7083c28c0f133778d4dd8bac02c8e37fa419d47be821537c4ae32f71046a",
+      "bytes": 305882
+    },
+    {
+      "path": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/models/ttllm-nano/data/raw/pg11_alice_excerpt.trainslice.txt",
+      "sha256": "02c34df7cb8614058b8570c4586588d28e51fb57bc51da3ce10a2bf86198fab5",
+      "bytes": 83211
+    },
+    {
+      "path": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/models/ttllm-nano/data/raw/pg1342_pride_prejudice_excerpt.trainslice.txt",
+      "sha256": "e8035130fcf49aabdbff8d1c63b86d0a097d51c74d25a4edef095984611386b6",
+      "bytes": 122137
+    },
+    {
+      "path": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/models/ttllm-nano/data/raw/pg84_frankenstein_excerpt.trainslice.txt",
+      "sha256": "a02b29c4e829dd61101a94ffc67c3393b18dcc01ad3c3a6da07380fa16073b66",
+      "bytes": 100392
+    }
+  ]
+}
