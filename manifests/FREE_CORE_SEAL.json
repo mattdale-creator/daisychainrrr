@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "c501baf0e80ed6915ea2f4853c57846c314ccf40970f6e71ab3b2028b1c36f82",
-  "count": 10548,
+  "merkle_root": "f1378acdfd3c2fd96926cba773a1f95b262099172b242461979ed7613e9d1c23",
+  "count": 10552,
   "leaves": [
     {
       "path": "LICENSE",
@@ -50715,13 +50715,13 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "b5e7dc420063915e56671b3fd60d443ef9c6fce161d32c4311fc8fc96ebf74a1",
-      "bytes": 2034
+      "sha256": "c6c328c2e5d749b6766af48568bd5b011963e471728f9e9367f628aee9dd1f4e",
+      "bytes": 2206
     },
     {
       "path": "docs/audits/WRITABLE_COMPLETION.md",
-      "sha256": "5f43d717b51499368e7dc63e889847dd1255387f5930b9d8424e4c612d2fe8a0",
-      "bytes": 1644
+      "sha256": "923f0a46d7854da034c0604b99e6dbc83af574aae2e745cf84921f0235ac2ff8",
+      "bytes": 1767
     },
     {
       "path": "docs/audits/loops/LOOP_2026-08-08.md",
@@ -51915,7 +51915,7 @@
     },
     {
       "path": "free_core/__init__.py",
-      "sha256": "127f3cc1d0c6789b12342652fef57bb5530c767fa643b4c5228ef7be6ed9b57b",
+      "sha256": "f08eb0f9c245e5e18db68a6a162fcd5856dd8d0928021937900a494ba561c45c",
       "bytes": 52
     },
     {
@@ -52045,13 +52045,13 @@
     },
     {
       "path": "free_core/status.py",
-      "sha256": "25be65f944ad22cfce68ce87ce096e03a8ff2717eb8bf5eff2fbdb83415f903f",
-      "bytes": 5161
+      "sha256": "bb57d7502f5b140d2f205e3513362a396bd2cb2da279ce8228393492a1b785a9",
+      "bytes": 5914
     },
     {
       "path": "free_core/stream/__init__.py",
-      "sha256": "b99107ef21c0c8d932e6bb7aa5793c2d8d090cc7efb7056abc16321d10cf8a73",
-      "bytes": 72
+      "sha256": "1effec8e8846067409b99fdf0d0c228eedc93e4a63e5e79afcabc81d5e782a53",
+      "bytes": 144
     },
     {
       "path": "free_core/stream/catalog.py",
@@ -52067,6 +52067,11 @@
       "path": "free_core/stream/log.py",
       "sha256": "9a496db9119f9ad5eebcda46685d635352021640d543d91ed3e30b34771dabd5",
       "bytes": 2400
+    },
+    {
+      "path": "free_core/stream/nano_tips.py",
+      "sha256": "541d66b8501b9e822a330497f36047b7608022c0cec8a3ed8c820728b3dc8b74",
+      "bytes": 4220
     },
     {
       "path": "free_core/stream/schema.py",
@@ -52165,7 +52170,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "eeaa7805f4217e4f5a2303054f220b224c392101f82e1129477bf1092db4544f",
+      "sha256": "f5f456ed95b42d40576e45968a12245c45036cd3457c10161d4d33b7dac35ba5",
       "bytes": 793
     },
     {
@@ -52175,8 +52180,8 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "deafcf78241b313589d7f250f9d50cb2378fda0f8a2389b677319a01df35e3bd",
-      "bytes": 7006
+      "sha256": "3b0c28aed42793e72f4e9b8e60f1c86e4b60bf4addd63ad622f596ab2ad8c419",
+      "bytes": 7323
     },
     {
       "path": "registers/decisions/feed.json",
@@ -52344,6 +52349,11 @@
       "bytes": 4505
     },
     {
+      "path": "scripts/publish_nano_stream_tips.py",
+      "sha256": "c5ae9986158b6344c722c906dc810ae9e7ed375bcb4d23b69a04b767b9e9b352",
+      "bytes": 1078
+    },
+    {
       "path": "scripts/redteam_business_attack.py",
       "sha256": "ce5b09b7f0d9a4bec64867d05a1456889aca63e56227a1bfecd6621193541c72",
       "bytes": 10018
@@ -52450,8 +52460,8 @@
     },
     {
       "path": "site/demo/nano-v2/public_log.json",
-      "sha256": "28c520df2ef1c6b462a845d0251592c6f758bd1279b4e603af0d832c18a7fabf",
-      "bytes": 2228
+      "sha256": "893a908fdac6d2671318b772e6ea4f9b0e60843f6150a4803beb27645c631db9",
+      "bytes": 1915
     },
     {
       "path": "site/demo/nano-v3/MODEL_CARD.md",
@@ -52465,8 +52475,13 @@
     },
     {
       "path": "site/demo/nano-v3/public_log.json",
-      "sha256": "8069e22b6b576055d24d7be15fcaa71edd1fa85bf08dfcc94d73571d479aecef",
-      "bytes": 2126
+      "sha256": "273537705949ef755ff8c577a93005e109a0633bf7793854e0d93101eb1eddea",
+      "bytes": 2425
+    },
+    {
+      "path": "site/demo/nano-v4/public_log.json",
+      "sha256": "e9794f2fd92e40a933da158859c166500cda084f480608238b55952b56913d0a",
+      "bytes": 2425
     },
     {
       "path": "site/demo/nano/DATA_CARD.md",
@@ -52495,13 +52510,18 @@
     },
     {
       "path": "site/demo/nano/public_log.json",
-      "sha256": "0d24bcc00054b19c2ed6430e54ec12aa3f593abea5414454625cc5c7e4d2940f",
-      "bytes": 2160
+      "sha256": "a1f63dc1f82699f300798a585b94d3a3d56d502b2d6956e981ff81fe694fa537",
+      "bytes": 2416
     },
     {
       "path": "site/demo/nano/ttlink_index.json",
       "sha256": "369ee2e6bdb8320b4d884b9c662090c5066475aa375a3ef2cd5b0741251ee831",
       "bytes": 642473
+    },
+    {
+      "path": "site/demo/nano_stream_tips.json",
+      "sha256": "354ecc273f2630d2624d021abdaed925c4fa1453604c70ebbd099361afd853fd",
+      "bytes": 2091
     },
     {
       "path": "site/demo/public_log.json",
@@ -52510,8 +52530,8 @@
     },
     {
       "path": "site/demo/stream_demo.js",
-      "sha256": "6bf0c0ab72483665f45b53e1266aa926352e361a824b7689ea0077870308c7fe",
-      "bytes": 935
+      "sha256": "59218a05d5ad5a5e4b86f7596e21624b5b905a8a472d1cbbd84515dd251fa5da",
+      "bytes": 2776
     },
     {
       "path": "site/demo/ttlink_demo.js",
@@ -52720,8 +52740,8 @@
     },
     {
       "path": "site/stream.html",
-      "sha256": "21cdf9796e19b1bc8514cc515eb845a229abcc6e2458056e48805ae933db59fe",
-      "bytes": 2052
+      "sha256": "79da9e4a6ee65112db79caeb3e4c204a3cf92e9d8b63d02337307ca0b3a39c80",
+      "bytes": 2448
     },
     {
       "path": "site/styles.css",

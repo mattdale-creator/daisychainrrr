@@ -1,14 +1,17 @@
 # DNS records required (token cannot write DNS yet)
 
-**Status:** Cloudflare API token has Pages + Registrar + zone list, but **DNS record list/edit returns 403 Authentication error**.
+**Status (2026-08-08 post-crash recheck):**  
+- Cloudflare API token has Pages + Registrar + zone list, but **DNS record list/edit returns 403** (no Zone DNS Edit scope).  
+- **ttllms.com** resolves publicly (A records → Cloudflare; https://ttllms.com returns 200). Apex HTTPS is **live**.  
+- **ttllms.org** still does **not** resolve (T1 residual).  
 
-Pages custom domains are attached but stuck on: `CNAME record not set`.
+Pages custom domains: treat **.com as done for public HTTPS**; **.org still pending** human DNS or token scope.
 
 ## Primary zone: ttllms.com
 
 Zone ID: `4f6b122b7a63280290b3a321071e4049`
 
-Dashboard → **ttllms.com** → **DNS** → **Records** → add:
+**Live check:** `OK` for apex + www (2026-08-08). If records ever drop, re-add:
 
 | Type | Name | Target | Proxy |
 |------|------|--------|-------|
@@ -19,18 +22,20 @@ Dashboard → **ttllms.com** → **DNS** → **Records** → add:
 
 Zone ID: `01c9852c3864cf80765c835091147fef`
 
+**Still required** (optional fail in public URL probe / T1):
+
 | Type | Name | Target | Proxy |
 |------|------|--------|-------|
 | CNAME | `@` | `ttllms.pages.dev` | Proxied |
 | CNAME | `www` | `ttllms.pages.dev` | Proxied |
 
-## After DNS is saved
+## After DNS is saved (org)
 
 1. Wait 1–5 minutes  
-2. Workers & Pages → **ttllms** → Custom domains → should become **Active**  
-3. Open https://ttllms.com  
+2. Workers & Pages → **ttllms** → Custom domains → org should become **Active**  
+3. Open https://ttllms.org  
 
-Live already: https://ttllms.pages.dev  
+Primary already live: https://ttllms.com · always: https://ttllms.pages.dev  
 
 ## So the agent can do DNS next time
 

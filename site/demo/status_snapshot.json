@@ -1,16 +1,16 @@
 {
   "schema": "ttllm.project_status.v1",
-  "utc": "2026-08-08T14:33:55Z",
-  "free_core_version": "0.6.1",
+  "utc": "2026-08-08T15:17:12Z",
+  "free_core_version": "0.6.2",
   "repo": "daisychainrrr (public)",
   "seal": {
     "present": true,
-    "merkle_root": "c501baf0e80ed6915ea2f4853c57846c314ccf40970f6e71ab3b2028b1c36f82",
-    "count": 10548,
+    "merkle_root": "f1378acdfd3c2fd96926cba773a1f95b262099172b242461979ed7613e9d1c23",
+    "count": 10552,
     "verify_ok": true,
     "fresh": true,
-    "fresh_merkle_root": "c501baf0e80ed6915ea2f4853c57846c314ccf40970f6e71ab3b2028b1c36f82",
-    "fresh_count": 10548
+    "fresh_merkle_root": "f1378acdfd3c2fd96926cba773a1f95b262099172b242461979ed7613e9d1c23",
+    "fresh_count": 10552
   },
   "nanos": [
     {
@@ -38,11 +38,46 @@
       "merkle_root": "d55e156ca59bf59b8818dcbeb2d8d8d8ed4766a487a28671ae022d61cc6fe88d"
     }
   ],
+  "nano_streams": {
+    "all_chain_ok": true,
+    "nano_count": 4,
+    "tips": [
+      {
+        "name": "ttllm-nano",
+        "chain_ok": true,
+        "count": 5,
+        "tip": "032dff39417ee5ade3aa0797e984fe463d51b541091cb1366d918a77f16cda7d",
+        "last_event_type": "ttlink_index_sealed"
+      },
+      {
+        "name": "ttllm-nano-v2",
+        "chain_ok": true,
+        "count": 4,
+        "tip": "b9fe73fba08c05740520829dfe848a2df9b2573ec7827b0629f455c480c75660",
+        "last_event_type": "ttlink_index_sealed"
+      },
+      {
+        "name": "ttllm-nano-v3",
+        "chain_ok": true,
+        "count": 5,
+        "tip": "471a900c28e3dcca5a6a663b6ef0c31af991f23396126209a34f3eda9ef4ef00",
+        "last_event_type": "ttlink_index_sealed"
+      },
+      {
+        "name": "ttllm-nano-v4",
+        "chain_ok": true,
+        "count": 5,
+        "tip": "83e159496496d9558c918d5da5b87c745d5fa4f74d5263cc1e24d9ae31f9ae74",
+        "last_event_type": "ttlink_index_sealed"
+      }
+    ]
+  },
   "hard_gates_doc": true,
   "ethos": {
     "free_public_core_never_paywalled": true,
     "nano_is_not_frontier": true,
-    "hard_gates_not_faked": true
+    "hard_gates_not_faked": true,
+    "green_means_verify_and_fresh": true
   },
   "commands": {
     "verify": "python3 scripts/public_verify_harness.py",
@@ -50,7 +85,8 @@
     "redteam": "python3 scripts/redteam_nano_harness.py",
     "redteam_business": "python3 scripts/redteam_business_attack.py",
     "testing_loop": "python3 scripts/run_testing_loop.py",
-    "inclusion_proof_demo": "python3 scripts/demo_inclusion_proof.py"
+    "inclusion_proof_demo": "python3 scripts/demo_inclusion_proof.py",
+    "nano_stream_tips": "python3 scripts/publish_nano_stream_tips.py"
   },
   "testing_loop": {
     "procedure": "docs/security/TESTING_LOOP.md",

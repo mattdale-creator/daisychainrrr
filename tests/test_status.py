@@ -12,3 +12,7 @@ def test_status_schema():
     assert "testing_loop" in st["commands"]
     assert st["testing_loop"]["procedure"].endswith("TESTING_LOOP.md")
     assert "inclusion_proof_demo" in st["commands"]
+    assert "nano_stream_tips" in st["commands"]
+    assert st["nano_streams"]["all_chain_ok"] is True
+    assert st["nano_streams"]["nano_count"] >= 4
+    assert st["ethos"]["green_means_verify_and_fresh"] is True

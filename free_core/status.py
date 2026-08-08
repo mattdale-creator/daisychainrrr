@@ -8,6 +8,7 @@ from typing import Any, Dict, List
 from free_core import __version__
 from free_core.provenance.manifest import load_manifest, verify_manifest
 from free_core.provenance.seal_targets import build_free_core_manifest
+from free_core.stream.nano_tips import collect_nano_stream_tips
 
 
 def _repo_root(start: Path | None = None) -> Path:
@@ -52,6 +53,21 @@ def collect_status(repo: Path | None = None) -> Dict[str, Any]:
                     entry["mismatches"] = (r.get("mismatches") or [])[:5]
             nanos.append(entry)
     hard = root / "docs" / "HARD_TECHNOLOGICAL_GATES.md"
+    stream_tips = collect_nano_stream_tips(root)
+    stream_summary = {
+        "all_chain_ok": stream_tips.get("all_chain_ok"),
+        "nano_count": stream_tips.get("nano_count"),
+        "tips": [
+            {
+                "name": n.get("name"),
+                "chain_ok": n.get("chain_ok"),
+                "count": n.get("count"),
+                "tip": n.get("tip"),
+                "last_event_type": n.get("last_event_type"),
+            }
+            for n in stream_tips.get("nanos", [])
+        ],
+    }
     return {
         "schema": "ttllm.project_status.v1",
         "utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -59,11 +75,13 @@ def collect_status(repo: Path | None = None) -> Dict[str, Any]:
         "repo": str(root),
         "seal": seal,
         "nanos": nanos,
+        "nano_streams": stream_summary,
         "hard_gates_doc": hard.is_file(),
         "ethos": {
             "free_public_core_never_paywalled": True,
             "nano_is_not_frontier": True,
             "hard_gates_not_faked": True,
+            "green_means_verify_and_fresh": True,
         },
         "commands": {
             "verify": "python3 scripts/public_verify_harness.py",
@@ -72,6 +90,7 @@ def collect_status(repo: Path | None = None) -> Dict[str, Any]:
             "redteam_business": "python3 scripts/redteam_business_attack.py",
             "testing_loop": "python3 scripts/run_testing_loop.py",
             "inclusion_proof_demo": "python3 scripts/demo_inclusion_proof.py",
+            "nano_stream_tips": "python3 scripts/publish_nano_stream_tips.py",
         },
         "testing_loop": {
             "procedure": "docs/security/TESTING_LOOP.md",

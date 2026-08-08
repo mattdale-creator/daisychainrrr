@@ -1,14 +1,15 @@
 # Writable completion bar (free public core)
 
-**Updated:** 2026-08-08 (post testing-loop-1 continue)  
+**Updated:** 2026-08-08 (post-crash free-core continue 0.6.2)  
 **Definition:** Project completion for agent/Mac scope = every load-bearing free-core and org-process artefact that does **not** require hard gates T1–T11.
 
 ## Complete (bone)
 | Area | Evidence |
 |------|----------|
-| free_core tooling 0.6.1 | provenance, stream, ttlink, security, status, release, business boundary_guard |
+| free_core tooling 0.6.2 | provenance, stream (+nano tips), ttlink, security, status, release, business boundary_guard |
 | Testing loop (company) | TESTING_LOOP.md + LOOP_2026-08-08 CLOSED + run_testing_loop.py |
 | Inclusion-proof demo | scripts/demo_inclusion_proof.py + site/demo panel |
+| Multi-nano stream tips | scripts/publish_nano_stream_tips.py + site/stream + nano_stream_tips.json |
 | Nano models v1–v4 | data, code, ckpts, metrics, ttlink, stream, honesty packs |
 | Domains 1–10 | specs + artefacts + registers + handbook |
 | Seals + automation | FREE_CORE_SEAL, freshness, oneshot, redteam harness |

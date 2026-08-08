@@ -1,0 +1,55 @@
+{
+  "schema": "ttllm.nano_stream_tips.v1",
+  "utc": "2026-08-08T15:17:14Z",
+  "ethos": "hash-chained public streams \u2014 real process events, not a screensaver",
+  "all_chain_ok": true,
+  "nano_count": 4,
+  "nanos": [
+    {
+      "name": "ttllm-nano",
+      "stream_path": "models/ttllm-nano/stream/public_log.json",
+      "present": true,
+      "chain_ok": true,
+      "count": 5,
+      "tip": "032dff39417ee5ade3aa0797e984fe463d51b541091cb1366d918a77f16cda7d",
+      "last_event_type": "ttlink_index_sealed",
+      "last_timestamp_utc": "2026-08-08T13:35:34Z",
+      "site_log": "demo/nano/public_log.json"
+    },
+    {
+      "name": "ttllm-nano-v2",
+      "stream_path": "models/ttllm-nano-v2/stream/public_log.json",
+      "present": true,
+      "chain_ok": true,
+      "count": 4,
+      "tip": "b9fe73fba08c05740520829dfe848a2df9b2573ec7827b0629f455c480c75660",
+      "last_event_type": "ttlink_index_sealed",
+      "last_timestamp_utc": "2026-08-08T13:35:54Z",
+      "site_log": "demo/nano-v2/public_log.json"
+    },
+    {
+      "name": "ttllm-nano-v3",
+      "stream_path": "models/ttllm-nano-v3/stream/public_log.json",
+      "present": true,
+      "chain_ok": true,
+      "count": 5,
+      "tip": "471a900c28e3dcca5a6a663b6ef0c31af991f23396126209a34f3eda9ef4ef00",
+      "last_event_type": "ttlink_index_sealed",
+      "last_timestamp_utc": "2026-08-08T13:35:36Z",
+      "site_log": "demo/nano-v3/public_log.json"
+    },
+    {
+      "name": "ttllm-nano-v4",
+      "stream_path": "models/ttllm-nano-v4/stream/public_log.json",
+      "present": true,
+      "chain_ok": true,
+      "count": 5,
+      "tip": "83e159496496d9558c918d5da5b87c745d5fa4f74d5263cc1e24d9ae31f9ae74",
+      "last_event_type": "ttlink_index_sealed",
+      "last_timestamp_utc": "2026-08-08T13:35:36Z",
+      "site_log": "demo/nano-v4/public_log.json"
+    }
+  ],
+  "verify": "python3 -c \"from free_core.stream.log import StreamLog; from pathlib import Path; print(StreamLog.load(Path('models/ttllm-nano/stream/public_log.json')).verify_chain())\"",
+  "publish": "python3 scripts/publish_nano_stream_tips.py"
+}

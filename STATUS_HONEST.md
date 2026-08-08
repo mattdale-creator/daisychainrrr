@@ -1,8 +1,8 @@
 # Honest status — free-core buildable complete
 
-**Updated:** 2026-08-08T14:45:00Z  
-**free_core:** 0.6.1  
-**Latest ship:** testing loop-1 CLOSED · post-loop continue (edge QG · inclusion demo)  
+**Updated:** 2026-08-08T15:20:00Z  
+**free_core:** 0.6.2  
+**Latest ship:** post-crash resume · multi-nano stream tips · site 0.6.1→0.6.2  
 
 ## What “complete” means here
 **Free public core software + org process bone** that this environment can ship without capital, entity filing, or blocked platform scopes is built, sealed, tested, and published.
@@ -16,6 +16,7 @@ python3 scripts/ttllm_status.py --quiet-ok
 python3 scripts/public_verify_harness.py
 python3 scripts/run_testing_loop.py   # company testing-loop automated half
 python3 scripts/demo_inclusion_proof.py
+python3 scripts/publish_nano_stream_tips.py
 ```
 
 ## Public surfaces

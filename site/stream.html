@@ -31,12 +31,18 @@
     <p class="eyebrow">Hash-chained events</p>
     <h1>Public stream</h1>
     <p class="tagline">Real process events — not a Matrix screensaver.</p>
+
+    <h2>Nano release tips (verified)</h2>
+    <p class="tagline">Every tip below is re-checked with <code>StreamLog.verify_chain</code> before publish. Soft tissue is a tip without a chain.</p>
+    <div class="card" id="nano-tips">Loading nano stream tips…</div>
+
+    <h2>Site / demo process stream</h2>
     <div class="card">
       <p class="mono" id="chain">Loading stream…</p>
       <button class="btn" id="reload" type="button">Reload</button>
     </div>
     <div id="events"></div>
-    <p>Source: <a href="demo/public_log.json">demo/public_log.json</a> · verify with <code>ttllm-stream verify</code></p>
+    <p>Source: <a href="demo/public_log.json">demo/public_log.json</a> · multi-nano index: <a href="demo/nano_stream_tips.json">demo/nano_stream_tips.json</a> · verify with <code>ttllm-stream verify</code></p>
     <script src="demo/stream_demo.js"></script>
 
     <footer>
