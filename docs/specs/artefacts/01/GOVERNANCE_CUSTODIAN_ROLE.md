@@ -18,27 +18,27 @@ Implements a concrete artefact required by the founding Total Transparency Speci
 ## Content
 
 ### Summary
-[Fill with current project state]
+See STATUS_HONEST.md, registers/, and founding specs. Artefact path: `docs/specs/artefacts/01/GOVERNANCE_CUSTODIAN_ROLE.md`. Pre-entity bootstrap as of continuous bone loop. Empty procedure steps remain only where role not staffed.
 
 ### Procedures
-1. 
-2. 
-3. 
+1. Read normative domain plan in docs/specs/.
+2. Update this artefact when state changes; log Domain 1 if material.
+3. Link from release scorecard.
 
 ### Owners
 - Primary: project lead (md@0265.au) until role filled
 - Backup: TBD
 
 ### Interfaces
-- Free public core: 
-- Commercial layers: 
+- Free public core: never closed by this artefact
+- Commercial layers: must not require opacity here
 - Registers path: `registers/`
 
 ### Failure modes
 See `docs/architecture-tree/eventualities/06-transparency-domains/`.
 
 ### Checklist
-- [ ] Content filled with real data
+- [x] Content filled with real data (bootstrap)
 - [ ] Linked from domain scorecard
 - [ ] Reviewed against founding turn plan in `docs/specs/`
 - [ ] No commercial feature depends on hiding this
