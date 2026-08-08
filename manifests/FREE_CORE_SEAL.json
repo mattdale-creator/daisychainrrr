@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "1dc5eb773613389a1d2140cafd90f691b2c8923f7f9b889b15cb32431c47af9f",
+  "merkle_root": "3cbe287108e7672b27b30726bed9be634919543b33f088139e734f90b13d953e",
   "count": 10552,
   "leaves": [
     {
@@ -50715,8 +50715,8 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "c6c328c2e5d749b6766af48568bd5b011963e471728f9e9367f628aee9dd1f4e",
-      "bytes": 2206
+      "sha256": "0117129ed2eec31ed8b5ea82c8d7cd1b2ce3ddf92ee07f5990374e172020ac4f",
+      "bytes": 2393
     },
     {
       "path": "docs/audits/WRITABLE_COMPLETION.md",
@@ -52180,8 +52180,8 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "3b0c28aed42793e72f4e9b8e60f1c86e4b60bf4addd63ad622f596ab2ad8c419",
-      "bytes": 7323
+      "sha256": "08c61893be90c198244012dde708574b210000cc166935bfdd610e979e7f669e",
+      "bytes": 7629
     },
     {
       "path": "registers/decisions/feed.json",

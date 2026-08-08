@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.business_redteam.v1",
   "campaign_id": "BHA-2026-08-08",
-  "utc": "2026-08-08T15:22:00Z",
+  "utc": "2026-08-08T15:22:58Z",
   "framing": "black-hat lens constructive QA \u2014 not criminal instruction",
   "personas": [
     "investor_capture",

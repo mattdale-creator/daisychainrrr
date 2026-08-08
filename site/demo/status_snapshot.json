@@ -1,15 +1,15 @@
 {
   "schema": "ttllm.project_status.v1",
-  "utc": "2026-08-08T15:22:05Z",
+  "utc": "2026-08-08T15:23:03Z",
   "free_core_version": "0.6.2",
   "repo": "daisychainrrr (public)",
   "seal": {
     "present": true,
-    "merkle_root": "1dc5eb773613389a1d2140cafd90f691b2c8923f7f9b889b15cb32431c47af9f",
+    "merkle_root": "3cbe287108e7672b27b30726bed9be634919543b33f088139e734f90b13d953e",
     "count": 10552,
     "verify_ok": true,
     "fresh": true,
-    "fresh_merkle_root": "1dc5eb773613389a1d2140cafd90f691b2c8923f7f9b889b15cb32431c47af9f",
+    "fresh_merkle_root": "3cbe287108e7672b27b30726bed9be634919543b33f088139e734f90b13d953e",
     "fresh_count": 10552
   },
   "nanos": [
