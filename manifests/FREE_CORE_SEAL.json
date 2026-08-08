@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "373e942aa44191f88f82d3ed0f1f0898c76d1d83b12ae88e9a04658a23a41e03",
-  "count": 10542,
+  "merkle_root": "902867a032e8c8d2a98fad803d627ff974a52cc4ae9592db63ff7e3077f6ebe0",
+  "count": 10546,
   "leaves": [
     {
       "path": "LICENSE",
@@ -10,8 +10,8 @@
     },
     {
       "path": "Makefile",
-      "sha256": "bb7b25172ac8f7201ed18492de39d68f18e80f5874380e8336e55496c0276212",
-      "bytes": 3122
+      "sha256": "1e74214637b98f717c929a86d7fcd108e6bce5a1e7d6f88841bb2cac3f71be9f",
+      "bytes": 3166
     },
     {
       "path": "README.md",
@@ -51919,6 +51919,16 @@
       "bytes": 52
     },
     {
+      "path": "free_core/business/__init__.py",
+      "sha256": "1767ab08fee4c411e7c425b5f9ba119e8da8c7977da38124c67e8228ca6ec560",
+      "bytes": 446
+    },
+    {
+      "path": "free_core/business/boundary_guard.py",
+      "sha256": "04efbd67f44e8a8bb1d06e54bfe60d20ba18464d717623450f61dd9415be5f93",
+      "bytes": 11759
+    },
+    {
       "path": "free_core/eval/__init__.py",
       "sha256": "80f832b7d9d5ff4ddf88a00b9c15123fb0022fccde1fc5b13d30779a885f4191",
       "bytes": 48
@@ -52165,13 +52175,13 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "65443cb6728704c9cfa8f89a48274c2da363ca8d9f17a2dc926f2699e2cacabf",
-      "bytes": 6138
+      "sha256": "47054a56672c1b8b5ea0ec1d6e0d267346e0a26fda878ee2a9b894445729a048",
+      "bytes": 6402
     },
     {
       "path": "registers/decisions/feed.json",
-      "sha256": "eb270f1f5c8d47262543c8ab7652a225423641055f127ea8f87c1db43444d91d",
-      "bytes": 3211
+      "sha256": "75bf41737122faaa6303975a7db5cdc9e438f94cdd6fb93dec177cb40f297b70",
+      "bytes": 3400
     },
     {
       "path": "registers/funding.md",
@@ -52214,14 +52224,19 @@
       "bytes": 273
     },
     {
+      "path": "registers/redteam/CAMPAIGN_BHA-2026-08-08.md",
+      "sha256": "28586bdfe341436b438fbeb6c14d84d763eb84c5e1cf1433367f2510553625c3",
+      "bytes": 2222
+    },
+    {
       "path": "registers/redteam/CAMPAIGN_RTC-2026-08-08.md",
       "sha256": "db5488023446218dd25f88130b947d67afd93a51bded3a600f4eaf84e4fcc23d",
       "bytes": 2196
     },
     {
       "path": "registers/redteam/FINDINGS_REGISTER.md",
-      "sha256": "3d3ff7faa25d8447ecd81a19dfcb65f3b104c0df5b21ad130c25b5bfdc07e4fe",
-      "bytes": 3439
+      "sha256": "44a85404c32790f8cb5f581584e01ba3f7e830866e126605ea37dadb17f7c841",
+      "bytes": 3778
     },
     {
       "path": "registers/supply-chain/DEPENDENCY_REGISTER.md",
@@ -52322,6 +52337,11 @@
       "path": "scripts/public_verify_harness.py",
       "sha256": "7d4e4969b4d311bbe6ff61dd878d89f00a009dde30e1a8f95f035a3a78108dc4",
       "bytes": 4505
+    },
+    {
+      "path": "scripts/redteam_business_attack.py",
+      "sha256": "ce5b09b7f0d9a4bec64867d05a1456889aca63e56227a1bfecd6621193541c72",
+      "bytes": 10018
     },
     {
       "path": "scripts/redteam_campaign_2026_08_08.py",

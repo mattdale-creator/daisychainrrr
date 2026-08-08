@@ -12,6 +12,7 @@
 | RT-C-004 | 2026-08-08 | 2026-08-08 | site / dns | Low / gate | ttllms.org does not resolve (T1). | Not a software defect; hard gate. | Tombstone on URL inventory. |
 | RT-C-005 | 2026-08-08 | 2026-08-08 | process | Medium | Standing red-team hire absent (T10); automated harness ≠ human campaign depth. | Cadence in TESTING_LOOP.md; this campaign expands automated surface. | Hire remains T10. |
 | RT-C-006 | 2026-08-08 | 2026-08-08 | site/api | Medium | Live Pages `POST /api/ttlink/` is unauthenticated; no QueryGuard on edge Function. | Documented on demo page; corpus is small public demo. Optional future edge rate limit. | Demo transparency ≠ multi-TB production index. |
+| BH-001…012 | 2026-08-08 | 2026-08-08 | business/boundary | — | Black-hat business campaign BHA-2026-08-08: 14/14 automated probes pass after detector precision fix. | Real code: `free_core/business/boundary_guard.py`, `scripts/redteam_business_attack.py` | Free-rider + T8/T9/T11 remain business residual (by design or hard gate). |
 
 ## Campaign RTC-2026-08-08 automated probes (20)
 

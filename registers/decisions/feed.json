@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.decision_feed.v1",
-  "updated": "2026-08-08T19:00:00+00:00",
+  "updated": "2026-08-08T20:00:00+00:00",
   "entries": [
     {
       "id": "D-0007",
@@ -109,6 +109,12 @@
       "date": "2026-08-08",
       "title": "Red-team RTC-2026-08-08",
       "outcome": "campaign+findings+private key seal exclude"
+    },
+    {
+      "id": "D-0033",
+      "date": "2026-08-08",
+      "title": "Black-hat business redteam real code BHA-2026-08-08",
+      "outcome": "boundary_guard+business attack 14/14"
     }
   ]
 }

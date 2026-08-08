@@ -1,0 +1,161 @@
+{
+  "schema": "ttllm.business_redteam.v1",
+  "campaign_id": "BHA-2026-08-08",
+  "utc": "2026-08-08T14:03:31Z",
+  "framing": "black-hat lens constructive QA \u2014 not criminal instruction",
+  "personas": [
+    "investor_capture",
+    "openwash",
+    "free_rider",
+    "customer_coercion",
+    "reputation_fud",
+    "single_human_kill",
+    "verify_paywall"
+  ],
+  "results": [
+    {
+      "id": "BH-001",
+      "severity": "Critical",
+      "persona": "investor_capture+customer_coercion+openwash",
+      "title": "No High/Critical close-core claims in commercial/site/business surfaces",
+      "pass": true,
+      "detail": "scanned ok stats={'files_scanned': 52, 'boundary_ok': True, 'sku_ok': True, 'site_ok': True, 'high_findings': 0}",
+      "residual": ""
+    },
+    {
+      "id": "BH-002",
+      "severity": "Critical",
+      "persona": "verify_paywall",
+      "title": "FREE_CORE_SEAL verifies offline without auth/payment",
+      "pass": true,
+      "detail": "path=/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/manifests/FREE_CORE_SEAL.json ok=True",
+      "residual": ""
+    },
+    {
+      "id": "BH-003",
+      "severity": "Critical",
+      "persona": "verify_paywall",
+      "title": "public_verify_harness exits 0 (unpaid proof path)",
+      "pass": true,
+      "detail": "f README.md True\nexamples/stream {'ok': True, 'count': 7, 'tip': 'bd3a9afd01ec36a185876d4b34ec9b4cb073452512009587b7a479c6d31c72d1'}\nttlink_query hits 1\nnano RELEASE_MANIFEST True\nnano stream {'ok': True, 'count': 5, 'tip': '032dff39417ee5ade3aa0797e984fe463d51b541091cb1366d918a77f16cda7d'}\nnano required events missing []\nnano canary {'ok': True, 'hits': 1, 'expected_sha256': '2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25'}\nBOUNDARY ok\nFAILS []\n{\n  \"ok\": true,\n  \"fails\": []\n}\n",
+      "residual": ""
+    },
+    {
+      "id": "BH-004-status",
+      "severity": "High",
+      "persona": "verify_paywall",
+      "title": "Public page https://ttllms.com/status returns 200 without login wall",
+      "pass": true,
+      "detail": "status=200 ctype=text/html; charset=utf-8",
+      "residual": ""
+    },
+    {
+      "id": "BH-004-free_core",
+      "severity": "High",
+      "persona": "verify_paywall",
+      "title": "Public page https://ttllms.com/free-core returns 200 without login wall",
+      "pass": true,
+      "detail": "status=200 ctype=text/html; charset=utf-8",
+      "residual": ""
+    },
+    {
+      "id": "BH-004-hard_gates",
+      "severity": "High",
+      "persona": "verify_paywall",
+      "title": "Public page https://ttllms.com/hard-gates returns 200 without login wall",
+      "pass": true,
+      "detail": "status=200 ctype=text/html; charset=utf-8",
+      "residual": ""
+    },
+    {
+      "id": "BH-005",
+      "severity": "High",
+      "persona": "free_rider",
+      "title": "Free-core bone paths exist (attacker can clone without paying)",
+      "pass": true,
+      "detail": "missing=[]",
+      "residual": "Free-rider is by design; commercial outer must still be valuable"
+    },
+    {
+      "id": "BH-006",
+      "severity": "High",
+      "persona": "single_human_kill",
+      "title": "Single-human concentration is public (not soft-tissue hidden)",
+      "pass": true,
+      "detail": "ASSET_INVENTORY must admit backup gaps",
+      "residual": "T9 second custodian still open \u2014 attack surface remains until human appoint"
+    },
+    {
+      "id": "BH-007",
+      "severity": "Medium",
+      "persona": "investor_capture",
+      "title": "Term sheet example contains free-core covenants / side-letter refuse",
+      "pass": true,
+      "detail": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/docs/placeholders/capital/TERM_SHEET_EXAMPLE.md",
+      "residual": ""
+    },
+    {
+      "id": "BH-008",
+      "severity": "High",
+      "persona": "customer_coercion",
+      "title": "Refuse close-core runbook exists with precedence",
+      "pass": true,
+      "detail": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/docs/handbook/commercial/02-refuse-close-core.md",
+      "residual": ""
+    },
+    {
+      "id": "BH-009",
+      "severity": "Critical",
+      "persona": "reputation_fud_self",
+      "title": "No SKU falsely marked live/sold",
+      "pass": true,
+      "detail": "false_live_count=0",
+      "residual": ""
+    },
+    {
+      "id": "BH-010",
+      "severity": "High",
+      "persona": "customer_coercion",
+      "title": "Isolation runbook requires separate signing keys / isolation",
+      "pass": true,
+      "detail": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/commercial/ISOLATION_RUNBOOK.md",
+      "residual": ""
+    },
+    {
+      "id": "BH-011",
+      "severity": "Medium",
+      "persona": "investor_capture",
+      "title": "Fundraise pitch example asserts free-core precedence / anti-paywall",
+      "pass": true,
+      "detail": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/docs/placeholders/capital/FUNDRAISE_PITCH_EXAMPLE.md",
+      "residual": ""
+    },
+    {
+      "id": "BH-012",
+      "severity": "Medium",
+      "persona": "openwash",
+      "title": "Economics page states free core is not the billable SKU",
+      "pass": true,
+      "detail": "status=200",
+      "residual": ""
+    }
+  ],
+  "boundary_scan": {
+    "ok": true,
+    "findings": [],
+    "stats": {
+      "files_scanned": 52,
+      "boundary_ok": true,
+      "sku_ok": true,
+      "site_ok": true,
+      "high_findings": 0
+    }
+  },
+  "summary": {
+    "total": 14,
+    "passed": 14,
+    "failed": 0,
+    "high_critical_failed": 0
+  },
+  "all_high_pass": true
+}
