@@ -38,6 +38,36 @@ def main():
     results.append({"test": "canary_present", "pass": check_canary(idx, "harness")["ok"]})
     idx2 = TtlinkIndex()
     results.append({"test": "canary_absent", "pass": check_canary(idx2, "harness")["ok"] is False})
+    # BOUNDARY must exist and forbid paywalling verification language
+    bpath = REPO / "commercial" / "BOUNDARY.md"
+    btxt = bpath.read_text(encoding="utf-8") if bpath.is_file() else ""
+    results.append({
+        "test": "boundary_forbids_paywall_verify",
+        "pass": "Paywall on verifying" in btxt or "Paywall on verifying a public-core claim" in btxt
+        or ("paywall" in btxt.lower() and "verif" in btxt.lower()),
+    })
+    # Free core seal present + verifies (integrity of public claim surface)
+    from free_core.provenance.manifest import load_manifest
+    mpath = REPO / "manifests" / "FREE_CORE_SEAL.json"
+    if mpath.is_file():
+        results.append({
+            "test": "free_core_seal_verifies",
+            "pass": bool(verify_manifest(load_manifest(mpath), REPO).get("ok")),
+        })
+    else:
+        results.append({"test": "free_core_seal_verifies", "pass": False})
+    # Inclusion proof path exists (tooling)
+    from free_core.provenance.proof import inclusion_proof, verify_inclusion
+    if mpath.is_file():
+        man = load_manifest(mpath)
+        leaves = sorted(man.get("leaves") or [], key=lambda x: x["path"])
+        digests = [x["sha256"] for x in leaves]
+        if digests:
+            pr = inclusion_proof(digests, 0)
+            results.append({
+                "test": "inclusion_proof_roundtrip",
+                "pass": verify_inclusion(pr["leaf_hash"], pr["proof"], man["merkle_root"]),
+            })
     out = {"schema": "ttllm.redteam_harness.v1", "results": results, "all_pass": all(r["pass"] for r in results)}
     path = REPO / "registers" / "redteam" / "last_harness_run.json"
     path.write_text(json.dumps(out, indent=2) + "\n")

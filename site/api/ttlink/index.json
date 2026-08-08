@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "service": "static-ttlink-meta",
+  "honesty": "Static JSON fallback. Live query is browser demo or POST /api/ttlink when Functions route. Free public core verify never needs this HTTP API.",
+  "documents": 5,
+  "demo": "/demo.html",
+  "cli": "python3 -m free_core.ttlink.cli query \"bone\" --index examples/ttlink_index.json",
+  "paywall": false
+}

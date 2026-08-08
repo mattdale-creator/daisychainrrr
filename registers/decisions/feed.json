@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.decision_feed.v1",
-  "updated": "2026-08-08T11:00:00+00:00",
+  "updated": "2026-08-08T11:20:00+00:00",
   "entries": [
     {
       "id": "D-0007",
@@ -55,6 +55,12 @@
       "date": "2026-08-08",
       "title": "Execute fine-grain proof automation to the wall",
       "outcome": "scripts+CI+catalogs+reseal"
+    },
+    {
+      "id": "D-0024",
+      "date": "2026-08-08",
+      "title": "Max agent bone around all 10 walls + live site",
+      "outcome": "docs/walls + functions API + deploy ttllms.com"
     }
   ]
 }

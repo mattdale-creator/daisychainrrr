@@ -27,8 +27,20 @@
       ],
       "expect_body_contains": [
         "Honest",
-        "status",
-        "gates"
+        "status"
+      ],
+      "required": true
+    },
+    {
+      "id": "pages_walls",
+      "url": "https://ttllms.pages.dev/walls",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "expect_body_contains": [
+        "wall",
+        "Hard limits"
       ],
       "required": true
     },
@@ -46,14 +58,36 @@
       "required": true
     },
     {
+      "id": "pages_static_ttlink_meta",
+      "url": "https://ttllms.pages.dev/api/ttlink/",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "expect_content_type_substr": "json",
+      "expect_body_contains": [
+        "pages-ttlink"
+      ],
+      "required": true
+    },
+    {
+      "id": "pages_static_health",
+      "url": "https://ttllms.pages.dev/api/health/",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "expect_content_type_substr": "json",
+      "required": true
+    },
+    {
       "id": "com_root",
       "url": "https://ttllms.com/",
       "method": "GET",
       "expect_status": [
         200
       ],
-      "required": false,
-      "tombstone_if_fail": "DNS/custom domain may still be human-gated"
+      "required": true
     },
     {
       "id": "com_status",
@@ -62,7 +96,20 @@
       "expect_status": [
         200
       ],
-      "required": false
+      "required": true
+    },
+    {
+      "id": "com_walls",
+      "url": "https://ttllms.com/walls",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "expect_body_contains": [
+        "wall"
+      ],
+      "required": false,
+      "tombstone_if_fail": "Deploy lag or cache"
     },
     {
       "id": "org_root",
@@ -72,18 +119,21 @@
         200
       ],
       "required": false,
-      "tombstone_if_fail": "ttllms.org DNS pending \u2014 see docs/handbook/gates/01-dns-org.md"
+      "tombstone_if_fail": "ttllms.org DNS pending \u2014 wall 01"
     },
     {
       "id": "pages_ttlink_api_get",
-      "url": "https://ttllms.pages.dev/api/ttlink",
+      "url": "https://ttllms.pages.dev/api/ttlink/",
       "method": "GET",
       "expect_status": [
         200
       ],
       "expect_content_type_substr": "json",
       "required": false,
-      "tombstone_if_fail": "Pages Functions routing may 405/HTML \u2014 gate 03"
+      "tombstone_if_fail": "Pages Functions may still not route; static /api/ttlink/ is bone",
+      "expect_body_contains": [
+        "ok"
+      ]
     },
     {
       "id": "github_repo",

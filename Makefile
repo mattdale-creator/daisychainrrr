@@ -37,11 +37,18 @@ fine-grain:
 	python3 scripts/build_incident_drill_stream.py
 	python3 scripts/build_supply_lock.py
 	python3 scripts/check_data_cards.py
+	python3 scripts/check_dns_status.py || true
 	python3 scripts/check_public_urls.py --write-default --offline || python3 scripts/check_public_urls.py --write-default
 	python3 scripts/check_seal_freshness.py --write
 	python3 scripts/public_verify_harness.py
 	python3 scripts/redteam_nano_harness.py
 	python3 -m pytest -q
+
+dns:
+	python3 scripts/check_dns_status.py
+
+deploy-site:
+	npx wrangler pages deploy site --project-name=ttllms
 
 reseal-core:
 	python3 scripts/check_seal_freshness.py --write

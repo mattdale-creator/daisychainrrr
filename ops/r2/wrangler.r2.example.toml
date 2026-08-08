@@ -1,0 +1,12 @@
+# Example only — copy after R2 enabled. Do not commit real account secrets.
+# Usage once enabled:
+#   npx wrangler r2 bucket create ttllm-public-releases
+#   npx wrangler r2 object put ttllm-public-releases/releases/demo/hello.txt --file=./README.md
+
+name = "ttllms-r2-helper"
+compatibility_date = "2026-08-01"
+account_id = "YOUR_ACCOUNT_ID"
+
+# [[r2_buckets]]
+# binding = "PUBLIC_RELEASES"
+# bucket_name = "ttllm-public-releases"

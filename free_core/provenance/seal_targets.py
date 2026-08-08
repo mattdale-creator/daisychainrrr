@@ -33,6 +33,19 @@ SEAL_EXTRA = {
 }
 
 
+# Volatile probe outputs — must not invalidate FREE_CORE_SEAL after every harness run
+SEAL_EXCLUDE_NAMES = {
+    "last_harness_run.json",
+    "last_dns_status.json",
+    "last_check.json",
+    "last_registration_ttllms_com.json",
+    "last_registration_ttllms_org.json",
+    "last_status_ttllms_com.json",
+    "last_status_ttllms_org.json",
+    "secrets.local.env",
+}
+
+
 def collect_seal_targets(root: Path) -> List[Path]:
     root = Path(root)
     targets: List[Path] = []
@@ -44,7 +57,14 @@ def collect_seal_targets(root: Path) -> List[Path]:
         p = root / name
         if p.is_file():
             targets.append(p)
-    return targets
+    filtered: List[Path] = []
+    for t in targets:
+        if t.name in SEAL_EXCLUDE_NAMES:
+            continue
+        if t.suffix == ".pyc" or "__pycache__" in t.parts:
+            continue
+        filtered.append(t)
+    return filtered
 
 
 def build_free_core_manifest(root: Path) -> dict:

@@ -20,6 +20,18 @@
     {
       "test": "canary_absent",
       "pass": true
+    },
+    {
+      "test": "boundary_forbids_paywall_verify",
+      "pass": true
+    },
+    {
+      "test": "free_core_seal_verifies",
+      "pass": true
+    },
+    {
+      "test": "inclusion_proof_roundtrip",
+      "pass": true
     }
   ],
   "all_pass": true
