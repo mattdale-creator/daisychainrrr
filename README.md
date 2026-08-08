@@ -69,18 +69,21 @@ Live: https://ttllms.com/nano
 **Honesty:** nano ≠ OLMo-scale. Gap audit: `docs/audits/GAP_AUDIT_vs_FOUNDING_TRANSCRIPT.md`.
 
 
-## Buildable complete (v0.5.0)
+## Free-core buildable complete (free_core 0.6)
 
-Mac-scope free public core is shipped: tools, nano models (v1–v4), domains 1–10, seals, site.
+Mac-scope free public core is shipped: tools, nano models (v1–v4), domains 1–10, seals, handbook, site, ethos-full placeholders.
 
 - Status: https://ttllms.com/status · `STATUS_HONEST.md`
+- Writable completion bar: `docs/audits/WRITABLE_COMPLETION.md`
 - Checklist: `ops/BUILDABLE_COMPLETE_CHECKLIST.md`
-- Human gates only: `ops/HUMAN_GATES.md`
+- **Hard gates open (honest):** https://ttllms.com/hard-gates · `docs/HARD_TECHNOLOGICAL_GATES.md`
+- **Testing loop cadence:** `docs/security/TESTING_LOOP.md`
 
 ```bash
 python3 -m pytest -q
 python3 scripts/oneshot_verify_all.py
 python3 scripts/redteam_nano_harness.py
+python3 scripts/ttllm_status.py --quiet-ok
 ```
 
 ## Repository map (every major branch)

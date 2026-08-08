@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "b090ac934a151b87f03c4af92dad0421d0a10a0e9a2d760261bf3377adc3caba",
+  "merkle_root": "4e1a714eb1f367b62e01341943515308ceaf18f636bb27530d4bd65b284eecb0",
   "count": 40,
   "leaves": [
     {
@@ -140,7 +140,7 @@
     },
     {
       "path": "metrics/cost_ledger.md",
-      "sha256": "81297af6ad1ae79501fbd1627f22f24637478346e042bc81a862473148952457",
+      "sha256": "49c0ccd196b9be7b7b5f69998128671c42b54a70d8b71a3e7c78ae49503deedd",
       "bytes": 822
     },
     {
@@ -155,8 +155,8 @@
     },
     {
       "path": "stream/public_log.json",
-      "sha256": "6c5321093b6811f4d09ee8abfd44b0b2f7a23c4989d71feb9608d90543bc3ad0",
-      "bytes": 2391
+      "sha256": "a1f63dc1f82699f300798a585b94d3a3d56d502b2d6956e981ff81fe694fa537",
+      "bytes": 2416
     },
     {
       "path": "ttlink/binding.json",

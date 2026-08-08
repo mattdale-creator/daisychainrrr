@@ -1,41 +1,41 @@
 {
   "schema": "ttllm.project_status.v1",
-  "utc": "2026-08-08T11:53:51Z",
+  "utc": "2026-08-08T13:37:16Z",
   "free_core_version": "0.6.0",
   "repo": "daisychainrrr (public)",
   "seal": {
     "present": true,
-    "merkle_root": "d588409accbe3465a9e0bc2cf812c7c0bfce185e1e7ff54a23fadf520241e842",
-    "count": 10538,
+    "merkle_root": "6097e240d942736716bf21096d94b9d0dedfac175e84043a7a97ab3c026775a8",
+    "count": 10541,
     "verify_ok": true,
     "fresh": true,
-    "fresh_merkle_root": "d588409accbe3465a9e0bc2cf812c7c0bfce185e1e7ff54a23fadf520241e842",
-    "fresh_count": 10538
+    "fresh_merkle_root": "6097e240d942736716bf21096d94b9d0dedfac175e84043a7a97ab3c026775a8",
+    "fresh_count": 10541
   },
   "nanos": [
     {
       "name": "ttllm-nano",
       "release_manifest": true,
       "verify_ok": true,
-      "merkle_root": "b090ac934a151b87f03c4af92dad0421d0a10a0e9a2d760261bf3377adc3caba"
+      "merkle_root": "4e1a714eb1f367b62e01341943515308ceaf18f636bb27530d4bd65b284eecb0"
     },
     {
       "name": "ttllm-nano-v2",
       "release_manifest": true,
-      "verify_ok": false,
-      "merkle_root": "9bb01bd7a46975ebeead084b4bf9d0b2eabf3285db97147821678478c2ddfa06"
+      "verify_ok": true,
+      "merkle_root": "ca7047d35f1b722f1c90200faedffff651a799b4a032fcc0f518c40b3ce42ecf"
     },
     {
       "name": "ttllm-nano-v3",
       "release_manifest": true,
       "verify_ok": true,
-      "merkle_root": "937f1c5c4a0430377874200080bbf76670641ffcb327e0125df57ea266fbbe44"
+      "merkle_root": "e756bda1fc9ef614b97513e874deb6dafa765dc7323db6006a78dcec3fb8ad7e"
     },
     {
       "name": "ttllm-nano-v4",
       "release_manifest": true,
       "verify_ok": true,
-      "merkle_root": "6dfaa9d41c928537e6bc1bfea42c13811d05c26737f1962e7a77665de6866974"
+      "merkle_root": "d55e156ca59bf59b8818dcbeb2d8d8d8ed4766a487a28671ae022d61cc6fe88d"
     }
   ],
   "hard_gates_doc": true,

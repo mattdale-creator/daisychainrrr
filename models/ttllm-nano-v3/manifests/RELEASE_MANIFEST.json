@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "937f1c5c4a0430377874200080bbf76670641ffcb327e0125df57ea266fbbe44",
-  "count": 29,
+  "merkle_root": "e756bda1fc9ef614b97513e874deb6dafa765dc7323db6006a78dcec3fb8ad7e",
+  "count": 30,
   "leaves": [
     {
       "path": "cards/EVAL_HONESTY.json",
@@ -119,6 +119,11 @@
       "bytes": 101466
     },
     {
+      "path": "metrics/cost_ledger.md",
+      "sha256": "e0df5c15199f5c211c4df7917aafc6be9b3be7877ced7352413b795c31e50cad",
+      "bytes": 824
+    },
+    {
       "path": "metrics/hyperparams.json",
       "sha256": "839ee2150d431638930de64705ccddd14961cf3379db4f892433859334c07cc0",
       "bytes": 445
@@ -135,8 +140,8 @@
     },
     {
       "path": "stream/public_log.json",
-      "sha256": "44e393a84dd5ffa742ae18964c794adcb51b126055846da6bba4850de20b57bb",
-      "bytes": 2400
+      "sha256": "273537705949ef755ff8c577a93005e109a0633bf7793854e0d93101eb1eddea",
+      "bytes": 2425
     },
     {
       "path": "ttlink/canary_check.json",
@@ -151,6 +156,6 @@
   ],
   "extra": {
     "release": "ttllm-nano-v3",
-    "version": "0.1.2-reseal"
+    "version": "0.1.3-audit"
   }
 }

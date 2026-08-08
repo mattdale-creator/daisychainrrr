@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.decision_feed.v1",
-  "updated": "2026-08-08T17:00:00+00:00",
+  "updated": "2026-08-08T18:00:00+00:00",
   "entries": [
     {
       "id": "D-0007",
@@ -97,6 +97,12 @@
       "date": "2026-08-08",
       "title": "Free-core buildable complete bar affirmed",
       "outcome": "STATUS_HONEST WRITABLE_COMPLETION culture site"
+    },
+    {
+      "id": "D-0031",
+      "date": "2026-08-08",
+      "title": "First testing loop + cadence before red-team",
+      "outcome": "TESTING_LOOP LOOP_2026-08-08 nano reseal"
     }
   ]
 }

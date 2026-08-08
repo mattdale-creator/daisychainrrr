@@ -1,12 +1,12 @@
 {
   "schema": "ttllm.stream_log.v1",
   "count": 5,
-  "tip": "6ed551421ba0435bd29e48aa88c051df29fe6d6d0b604193724f2664c0e81759",
+  "tip": "032dff39417ee5ade3aa0797e984fe463d51b541091cb1366d918a77f16cda7d",
   "events": [
     {
       "schema": "ttllm.stream_event.v1",
       "event_type": "data_prepared",
-      "timestamp_utc": "2026-08-08T10:49:19Z",
+      "timestamp_utc": "2026-08-08T13:35:34Z",
       "artefact_sha256": null,
       "payload": {
         "card": "data/DATA_CARD.md",
@@ -14,59 +14,59 @@
       },
       "prev_hash": null,
       "seq": 0,
-      "event_hash": "89143f25693956dd879d265f662aa0e321c1f8d8d914113ee29ccbabec3e0d2a"
+      "event_hash": "336c50a04e995fc4b280e0e1bdfd0c7aa5e7b89736c76816628a804e343e8825"
     },
     {
       "schema": "ttllm.stream_event.v1",
       "event_type": "training_started",
-      "timestamp_utc": "2026-08-08T10:49:19Z",
+      "timestamp_utc": "2026-08-08T13:35:34Z",
       "artefact_sha256": null,
       "payload": {
         "hyper": {
           "model": "ttllm-nano"
         }
       },
-      "prev_hash": "89143f25693956dd879d265f662aa0e321c1f8d8d914113ee29ccbabec3e0d2a",
+      "prev_hash": "336c50a04e995fc4b280e0e1bdfd0c7aa5e7b89736c76816628a804e343e8825",
       "seq": 1,
-      "event_hash": "32aa23a8eb9288247ad6d9f25c02dc237d9cd1099227fa3dea5a9b1a0950730c"
+      "event_hash": "18da533de0051607d1e36f37fd9593fc6d68c69ac0dd29f4bcda01aa9c55ef16"
     },
     {
       "schema": "ttllm.stream_event.v1",
       "event_type": "loss_metric",
-      "timestamp_utc": "2026-08-08T10:49:19Z",
+      "timestamp_utc": "2026-08-08T13:35:34Z",
       "artefact_sha256": null,
       "payload": {
         "step": 800,
         "loss": null
       },
-      "prev_hash": "32aa23a8eb9288247ad6d9f25c02dc237d9cd1099227fa3dea5a9b1a0950730c",
+      "prev_hash": "18da533de0051607d1e36f37fd9593fc6d68c69ac0dd29f4bcda01aa9c55ef16",
       "seq": 2,
-      "event_hash": "993e8a232c3f2b0c2c0ecc5747fee8f2027070cfd67e63490a5b135d9c42c315"
+      "event_hash": "7af7e422d51a67e7d7d8bfc852335a440f94a120e4c9f5dfca7700e2668ccbed"
     },
     {
       "schema": "ttllm.stream_event.v1",
       "event_type": "release",
-      "timestamp_utc": "2026-08-08T10:49:19Z",
-      "artefact_sha256": "8b1e169e6bcfb2e93a0cf3f14f800975ec284bb7333fe7a86b55e31f077968b1",
+      "timestamp_utc": "2026-08-08T13:35:34Z",
+      "artefact_sha256": "b67436621d4bfd1bd237cda4229bb7e64515beef6d44157514ff7a8508356792",
       "payload": {
         "name": "ttllm-nano",
-        "merkle_root": "8b1e169e6bcfb2e93a0cf3f14f800975ec284bb7333fe7a86b55e31f077968b1"
+        "merkle_root": "b67436621d4bfd1bd237cda4229bb7e64515beef6d44157514ff7a8508356792"
       },
-      "prev_hash": "993e8a232c3f2b0c2c0ecc5747fee8f2027070cfd67e63490a5b135d9c42c315",
+      "prev_hash": "7af7e422d51a67e7d7d8bfc852335a440f94a120e4c9f5dfca7700e2668ccbed",
       "seq": 3,
-      "event_hash": "9bba436c1d81eb19fbb52ab7b0b8483d12ebd08ff1ae45037c5c4d2e503a9b5e"
+      "event_hash": "c73971d929880bec8e63bcde09f1c1d353e11540c4b9fb536e7de586a5ed962f"
     },
     {
       "schema": "ttllm.stream_event.v1",
       "event_type": "ttlink_index_sealed",
-      "timestamp_utc": "2026-08-08T10:49:19Z",
+      "timestamp_utc": "2026-08-08T13:35:34Z",
       "artefact_sha256": null,
       "payload": {
-        "docs": 7
+        "canary": "ttllm-public-canary-v1"
       },
-      "prev_hash": "9bba436c1d81eb19fbb52ab7b0b8483d12ebd08ff1ae45037c5c4d2e503a9b5e",
+      "prev_hash": "c73971d929880bec8e63bcde09f1c1d353e11540c4b9fb536e7de586a5ed962f",
       "seq": 4,
-      "event_hash": "6ed551421ba0435bd29e48aa88c051df29fe6d6d0b604193724f2664c0e81759"
+      "event_hash": "032dff39417ee5ade3aa0797e984fe463d51b541091cb1366d918a77f16cda7d"
     }
   ]
 }

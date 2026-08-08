@@ -48,6 +48,8 @@ def collect_status(repo: Path | None = None) -> Dict[str, Any]:
                 r = verify_manifest(load_manifest(rm), d)
                 entry["verify_ok"] = bool(r.get("ok"))
                 entry["merkle_root"] = load_manifest(rm).get("merkle_root")
+                if not r.get("ok"):
+                    entry["mismatches"] = (r.get("mismatches") or [])[:5]
             nanos.append(entry)
     hard = root / "docs" / "HARD_TECHNOLOGICAL_GATES.md"
     return {

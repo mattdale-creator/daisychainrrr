@@ -74,6 +74,11 @@ def main() -> int:
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_text(text + "\n", encoding="utf-8")
             print("wrote", out)
+            print(
+                "NOTE: cost_ledger is inside nano seal tree — re-run seal_model_tree / "
+                "models/*/code/seal_release.py if RELEASE_MANIFEST must stay green",
+                file=sys.stderr,
+            )
         else:
             print(text)
     return 0

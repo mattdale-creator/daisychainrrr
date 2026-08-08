@@ -60,5 +60,11 @@ Red-Team Lead R for classification and register; technical owners update remedia
 
 ## Done when
 - [x] Standard + harness + register path
+- [x] Company testing-loop cadence documented (`docs/security/TESTING_LOOP.md`)
 - [ ] First High+ finding published under process (none yet)
-- [ ] Standing adversarial hire (human gate)
+- [ ] Standing adversarial hire (human gate T10)
+
+## Testing loop
+Reload founding SoT → double/triple-check stack → fix → red-team → continue.  
+Cadence: every free-core claim ship · weekly while building · monthly · quarterly · pre-fundraise/SKU · post-incident.  
+Site: https://ttllms.com/testing-loop · first record: `docs/audits/loops/LOOP_2026-08-08.md`
