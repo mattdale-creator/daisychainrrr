@@ -22,10 +22,24 @@
     </header>
     <p class="eyebrow">measure · attack the skeleton · publish the red</p>
     <h1>Testing loop</h1>
-    <p class="tagline">First formal introduction 2026-08-08. Reload the founding conversation. Check the stack. Fix what is fixable. Then red-team. Continue only after.</p>
+    <p class="tagline">First formal introduction 2026-08-08 — <strong>cycle CLOSED</strong>. Reload the founding conversation. Check the stack. Fix what is fixable. Red-team. Continue only after. Company cadence below.</p>
     <div class="card">
       <h3>Ethos fit</h3>
       <p>Founding demand: frontier-level adversarial pressure on the model <em>and</em> the transparency layer. “Remember you are on drugs.” Soft tissue is green without measurement. The original conversation is the load path — not optional flavour text.</p>
+    </div>
+    <div class="card">
+      <h3>How the first cycle ran (re-run this)</h3>
+      <ol>
+        <li><strong>Stop</strong> feature thrash</li>
+        <li><strong>Reload SoT</strong> — <code>founding/conversation/</code> + PROVENANCE</li>
+        <li><strong>Double-check</strong> automated suite (command below)</li>
+        <li><strong>Triple-check</strong> soft tissue (version, seals, nano≠frontier, gates honest)</li>
+        <li><strong>Fix</strong> agent-fixable issues; re-measure</li>
+        <li><strong>Red-team</strong> integrity (RTC) + business (BHA) with real code</li>
+        <li><strong>File</strong> <code>docs/audits/loops/LOOP_YYYY-MM-DD.md</code> · mark CLOSED</li>
+        <li><strong>Continue</strong> free-core only after</li>
+      </ol>
+      <p>Normative: <code>docs/security/TESTING_LOOP.md</code> §8–9 · first record: <code>docs/audits/loops/LOOP_2026-08-08.md</code></p>
     </div>
     <div class="card">
       <h3>Cadence</h3>
@@ -37,16 +51,18 @@
         <li><strong>Pre-fundraise / first SKU</strong> — full loop + BOUNDARY refuse drill</li>
         <li><strong>After integrity incident</strong> — suite + targeted red-team</li>
       </ul>
-      <p>Repo: <code>docs/security/TESTING_LOOP.md</code> · first record: <code>docs/audits/loops/LOOP_2026-08-08.md</code></p>
     </div>
     <div class="card">
-      <h3>Minimum commands</h3>
-      <pre class="mono" style="white-space:pre-wrap">python3 scripts/oneshot_verify_all.py
+      <h3>Minimum commands (automated half)</h3>
+      <pre class="mono" style="white-space:pre-wrap">python3 scripts/run_testing_loop.py
+# expanded:
+python3 scripts/oneshot_verify_all.py
 python3 -m pytest -q
 python3 scripts/redteam_nano_harness.py
+python3 scripts/redteam_business_attack.py
 python3 scripts/ttllm_status.py --quiet-ok</pre>
     </div>
-    <p><a href="hard-gates.html">Hard gates</a> · <a href="placeholders.html">Placeholders</a> · <a href="status.html">Status</a></p>
+    <p><a href="hard-gates.html">Hard gates</a> · <a href="placeholders.html">Placeholders</a> · <a href="status.html">Status</a> · <a href="demo.html">Demo / inclusion proof</a></p>
     <footer><p>md@0265.au · free public core never paywalled</p></footer>
   </div>
 </body>

@@ -53,6 +53,29 @@
     if (sealSnap) sealSnap.textContent = "status_snapshot.json not generated yet — run: python3 scripts/ttllm_status.py --write-site";
   }
 
+  const inclSnap = document.getElementById("inclSnap");
+  try {
+    const r = await fetch("demo/inclusion_proof_sample.json", { cache: "no-store" });
+    const j = await r.json();
+    if (inclSnap) {
+      inclSnap.textContent = JSON.stringify(
+        {
+          verified: j.verified,
+          path: j.path,
+          merkle_root: j.merkle_root,
+          leaf_count: j.leaf_count,
+          leaf_hash: j.proof && j.proof.leaf_hash,
+          proof_steps: j.proof && j.proof.proof && j.proof.proof.length,
+          recipe: j.recipe,
+        },
+        null,
+        2
+      );
+    }
+  } catch (e) {
+    if (inclSnap) inclSnap.textContent = "inclusion_proof_sample.json missing — run: python3 scripts/demo_inclusion_proof.py";
+  }
+
   if (apiPing && apiOut) {
     apiPing.addEventListener("click", async function () {
       apiOut.textContent = "…";

@@ -46,9 +46,18 @@
     <div class="card">
       <h3>API (live Pages Function)</h3>
       <p class="mono">GET /api/ttlink/ · POST /api/ttlink/ with JSON <code>{"span":"bone"}</code></p>
-      <p>Exact match + doc hashes. Not multi-trillion.  Offline CLI verify never requires this API. <strong>Demo API is unauthenticated</strong> over a small public corpus (not multi-TB); bulk fetch is possible — transparency of the demo, not production rate limiting.</p>
+      <p>Exact match + doc hashes. Not multi-trillion. Offline CLI verify never requires this API. Demo API is unauthenticated over a <strong>small public corpus</strong>. Best-effort QueryGuard throttle on the edge (per-isolate; not multi-TB production DO rate limit). Offline CLI remains unlimited. Paywall: never.</p>
       <p><button class="btn secondary" id="apiPing" type="button">Ping live API</button></p>
       <pre class="mono" id="apiOut" style="white-space:pre-wrap;font-size:.85rem"></pre>
+    </div>
+    <div class="card">
+      <h3>Inclusion proof (FREE_CORE_SEAL)</h3>
+      <p>Prove a file is inside the free-core Merkle seal without trusting a webpage alone. Offline, unpaid, free public core.</p>
+      <pre class="mono" style="white-space:pre-wrap;font-size:.85rem">python3 scripts/demo_inclusion_proof.py
+python3 -m free_core.provenance.cli proof \
+  --manifest manifests/FREE_CORE_SEAL.json --path README.md --check</pre>
+      <p class="mono"><a href="demo/inclusion_proof_sample.json">demo/inclusion_proof_sample.json</a> · handbook: <code>docs/handbook/release/06-inclusion-proof.md</code></p>
+      <pre class="mono" id="inclSnap" style="white-space:pre-wrap;font-size:.85rem">Loading inclusion_proof_sample.json…</pre>
     </div>
     <div class="card">
       <h3>Public stream tip (real events — not Matrix cosplay)</h3>

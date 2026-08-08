@@ -1,0 +1,24 @@
+{
+  "schema": "ttllm.testing_loop_run.v1",
+  "utc": "2026-08-08T14:34:29Z",
+  "ethos": "Measure twice. Attack the skeleton. Publish the red. Never fake the green.",
+  "procedure": "docs/security/TESTING_LOOP.md",
+  "first_cycle_record": "docs/audits/loops/LOOP_2026-08-08.md",
+  "results": {
+    "oneshot_verify_all": 0,
+    "pytest": 0,
+    "redteam_nano_harness": 0,
+    "redteam_business_attack": 0,
+    "ttllm_status_quiet_ok": 0
+  },
+  "network": null,
+  "fails": [],
+  "ok": true,
+  "human_phases_remaining": [
+    "reload_founding_SoT",
+    "soft_tissue_triple_check",
+    "fix_agent_fixable",
+    "new_campaign_if_cadence_requires",
+    "file_LOOP_YYYY-MM-DD"
+  ]
+}

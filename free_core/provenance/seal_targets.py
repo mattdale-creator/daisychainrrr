@@ -29,7 +29,7 @@ SEAL_ROOT_FILES = (
 SEAL_EXTRA = {
     "seal": "free_public_core",
     "repo": "daisychainrrr",
-    "version": "0.5.0",
+    "version": "0.6.1",
 }
 
 
@@ -45,7 +45,12 @@ SEAL_EXCLUDE_NAMES = {
     "secrets.local.env",
     # Generated snapshot for site demo; refreshed without resealing free core
     "status_snapshot.json",
+    # Regenerated from current FREE_CORE_SEAL; would self-stale if sealed
+    "inclusion_proof_sample.json",
+    # Testing-loop automated run summary (volatile)
+    "last_testing_loop_run.json",
 }
+
 
 
 def collect_seal_targets(root: Path) -> List[Path]:

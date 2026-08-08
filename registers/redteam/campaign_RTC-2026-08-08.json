@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.redteam_campaign.v1",
   "campaign_id": "RTC-2026-08-08",
-  "utc": "2026-08-08T13:54:37Z",
+  "utc": "2026-08-08T14:23:57Z",
   "ethos": "constructive QA \u2014 product is the proof",
   "results": [
     {
@@ -99,7 +99,7 @@
       "severity": "High",
       "component": "status_api",
       "title": "ttllm_status nanos match disk verify",
-      "detail": "bad=[] seal={'present': True, 'merkle_root': 'df7fffd3900cade8c7b5e851956c3130dff2c07951167402520bdbd663fb1c9c', 'count': 10542, 'verify_ok': True, 'fresh': True, 'fresh_merkle_root': 'df7fffd3900cade8c7b5e851956c3130dff2c07951167402520bdbd663fb1c9c', 'fresh_count': 10542}",
+      "detail": "bad=[] seal={'present': True, 'merkle_root': '902867a032e8c8d2a98fad803d627ff974a52cc4ae9592db63ff7e3077f6ebe0', 'count': 10546, 'verify_ok': True, 'fresh': True, 'fresh_merkle_root': '902867a032e8c8d2a98fad803d627ff974a52cc4ae9592db63ff7e3077f6ebe0', 'fresh_count': 10546}",
       "pass": true,
       "residual": ""
     },

@@ -1,0 +1,80 @@
+{
+  "schema": "ttllm.inclusion_proof_demo.v1",
+  "ethos": "product is the proof \u2014 offline, unpaid, free public core",
+  "manifest": "manifests/FREE_CORE_SEAL.json",
+  "path": "README.md",
+  "merkle_root": "c501baf0e80ed6915ea2f4853c57846c314ccf40970f6e71ab3b2028b1c36f82",
+  "leaf_count": 10548,
+  "proof": {
+    "schema": "ttllm.merkle_proof.v1",
+    "leaf_index": 2,
+    "leaf_hash": "e4ea948681b5b568a84a8a923b5067f486988926446a4ef918d065cb24d6a435",
+    "proof": [
+      {
+        "position": "right",
+        "hash": "96c4d488d65c75afb8b7f9c2eddd3083644728f4a9c183ed53909b28de53307b"
+      },
+      {
+        "position": "left",
+        "hash": "bb6aaa585adf9884578c6dd959ae6b109057f6e088ddfed96867e07a4a01e9f2"
+      },
+      {
+        "position": "right",
+        "hash": "d9e12466c15f5e3313b38414d1f7965b6748c560c4db8ae62cfbd9e29e7b4126"
+      },
+      {
+        "position": "right",
+        "hash": "1a5f4fd97d93b10dee175d9ce7c1c667ef207a97496248b0e42f80f92e606e28"
+      },
+      {
+        "position": "right",
+        "hash": "9a1b22b6d238d71b461319047aab9634b3ae69c9baeb074b90ac816d9d906be0"
+      },
+      {
+        "position": "right",
+        "hash": "f9f9255324dc563e45010e30c09b24b79c7c5d62d66bbcf4c557caf56fe7fb3d"
+      },
+      {
+        "position": "right",
+        "hash": "82fef3ce52b371a8e2cc787695bde5019a4676fd0769d56ae08674d5944a01ac"
+      },
+      {
+        "position": "right",
+        "hash": "1b075649cea3f47b5bdc306f210db3c6c5c4bb8f60a739074ad64e48313ea0cb"
+      },
+      {
+        "position": "right",
+        "hash": "8205b7d7bd15dd05800275d6e1481982b3f05564f5d69508c1af5195293f613b"
+      },
+      {
+        "position": "right",
+        "hash": "47ed6471a092b2f588a97d53faf65d8a56c54c0ec679036f1b5aed37374b9e12"
+      },
+      {
+        "position": "right",
+        "hash": "47306e75e73a1f8aba99cba03a067d105e94bf55a6d8b2d99e7d1f942495f764"
+      },
+      {
+        "position": "right",
+        "hash": "828b9d00d6cb50935f36102899668aa0771156996bc489e0ae3bf120a93c4df2"
+      },
+      {
+        "position": "right",
+        "hash": "15e6af5b6c7d1997a361ab59414883d59acf21537e60b6bd55ed8509899c50d9"
+      },
+      {
+        "position": "right",
+        "hash": "08a6b9504ed93d95edd3f937b4422d924dc6f1f5e55078206f136f86d0b0bc41"
+      }
+    ],
+    "root": "c501baf0e80ed6915ea2f4853c57846c314ccf40970f6e71ab3b2028b1c36f82",
+    "path": "README.md"
+  },
+  "verified": true,
+  "recipe": [
+    "python3 scripts/demo_inclusion_proof.py",
+    "python3 -m free_core.provenance.cli proof --manifest manifests/FREE_CORE_SEAL.json --path README.md --check",
+    "python3 scripts/public_verify_harness.py"
+  ],
+  "handbook": "docs/handbook/release/06-inclusion-proof.md"
+}

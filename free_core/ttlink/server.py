@@ -52,16 +52,32 @@ class Handler(BaseHTTPRequestHandler):
         except json.JSONDecodeError:
             return self._json(400, {"error": "invalid_json"})
         client = req.get("client_id") or self.client_address[0]
-        if not GUARD.allow(str(client)):
-            return self._json(429, {"error": "rate_limited", "guard": GUARD.stats()})
         span = req.get("span") or ""
+        if not GUARD.allow(str(client), span=span if span else None):
+            return self._json(
+                429,
+                {
+                    "error": "rate_limited",
+                    "paywall": False,
+                    "guard": GUARD.stats(),
+                    "honesty": "Throttle only — offline CLI verify unlimited",
+                },
+            )
         assert INDEX is not None
         hits = INDEX.query(
             span,
             max_hits=int(req.get("max_hits") or 20),
             case_sensitive=bool(req.get("case_sensitive", True)),
         )
-        self._json(200, {"hits": [h.__dict__ for h in hits], "count": len(hits)})
+        self._json(
+            200,
+            {
+                "hits": [h.__dict__ for h in hits],
+                "count": len(hits),
+                "paywall": False,
+                "guard": {"policy": GUARD.policy()},
+            },
+        )
 
     def log_message(self, fmt, *args):
         pass

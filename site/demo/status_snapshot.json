@@ -1,16 +1,16 @@
 {
   "schema": "ttllm.project_status.v1",
-  "utc": "2026-08-08T14:04:23Z",
-  "free_core_version": "0.6.0",
+  "utc": "2026-08-08T14:33:55Z",
+  "free_core_version": "0.6.1",
   "repo": "daisychainrrr (public)",
   "seal": {
     "present": true,
-    "merkle_root": "902867a032e8c8d2a98fad803d627ff974a52cc4ae9592db63ff7e3077f6ebe0",
-    "count": 10546,
+    "merkle_root": "c501baf0e80ed6915ea2f4853c57846c314ccf40970f6e71ab3b2028b1c36f82",
+    "count": 10548,
     "verify_ok": true,
     "fresh": true,
-    "fresh_merkle_root": "902867a032e8c8d2a98fad803d627ff974a52cc4ae9592db63ff7e3077f6ebe0",
-    "fresh_count": 10546
+    "fresh_merkle_root": "c501baf0e80ed6915ea2f4853c57846c314ccf40970f6e71ab3b2028b1c36f82",
+    "fresh_count": 10548
   },
   "nanos": [
     {
@@ -47,6 +47,22 @@
   "commands": {
     "verify": "python3 scripts/public_verify_harness.py",
     "seal_freshness": "python3 scripts/check_seal_freshness.py",
-    "redteam": "python3 scripts/redteam_nano_harness.py"
+    "redteam": "python3 scripts/redteam_nano_harness.py",
+    "redteam_business": "python3 scripts/redteam_business_attack.py",
+    "testing_loop": "python3 scripts/run_testing_loop.py",
+    "inclusion_proof_demo": "python3 scripts/demo_inclusion_proof.py"
+  },
+  "testing_loop": {
+    "procedure": "docs/security/TESTING_LOOP.md",
+    "first_cycle": "docs/audits/loops/LOOP_2026-08-08.md",
+    "cadence": [
+      "every free-core claim ship",
+      "weekly while building hard",
+      "monthly + Domain 1 skim",
+      "quarterly full loop",
+      "pre-fundraise / first SKU",
+      "post integrity incident"
+    ],
+    "ethos": "Measure twice. Attack the skeleton. Publish the red. Never fake the green."
   }
 }

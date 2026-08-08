@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "902867a032e8c8d2a98fad803d627ff974a52cc4ae9592db63ff7e3077f6ebe0",
-  "count": 10546,
+  "merkle_root": "c501baf0e80ed6915ea2f4853c57846c314ccf40970f6e71ab3b2028b1c36f82",
+  "count": 10548,
   "leaves": [
     {
       "path": "LICENSE",
@@ -50715,18 +50715,18 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "ba3518bb1684ddaf165c5b5984bad1c1a1d4a4cc51cde720b6596360e54cd09f",
-      "bytes": 1701
+      "sha256": "b5e7dc420063915e56671b3fd60d443ef9c6fce161d32c4311fc8fc96ebf74a1",
+      "bytes": 2034
     },
     {
       "path": "docs/audits/WRITABLE_COMPLETION.md",
-      "sha256": "cad17d72ddbc04827c1f44b05fafdacc79b4fc67d496b1dcb70c905aec2257c8",
-      "bytes": 1417
+      "sha256": "5f43d717b51499368e7dc63e889847dd1255387f5930b9d8424e4c612d2fe8a0",
+      "bytes": 1644
     },
     {
       "path": "docs/audits/loops/LOOP_2026-08-08.md",
-      "sha256": "a133755758907976d073b655897e5711c62d25c6cba7112eb6b4a96a1183163d",
-      "bytes": 2654
+      "sha256": "b04ed9975975bfbda7175e77fdb7e45a58015a95d1b0b536712d93a0b5fdcd98",
+      "bytes": 3870
     },
     {
       "path": "docs/business/FOUNDING_FREE_CORE_MONETISATION.md",
@@ -51155,8 +51155,8 @@
     },
     {
       "path": "docs/security/TESTING_LOOP.md",
-      "sha256": "0ddc3f70801ba34ba4e561d527a61c36f2dfd3da00c0c4007e887926f6f3b591",
-      "bytes": 5127
+      "sha256": "12259f636b0a539643cdb261850a8955288a0a18444190c05734da12daf5c227",
+      "bytes": 7817
     },
     {
       "path": "docs/security/pliny-cco-notes.md",
@@ -51915,7 +51915,7 @@
     },
     {
       "path": "free_core/__init__.py",
-      "sha256": "4bd94b0b8cc117328207a5e85f432ca2f889569b338b26df9d6b23dd93219d39",
+      "sha256": "127f3cc1d0c6789b12342652fef57bb5530c767fa643b4c5228ef7be6ed9b57b",
       "bytes": 52
     },
     {
@@ -51970,8 +51970,8 @@
     },
     {
       "path": "free_core/provenance/seal_targets.py",
-      "sha256": "9845dff7536b70ed203f95f530121381f522efa1520d74923bfc9a8cbd947880",
-      "bytes": 2449
+      "sha256": "b2985fd25f405a298ac3361b7631167a1151881b1a3fcec10350b4d4b0b5cbc5",
+      "bytes": 2645
     },
     {
       "path": "free_core/provenance/sign.py",
@@ -52045,8 +52045,8 @@
     },
     {
       "path": "free_core/status.py",
-      "sha256": "0cad63105880c61c9860cfbc7e6cfde81ce38a04488c2102e8c0cb5ab6ec0228",
-      "bytes": 4374
+      "sha256": "25be65f944ad22cfce68ce87ce096e03a8ff2717eb8bf5eff2fbdb83415f903f",
+      "bytes": 5161
     },
     {
       "path": "free_core/stream/__init__.py",
@@ -52090,8 +52090,8 @@
     },
     {
       "path": "free_core/ttlink/server.py",
-      "sha256": "4ec6ec2c831851bcf335a6cd0b681325fafe6808753be3475cf62dedd1140570",
-      "bytes": 3079
+      "sha256": "e2fdccd58f02b49d3d6020d6c67a8edc8bcb7f0e4f74815fb0b232d08a820a07",
+      "bytes": 3502
     },
     {
       "path": "prompts/FOUNDING_BATTERY_v1.md",
@@ -52165,7 +52165,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "38cf2455e0eeab9516be33d26fdd40a8fe15c2bb924a482c8351eb8e871d1950",
+      "sha256": "eeaa7805f4217e4f5a2303054f220b224c392101f82e1129477bf1092db4544f",
       "bytes": 793
     },
     {
@@ -52175,8 +52175,8 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "47054a56672c1b8b5ea0ec1d6e0d267346e0a26fda878ee2a9b894445729a048",
-      "bytes": 6402
+      "sha256": "deafcf78241b313589d7f250f9d50cb2378fda0f8a2389b677319a01df35e3bd",
+      "bytes": 7006
     },
     {
       "path": "registers/decisions/feed.json",
@@ -52235,8 +52235,8 @@
     },
     {
       "path": "registers/redteam/FINDINGS_REGISTER.md",
-      "sha256": "44a85404c32790f8cb5f581584e01ba3f7e830866e126605ea37dadb17f7c841",
-      "bytes": 3778
+      "sha256": "93dc8a28b2d609be166387881798e686f8699e11bff013a2163d69eb14dca16a",
+      "bytes": 4005
     },
     {
       "path": "registers/supply-chain/DEPENDENCY_REGISTER.md",
@@ -52314,6 +52314,11 @@
       "bytes": 1385
     },
     {
+      "path": "scripts/demo_inclusion_proof.py",
+      "sha256": "7e48f44c4c20dd1b40ce2fb05cc879b5ea2e3662305a38158a2a3cad63cf88e9",
+      "bytes": 2413
+    },
+    {
       "path": "scripts/domain_scorecard_all.py",
       "sha256": "40889a60956f0badef40d39cdccc20e623241c1398d418ad55d5e3a84a833fe7",
       "bytes": 1654
@@ -52352,6 +52357,11 @@
       "path": "scripts/redteam_nano_harness.py",
       "sha256": "ec8f8f7718d731877c4d658782a39cad4cbe92c4de3b06fc066cce3f22def884",
       "bytes": 4231
+    },
+    {
+      "path": "scripts/run_testing_loop.py",
+      "sha256": "48cce3f4ca9da86a58246d4f7eea3c6f3e2129ddd37d191e667ac5563f9fe649",
+      "bytes": 4044
     },
     {
       "path": "scripts/ttllm_status.py",
@@ -52405,8 +52415,8 @@
     },
     {
       "path": "site/demo.html",
-      "sha256": "dd656841d6473df7b7fd83efc08cdec61eae53620b476eebfe5464c3d4aa7f4b",
-      "bytes": 3814
+      "sha256": "ff1a77ab627410b9cdc7757811dfcf3d2ea9734f52193d0ee5aaa5b8ff875af6",
+      "bytes": 4606
     },
     {
       "path": "site/demo/MASTER_DOMAIN_SCORECARD.md",
@@ -52420,8 +52430,8 @@
     },
     {
       "path": "site/demo/matrix_stream.js",
-      "sha256": "eddd40d6711d61e7a13f164960abce3f4065f026da32fd8756687e5a31f2fa35",
-      "bytes": 2151
+      "sha256": "f526e4765280a7b1e8a4f02efc3d24c8e3a80c017aa3b882d1041b7b5f1342cb",
+      "bytes": 2888
     },
     {
       "path": "site/demo/nano-v2/MODEL_CARD.md",
@@ -52720,8 +52730,8 @@
     },
     {
       "path": "site/testing-loop.html",
-      "sha256": "341547ac56c58e413f9649f9205fbdaa5e8226f177e39218a0c4b46aefc1c72a",
-      "bytes": 2690
+      "sha256": "f9e2fbddf2f9351e312eaf4bc79322c2980c49d236e9ab3c7c983ec43ed83f0b",
+      "bytes": 3691
     },
     {
       "path": "site/transparency.html",
@@ -52737,6 +52747,6 @@
   "extra": {
     "seal": "free_public_core",
     "repo": "daisychainrrr",
-    "version": "0.5.0"
+    "version": "0.6.1"
   }
 }

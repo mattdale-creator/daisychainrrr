@@ -15,3 +15,5 @@
 | 2026-08-08 | Domain 02–09 artefact READMEs, tombstone standard, site hard-gates links, oneshot+status | docs/specs/artefacts/*/README.md |
 | 2026-08-08 | Ethos-full placeholders on site | site/placeholders/** |
 | 2026-08-08 | Free-core buildable complete bar refresh | STATUS_HONEST, WRITABLE_COMPLETION, culture.html |
+| 2026-08-08 | Testing loop-1 closed (SoT→suite→RTC→BHA); cadence encoded | TESTING_LOOP.md §8–9, LOOP_2026-08-08 CLOSED, run_testing_loop.py, D-0034 |
+| 2026-08-08 | Post-loop continue 0.6.1: edge QueryGuard, inclusion demo, status testing_loop | free_core 0.6.1, functions/api/ttlink.js, demo_inclusion_proof.py, D-0035 |

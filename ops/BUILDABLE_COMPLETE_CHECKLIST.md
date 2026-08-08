@@ -1,7 +1,7 @@
 # Buildable-complete checklist (Mac + current credentials)
 
-**Updated:** 2026-08-08T12:00:00Z  
-**free_core:** 0.6.0  
+**Updated:** 2026-08-08T14:45:00Z  
+**free_core:** 0.6.1  
 
 ## Software free core
 - [x] free_core provenance Merkle + verify
@@ -21,6 +21,10 @@
 - [x] public_verify_harness + DATA_CARD check
 - [x] ttllm-status project status API
 - [x] nano cost ledger generator
+- [x] testing-loop automation (`run_testing_loop.py`)
+- [x] business boundary_guard + BHA harness
+- [x] inclusion-proof demo script + site panel
+- [x] edge demo QueryGuard (best-effort; RT-C-006 residual noted)
 
 ## Models (nano shape)
 - [x] Verifiable public-domain training data (PG)

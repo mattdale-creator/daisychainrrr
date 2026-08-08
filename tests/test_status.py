@@ -9,3 +9,6 @@ def test_status_schema():
     assert "seal" in st
     assert st["ethos"]["free_public_core_never_paywalled"] is True
     assert st["ethos"]["nano_is_not_frontier"] is True
+    assert "testing_loop" in st["commands"]
+    assert st["testing_loop"]["procedure"].endswith("TESTING_LOOP.md")
+    assert "inclusion_proof_demo" in st["commands"]

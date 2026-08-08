@@ -116,3 +116,65 @@ File under `registers/redteam/loops/LOOP_YYYY-MM-DD.md` or `docs/audits/loops/`:
 **Measure twice. Attack the skeleton. Publish the red. Never fake the green.**
 
 Related: `docs/security/REMEMBER_YOU_ARE_ON_DRUGS.md`, Domain 10 handbook, `scripts/redteam_nano_harness.py`.
+
+---
+
+## 8. How we ran the first cycle (company memory — re-run from this)
+
+First formal loop: **2026-08-08** · record `docs/audits/loops/LOOP_2026-08-08.md` · decisions D-0031 → D-0033.
+
+| Step | What we actually did | Artefacts |
+|------|----------------------|-----------|
+| Stop | Halt feature thrash; no new SKUs/scale claims mid-loop | human prompt |
+| Reload SoT | Re-read founding USER_PROMPTS, TRANSCRIPT markers, PROVENANCE (`8a75e0b4-…`) | `founding/` |
+| Context merge | STATUS_HONEST · HARD_TECHNOLOGICAL_GATES · BOUNDARY · handbook · gap audit | docs/* |
+| Double-check | oneshot + pytest + redteam harness + status quiet-ok | green suite |
+| Triple-check | Soft tissue: version lies, seal stale, demo keys, nano≠frontier, gate honesty | findings list |
+| Fix | Reseal nanos (cost_ledger drift); README 0.6; private PEM seal exclude; green = verify∧fresh | code + seals |
+| Red-team integrity | RTC-2026-08-08 — 20 automated probes; findings RT-C-001…006 | registers/redteam/* |
+| Red-team business | BHA-2026-08-08 — boundary_guard + 14 probes | free_core/business/* |
+| Continue | Only after cycle closed; free-core writable bone; **never** fake-close T1–T11 | post-loop work |
+
+### Re-run checklist (copy for next loop)
+
+1. Create `docs/audits/loops/LOOP_YYYY-MM-DD.md` from §6 template.  
+2. Reload founding SoT (do not skip — drift risk).  
+3. Run automated suite:
+
+```bash
+python3 scripts/run_testing_loop.py
+# equivalent expanded:
+python3 scripts/oneshot_verify_all.py
+python3 -m pytest -q
+python3 scripts/redteam_nano_harness.py
+python3 scripts/redteam_business_attack.py
+python3 scripts/ttllm_status.py --quiet-ok
+```
+
+4. Soft-tissue checklist (§5).  
+5. Fix agent-fixable issues only; re-run until green.  
+6. Expand red-team if cadence is monthly/quarterly/pre-SKU (new campaign ID).  
+7. Mark cycle **CLOSED** in the loop file; append work ledger + decision if material.  
+8. **Then** continue product work.
+
+### Cadence reminder (do not forget)
+
+| When | Depth |
+|------|--------|
+| Every free-core claim ship | Full suite + claim gate |
+| Weekly while building hard | Suite + soft-tissue |
+| Monthly | Suite + Domain 1 audit skim |
+| Quarterly | Full loop + campaign plan |
+| Pre-fundraise / first SKU | Full loop + BOUNDARY refuse drill |
+| Post integrity incident | Suite + targeted red-team |
+
+---
+
+## 9. Automation entrypoint
+
+```bash
+python3 scripts/run_testing_loop.py           # suite phases (double-check)
+python3 scripts/run_testing_loop.py --record  # also print loop template path hint
+```
+
+Human phases (SoT reload, triple-check prose, campaign design) stay human/agent interactive — the script never fakes them green.

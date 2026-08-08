@@ -69,6 +69,22 @@ def collect_status(repo: Path | None = None) -> Dict[str, Any]:
             "verify": "python3 scripts/public_verify_harness.py",
             "seal_freshness": "python3 scripts/check_seal_freshness.py",
             "redteam": "python3 scripts/redteam_nano_harness.py",
+            "redteam_business": "python3 scripts/redteam_business_attack.py",
+            "testing_loop": "python3 scripts/run_testing_loop.py",
+            "inclusion_proof_demo": "python3 scripts/demo_inclusion_proof.py",
+        },
+        "testing_loop": {
+            "procedure": "docs/security/TESTING_LOOP.md",
+            "first_cycle": "docs/audits/loops/LOOP_2026-08-08.md",
+            "cadence": [
+                "every free-core claim ship",
+                "weekly while building hard",
+                "monthly + Domain 1 skim",
+                "quarterly full loop",
+                "pre-fundraise / first SKU",
+                "post integrity incident",
+            ],
+            "ethos": "Measure twice. Attack the skeleton. Publish the red. Never fake the green.",
         },
     }
 
