@@ -1,0 +1,29 @@
+{
+  "schema": "ttllm.finetune_lineage.v1",
+  "lineage_id": "FT-EXAMPLE-0001",
+  "base_release": "ttllm-nano",
+  "base_merkle_root": "0000000000000000000000000000000000000000000000000000000000000000",
+  "base_manifest_path": "models/ttllm-nano/manifests/RELEASE_MANIFEST.json",
+  "delta": {
+    "method": "lora",
+    "public_description": "EXAMPLE only — synthetic certified fine-tune lineage shape. Not a real customer model.",
+    "private_weights_published": false,
+    "training_data_classes": ["customer_docs_category_example"]
+  },
+  "customer_private": {
+    "prompts": true,
+    "documents": true,
+    "weights": true
+  },
+  "public_claims": [
+    "Lineage to public ttllm-nano merkle root is stated",
+    "Customer private weights are not in free public core"
+  ],
+  "non_claims": [
+    "Not a real commercial product",
+    "Placeholder merkle root is not a live seal"
+  ],
+  "boundary_ref": "commercial/BOUNDARY.md",
+  "decision_id": null,
+  "created_utc": "2026-08-08T00:00:00Z"
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "ttllm.supply_meta.v1",
+  "generated_utc": "2026-08-08T10:47:46Z",
+  "pyproject_sha256": "6a3d851f344d07f06c4651530ff143cc3b47854ad536ec4d42d841bbf1341dd6",
+  "merkle_root": "53ca64ba350a453aff4efb522c470243f23d135a612a22e3b420b87bac2e9edf",
+  "count": 36,
+  "lock_path": "registers/supply-chain/SUPPLY_LOCK.json",
+  "optional_extras": [
+    "dev:pytest",
+    "crypto:cryptography"
+  ]
+}

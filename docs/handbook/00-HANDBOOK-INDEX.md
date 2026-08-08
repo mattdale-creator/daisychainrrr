@@ -52,6 +52,7 @@ Master org scorecard: `docs/specs/artefacts/MASTER_DOMAIN_SCORECARD.md`
 | Train nano (local) | [release/03-train-nano.md](release/03-train-nano.md) |
 | Scale-up train (when capital) | [release/04-train-scaleup.md](release/04-train-scaleup.md) |
 | Scorecard & tombstones | [release/05-scorecard-tombstones.md](release/05-scorecard-tombstones.md) |
+| Inclusion proof recipe | [release/06-inclusion-proof.md](release/06-inclusion-proof.md) |
 
 ### C. Incident + red-team (High / Critical)
 | Runbook | Path |
@@ -80,9 +81,14 @@ Master org scorecard: `docs/specs/artefacts/MASTER_DOMAIN_SCORECARD.md`
 
 ```bash
 python3 -m pytest -q
+python3 scripts/check_seal_freshness.py          # fail if FREE_CORE_SEAL stale
+python3 scripts/check_data_cards.py              # Domain 3 machine-check
+python3 scripts/public_verify_harness.py         # unpaid offline proof surface
 python3 scripts/oneshot_verify_all.py
 python3 scripts/redteam_nano_harness.py
 python3 scripts/domain_scorecard_all.py
+python3 scripts/check_public_urls.py             # live HTTP inventory (network)
+make fine-grain                                  # rebuild catalogs + reseal + tests
 python3 -m free_core.provenance.cli verify --manifest manifests/FREE_CORE_SEAL.json --base .
 ```
 

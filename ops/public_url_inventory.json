@@ -1,0 +1,98 @@
+{
+  "schema": "ttllm.public_url_inventory.v1",
+  "updated": "2026-08-08",
+  "note": "Unpaid public surface. Tombstone routes that lie.",
+  "probes": [
+    {
+      "id": "pages_root",
+      "url": "https://ttllms.pages.dev/",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "expect_body_contains": [
+        "ttllm",
+        "TTLLM",
+        "transparent",
+        "bone"
+      ],
+      "required": true
+    },
+    {
+      "id": "pages_status",
+      "url": "https://ttllms.pages.dev/status",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "expect_body_contains": [
+        "Honest",
+        "status",
+        "gates"
+      ],
+      "required": true
+    },
+    {
+      "id": "pages_security_txt",
+      "url": "https://ttllms.pages.dev/security.txt",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "expect_body_contains": [
+        "Contact:",
+        "md@0265.au"
+      ],
+      "required": true
+    },
+    {
+      "id": "com_root",
+      "url": "https://ttllms.com/",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "required": false,
+      "tombstone_if_fail": "DNS/custom domain may still be human-gated"
+    },
+    {
+      "id": "com_status",
+      "url": "https://ttllms.com/status",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "required": false
+    },
+    {
+      "id": "org_root",
+      "url": "https://ttllms.org/",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "required": false,
+      "tombstone_if_fail": "ttllms.org DNS pending \u2014 see docs/handbook/gates/01-dns-org.md"
+    },
+    {
+      "id": "pages_ttlink_api_get",
+      "url": "https://ttllms.pages.dev/api/ttlink",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "expect_content_type_substr": "json",
+      "required": false,
+      "tombstone_if_fail": "Pages Functions routing may 405/HTML \u2014 gate 03"
+    },
+    {
+      "id": "github_repo",
+      "url": "https://github.com/mattdale-creator/daisychainrrr",
+      "method": "GET",
+      "expect_status": [
+        200
+      ],
+      "required": true
+    }
+  ]
+}

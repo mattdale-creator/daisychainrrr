@@ -1,0 +1,30 @@
+{
+  "schema": "ttllm.eval_honesty.v1",
+  "release": "ttllm-nano-v3",
+  "generated_utc": "2026-08-08T10:47:46Z",
+  "tasks_run": [
+    {
+      "name": "stream_chain",
+      "result": "see seal",
+      "note": "integrity not capability"
+    },
+    {
+      "name": "ttlink_span",
+      "result": "exact match demo",
+      "note": "not frontier eval"
+    }
+  ],
+  "non_claims": [
+    "Not frontier-competitive",
+    "Not OLMo/LLM360 scale",
+    "Not a substitute for multi-trillion production ttlink",
+    "Not production HSM-rooted"
+  ],
+  "tombstones": [
+    "nano \u2260 frontier",
+    "not OLMo scale"
+  ],
+  "merkle_root": "ca4acc3a2b7b193e202655ce5507999aa1f71f67ba8e4a216bd8e1b10a2e7ed3",
+  "notes": "",
+  "ethos": "empty honesty beats soft tissue"
+}

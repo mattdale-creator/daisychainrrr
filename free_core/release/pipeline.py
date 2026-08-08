@@ -15,11 +15,14 @@ def seal_model_tree(model_root: Path, *, version: str, include_ckpts: bool = Tru
     model_root = Path(model_root)
     repo = model_root.parents[1] if model_root.parent.name == "models" else Path(".")
     targets = []
-    for sub in ("code", "data", "metrics", "evals", "cards", "ttlink", "stream", "manifests"):
+    # Do NOT include manifests/ in release tree — output manifest would self-hash and never verify.
+    for sub in ("code", "data", "metrics", "evals", "cards", "ttlink", "stream"):
         p = model_root / sub
         if p.exists():
             targets.extend(walk_files(p))
+    # optional: prior checkpoint files only (not their self-manifest)
     man = build_merkle_manifest(targets, base=model_root, extra={"release": model_root.name, "version": version})
+    (model_root / "manifests").mkdir(parents=True, exist_ok=True)
     write_manifest(man, model_root / "manifests" / "RELEASE_MANIFEST.json")
     out: dict[str, Any] = {"release": man}
     if include_ckpts and (model_root / "checkpoints").exists():

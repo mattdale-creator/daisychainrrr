@@ -22,3 +22,4 @@
 | D-0018 | 2026-08-08 | Cross-product + actor eventuality matrices | Thin tree | Founding demand for deep paths | docs/architecture-tree/eventualities | agent |
 | D-0021 | 2026-08-08 | Fill eventuality leaves with real procedures | Leave path stubs | User: real filling of leaves; remove structure-without-content | docs/architecture-tree/eventualities/ | agent |
 | D-0022 | 2026-08-08 | Human load-path handbook over 10k leaf novels | Unique essay per eventuality | Ethos: implementable procedures + shared skeleton; bespoke where required | docs/handbook/ (domains, release, incident, commercial, gates) | founder+agent |
+| D-0023 | 2026-08-08 | Execute fine-grain proof automation to the wall | Stop at handbook prose | Product is the proof; cover until capital/entity/token gates only | check_seal_freshness, data_cards, public_verify, stream catalog, supply lock, CI verify.yml, reseal nanos | founder+agent |

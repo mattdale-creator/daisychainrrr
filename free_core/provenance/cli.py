@@ -42,25 +42,9 @@ def cmd_verify(args):
 
 
 def cmd_seal_repo(args):
+    from .seal_targets import build_free_core_manifest
     root = Path(args.path)
-    targets = []
-    for sub in ("free_core", "docs", "founding", "prompts", "registers", "continuity", "site", "examples", "commercial", "scripts"):
-        p = root / sub
-        if p.exists():
-            targets.extend(walk_files(p))
-    for name in ("README.md", "LICENSE", "pyproject.toml", "Makefile"):
-        p = root / name
-        if p.is_file():
-            targets.append(p)
-    man = build_merkle_manifest(
-        targets,
-        base=root,
-        extra={
-            "seal": "free_public_core",
-            "repo": "daisychainrrr",
-            "version": "0.2.0",
-        },
-    )
+    man = build_free_core_manifest(root)
     out = root / "manifests" / "FREE_CORE_SEAL.json"
     write_manifest(man, out)
     print(f"sealed {man['count']} files → {out}")

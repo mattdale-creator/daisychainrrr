@@ -1,8 +1,18 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "ca4acc3a2b7b193e202655ce5507999aa1f71f67ba8e4a216bd8e1b10a2e7ed3",
+  "merkle_root": "937f1c5c4a0430377874200080bbf76670641ffcb327e0125df57ea266fbbe44",
   "count": 29,
   "leaves": [
+    {
+      "path": "cards/EVAL_HONESTY.json",
+      "sha256": "d0d8e33ab8dc4324a1f65674a6b2084a87762209cbb278aafea584a514011867",
+      "bytes": 753
+    },
+    {
+      "path": "cards/EVAL_HONESTY.md",
+      "sha256": "16f0a8301af4f0c1a792b5ff8ad1e0423349233bdeb94ffb6ec8dca61e76c2a7",
+      "bytes": 519
+    },
     {
       "path": "cards/MODEL_CARD.md",
       "sha256": "964373ce1dbf187dc0eb4f928f043641c9bbed5847b65ab081de64166cd58075",
@@ -10,8 +20,8 @@
     },
     {
       "path": "cards/TRANSPARENCY_SCORECARD.md",
-      "sha256": "4b8d7d56a4e2cf08a2e5bafe0e8a43afba62f0559fa6cecf87cef4e7d3f07d24",
-      "bytes": 555
+      "sha256": "193ac605b100bf42e938ec1590b85d0dd623d332677a2b89d5b4e20f20d7dc7a",
+      "bytes": 665
     },
     {
       "path": "code/generate.py",
@@ -109,16 +119,6 @@
       "bytes": 101466
     },
     {
-      "path": "manifests/CHECKPOINTS_MANIFEST.json",
-      "sha256": "13c8a15df4c1242698d33ea22039ba218f282633ba0ab47b732649d194ff34d7",
-      "bytes": 1685
-    },
-    {
-      "path": "manifests/RELEASE_MANIFEST.json",
-      "sha256": "209fb1e98334da0b26579d383e432da9f2619fdef5531a3b0b79f63a3a8ab504",
-      "bytes": 5028
-    },
-    {
       "path": "metrics/hyperparams.json",
       "sha256": "839ee2150d431638930de64705ccddd14961cf3379db4f892433859334c07cc0",
       "bytes": 445
@@ -135,8 +135,8 @@
     },
     {
       "path": "stream/public_log.json",
-      "sha256": "8069e22b6b576055d24d7be15fcaa71edd1fa85bf08dfcc94d73571d479aecef",
-      "bytes": 2126
+      "sha256": "44e393a84dd5ffa742ae18964c794adcb51b126055846da6bba4850de20b57bb",
+      "bytes": 2400
     },
     {
       "path": "ttlink/canary_check.json",
@@ -145,12 +145,12 @@
     },
     {
       "path": "ttlink/index.json",
-      "sha256": "6bafbc2e1e0e5cbc57a3eaccaac6c9ad2c4de8cf1737e10f72a3fdfb9465ce06",
-      "bytes": 619616
+      "sha256": "d6d7333d825877b01761f4c583cbef88f6241b9ac8420a68ff2cfa446d7c7177",
+      "bytes": 619244
     }
   ],
   "extra": {
     "release": "ttllm-nano-v3",
-    "version": "0.3.2"
+    "version": "0.1.2-reseal"
   }
 }

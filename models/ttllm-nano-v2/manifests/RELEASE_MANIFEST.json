@@ -1,8 +1,18 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "23e18b8b1d93c658d11b615dac1c6c248498846e50cfb5e690d8b50f8490829f",
+  "merkle_root": "9bb01bd7a46975ebeead084b4bf9d0b2eabf3285db97147821678478c2ddfa06",
   "count": 44,
   "leaves": [
+    {
+      "path": "cards/EVAL_HONESTY.json",
+      "sha256": "14b8823f96bcea24482079ad6ccf32f71acc4511755bb0c77029ea8088b15e54",
+      "bytes": 753
+    },
+    {
+      "path": "cards/EVAL_HONESTY.md",
+      "sha256": "f13a0e79b9a65dc81ee0e09cea3aac8167b5ec269000e608a55545b8f7568c17",
+      "bytes": 519
+    },
     {
       "path": "cards/MODEL_CARD.md",
       "sha256": "8e99ca3c072da531fa178abf0d9855b65e64f1f11a3313bbab3fc1471d89df45",
@@ -10,8 +20,8 @@
     },
     {
       "path": "cards/TRANSPARENCY_SCORECARD.md",
-      "sha256": "36f623d286affdfae9a00a50ce20ed22426dfed712643e91415b730357e1cd05",
-      "bytes": 555
+      "sha256": "c66d51bd12194a0f44d4fa9e9df252b9f6738ba34b9f645f5808e9fbec5e9287",
+      "bytes": 665
     },
     {
       "path": "code/bpe.py",
@@ -154,16 +164,6 @@
       "bytes": 226
     },
     {
-      "path": "manifests/CHECKPOINTS_MANIFEST.json",
-      "sha256": "8c81c46f1a95d7bb1d562f2af6cab08d85f8675df951928249cba6fc1ede9d9c",
-      "bytes": 2060
-    },
-    {
-      "path": "manifests/RELEASE_MANIFEST.json",
-      "sha256": "4276da44b2ace9958cbf8764a7016db0b20f5815a32338f785929efd619d8df6",
-      "bytes": 7387
-    },
-    {
       "path": "metrics/cost_ledger.md",
       "sha256": "fdf3ff1177d3b522e2a9ac464b7a3e6950b311e2311c77b26aa3bd6a9943ff25",
       "bytes": 388
@@ -180,8 +180,8 @@
     },
     {
       "path": "stream/public_log.json",
-      "sha256": "ad63bf22bc417ec69b18615793184e1cb27d16fdd40bfbd2c86ca8c860546de6",
-      "bytes": 2164
+      "sha256": "69764c2aa6ec193b562b092e606f162123bece4bdc1ce48b86c324da70610287",
+      "bytes": 2401
     },
     {
       "path": "ttlink/binding.json",
@@ -195,8 +195,8 @@
     },
     {
       "path": "ttlink/index.json",
-      "sha256": "6c380eb2bd36fb39c9d8e25b81be45fee5b2cbb9891989370e69339ee95c5cf3",
-      "bytes": 619616
+      "sha256": "fc8ad65eef97cccdfe0d0c6ac70f88ccbca005068d4eee565253af0455107794",
+      "bytes": 619244
     },
     {
       "path": "ttlink/index_with_canary.json",
@@ -226,6 +226,6 @@
   ],
   "extra": {
     "release": "ttllm-nano-v2",
-    "version": "0.2.2"
+    "version": "0.1.2-reseal"
   }
 }

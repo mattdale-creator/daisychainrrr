@@ -1,0 +1,33 @@
+# Manual only. Requires repo secrets CLOUDFLARE_API_TOKEN (+ optional CLOUDFLARE_ACCOUNT_ID).
+name: Register ttllms.com (Cloudflare Registrar)
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Type REGISTER to confirm billable purchase of ttllms.com"
+        required: true
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    if: github.event.inputs.confirm == 'REGISTER'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run one-shot
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          DOMAIN: ttllms.com
+        run: |
+          chmod +x ops/one_shot_ttllms.sh
+          ./ops/one_shot_ttllms.sh
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: domain-purchase-result
+          path: |
+            ops/last_*.json
+            ops/last_*.txt
+            ops/DOMAIN_PURCHASE_RESULT.md

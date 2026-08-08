@@ -1,0 +1,191 @@
+{
+  "schema": "ttllm.manifest.v1",
+  "merkle_root": "53ca64ba350a453aff4efb522c470243f23d135a612a22e3b420b87bac2e9edf",
+  "count": 36,
+  "leaves": [
+    {
+      "path": "LICENSE",
+      "sha256": "337a232fcdbebfdcf117bf0298e5f705da3fe7c3034cf5a6fdf78fd144b4d572",
+      "bytes": 981
+    },
+    {
+      "path": "Makefile",
+      "sha256": "e514ee2adc9c86f2564bca35777386a94b55b58bd0c0a505680b57625ec65769",
+      "bytes": 2560
+    },
+    {
+      "path": "free_core/__init__.py",
+      "sha256": "8fca16d77053845992b2ef50972fe3d44c86db20720ff12752b487100df615a5",
+      "bytes": 52
+    },
+    {
+      "path": "free_core/eval/__init__.py",
+      "sha256": "80f832b7d9d5ff4ddf88a00b9c15123fb0022fccde1fc5b13d30779a885f4191",
+      "bytes": 48
+    },
+    {
+      "path": "free_core/eval/harness.py",
+      "sha256": "e567960f22b1c0ecb7362db6de3666e233628beec2661f7f5eca34e6aa2939c4",
+      "bytes": 1387
+    },
+    {
+      "path": "free_core/eval/honesty.py",
+      "sha256": "5ea35a226afab7e8cbb615e037cbf55d599d14ae2650212a3b55a01cea6d212d",
+      "bytes": 1917
+    },
+    {
+      "path": "free_core/provenance/__init__.py",
+      "sha256": "29b62fc1530101e2363fe2c2ad72a574cc92debe5bad7bbb1ce4d9ba8e0fe11b",
+      "bytes": 235
+    },
+    {
+      "path": "free_core/provenance/cli.py",
+      "sha256": "9792e7c56fcbf4bfbe59dea0da5caeb5eb652d6686df5cd3a7c9a2023b3f1528",
+      "bytes": 5500
+    },
+    {
+      "path": "free_core/provenance/hashing.py",
+      "sha256": "d4a76cd1a1f0ca7c176700d5c745c100de5fa05d6c0ea5f3f3d1ed3fb0997a45",
+      "bytes": 641
+    },
+    {
+      "path": "free_core/provenance/manifest.py",
+      "sha256": "b440cf61d7e33088d1d49e7b42435a13acb86b9113233190f811d2282b489054",
+      "bytes": 3693
+    },
+    {
+      "path": "free_core/provenance/proof.py",
+      "sha256": "435cb44ddfee46a46d19c7ef1c4e8c331117df92cbac8d30848683a2ffe6a77b",
+      "bytes": 1982
+    },
+    {
+      "path": "free_core/provenance/seal_targets.py",
+      "sha256": "ec6e9ed395b3518bf092ff6a2701a7ecc717d7ffa8dbc427d8a99c6de66a373a",
+      "bytes": 1182
+    },
+    {
+      "path": "free_core/provenance/sign.py",
+      "sha256": "011be18e212af313f16fc8409cdfe38eef9f2150ce3a2ecd1211d2e56862f67b",
+      "bytes": 2629
+    },
+    {
+      "path": "free_core/release/__init__.py",
+      "sha256": "15f7d3f9c1c06b1e7aadaa43b4ed5f8602b7c96765a9d706807888cca4fdac91",
+      "bytes": 77
+    },
+    {
+      "path": "free_core/release/pipeline.py",
+      "sha256": "9e60e6c5ae13260af857f65093a1c1476bbbf1774814cb1e86d66c0b12df9bb5",
+      "bytes": 2055
+    },
+    {
+      "path": "free_core/release/scorecard.py",
+      "sha256": "0e3ebc413e0639a2e405852a764a5a0f98fbb51cfb2ebad93b43ab769223a2bb",
+      "bytes": 1037
+    },
+    {
+      "path": "free_core/schemas/finetune_lineage.schema.json",
+      "sha256": "b2df3ecb9dd4133f9a61ac484055411806ea6868bf5a92180cf46fba4023f0ed",
+      "bytes": 2402
+    },
+    {
+      "path": "free_core/schemas/manifest.schema.json",
+      "sha256": "ea18c99dc3b9e0f1da598174883a3219250f79a5468670729f662d341d31b379",
+      "bytes": 719
+    },
+    {
+      "path": "free_core/schemas/stream_event.schema.json",
+      "sha256": "95fe5636a3a18055d6ea8409b365586413b0c06cd85dfd2761584abe62db7d11",
+      "bytes": 659
+    },
+    {
+      "path": "free_core/schemas/stream_event_types.json",
+      "sha256": "e68407469a1a039d56d1e0a1b8b5efdc8d47cad90eaae84b38af261b49cefd48",
+      "bytes": 3787
+    },
+    {
+      "path": "free_core/schemas/ttlink.openapi.yaml",
+      "sha256": "269e4fbc4ade53db0043fa147c238195f50693d721e1ae223c73feb16b1abaa3",
+      "bytes": 1808
+    },
+    {
+      "path": "free_core/schemas/ttlink_index.schema.json",
+      "sha256": "400a4daf20ccd264c5db5bc44b8daae146bb6840b4a05bfe6194b9cd52fe9a58",
+      "bytes": 644
+    },
+    {
+      "path": "free_core/security/__init__.py",
+      "sha256": "8f9586901cbe8215852ac7c77f9a8c8a0f49f4c8092bf2de60ba1eb46e3b4f8c",
+      "bytes": 143
+    },
+    {
+      "path": "free_core/security/canary.py",
+      "sha256": "3b11b7291986b3be8820148749df04259a78ea94bdac816b4e719eb0abe44c75",
+      "bytes": 1096
+    },
+    {
+      "path": "free_core/security/query_guard.py",
+      "sha256": "006d4422ef0db0cc8dcf8798c220f8ee3de65cbf1d23b46b430bb8879cb499b4",
+      "bytes": 1622
+    },
+    {
+      "path": "free_core/security/shard.py",
+      "sha256": "a333637f5d491d603acdfa7dbf245710345c556f1fd2a5f7e3088746c2acfdd4",
+      "bytes": 1731
+    },
+    {
+      "path": "free_core/stream/__init__.py",
+      "sha256": "b99107ef21c0c8d932e6bb7aa5793c2d8d090cc7efb7056abc16321d10cf8a73",
+      "bytes": 72
+    },
+    {
+      "path": "free_core/stream/catalog.py",
+      "sha256": "d7a7340afb86f6e05531370c7dcef0234a0ad5d95901207178b79012fa17eaf3",
+      "bytes": 5106
+    },
+    {
+      "path": "free_core/stream/cli.py",
+      "sha256": "f940941d203995374cf463ed387dd60bfa187fa80840931ce8eb06ed1e326a3c",
+      "bytes": 1897
+    },
+    {
+      "path": "free_core/stream/log.py",
+      "sha256": "9a496db9119f9ad5eebcda46685d635352021640d543d91ed3e30b34771dabd5",
+      "bytes": 2400
+    },
+    {
+      "path": "free_core/stream/schema.py",
+      "sha256": "9c14d1a052d644b8b9a6ad1b6b70933adacde1d2a30b82bc155bce41e30f1702",
+      "bytes": 2079
+    },
+    {
+      "path": "free_core/ttlink/__init__.py",
+      "sha256": "6b97d223b86601a5d4e77b061b9a8401e568f4a73e64830ecb70ed39631d7d78",
+      "bytes": 31
+    },
+    {
+      "path": "free_core/ttlink/cli.py",
+      "sha256": "1fd81781cabd284cfde44d488d1f5ea8732abdf3568d3712b48d93f3bd7759fb",
+      "bytes": 2098
+    },
+    {
+      "path": "free_core/ttlink/index.py",
+      "sha256": "3557845d70b581907c3bd31f802e2540cf632cbc1eff6d872481de7dc882eca6",
+      "bytes": 3978
+    },
+    {
+      "path": "free_core/ttlink/server.py",
+      "sha256": "4ec6ec2c831851bcf335a6cd0b681325fafe6808753be3475cf62dedd1140570",
+      "bytes": 3079
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "6a3d851f344d07f06c4651530ff143cc3b47854ad536ec4d42d841bbf1341dd6",
+      "bytes": 754
+    }
+  ],
+  "extra": {
+    "schema": "ttllm.supply_lock.v1",
+    "note": "runtime deps empty; optional cryptography/pytest via extras"
+  }
+}

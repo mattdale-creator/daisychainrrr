@@ -11,7 +11,15 @@ Everything that does not require new capital, legal entity powers, or missing Cl
 See `ops/BUILDABLE_COMPLETE_CHECKLIST.md` and `docs/audits/ONE_SHOT_COMPLETION.md`.
 
 ## Human handbook (2026-08-08)
-Load-path ops under `docs/handbook/` — domains 1–10, release/seal/train, incident/red-team, commercial isolation+refuse+SKU, human gates. Index: `docs/handbook/00-HANDBOOK-INDEX.md`. Remaining fine-grain worklist: `docs/handbook/FINE_GRAIN_GAPS.md` (proof automation, domain rituals, schemas — not capital theater).
+Load-path ops under `docs/handbook/` — domains 1–10, release/seal/train, incident/red-team, commercial isolation+refuse+SKU, human gates. Index: `docs/handbook/00-HANDBOOK-INDEX.md`. Remaining fine-grain worklist: `docs/handbook/FINE_GRAIN_GAPS.md`.
+
+## Fine-grain execution wave (2026-08-08)
+Automated bone now runnable without capital:
+- `scripts/check_seal_freshness.py` · `check_data_cards.py` · `public_verify_harness.py` · `check_public_urls.py`
+- Stream catalog · incident drill stream · supply lock · eval honesty packs · finetune lineage schema
+- CI: `.github/workflows/verify.yml` · `make fine-grain`
+- Domain 1 first monthly audit filed · ASSET_INVENTORY succession rows · security intake + policy page
+**Still walls:** DNS Edit, R2, Workers routes, entity, HSM, scale capital, standing red-team hire, revenue.
 
 ## Human / capital gates only
 `ops/HUMAN_GATES.md` — DNS Edit, R2, Workers routes, entity, 32B capital, standing red team, HSM, revenue.

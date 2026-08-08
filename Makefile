@@ -1,4 +1,4 @@
-.PHONY: test seal install lint artefacts demo verify-all nano-data nano-train nano-seal nano-all redteam
+.PHONY: test seal install lint artefacts demo verify-all nano-data nano-train nano-seal nano-all redteam fine-grain reseal-core public-urls supply stream-catalog
 
 install:
 	python3 -m pip install -e ".[dev,crypto]"
@@ -31,9 +31,35 @@ nano-all: nano-data nano-train nano-seal
 redteam:
 	python3 scripts/redteam_nano_harness.py
 
-verify-all: test demo redteam
+# Fine-grain automated bone (no capital)
+fine-grain:
+	python3 scripts/build_stream_catalog.py
+	python3 scripts/build_incident_drill_stream.py
+	python3 scripts/build_supply_lock.py
+	python3 scripts/check_data_cards.py
+	python3 scripts/check_public_urls.py --write-default --offline || python3 scripts/check_public_urls.py --write-default
+	python3 scripts/check_seal_freshness.py --write
+	python3 scripts/public_verify_harness.py
+	python3 scripts/redteam_nano_harness.py
+	python3 -m pytest -q
+
+reseal-core:
+	python3 scripts/check_seal_freshness.py --write
+
+public-urls:
+	python3 scripts/check_public_urls.py
+
+supply:
+	python3 scripts/build_supply_lock.py
+
+stream-catalog:
+	python3 scripts/build_stream_catalog.py
+	python3 scripts/build_incident_drill_stream.py
+
+verify-all: test demo redteam fine-grain
+	python3 scripts/oneshot_verify_all.py
 	python3 -m free_core.stream.cli verify models/ttllm-nano/stream/public_log.json
-	@echo "ALL GREEN (nano manifest verify separately after seal)"
+	@echo "ALL GREEN"
 
 lint:
 	python3 -m compileall free_core tests scripts models/ttllm-nano/code
@@ -52,5 +78,5 @@ domain-scorecard:
 	python3 scripts/domain_scorecard_all.py
 
 reseal-nanos:
-	python3 -c "from free_core.release.pipeline import seal_model_tree; import pathlib;
+	python3 -c "from free_core.release.pipeline import seal_model_tree; import pathlib; \
 [print(seal_model_tree(pathlib.Path('models')/n, version='auto')['release']['count']) for n in ['ttllm-nano','ttllm-nano-v2','ttllm-nano-v3'] if (pathlib.Path('models')/n).exists()]"

@@ -1,0 +1,80 @@
+{
+  "schema": "ttllm.stream_log.v1",
+  "count": 5,
+  "tip": "0e71dd68baa8ac96b359d192d7b11ea47339430c953ced7db8c1be0945b2f40a",
+  "events": [
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "incident_drill",
+      "timestamp_utc": "2026-08-08T10:47:46Z",
+      "artefact_sha256": null,
+      "payload": {
+        "scenario": "Public Merkle root mismatches files after a bad deploy",
+        "date": "2026-08-08",
+        "register": "registers/incidents/TABLETOP_2026-08-08.md",
+        "synthetic": true
+      },
+      "prev_hash": null,
+      "seq": 0,
+      "event_hash": "7fa94bbfad6f637963b3ac44ca94c99e0d6dd076dc4a2a6c0a96977a411dc5c5"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "incident_opened",
+      "timestamp_utc": "2026-08-08T10:47:46Z",
+      "artefact_sha256": null,
+      "payload": {
+        "incident_id": "DRILL-I-0001",
+        "severity": "High",
+        "category": "integrity",
+        "summary": "SYNTHETIC drill: seal mismatch detection path",
+        "synthetic": true
+      },
+      "prev_hash": "7fa94bbfad6f637963b3ac44ca94c99e0d6dd076dc4a2a6c0a96977a411dc5c5",
+      "seq": 1,
+      "event_hash": "5e931ea091324c0f9fb087ad702216546cc79a57ac076fae64e36020fad54e43"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "claim_tombstoned",
+      "timestamp_utc": "2026-08-08T10:47:46Z",
+      "artefact_sha256": null,
+      "payload": {
+        "claim": "FREE_CORE_SEAL green (drill)",
+        "reason": "Simulated mismatch \u2014 tombstone until reseal",
+        "synthetic": true
+      },
+      "prev_hash": "5e931ea091324c0f9fb087ad702216546cc79a57ac076fae64e36020fad54e43",
+      "seq": 2,
+      "event_hash": "964221e62cb3a5bb4ececd00b4a5ae14d7a36849733534dcc40d0262bce6e1d7"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "incident_mitigated",
+      "timestamp_utc": "2026-08-08T10:47:46Z",
+      "artefact_sha256": null,
+      "payload": {
+        "incident_id": "DRILL-I-0001",
+        "action": "reseal from known-good commit (simulated)",
+        "synthetic": true
+      },
+      "prev_hash": "964221e62cb3a5bb4ececd00b4a5ae14d7a36849733534dcc40d0262bce6e1d7",
+      "seq": 3,
+      "event_hash": "5cbfe108aec99cb4c0a2ad7f565e4bdb71c357bd5cb88e6bf446cdcea6cfbad3"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "incident_closed",
+      "timestamp_utc": "2026-08-08T10:47:46Z",
+      "artefact_sha256": null,
+      "payload": {
+        "incident_id": "DRILL-I-0001",
+        "residual": "none \u2014 drill only",
+        "synthetic": true
+      },
+      "prev_hash": "5cbfe108aec99cb4c0a2ad7f565e4bdb71c357bd5cb88e6bf446cdcea6cfbad3",
+      "seq": 4,
+      "event_hash": "0e71dd68baa8ac96b359d192d7b11ea47339430c953ced7db8c1be0945b2f40a"
+    }
+  ]
+}

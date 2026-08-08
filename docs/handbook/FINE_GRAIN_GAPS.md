@@ -1,8 +1,30 @@
 # Fine-grain gaps (ethos-aligned)
 
-**Updated:** 2026-08-08  
+**Updated:** 2026-08-08 (execution wave)  
 **After:** Human handbook load-paths complete (`00-HANDBOOK-INDEX.md`)  
 **Rule:** Prefer precise unfinished bone over soft-tissue “done.” This is a **worklist**, not a claim that capital/entity/model scale are closed.
+
+## Executed this wave (no longer soft gaps)
+| Item | Artefact |
+|------|----------|
+| Seal freshness | `scripts/check_seal_freshness.py` + CI + `free_core/provenance/seal_targets.py` |
+| DATA_CARD machine-check | `scripts/check_data_cards.py` + tests |
+| Stream event catalog | `free_core/stream/catalog.py` → `docs/specs/artefacts/stream/STREAM_EVENT_CATALOG.md` |
+| Synthetic incident stream | `examples/stream/incident_drill_log.json` |
+| Public URL inventory | `ops/public_url_inventory.json` + `scripts/check_public_urls.py` |
+| Inclusion proof recipe | `docs/handbook/release/06-inclusion-proof.md` + harness |
+| Canary/QueryGuard policy | `docs/security/CANARY_QUERYGUARD_POLICY.md` |
+| Domain 1 monthly audit | `docs/specs/artefacts/01/audits/MONTHLY_AUDIT_2026-08.md` |
+| Eval honesty template + packs | `free_core/eval/honesty.py` + `models/*/cards/EVAL_HONESTY.*` |
+| Supply lock | `registers/supply-chain/SUPPLY_LOCK.json` |
+| security intake | `docs/security/REPORT_INTAKE.md` + `site/security-policy.html` |
+| ASSET_INVENTORY succession | `continuity/ASSET_INVENTORY.md` |
+| Finetune lineage schema | `free_core/schemas/finetune_lineage.schema.json` |
+| Public unpaid verify | `scripts/public_verify_harness.py` |
+| Term-sheet red lines | `docs/security/TERM_SHEET_RED_LINES.md` |
+| Mixture / checkpoint / reproduce specs | `docs/security/DATA_MIXTURE_*` etc. |
+| CI verify workflow | `.github/workflows/verify.yml` |
+| Self-hash seal fix | `free_core/release/pipeline.py` excludes manifests/ |
 
 ## Ethos filter (what deserves more grain)
 

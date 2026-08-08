@@ -1,6 +1,7 @@
 Contact: mailto:md@0265.au
 Preferred-Languages: en
-Canonical: https://ttllms.com/.well-known/security.txt
-Policy: https://ttllms.com/
-Expires: 2027-08-07T00:00:00.000Z
+Canonical: https://ttllms.com/security.txt
+Policy: https://ttllms.com/security-policy.html
 Acknowledgments: https://github.com/mattdale-creator/daisychainrrr
+Expires: 2027-08-07T00:00:00.000Z
+Hiring: https://ttllms.com/contact.html

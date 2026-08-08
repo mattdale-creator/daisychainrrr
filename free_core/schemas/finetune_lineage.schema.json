@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ttllms.com/schemas/finetune_lineage.v1.json",
+  "title": "TTLLM Certified Fine-tune Lineage v1",
+  "description": "Public lineage for commercial fine-tunes that claim TTLLM inheritance without leaking customer-private data.",
+  "type": "object",
+  "required": [
+    "schema",
+    "lineage_id",
+    "base_release",
+    "base_merkle_root",
+    "customer_private",
+    "public_claims",
+    "boundary_ref"
+  ],
+  "properties": {
+    "schema": { "const": "ttllm.finetune_lineage.v1" },
+    "lineage_id": {
+      "type": "string",
+      "description": "Stable public ID e.g. FT-2026-0001"
+    },
+    "base_release": {
+      "type": "string",
+      "description": "Public free-core model release name"
+    },
+    "base_merkle_root": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "base_manifest_path": { "type": "string" },
+    "delta": {
+      "type": "object",
+      "description": "What changed without publishing private weights",
+      "properties": {
+        "method": {
+          "type": "string",
+          "description": "e.g. lora, full_ft, adapter"
+        },
+        "public_description": { "type": "string" },
+        "private_weights_published": {
+          "type": "boolean",
+          "const": false,
+          "description": "Customer private weights stay private"
+        },
+        "training_data_classes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Categories only e.g. customer_docs — not the docs themselves"
+        }
+      }
+    },
+    "customer_private": {
+      "type": "object",
+      "required": ["prompts", "documents", "weights"],
+      "properties": {
+        "prompts": { "type": "boolean" },
+        "documents": { "type": "boolean" },
+        "weights": { "type": "boolean" }
+      }
+    },
+    "public_claims": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Only claims that can be checked without paywall"
+    },
+    "non_claims": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "boundary_ref": {
+      "type": "string",
+      "const": "commercial/BOUNDARY.md"
+    },
+    "decision_id": {
+      "type": "string",
+      "description": "Domain 1 decision if material"
+    },
+    "created_utc": { "type": "string" }
+  },
+  "additionalProperties": false
+}
