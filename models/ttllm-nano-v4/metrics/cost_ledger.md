@@ -1,16 +1,16 @@
-# Cost ledger — ttllm-nano
+# Cost ledger — ttllm-nano-v4
 
 **Generated:** 2026-08-08T11:29:08Z
 
 | Item | Value |
 |------|-------|
 | Device | mps |
-| Steps | 800 |
-| Wall seconds | 172.4 |
-| Est. energy @20W | 0.0010 kWh |
-| Checkpoint storage bytes | 90,061,664 |
+| Steps | 400 |
+| Wall seconds | 89.8 |
+| Est. energy @20W | 0.0005 kWh |
+| Checkpoint storage bytes | 48,680,600 |
 | Data tree bytes | 4,324,032 |
-| Code tree bytes | 31,408 |
+| Code tree bytes | 19,304 |
 | Cloud GPU invoice | $0 (local) |
 | Data license cost | $0 (public domain PG where used) |
 
@@ -22,12 +22,12 @@ Scale budgets: `docs/placeholders/capital/SCALE_BUDGET_FILLED_EXAMPLE.md` (Grok 
 ## Hyperparams tip
 ```json
 {
-  "steps": 800,
+  "steps": 400,
   "n_layer": 4,
   "n_embd": 128,
   "seed": 42,
   "device": "mps",
-  "corpus_sha256": "aa1b7083c28c0f133778d4dd8bac02c8e37fa419d47be821537c4ae32f71046a"
+  "corpus_sha256": "b26077bd9f598f145ded5693c2ad5ce02e61695a9644555cb8361194ffc5c5b0"
 }
 ```
 

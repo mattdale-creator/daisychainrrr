@@ -68,6 +68,18 @@ def main():
                 "test": "inclusion_proof_roundtrip",
                 "pass": verify_inclusion(pr["leaf_hash"], pr["proof"], man["merkle_root"]),
             })
+    # Founding discipline doc present
+    drugs = REPO / "docs" / "security" / "REMEMBER_YOU_ARE_ON_DRUGS.md"
+    results.append({
+        "test": "remember_on_drugs_checklist_present",
+        "pass": drugs.is_file() and "public_verify_harness" in drugs.read_text(encoding="utf-8"),
+    })
+    # Claim gate present
+    cg = REPO / "docs" / "specs" / "artefacts" / "04" / "PUBLIC_CLAIM_GATE.md"
+    results.append({
+        "test": "public_claim_gate_present",
+        "pass": cg.is_file() and "frontier" in cg.read_text(encoding="utf-8").lower(),
+    })
     out = {"schema": "ttllm.redteam_harness.v1", "results": results, "all_pass": all(r["pass"] for r in results)}
     path = REPO / "registers" / "redteam" / "last_harness_run.json"
     path.write_text(json.dumps(out, indent=2) + "\n")

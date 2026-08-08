@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.decision_feed.v1",
-  "updated": "2026-08-08T12:00:00+00:00",
+  "updated": "2026-08-08T13:00:00+00:00",
   "entries": [
     {
       "id": "D-0007",
@@ -67,6 +67,12 @@
       "date": "2026-08-08",
       "title": "Grok placeholders for human-writable gaps + hard gate list",
       "outcome": "docs/placeholders + HARD_TECHNOLOGICAL_GATES"
+    },
+    {
+      "id": "D-0026",
+      "date": "2026-08-08",
+      "title": "Writable bone GO hard gates untouched",
+      "outcome": "domain fill threat cost economics movement"
     }
   ]
 }

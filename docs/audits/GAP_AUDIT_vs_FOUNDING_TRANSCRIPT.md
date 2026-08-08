@@ -1,75 +1,71 @@
 # Gap audit: shipped work vs founding transcript
 
 **Source of truth:** `founding/conversation/TRANSCRIPT_ONLY.md`  
-**Conversation:** Totally Transparent LLMs: OLMo and LLM360 (`8a75e0b4-…`)  
-**Audit date:** 2026-08-08  
-**Verdict:** Prior “complete” claims were soft tissue. This document lists bone still missing or partial.
+**Conversation:** Totally Transparent LLMs: OLMo and LLM360  
+**Audit date:** 2026-08-08 (refreshed same day — writable bone wave)  
+**Verdict:** Soft-tissue “complete” rejected. Nano shape + org bone real; scale/entity/capital remain hard gates.
 
 ## Status legend
 - **BONE** — working artefact meets conversation intent at current scale
-- **PARTIAL** — exists but thin vs transcript
+- **PARTIAL** — exists; thinner than eventual scale ambition
 - **MISSING** — not built
-- **MINIMAL-LOCAL** — Mac-scale substitute for capital-bound full system (honest scale)
+- **HARD GATE** — cannot agent-close (see `docs/HARD_TECHNOLOGICAL_GATES.md`)
 
-## Model / technical (turns 1, 4, 9–13, 16)
+## Model / technical
+| Requirement | Status | Evidence |
+|-------------|--------|----------|
+| Full stack definition | **BONE** (nano shape) | models/ttllm-nano* + cards |
+| Intermediate checkpoints public | **BONE** (dense local) | checkpoints/*.pt + manifests |
+| Training code open | **BONE** | models/*/code |
+| Verifiable training data | **BONE** | DATA_CARD + hashes + check_data_cards |
+| Metrics/logs | **BONE** | metrics/train.jsonl + cost_ledger |
+| ttlink human-viewable | **BONE** (small corpus) | index + site demo + `/api/ttlink/` |
+| Public stream real process | **BONE** (nano events) | stream/public_log.json + catalog |
+| Crypto manifests | **BONE** | FREE_CORE_SEAL + release manifests |
+| Query hardening | **PARTIAL** | QueryGuard + policy card |
+| Matrix surface real links | **PARTIAL** | demo.html (not aesthetic-only) |
+| OLMo-class scale train | **HARD GATE T8** | placeholders/capital only |
 
-| Requirement | Prior | Target now |
-|-------------|-------|------------|
-| Full stack definition (data+code+ckpts+metrics+trace) | PARTIAL docs | BONE via nano release + card |
-| Intermediate checkpoints public | MISSING | MINIMAL-LOCAL dense ckpts |
-| Training code open | MISSING | BONE `models/ttllm-nano/code/` |
-| Verifiable training data | MISSING (demo corpus only) | BONE hashed public-domain corpus |
-| Metrics/logs | MISSING | BONE metrics JSONL |
-| ttlink human-viewable | PARTIAL toy index | BONE index over real train corpus + shard seals |
-| Public stream of real process | PARTIAL demo events | BONE stream of train/seal events |
-| Crypto manifests + signatures | PARTIAL | BONE + shard proofs + signed releases |
-| Query hardening | MISSING | PARTIAL QueryGuard + tests |
-| Index shard integrity | MISSING | PARTIAL sharded index binding |
-| Matrix surface over real links | MISSING aesthetic | PARTIAL site demo (links real) |
+## Security
+| Requirement | Status | Evidence |
+|-------------|--------|----------|
+| Threat model | **BONE** | docs/security/threat-model.md |
+| Transparency-layer red-team harness | **BONE** | redteam_nano_harness.py |
+| Commercial isolation | **BONE** (design) | ISOLATION_RUNBOOK + handbook |
+| Standing Pliny-class hire | **HARD GATE T10** | SOW/CCO placeholders |
+| Prod multi-party keys | **HARD GATE T5** | ceremony example only |
 
-## Security (turns 14–17)
+## Business
+| Requirement | Status | Evidence |
+|-------------|--------|----------|
+| Free core + paid layers | **BONE** | BOUNDARY + SKUs + refuse handbook |
+| 10y financial model | **PARTIAL** | docs/business + Grok placeholder narrative |
+| Nano unit economics actual | **BONE** | nano_cost_ledger.py + metrics |
+| First revenue | **HARD GATE T11** | dry-run only |
 
-| Requirement | Prior | Target now |
-|-------------|-------|------------|
-| Threat model published | PARTIAL | Expand + train-specific |
-| Frontier red-team of transparency layer | MISSING | MINIMAL-LOCAL automated adversarial harness |
-| Commercial isolation design | PARTIAL prose | BONE isolation checklist + config stubs |
-| Red-team findings publication | PARTIAL thin | Full Domain 10 artefacts + empty register ready |
+## Culture / founding
+| Requirement | Status | Evidence |
+|-------------|--------|----------|
+| Publish founding conversation | **BONE** | founding/ + site founding pages |
+| Movement framing | **BONE** | site/movement.html |
+| Remember you're on drugs | **BONE** | docs/security/REMEMBER_YOU_ARE_ON_DRUGS.md |
 
-## Business (turns 12, 18–23)
-
-| Requirement | Prior | Target now |
-|-------------|-------|------------|
-| Free core + paid layers | PARTIAL | Deep BOUNDARY + SKU eventualities |
-| 10y financial model | PARTIAL summary | Full tables + assumption ledger + scenarios |
-| Scholarly / sales / MBA plan | PARTIAL | Expand to conversation depth |
-| Unit economics math/physics | PARTIAL | Nano actual cost ledger + scale-up model |
-
-## Culture / founding (turns 2–8, 24–29)
-
-| Requirement | Prior | Target now |
-|-------------|-------|------------|
-| Publish founding conversation | PARTIAL in repo | Site page + sealed pack |
-| Movement framing (not vs-person identity) | PARTIAL | Full pages |
-| Remember you're on drugs | PARTIAL | Wired into eval/redteam checklists |
-
-## Ten domains (turns 30–46)
-
-| Domain | Transcript depth | Prior ship | Target |
-|--------|------------------|------------|--------|
-| 1 Governance | Full plan | ~12–60 lines | Full plan + Decision Log infra + charter |
-| 2 Ownership/funding | Full plan | thin | Full plan + ownership artefacts |
-| 3 Data governance | Full plan | thin | Full plan + legal log + data cards |
-| 4 Evaluation | Full plan | thin | Full plan + nano eval archive |
-| 5 Incidents | Full plan | thin | Full plan + incident log |
-| 6 Compensation | Full plan | thin | Full plan + bands philosophy |
-| 7 Supply chain | Full plan | thin | Full plan + dependency register |
-| 8 Boundary | Full plan | BOUNDARY.md partial | Full plan + attestation |
-| 9 Stewardship | Full plan | draft covenant | Full plan + inventory ops |
-| 10 Red-team publication | Full plan | thin | Full plan + register |
+## Ten domains
+| Domain | Status | Notes |
+|--------|--------|-------|
+| 1 Governance | **PARTIAL→BONE** | Log + handbook + monthly audit + quarterly example |
+| 2 Ownership | **PARTIAL** | Registers + placeholders; entity T6 |
+| 3 Data | **BONE** (nano) | DATA_CARD machine-check |
+| 4 Evaluation | **BONE** (honest) | claim gate + honesty packs; no frontier claim |
+| 5 Incidents | **BONE** (process) | playbooks + tabletop; no real High yet |
+| 6 Compensation | **PARTIAL** | philosophy + bands example; no payroll |
+| 7 Supply chain | **BONE** (software) | SUPPLY_LOCK |
+| 8 Boundary | **BONE** | BOUNDARY + change process + attestation example |
+| 9 Stewardship | **PARTIAL** | covenant draft + inventory; T5/T6/T9 open |
+| 10 Red-team pub | **BONE** (process) | register + harness; hire T10 |
 
 ## Honest scale statement
-This Mac can ship a **nano TTLLM** that satisfies the *shape* of total transparency (data, code, dense checkpoints, metrics, sealed manifests, ttlink, stream, evals). It cannot ship 32B multi-trillion training. Scale-up paths are documented; nano is not cosplay of 32B.
+Mac ships **nano TTLLM shape**. Not 32B multi-trillion. Scale paths documented; hard gates named; Grok placeholders for human-check writing; site updated on ttllms.com.
 
 ## Work ledger
-See `docs/audits/WORK_LEDGER.md` (updated as work proceeds).
+`docs/audits/WORK_LEDGER.md`

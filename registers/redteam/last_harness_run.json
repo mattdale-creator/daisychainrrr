@@ -32,6 +32,14 @@
     {
       "test": "inclusion_proof_roundtrip",
       "pass": true
+    },
+    {
+      "test": "remember_on_drugs_checklist_present",
+      "pass": true
+    },
+    {
+      "test": "public_claim_gate_present",
+      "pass": true
     }
   ],
   "all_pass": true

@@ -50,6 +50,12 @@ dns:
 deploy-site:
 	npx wrangler pages deploy site --project-name=ttllms
 
+cost-ledger:
+	python3 scripts/nano_cost_ledger.py --write
+
+placeholders-check:
+	python3 scripts/check_placeholder_labels.py
+
 reseal-core:
 	python3 scripts/check_seal_freshness.py --write
 

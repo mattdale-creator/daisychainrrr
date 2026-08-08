@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "e97a4adb1bbe82558ff530932d03941ea68e3e8acbdcf60969314766b1891121",
-  "count": 10504,
+  "merkle_root": "944d71c47917eb0ff1a06dc2385b6080837ee76609e7407efa9927ec795c67e3",
+  "count": 10510,
   "leaves": [
     {
       "path": "LICENSE",
@@ -10,8 +10,8 @@
     },
     {
       "path": "Makefile",
-      "sha256": "8189bddbc8aef0dcb5659a74e7ed100f3ffc2c2b2446f85514bdae4b19a53c01",
-      "bytes": 2716
+      "sha256": "add4437ee54a05cae21aa960e93140781d679bd30d7b9ce57bb387ebb376870b",
+      "bytes": 2841
     },
     {
       "path": "README.md",
@@ -50700,8 +50700,8 @@
     },
     {
       "path": "docs/audits/GAP_AUDIT_vs_FOUNDING_TRANSCRIPT.md",
-      "sha256": "812b1821e29a57ac1f25a5a21db21f2e7e8bf614b61119c47d1760d69ea56dee",
-      "bytes": 4061
+      "sha256": "568937f1d6472f91017c78348b9f3135e2f4eb6fea3b85425d5ea8fca6983016",
+      "bytes": 3718
     },
     {
       "path": "docs/audits/LEAF_FILL_REPORT.md",
@@ -50715,8 +50715,8 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "95aed9d9a9221ff33f96c07fa70ae608c0e1172326f49316cf5e25e2f6561bb2",
-      "bytes": 799
+      "sha256": "855f14a154ba594465b38753f40899086bb306cdaad79a2d563f0ac7cf5e9580",
+      "bytes": 1228
     },
     {
       "path": "docs/business/FOUNDING_FREE_CORE_MONETISATION.md",
@@ -50737,6 +50737,11 @@
       "path": "docs/business/FOUNDING_PITCHES_AND_MBA.md",
       "sha256": "4a259026d747c003bbf88484dbfb9274b7e8ae8257728dc0b4571816d967d607",
       "bytes": 22732
+    },
+    {
+      "path": "docs/business/NANO_UNIT_ECONOMICS_ACTUAL.md",
+      "sha256": "75e4c8f898a0d9620cce7f6b6119c01a1ada5dc39adcfff0fa0bfe8c9ab0966e",
+      "bytes": 1083
     },
     {
       "path": "docs/business/financial-model-10y-FOUNDING.md",
@@ -51119,6 +51124,11 @@
       "bytes": 2920
     },
     {
+      "path": "docs/security/REMEMBER_YOU_ARE_ON_DRUGS.md",
+      "sha256": "9a97849bbda349db5c55ec633913bd057145fee63b7cc404953566432376944e",
+      "bytes": 887
+    },
+    {
       "path": "docs/security/REPORT_INTAKE.md",
       "sha256": "b673e3592b3399e2f6e0209d58c7a39cd37dd97aa2b79e79e05bcedb0a676419",
       "bytes": 2037
@@ -51145,8 +51155,8 @@
     },
     {
       "path": "docs/security/threat-model.md",
-      "sha256": "db0346f0d6d1cda084346f8d8601549b4953d166f92a36bc6cbf2e7a1eda0281",
-      "bytes": 627
+      "sha256": "a7a36b98067a28a10a83b9fa13818dfad9d748c996e53150e968252abedb1dd3",
+      "bytes": 2380
     },
     {
       "path": "docs/specs/00-master.md",
@@ -51275,8 +51285,8 @@
     },
     {
       "path": "docs/specs/artefacts/02/INFLUENCE_RIGHTS_REGISTER.md",
-      "sha256": "24f7cd0fc2a687961f35beef84df50267ce3dd16ed89f718796ed7a94836d5a9",
-      "bytes": 397
+      "sha256": "a46332fe2782986fedcf0b43b7f857efe3a3979f7999a4fe314d459506206ade",
+      "bytes": 926
     },
     {
       "path": "docs/specs/artefacts/02/QUARTERLY_REPORT_TEMPLATE.md",
@@ -51345,8 +51355,8 @@
     },
     {
       "path": "docs/specs/artefacts/04/EVAL_CHANGE_LOG.md",
-      "sha256": "2af8d377e13348adffe40d3c6e46536628b6a76185441ae56e9d8317ff345730",
-      "bytes": 228
+      "sha256": "54ba6066ee3fc1a314bd510c62031946763ae1553955b2e230e822bcedf1f325",
+      "bytes": 616
     },
     {
       "path": "docs/specs/artefacts/04/EVAL_HONESTY_TEMPLATE.md",
@@ -51360,8 +51370,8 @@
     },
     {
       "path": "docs/specs/artefacts/04/PUBLIC_CLAIM_GATE.md",
-      "sha256": "330dbc2e86f0c4307c0b8cfcb86353bd988aab27814a66e4120a1c0aea9bd4f9",
-      "bytes": 374
+      "sha256": "37b4579a52ddd9454493346d0813bd0679337a6bacb00e2a53d52ec5c9e869f2",
+      "bytes": 1134
     },
     {
       "path": "docs/specs/artefacts/04/QUARTERLY_REPORT_TEMPLATE.md",
@@ -51505,8 +51515,8 @@
     },
     {
       "path": "docs/specs/artefacts/08/ALLOWED_COMMERCIAL_PRIVACY.md",
-      "sha256": "0861a58a89dcd8e9bce475e058c59ea39fcec76fcb991727f7a86de170a87cd2",
-      "bytes": 415
+      "sha256": "3d92f44583446a61f466f2d1235ce2a64bb70c8a80bc77bf25713043b7b75db1",
+      "bytes": 770
     },
     {
       "path": "docs/specs/artefacts/08/ANNUAL_BOUNDARY_ATTESTATION.md",
@@ -51515,8 +51525,8 @@
     },
     {
       "path": "docs/specs/artefacts/08/BOUNDARY_CHANGE_PROCESS.md",
-      "sha256": "d488887c2bcde4ac11cb6d0578c25b034e6f080aaff96df3f3d44b240c18131c",
-      "bytes": 320
+      "sha256": "1944b439149cd396eb1482d7a116224337cdc935af063a8e2ee87f02758b5882",
+      "bytes": 1047
     },
     {
       "path": "docs/specs/artefacts/08/BOUNDARY_SPEC.md",
@@ -51530,8 +51540,8 @@
     },
     {
       "path": "docs/specs/artefacts/08/PROHIBITED_OPACITY.md",
-      "sha256": "ea3fe3c6198462c6c9f85587c6152b3d38bfb619ecf6cd4e22ce4a14f55727e0",
-      "bytes": 345
+      "sha256": "1d1441bb85a34c6192c9d2cf11096b9e28422d9f0643155602d91fb222d2b499",
+      "bytes": 713
     },
     {
       "path": "docs/specs/artefacts/08/QUARTERLY_REPORT_TEMPLATE.md",
@@ -52140,13 +52150,13 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "4bd307ae5fd23699d47f9a30f1989967155bf8c22e3eef98b039e3a51d6199ac",
-      "bytes": 4224
+      "sha256": "2a1ef9bef10a347456cee654481a2619233e83a43abf18a61e869fe6c4d4b426",
+      "bytes": 4499
     },
     {
       "path": "registers/decisions/feed.json",
-      "sha256": "0765a56bde813fdfff88140e0b752c3ddd3ad0f36ebb9b6d29f63301b608416c",
-      "bytes": 1937
+      "sha256": "3a05ea0d402b8dc2f2763f29ad4c89bbdd7c8a24c4363187ee848084f87bc308",
+      "bytes": 2118
     },
     {
       "path": "registers/funding.md",
@@ -52244,6 +52254,11 @@
       "bytes": 2171
     },
     {
+      "path": "scripts/check_placeholder_labels.py",
+      "sha256": "d56f6a8e1c1ea1b9cdd926911921753c375f5c417d602ebb47688e5901fadd3e",
+      "bytes": 839
+    },
+    {
       "path": "scripts/check_public_urls.py",
       "sha256": "3a60bb5a66a6447db6a9376495cc5a7a6f52f75178759c9d24cccb3a2179136e",
       "bytes": 6378
@@ -52269,6 +52284,11 @@
       "bytes": 549
     },
     {
+      "path": "scripts/nano_cost_ledger.py",
+      "sha256": "07635721e2b9c181e55cf09aea06d87183e8b1f2014cba834175650ec340387e",
+      "bytes": 2904
+    },
+    {
       "path": "scripts/oneshot_verify_all.py",
       "sha256": "19476f89d44ac627d5b0f4c5bf4e3d4c58d9c8526f09cb4e96162f0be8dc8817",
       "bytes": 2577
@@ -52280,8 +52300,8 @@
     },
     {
       "path": "scripts/redteam_nano_harness.py",
-      "sha256": "85bac76ea8687b51ef1c2b566e251d43447faa0eef9ac91efa40ebd552593a52",
-      "bytes": 3676
+      "sha256": "ec8f8f7718d731877c4d658782a39cad4cbe92c4de3b06fc066cce3f22def884",
+      "bytes": 4231
     },
     {
       "path": "site/.well-known/security.txt",
@@ -52429,6 +52449,11 @@
       "bytes": 29092
     },
     {
+      "path": "site/economics.html",
+      "sha256": "75125121649a385c1f75bb2afe669d846c7dd5a5aa32c3c1f4b81d2c95485d18",
+      "bytes": 2195
+    },
+    {
       "path": "site/founding-prompts.html",
       "sha256": "5b7ea49ba5f8d815e1274370860f991994f1d896f553ff0ee0ce17d80a1cd048",
       "bytes": 18746
@@ -52460,13 +52485,18 @@
     },
     {
       "path": "site/index.html",
-      "sha256": "03195c43c03a2815fd413b537a302af840ecf73ac188043febc94df0c3226dff",
-      "bytes": 4210
+      "sha256": "14c24df2d10cebc071f6005c9699fb34311d5ec518a6ab2e1bb8b3fcffef12d5",
+      "bytes": 4674
     },
     {
       "path": "site/models.html",
       "sha256": "cf705bcfddb12e90970be11bf82963056eca5e99693b06cb1f4fb157a004a05d",
       "bytes": 1678
+    },
+    {
+      "path": "site/movement.html",
+      "sha256": "bbae3cddd9f3fdfa94464137cf5b2c3474952b3fac3e6fcfa26ae02d470e6f12",
+      "bytes": 2266
     },
     {
       "path": "site/nano.html",
@@ -52495,13 +52525,13 @@
     },
     {
       "path": "site/sitemap.xml",
-      "sha256": "68a6b7331d8884096eb90e6d9a8ffa2d6040f79a9262923bef5e213d244e3502",
-      "bytes": 1099
+      "sha256": "2568d6a7757b5035dabb35ca6e8b22ec532667fd91a89479de71eaa2c16bcef9",
+      "bytes": 1204
     },
     {
       "path": "site/status.html",
-      "sha256": "986899208092e7361dc0092759fa6db86e29240803226a8b3021942ab022625d",
-      "bytes": 3343
+      "sha256": "fa5ecf3954b8737a751d83bf8e0eea78d8e57cb11d9c16450df42527ba16c5a4",
+      "bytes": 3406
     },
     {
       "path": "site/stream.html",
