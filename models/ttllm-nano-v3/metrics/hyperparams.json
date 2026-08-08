@@ -1,0 +1,18 @@
+{
+  "schema": "ttllm.nano.hyperparams.v1",
+  "steps": 600,
+  "batch_size": 32,
+  "block_size": 128,
+  "n_layer": 4,
+  "n_head": 4,
+  "n_embd": 128,
+  "lr": 0.0003,
+  "seed": 42,
+  "device": "mps",
+  "optimizer": "AdamW",
+  "corpus_sha256": "b26077bd9f598f145ded5693c2ad5ce02e61695a9644555cb8361194ffc5c5b0",
+  "vocab_size": 97,
+  "started_utc": "2026-08-08T09:16:38Z",
+  "finished_utc": "2026-08-08T09:18:16Z",
+  "wall_sec": 97.76867914199829
+}

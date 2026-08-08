@@ -1,0 +1,3 @@
+# span-empty/prevent
+
+- [ ] Done

@@ -1,16 +1,19 @@
-# Continuity covenant (DRAFT — not yet signed by entity)
+# Continuity & Stewardship Covenant (DRAFT — unsigned)
 
-**Updated:** 2026-08-07
+**Version:** 0.2.0-draft  
+**Status:** Pre-entity operational draft. Not legally binding until signed by a legal entity.
 
-## Intent
-Ensure free public core and critical assets survive founder incapacity or departure.
+## Commitments
+1. Free public core remains public per commercial/BOUNDARY.md.
+2. Already-released public artefacts will not be quietly withdrawn; Domain 3 process applies.
+3. Domains, GitHub, Cloudflare access, and verification materials are listed in ASSET_INVENTORY and must have succession notes.
+4. Demo signing keys are not production roots of trust; production keys require multi-party design (Domain 9).
+5. Change-of-control triggers are public in docs/specs/artefacts/09/CHANGE_OF_CONTROL_TRIGGERS.md.
+6. Annual attestation will be published once entity exists.
 
-## Commitments (draft)
-1. Free public core remains public per BOUNDARY.md  
-2. Domains, GitHub, and Cloudflare access have documented succession  
-3. Signing keys (when production) have multi-person recovery  
-4. Annual attestation of this inventory  
-5. Tombstone rather than silent deletion of public bone  
+## Gaps (tombstones)
+- No legal entity to sign
+- No independent escrow deposit yet
+- No threshold multi-sig on production keys (none issued)
 
-## Status
-Unsigned draft until legal entity exists. Still operationally useful as checklist.
+These gaps are public. Closing them is a Domain 1 material workstream.

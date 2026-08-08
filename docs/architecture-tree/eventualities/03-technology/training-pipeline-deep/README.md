@@ -1,0 +1,17 @@
+# Training pipeline deep eventualities
+
+- [data-fetch-fail-offline](data-fetch-fail-offline/)
+- [hash-mismatch-after-fetch](hash-mismatch-after-fetch/)
+- [seed-not-logged](seed-not-logged/)
+- [checkpoint-corrupt-load](checkpoint-corrupt-load/)
+- [mps-nondeterminism](mps-nondeterminism/)
+- [overfit-hidden](overfit-hidden/)
+- [eval-skipped-before-claim](eval-skipped-before-claim/)
+- [scorecard-stale](scorecard-stale/)
+- [stream-not-updated-on-release](stream-not-updated-on-release/)
+- [manifest-excludes-weights](manifest-excludes-weights/)
+- [bpe-not-published](bpe-not-published/)
+- [canary-missing-from-index](canary-missing-from-index/)
+- [cost-ledger-missing](cost-ledger-missing/)
+- [hyperparams-disagree-with-ckpt](hyperparams-disagree-with-ckpt/)
+- [final-pt-unsigned](final-pt-unsigned/)

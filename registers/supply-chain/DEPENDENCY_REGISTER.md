@@ -16,3 +16,6 @@
 
 ## Signing
 Demo keys in `examples/keys/` are tutorial-only. Production HSM/threshold keys: not yet.
+
+| Cloudflare Workers (ttllm-ttlink upload) | infra | reference ttlink API | route attach pending token scope |
+| Pages Functions /api/ttlink | infra | alternate API path | deployed with site |

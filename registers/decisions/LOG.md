@@ -14,3 +14,7 @@
 | D-0010 | 2026-08-08 | Ship ttllm-nano-v2 with pure-Python BPE | Stay on char-only nano | Better tokenizer still fully public/verifiable | models/ttllm-nano-v2 | founder+agent |
 | D-0011 | 2026-08-08 | Publish Domain quarterly bootstrap report | Wait for entity | Honesty about partial ops history | docs/specs/artefacts/00_QUARTERLY_BOOTSTRAP_2026Q3.md | founder+agent |
 | D-0012 | 2026-08-08 | Local ttlink HTTP API (stdlib) | Wait for Workers | Runnable reference without cloud | free_core/ttlink/server.py | founder+agent |
+| D-0013 | 2026-08-08 | Expand PG corpus to 6 sources | Stay at 3 | More verifiable public-domain bone | models/*/data | founder+agent |
+| D-0014 | 2026-08-08 | Ship nano-v3 on expanded data | Only retrain BPE v2 | Faster iteration on data expansion | models/ttllm-nano-v3 | founder+agent |
+| D-0015 | 2026-08-08 | Deploy ttlink API via Pages Functions | Wait for workers.dev | Public query path without subdomain | site/functions | founder+agent |
+| D-0016 | 2026-08-08 | Domain artefact packs filled for 1-10 | Leave scaffolds empty | Down to the bone ops | docs/specs/artefacts | founder+agent |

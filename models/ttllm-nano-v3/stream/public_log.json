@@ -1,0 +1,61 @@
+{
+  "schema": "ttllm.stream_log.v1",
+  "count": 4,
+  "tip": "e39fdfadc2cc7cbc84d68b072547f227a66ec2fbb9ad4bfcdbe99e15bc861d24",
+  "events": [
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "data_expanded",
+      "timestamp_utc": "2026-08-08T09:19:01Z",
+      "artefact_sha256": null,
+      "payload": {
+        "sources": 6,
+        "corpus_sha256": "b26077bd9f598f145ded5693c2ad5ce02e61695a9644555cb8361194ffc5c5b0"
+      },
+      "prev_hash": null,
+      "seq": 0,
+      "event_hash": "2b6817f2841d9e749f5351bc2a4afddab5745a7ca57b4a4b7102a9ab693bb73a"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "training_finished",
+      "timestamp_utc": "2026-08-08T09:19:01Z",
+      "artefact_sha256": null,
+      "payload": {
+        "steps": 600,
+        "device": "mps"
+      },
+      "prev_hash": "2b6817f2841d9e749f5351bc2a4afddab5745a7ca57b4a4b7102a9ab693bb73a",
+      "seq": 1,
+      "event_hash": "2f60e7396d1328d7e57f1dd13a6b2a1fafc02729fd9a86182a1182e6342c12b9"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "loss_metric",
+      "timestamp_utc": "2026-08-08T09:19:01Z",
+      "artefact_sha256": null,
+      "payload": {
+        "step": 600,
+        "train_loss": 2.2998903036117553,
+        "val_loss": 2.3003858089447022,
+        "wall_sec": 92.20698308944702,
+        "utc": "2026-08-08T09:18:11Z"
+      },
+      "prev_hash": "2f60e7396d1328d7e57f1dd13a6b2a1fafc02729fd9a86182a1182e6342c12b9",
+      "seq": 2,
+      "event_hash": "c9e6482c5f174c34dc44810d31298887b06606227feafe1f8b4a23e2badcdff1"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "release",
+      "timestamp_utc": "2026-08-08T09:19:01Z",
+      "artefact_sha256": "abf40965373ffe4007dbb6cb1c4988f54890a4ff3edee8f909694da9ce71e483",
+      "payload": {
+        "merkle_root": "abf40965373ffe4007dbb6cb1c4988f54890a4ff3edee8f909694da9ce71e483"
+      },
+      "prev_hash": "c9e6482c5f174c34dc44810d31298887b06606227feafe1f8b4a23e2badcdff1",
+      "seq": 3,
+      "event_hash": "e39fdfadc2cc7cbc84d68b072547f227a66ec2fbb9ad4bfcdbe99e15bc861d24"
+    }
+  ]
+}

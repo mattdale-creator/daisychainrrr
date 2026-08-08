@@ -1,0 +1,10 @@
+{
+  "doc_id": "canary_329f9c0a9fa2",
+  "text": "TTLLM_CANARY_UNIQUE_ttllm-public-canary-v1\nThis line must never appear in training data.\n",
+  "sha256": "2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25",
+  "check": {
+    "ok": true,
+    "hits": 1,
+    "expected_sha256": "2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25"
+  }
+}
