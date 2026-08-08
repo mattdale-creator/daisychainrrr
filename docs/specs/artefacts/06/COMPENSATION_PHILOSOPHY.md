@@ -1,11 +1,12 @@
-# Compensation & Incentive Philosophy (v0.1)
+# Compensation philosophy (Domain 6)
 
-**Pre-headcount.** When roles exist:
+> **Written by Grok - Human checking required** — bands example:
+> `docs/placeholders/org/COMPENSATION_BANDS_EXAMPLE.md`
 
-1. Contributions to free-core integrity (red-team, docs, hard transparency work) are positive evaluation factors.
-2. No bonus or commission may reward closing or degrading the public core.
-3. Role-level bands will be published when first hires occur (Domain 6).
-4. Special arrangements logged in Incentive Exception Log.
+## Principles
+1. Influence over free core, BOUNDARY, keys, or public claims → disclosable role.
+2. Public bands for influential roles once payroll exists.
+3. Sales incentives must not reward free-core closure.
 
-## Current state
-No employees. Volunteer / founder labour. Equity instruments: none issued.
+## Current
+Founder-led; no payroll. Influence threshold example: `docs/specs/artefacts/06/INFLUENCE_THRESHOLD_EXAMPLE.md`.

@@ -1,8 +1,10 @@
-# Funding history log
+# Funding history log (Domain 2)
 
-| Date | Amount | Source | Instrument | Control terms |
-|------|--------|--------|------------|---------------|
-| — | $0 | institutional | — | none |
-| 2026-08 | operating (domains, CF) | founder personal | expense | none |
+> **Written by Grok - Human checking required** — full example:
+> `docs/placeholders/org/CAP_TABLE_AND_FUNDING_EXAMPLE.md`
 
-No SAFEs, notes, or preferred shares.
+| Date | Type | Amount | Source | Free-core impact |
+|------|------|--------|--------|------------------|
+| — | Bootstrapped | $0 cash | Founder time | Core remains free |
+
+No priced round. No SAFE closed. Any future row must note BOUNDARY attachment.

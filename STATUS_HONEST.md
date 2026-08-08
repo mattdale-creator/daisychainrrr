@@ -19,7 +19,9 @@ Automated bone now runnable without capital:
 - Stream catalog · incident drill stream · supply lock · eval honesty packs · finetune lineage schema
 - CI: `.github/workflows/verify.yml` · `make fine-grain`
 - Domain 1 first monthly audit filed · ASSET_INVENTORY succession rows · security intake + policy page
-**Still walls (with agent bone packs):** see `docs/walls/00-WALLS-INDEX.md` and https://ttllms.com/walls — DNS Edit, R2, API routes, GH workflow scope, entity, HSM, scale capital, standing RT, second custodian, revenue. Site **is** redeployed to Pages/ttllms.com as we ship.
+**Hard gates (T1–T11):** `docs/HARD_TECHNOLOGICAL_GATES.md` · https://ttllms.com/hard-gates  
+**Writable “human must write” work:** filled as Grok examples under `docs/placeholders/` (each **Written by Grok - Human checking required**) · https://ttllms.com/placeholders  
+**Walls bone:** `docs/walls/` · Site **is** redeployed to Pages/ttllms.com as we ship.
 
 ## Human / capital gates only
 `ops/HUMAN_GATES.md` — DNS Edit, R2, Workers routes, entity, 32B capital, standing red team, HSM, revenue.

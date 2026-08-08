@@ -1,19 +1,27 @@
-# Human gates (cannot be agent-faked)
+# Human gates + hard tech gates
 
 **Updated:** 2026-08-08  
-**Detail:** `docs/walls/00-WALLS-INDEX.md` · site: https://ttllms.com/walls
+**Hard inventory:** `docs/HARD_TECHNOLOGICAL_GATES.md`  
+**Writable examples:** `docs/placeholders/00-INDEX.md` (each **Written by Grok - Human checking required**)  
+**Site:** https://ttllms.com/hard-gates · https://ttllms.com/placeholders
 
-| # | Gate | Status | Agent bone | Action to close |
-|---|------|--------|------------|-----------------|
-| 1 | Zone DNS Edit (ttllms.org) | BLOCKED / pending records | `scripts/check_dns_status.py`, BIND, `apply_dns_ttllms.sh` | Dashboard CNAME or token DNS Edit |
-| 2 | R2 enable | BLOCKED 10042 historically | `ops/r2/*` design + upload runbook | Dashboard enable R2 |
-| 3 | Workers routes / stable API | PARTIAL | repo `functions/` + static `site/api/*` + CLI | Confirm Functions or expand token |
-| 4 | GitHub `workflow` scope | BLOCKED for push | `docs/ci-templates/verify.yml`, `make fine-grain` | PAT with workflow |
-| 5 | Entity formation | OPEN | formation checklist, draft covenant | Counsel + file |
-| 6 | Production HSM / multi-party keys | OPEN | ceremony runbook, key inventory | After entity |
-| 7 | Capital for 32B / scale | OPEN | budget skeleton, fundraise bone | Raise BOUNDARY-safe |
-| 8 | Standing red team hire | OPEN | harness, SOW, intake | Hire |
-| 9 | Second custodian | OPEN | dead-man procedure, inventory | Name + access |
-| 10 | First revenue SKU | OPEN | dry-run packs, BOUNDARY | Customer + billing |
+## Hard gates (cannot close by writing)
 
-Site is redeployed via `wrangler pages deploy site` → project **ttllms** → **ttllms.com**.
+| ID | Gate | Status | Close action |
+|----|------|--------|--------------|
+| T1 | Zone DNS Edit / ttllms.org records | OPEN — org unresolved | `docs/placeholders/ops/DNS_ORG_APPLY_PACKET.md` then dashboard/token |
+| T2 | R2 enable | OPEN | `docs/placeholders/ops/R2_ENABLE_AND_FIRST_BUCKET.md` |
+| T3 | Valid CF token scopes | PARTIAL — Pages deploy works; token verify may fail | Rotate token |
+| T4 | GitHub `workflow` scope | OPEN | `docs/placeholders/ops/GITHUB_WORKFLOW_SCOPE_PACKET.md` |
+| T5 | Prod multi-party / HSM keys | OPEN | `docs/placeholders/security/KEY_CEREMONY_TRANSCRIPT_EXAMPLE.md` then real ceremony |
+| T6 | Entity filing | OPEN | `docs/placeholders/legal/ENTITY_FORMATION_PACK_EXAMPLE.md` + counsel |
+| T7 | Bank / payments KYC | OPEN | After entity |
+| T8 | Capital transfer | OPEN | Pitch pack in placeholders/capital |
+| T9 | Second custodian consent | OPEN | `docs/placeholders/org/SECOND_CUSTODIAN_APPOINTMENT.md` |
+| T10 | Standing red-team hire | OPEN | SOW + CCO role placeholders |
+| T11 | Real customer payment | OPEN | MSA + go-live placeholders |
+
+## Already agent-built (not gates)
+- free_core, nanos, handbook, seals, public verify, Pages site on **ttllms.com**, JSON API `/api/ttlink/`, walls, placeholders library
+
+Site redeploy: `npx wrangler pages deploy site --project-name=ttllms`

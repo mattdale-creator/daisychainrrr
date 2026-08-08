@@ -40,4 +40,6 @@ Until the founder says otherwise, default work is:
 
 Detail pages: `docs/walls/0N-*.md`  
 Gates handbook: `docs/handbook/gates/`  
-Live status: https://ttllms.com/status · `ops/HUMAN_GATES.md`
+**Hard tech list only:** `docs/HARD_TECHNOLOGICAL_GATES.md`  
+**Writable Grok examples:** `docs/placeholders/00-INDEX.md` (label: Written by Grok - Human checking required)  
+Live status: https://ttllms.com/status · https://ttllms.com/hard-gates · `ops/HUMAN_GATES.md`

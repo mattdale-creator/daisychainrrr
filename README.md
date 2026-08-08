@@ -38,6 +38,8 @@ Implementable runbooks for humans — domains 1–10, release/seal/train, incide
 - **[docs/handbook/00-HANDBOOK-INDEX.md](docs/handbook/00-HANDBOOK-INDEX.md)** — start here for operations
 - Quality bar: exact commands · registers · BOUNDARY · scorecards/tombstones · RACI
 - Fine-grain remaining gaps: [docs/handbook/FINE_GRAIN_GAPS.md](docs/handbook/FINE_GRAIN_GAPS.md)
+- **Hard gates only:** [docs/HARD_TECHNOLOGICAL_GATES.md](docs/HARD_TECHNOLOGICAL_GATES.md)
+- **Grok placeholders (human check):** [docs/placeholders/00-INDEX.md](docs/placeholders/00-INDEX.md)
 
 ## Architecture tree (architect-complete)
 

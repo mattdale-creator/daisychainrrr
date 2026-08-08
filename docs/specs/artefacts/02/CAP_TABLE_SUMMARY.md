@@ -1,10 +1,12 @@
-# Cap table summary
+# Cap table summary (Domain 2)
 
-**As of:** 2026-08-08  
-**Entity:** Pre-incorporation
+> **Written by Grok - Human checking required** — full example:
+> `docs/placeholders/org/CAP_TABLE_AND_FUNDING_EXAMPLE.md`
 
-| Holder | % (fully diluted) | Notes |
-|--------|-------------------|-------|
-| Project founder (md@0265.au) | 100% | All project assets to date |
+| Holder | % | Notes |
+|--------|---|-------|
+| Founder | 100% | Pre-entity / pre-raise |
+| External investors | 0% | None closed |
+| ESOP | 0% | Not yet authorised |
 
-Options / warrants / convertibles: **none**.
+**Status:** illustrative structure only until entity + filings.

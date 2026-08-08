@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "b8d13f9be74ab3ae3e42f01cc87999e151889e9585da5f4eb24540b1e4a45d0a",
-  "count": 10478,
+  "merkle_root": "e97a4adb1bbe82558ff530932d03941ea68e3e8acbdcf60969314766b1891121",
+  "count": 10504,
   "leaves": [
     {
       "path": "LICENSE",
@@ -15,8 +15,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "8d7d2a010a8fc8ee8bc17ac285beffbe92430161a513ccf1d859f16b6e941e2e",
-      "bytes": 8208
+      "sha256": "d4cb5e2d601d6120756d414d4d17c5bc866305b87369c29e23aedf2406537616",
+      "bytes": 8402
     },
     {
       "path": "commercial/BOUNDARY.md",
@@ -75,8 +75,13 @@
     },
     {
       "path": "continuity/COVENANT.md",
-      "sha256": "51f8312231356fdc530e9410b1626783015df663ed872e9eb19d31b71101ecb7",
-      "bytes": 964
+      "sha256": "914ae0d2847069ec98402abfbb2e42d4f4fb623b52129f8ed12de6e7d43674ee",
+      "bytes": 1327
+    },
+    {
+      "path": "docs/HARD_TECHNOLOGICAL_GATES.md",
+      "sha256": "e4e3e36cb035d46dc75d69352bfe84707037de60e39736c92189c1f9f0a2042a",
+      "bytes": 5515
     },
     {
       "path": "docs/architecture-tree/00-MASTER-TREE.md",
@@ -50820,8 +50825,8 @@
     },
     {
       "path": "docs/handbook/00-HANDBOOK-INDEX.md",
-      "sha256": "4982758af347d4d41afa3d57dc44b7178b856e9af39cb4f5723d5d04f7d4239a",
-      "bytes": 5723
+      "sha256": "e031d16cbb1faf98e2934ee5fd71f5391903abb5a454c0ee1ea2141baa564ee7",
+      "bytes": 5961
     },
     {
       "path": "docs/handbook/FINE_GRAIN_GAPS.md",
@@ -50967,6 +50972,121 @@
       "path": "docs/manifesto.md",
       "sha256": "943a1d1a585bd861a660d72046f2ab514dac244201228843d5ae525d9a331a36",
       "bytes": 1700
+    },
+    {
+      "path": "docs/placeholders/00-INDEX.md",
+      "sha256": "e99016a54c1fa8f18cac60381616f1c68ba8eb83cda133fc8038b1fa5c334977",
+      "bytes": 3238
+    },
+    {
+      "path": "docs/placeholders/capital/FUNDRAISE_PITCH_EXAMPLE.md",
+      "sha256": "776157020b49564eb6f1577b9639c0c1270d56c17475ffdd4193c2cef8c1571b",
+      "bytes": 1899
+    },
+    {
+      "path": "docs/placeholders/capital/SCALE_BUDGET_FILLED_EXAMPLE.md",
+      "sha256": "dffb790a9b0edac12e9619a2a9ebf93c279478f08a824f6461fa7483b1b361c1",
+      "bytes": 1148
+    },
+    {
+      "path": "docs/placeholders/capital/TEN_YEAR_FINANCIAL_MODEL_EXAMPLE.md",
+      "sha256": "e4bc4de8e4011ed6335ae112b48f41d7ed3b160a11db3fc6e0680cea0668b9a9",
+      "bytes": 1556
+    },
+    {
+      "path": "docs/placeholders/capital/TERM_SHEET_EXAMPLE.md",
+      "sha256": "6d914fce3a2f77ee93f25bc692e6d4fbd0f27297dcc69c450e71ee4fd938705a",
+      "bytes": 1317
+    },
+    {
+      "path": "docs/placeholders/commercial/BOUNDARY_ANNUAL_ATTESTATION_EXAMPLE.md",
+      "sha256": "67064761e53c5a0dc98718f7fda391340c8a79a97b4df0b7af088539f76dc183",
+      "bytes": 960
+    },
+    {
+      "path": "docs/placeholders/commercial/FIRST_SKU_GO_LIVE_EXAMPLE.md",
+      "sha256": "e6285ddce8333740925f8e821911c53749b47dcd6c290ddb7a23dedb71296c6f",
+      "bytes": 1084
+    },
+    {
+      "path": "docs/placeholders/commercial/MSA_HOSTED_INFRA_EXAMPLE.md",
+      "sha256": "183d668ae012b149a4ce2881ea86e4a2541b42c2362d2d63a079adbe771038c5",
+      "bytes": 1255
+    },
+    {
+      "path": "docs/placeholders/domains/OWNERSHIP_PUBLIC_NOTE_EXAMPLE.md",
+      "sha256": "4f47b003b5468c396e0ad93817e21dde2477936fb79951555536df012a9446cf",
+      "bytes": 699
+    },
+    {
+      "path": "docs/placeholders/domains/QUARTERLY_GOVERNANCE_REPORT_EXAMPLE.md",
+      "sha256": "c999f4876036e7018b2c33aa90fd9fcb902cf4ab5832ebaefc0828b47b478e8a",
+      "bytes": 972
+    },
+    {
+      "path": "docs/placeholders/legal/COVENANT_FULL_EXAMPLE.md",
+      "sha256": "882c7576a461e42fb14e5b9769789317201958fcf0dcd2af0acdcc99708a1949",
+      "bytes": 3293
+    },
+    {
+      "path": "docs/placeholders/legal/ENTITY_FORMATION_PACK_EXAMPLE.md",
+      "sha256": "990fc2600f69b5660124747cfdd317f381aacf6b4b8854030f125789ace4dfb6",
+      "bytes": 2240
+    },
+    {
+      "path": "docs/placeholders/legal/SAFE_HARBOR_AND_INTAKE_EXAMPLE.md",
+      "sha256": "9ac1c09f5af3cb41c003cc6a97906be94ba238f666135e6554ec95e8c7cdfa00",
+      "bytes": 1720
+    },
+    {
+      "path": "docs/placeholders/meta/BANNER.md",
+      "sha256": "ab0db6032d045c99287a22d3a40b4bc6dd2ea7cb14ad00511b6b4600f81d63bd",
+      "bytes": 373
+    },
+    {
+      "path": "docs/placeholders/ops/DNS_ORG_APPLY_PACKET.md",
+      "sha256": "2174dafccfcac6de17b7c573d2fbb7551d0e2469108bd13f6ab6e04dd84eec20",
+      "bytes": 1788
+    },
+    {
+      "path": "docs/placeholders/ops/GITHUB_WORKFLOW_SCOPE_PACKET.md",
+      "sha256": "9b664b681054e2aa9c93cc36bdb48fd4abef9687f0434aabe681f5a86358fb2f",
+      "bytes": 987
+    },
+    {
+      "path": "docs/placeholders/ops/R2_ENABLE_AND_FIRST_BUCKET.md",
+      "sha256": "4b7fdb4c26629514de932fdb69ecc8c82f57a533c9368f338de5f72c2564296c",
+      "bytes": 1217
+    },
+    {
+      "path": "docs/placeholders/org/CAP_TABLE_AND_FUNDING_EXAMPLE.md",
+      "sha256": "a5a9ee486c41a8d0b23b6e1f495bc15078706b8a404644849e8469de5e4d5a65",
+      "bytes": 1134
+    },
+    {
+      "path": "docs/placeholders/org/COMPENSATION_BANDS_EXAMPLE.md",
+      "sha256": "c456af585127eb287e45e80c420f35eb58128dfc09fad9ff7c8d22d75545b1f8",
+      "bytes": 1176
+    },
+    {
+      "path": "docs/placeholders/org/SECOND_CUSTODIAN_APPOINTMENT.md",
+      "sha256": "d7484ac42ef820636f110b103632e90969852db5a7fac396eb0f5d1235cf570f",
+      "bytes": 1521
+    },
+    {
+      "path": "docs/placeholders/security/CCO_ROLE_DESCRIPTION.md",
+      "sha256": "44adec90f1b7b13f242241ce41f9995b92ed9d565ad79d957cdccfaef7c42658",
+      "bytes": 1376
+    },
+    {
+      "path": "docs/placeholders/security/KEY_CEREMONY_TRANSCRIPT_EXAMPLE.md",
+      "sha256": "a7fefa12c6a18601bea99337e41522a2549ae87d46e6098274c3d5f00a1eeab0",
+      "bytes": 1897
+    },
+    {
+      "path": "docs/placeholders/security/REDTEAM_SOW_FILLED_EXAMPLE.md",
+      "sha256": "64955ff5d92b0abebaf061b5863d2859c74fc6a6bb8801d11af547df32339baa",
+      "bytes": 1818
     },
     {
       "path": "docs/security/CANARY_QUERYGUARD_POLICY.md",
@@ -51145,18 +51265,18 @@
     },
     {
       "path": "docs/specs/artefacts/02/CAP_TABLE_SUMMARY.md",
-      "sha256": "e355ff243322972981fddab3a6e0cf534e8661b3862ea20ec354359c721b911e",
-      "bytes": 269
+      "sha256": "bee98891ecff3d37c41f74c9daef167d0789fa24394ead8dbac97de559e71cd2",
+      "bytes": 390
     },
     {
       "path": "docs/specs/artefacts/02/FUNDING_HISTORY_LOG.md",
-      "sha256": "df89bca0669985a9477f35010a98286e9178fa922577b702d268faba9bf9d1ab",
-      "bytes": 290
+      "sha256": "87aa9d5aa3f61ffa5160bde7c330f61db5a8d20c20c96f69dbc5f7370d0cf851",
+      "bytes": 414
     },
     {
       "path": "docs/specs/artefacts/02/INFLUENCE_RIGHTS_REGISTER.md",
-      "sha256": "ac26fe86a8af2f80835e7e7db2707c5357c06664a02abac113d68ee88dcd8adb",
-      "bytes": 262
+      "sha256": "24f7cd0fc2a687961f35beef84df50267ce3dd16ed89f718796ed7a94836d5a9",
+      "bytes": 397
     },
     {
       "path": "docs/specs/artefacts/02/QUARTERLY_REPORT_TEMPLATE.md",
@@ -51305,7 +51425,7 @@
     },
     {
       "path": "docs/specs/artefacts/06/COMPENSATION_PHILOSOPHY.md",
-      "sha256": "31b830f6d09138d016b65d1669e0db2ec3385c4cdcf7fecebde97c5aff275b2f",
+      "sha256": "778a46e28de8e10d732c3427f2badd3e97c007ac9122013a029a497933c7b7af",
       "bytes": 498
     },
     {
@@ -51430,8 +51550,8 @@
     },
     {
       "path": "docs/specs/artefacts/09/CHANGE_OF_CONTROL_TRIGGERS.md",
-      "sha256": "7082a974c500b983fc2fdb40650b00f9a5155ecf366919d7b55ac2601ca9a19b",
-      "bytes": 409
+      "sha256": "3383820cf6aa3f3cca7846c95113331f468a70dd4f6d9b92200e2203143db694",
+      "bytes": 1010
     },
     {
       "path": "docs/specs/artefacts/09/CONTINUITY_COVENANT.md",
@@ -51515,8 +51635,8 @@
     },
     {
       "path": "docs/walls/00-WALLS-INDEX.md",
-      "sha256": "f05ed971806610f90746219757cced747faa4ebd094ca34cae36419bf3a09d10",
-      "bytes": 2595
+      "sha256": "d60971207f5422393add185a4d28057836acc0915b6c03e21e401fdb7a6d16a9",
+      "bytes": 2803
     },
     {
       "path": "docs/walls/01-dns.md",
@@ -52020,13 +52140,13 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "4fb7581ae78e9f820e7a48b796c2cbfc9d951afe36a55c2e10dd355f6815865b",
-      "bytes": 3913
+      "sha256": "4bd307ae5fd23699d47f9a30f1989967155bf8c22e3eef98b039e3a51d6199ac",
+      "bytes": 4224
     },
     {
       "path": "registers/decisions/feed.json",
-      "sha256": "75de80586178eca89227e4372468d6598e5e9ed11fd09d85b533ecbb1e32d06a",
-      "bytes": 1733
+      "sha256": "0765a56bde813fdfff88140e0b752c3ddd3ad0f36ebb9b6d29f63301b608416c",
+      "bytes": 1937
     },
     {
       "path": "registers/funding.md",
@@ -52334,9 +52454,14 @@
       "bytes": 29575
     },
     {
+      "path": "site/hard-gates.html",
+      "sha256": "5f0c66ffcbcc8dc1b69f888bebf4a447697b3802cd1ad9d497f35d2527845478",
+      "bytes": 2421
+    },
+    {
       "path": "site/index.html",
-      "sha256": "0a1cdea4f3f28768f0567a1828aac15194f2b6b9431d96fe963c4765fd0b596d",
-      "bytes": 4097
+      "sha256": "03195c43c03a2815fd413b537a302af840ecf73ac188043febc94df0c3226dff",
+      "bytes": 4210
     },
     {
       "path": "site/models.html",
@@ -52347,6 +52472,11 @@
       "path": "site/nano.html",
       "sha256": "0188fefa6996289b09a36d53d5cdff59d36b3fc10f1a0da2397702658d8d4069",
       "bytes": 2921
+    },
+    {
+      "path": "site/placeholders.html",
+      "sha256": "47f1c5d4f0241eba6189c480cef390270819b08215696e72e83a5f3444252538",
+      "bytes": 2010
     },
     {
       "path": "site/robots.txt",
@@ -52365,13 +52495,13 @@
     },
     {
       "path": "site/sitemap.xml",
-      "sha256": "eb454088b976981ab3e01e326bee9584b42b2b2440243dceacbec017ea28b860",
-      "bytes": 940
+      "sha256": "68a6b7331d8884096eb90e6d9a8ffa2d6040f79a9262923bef5e213d244e3502",
+      "bytes": 1099
     },
     {
       "path": "site/status.html",
-      "sha256": "824c875ea5fed7c6d1d262771a907cab8d8913be8181fd0ff843f6fdee8d0c40",
-      "bytes": 3109
+      "sha256": "986899208092e7361dc0092759fa6db86e29240803226a8b3021942ab022625d",
+      "bytes": 3343
     },
     {
       "path": "site/stream.html",

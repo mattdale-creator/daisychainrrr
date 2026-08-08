@@ -95,5 +95,9 @@ python3 -m free_core.provenance.cli verify --manifest manifests/FREE_CORE_SEAL.j
 ## Fine-grain remaining gaps
 After handbook load-paths: [FINE_GRAIN_GAPS.md](FINE_GRAIN_GAPS.md) — ethos-filtered worklist (proof surface, domain rituals, commercial schemas, human gates). Not soft-tissue “done.”
 
+## Hard gates vs Grok placeholders
+- **Hard only (cannot write closed):** [../HARD_TECHNOLOGICAL_GATES.md](../HARD_TECHNOLOGICAL_GATES.md)
+- **Writable examples (human check):** [../placeholders/00-INDEX.md](../placeholders/00-INDEX.md)
+
 ## Contact
 md@0265.au · https://ttllms.com/status
