@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "080987f6ea7b071294ef18050e1eb10e2561f0ed09f8ccf721a58145343a46dd",
-  "count": 10513,
+  "merkle_root": "df5c468a8a31ea856572df7187b4d7df05174eecf541f471c01772d5e76795fc",
+  "count": 10536,
   "leaves": [
     {
       "path": "LICENSE",
@@ -10,8 +10,8 @@
     },
     {
       "path": "Makefile",
-      "sha256": "9987e3e9a66af955d4eda1a47572cd8b9d29e6b1cac26a21f5a385b5c191e436",
-      "bytes": 2965
+      "sha256": "be9198584b6517460b5250d5f1138e702d7be3309c76722c2a234d7a0eeb336a",
+      "bytes": 3074
     },
     {
       "path": "README.md",
@@ -50980,68 +50980,68 @@
     },
     {
       "path": "docs/placeholders/00-INDEX.md",
-      "sha256": "e99016a54c1fa8f18cac60381616f1c68ba8eb83cda133fc8038b1fa5c334977",
-      "bytes": 3238
+      "sha256": "6d1beead64f9556e57b562d64a160c52af9a2382e2acadbeac68681909cfcdaa",
+      "bytes": 3715
     },
     {
       "path": "docs/placeholders/capital/FUNDRAISE_PITCH_EXAMPLE.md",
-      "sha256": "776157020b49564eb6f1577b9639c0c1270d56c17475ffdd4193c2cef8c1571b",
-      "bytes": 1899
+      "sha256": "d1fa600a6598dd36d25cc8a1b11e8543f2672c273dc90332433662119f7b6ae5",
+      "bytes": 12712
     },
     {
       "path": "docs/placeholders/capital/SCALE_BUDGET_FILLED_EXAMPLE.md",
-      "sha256": "dffb790a9b0edac12e9619a2a9ebf93c279478f08a824f6461fa7483b1b361c1",
-      "bytes": 1148
+      "sha256": "5ec906420e9529b2457fb395f3c6e796b82a889724263a9edd20061bd41bced8",
+      "bytes": 3731
     },
     {
       "path": "docs/placeholders/capital/TEN_YEAR_FINANCIAL_MODEL_EXAMPLE.md",
-      "sha256": "e4bc4de8e4011ed6335ae112b48f41d7ed3b160a11db3fc6e0680cea0668b9a9",
-      "bytes": 1556
+      "sha256": "5718208a58c055dc665d9d982bdbc40f9dba0aee0476516ba054bd75f5d3ee27",
+      "bytes": 4537
     },
     {
       "path": "docs/placeholders/capital/TERM_SHEET_EXAMPLE.md",
-      "sha256": "6d914fce3a2f77ee93f25bc692e6d4fbd0f27297dcc69c450e71ee4fd938705a",
-      "bytes": 1317
+      "sha256": "19572e1383b01f13d02fe1a714be9dc16d01623f4cf505ed697f2b7b434d1890",
+      "bytes": 4864
     },
     {
       "path": "docs/placeholders/commercial/BOUNDARY_ANNUAL_ATTESTATION_EXAMPLE.md",
-      "sha256": "67064761e53c5a0dc98718f7fda391340c8a79a97b4df0b7af088539f76dc183",
-      "bytes": 960
+      "sha256": "c849e59d4ed4fac37d444449c694eb500226bce615ab150c15e5add8c0e5826d",
+      "bytes": 1775
     },
     {
       "path": "docs/placeholders/commercial/FIRST_SKU_GO_LIVE_EXAMPLE.md",
-      "sha256": "e6285ddce8333740925f8e821911c53749b47dcd6c290ddb7a23dedb71296c6f",
-      "bytes": 1084
+      "sha256": "ec8ca2acd74c45a5362af7392fc291c982fa26eee57c0267b428e3ad10d9aa6b",
+      "bytes": 2257
     },
     {
       "path": "docs/placeholders/commercial/MSA_HOSTED_INFRA_EXAMPLE.md",
-      "sha256": "183d668ae012b149a4ce2881ea86e4a2541b42c2362d2d63a079adbe771038c5",
-      "bytes": 1255
+      "sha256": "39c98033055e2898926d84f5ec89c50c745860e40b4e5cdfd7d4a5eae43d06e2",
+      "bytes": 2736
     },
     {
       "path": "docs/placeholders/domains/OWNERSHIP_PUBLIC_NOTE_EXAMPLE.md",
-      "sha256": "4f47b003b5468c396e0ad93817e21dde2477936fb79951555536df012a9446cf",
-      "bytes": 699
+      "sha256": "87466cad6a3fa3fd71c1983a758b65c59e175600790d5d89071211d06685eaa7",
+      "bytes": 1565
     },
     {
       "path": "docs/placeholders/domains/QUARTERLY_GOVERNANCE_REPORT_EXAMPLE.md",
-      "sha256": "c999f4876036e7018b2c33aa90fd9fcb902cf4ab5832ebaefc0828b47b478e8a",
-      "bytes": 972
+      "sha256": "afdf3b69d6658b750ee206a5b1f0fcbb8ec0ad67b2b068ea2446b3b87c6c4043",
+      "bytes": 2066
     },
     {
       "path": "docs/placeholders/legal/COVENANT_FULL_EXAMPLE.md",
-      "sha256": "882c7576a461e42fb14e5b9769789317201958fcf0dcd2af0acdcc99708a1949",
-      "bytes": 3293
+      "sha256": "062dafdb5b33dba399d9a1cda5c25dd3b1cb68c179aca486892f90550b35050d",
+      "bytes": 6449
     },
     {
       "path": "docs/placeholders/legal/ENTITY_FORMATION_PACK_EXAMPLE.md",
-      "sha256": "990fc2600f69b5660124747cfdd317f381aacf6b4b8854030f125789ace4dfb6",
-      "bytes": 2240
+      "sha256": "9560bb61ea2cd32781fd82cdc5126ef6b21fbab2c7fd620b922034ba7593edd9",
+      "bytes": 3233
     },
     {
       "path": "docs/placeholders/legal/SAFE_HARBOR_AND_INTAKE_EXAMPLE.md",
-      "sha256": "9ac1c09f5af3cb41c003cc6a97906be94ba238f666135e6554ec95e8c7cdfa00",
-      "bytes": 1720
+      "sha256": "3029795100ddc5b35770f92186922285dcb46a0c608b10add2e2dea93f00c515",
+      "bytes": 3053
     },
     {
       "path": "docs/placeholders/meta/BANNER.md",
@@ -51050,48 +51050,48 @@
     },
     {
       "path": "docs/placeholders/ops/DNS_ORG_APPLY_PACKET.md",
-      "sha256": "2174dafccfcac6de17b7c573d2fbb7551d0e2469108bd13f6ab6e04dd84eec20",
-      "bytes": 1788
+      "sha256": "caed253989bd21145de7e0e1becabff8cba3028a624c30be7bbbf9791f5c96bd",
+      "bytes": 2464
     },
     {
       "path": "docs/placeholders/ops/GITHUB_WORKFLOW_SCOPE_PACKET.md",
-      "sha256": "9b664b681054e2aa9c93cc36bdb48fd4abef9687f0434aabe681f5a86358fb2f",
-      "bytes": 987
+      "sha256": "5f847b23d4e46cf0444f3c0e5d1b942d59765998db50ff05d0fb33057ae75c85",
+      "bytes": 1767
     },
     {
       "path": "docs/placeholders/ops/R2_ENABLE_AND_FIRST_BUCKET.md",
-      "sha256": "4b7fdb4c26629514de932fdb69ecc8c82f57a533c9368f338de5f72c2564296c",
-      "bytes": 1217
+      "sha256": "66755c673f59c490aa936873acda5de6dd5f85d5ea7ea6648f34fa5040eda9f7",
+      "bytes": 1808
     },
     {
       "path": "docs/placeholders/org/CAP_TABLE_AND_FUNDING_EXAMPLE.md",
-      "sha256": "a5a9ee486c41a8d0b23b6e1f495bc15078706b8a404644849e8469de5e4d5a65",
-      "bytes": 1134
+      "sha256": "c6135a1759d3fd78855f0c32eabbbbbcf797a61ddbff0bfd106d4b08c6cee87c",
+      "bytes": 1882
     },
     {
       "path": "docs/placeholders/org/COMPENSATION_BANDS_EXAMPLE.md",
-      "sha256": "c456af585127eb287e45e80c420f35eb58128dfc09fad9ff7c8d22d75545b1f8",
-      "bytes": 1176
+      "sha256": "82ad6335977549255b9ba79724bf9a42d8be03de547dde6c79e57c11235c9f6d",
+      "bytes": 2344
     },
     {
       "path": "docs/placeholders/org/SECOND_CUSTODIAN_APPOINTMENT.md",
-      "sha256": "d7484ac42ef820636f110b103632e90969852db5a7fac396eb0f5d1235cf570f",
-      "bytes": 1521
+      "sha256": "9b71de57240ed4c33311d9c982de9afe242f23b6cc89d9518e9dccfa36d40122",
+      "bytes": 2899
     },
     {
       "path": "docs/placeholders/security/CCO_ROLE_DESCRIPTION.md",
-      "sha256": "44adec90f1b7b13f242241ce41f9995b92ed9d565ad79d957cdccfaef7c42658",
-      "bytes": 1376
+      "sha256": "cc2ad689ca220a598fad572685a0a6f82bc40d0c9ad4514a01cdd80a782d6db6",
+      "bytes": 2839
     },
     {
       "path": "docs/placeholders/security/KEY_CEREMONY_TRANSCRIPT_EXAMPLE.md",
-      "sha256": "a7fefa12c6a18601bea99337e41522a2549ae87d46e6098274c3d5f00a1eeab0",
-      "bytes": 1897
+      "sha256": "a3619d3ca4fb391925ae22353051fcd6c2adfc86fbe841638956de3093251010",
+      "bytes": 2811
     },
     {
       "path": "docs/placeholders/security/REDTEAM_SOW_FILLED_EXAMPLE.md",
-      "sha256": "64955ff5d92b0abebaf061b5863d2859c74fc6a6bb8801d11af547df32339baa",
-      "bytes": 1818
+      "sha256": "8248d4f2c969484700f23b264bb45b04f5cc6b91366c0203740688e3b4e30633",
+      "bytes": 2999
     },
     {
       "path": "docs/security/CANARY_QUERYGUARD_POLICY.md",
@@ -52155,13 +52155,13 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "a3690db260342cb3550c27b2810f37d411ae681f2ef56f9e042f30c3ffbe614d",
-      "bytes": 4980
+      "sha256": "be7156557ed6449d7172012e4ae43d543aff50000c192fdf6c75ac7d410ecdcd",
+      "bytes": 5289
     },
     {
       "path": "registers/decisions/feed.json",
-      "sha256": "aeeeff44b79ad7c3278f80c579d49ac13847942f09532bda1a6650b0d642ca56",
-      "bytes": 2485
+      "sha256": "2357039f3e9d4d5c97a81f318921813f9f44ba53cce3b1c5efb23bd46a40dc75",
+      "bytes": 2669
     },
     {
       "path": "registers/funding.md",
@@ -52232,6 +52232,11 @@
       "path": "scripts/build_incident_drill_stream.py",
       "sha256": "163df0f8efb38f784c8fd1afc7a8babf90464f7fcf1780624331f18a59f607c9",
       "bytes": 2023
+    },
+    {
+      "path": "scripts/build_placeholder_pages.py",
+      "sha256": "381fa78843dc27c90b4d3df7a1f9d083c02b20bcbe16d192d35f6920278ef269",
+      "bytes": 10421
     },
     {
       "path": "scripts/build_public_artefacts.py",
@@ -52495,13 +52500,13 @@
     },
     {
       "path": "site/hard-gates.html",
-      "sha256": "5f0c66ffcbcc8dc1b69f888bebf4a447697b3802cd1ad9d497f35d2527845478",
-      "bytes": 2421
+      "sha256": "9a6c80e136939e2985cf571259240b00e494ef3ead5771f771f6695b46872559",
+      "bytes": 2758
     },
     {
       "path": "site/index.html",
-      "sha256": "14c24df2d10cebc071f6005c9699fb34311d5ec518a6ab2e1bb8b3fcffef12d5",
-      "bytes": 4674
+      "sha256": "3996eadc815760ab4baa73747ace7aa56811062c582dcceac3f7d8c247a306ff",
+      "bytes": 4679
     },
     {
       "path": "site/models.html",
@@ -52520,8 +52525,118 @@
     },
     {
       "path": "site/placeholders.html",
-      "sha256": "47f1c5d4f0241eba6189c480cef390270819b08215696e72e83a5f3444252538",
-      "bytes": 2010
+      "sha256": "d4fac385f8ea835b8f809e7f364c407a0449c48e74754e0346c7049ffcb7c762",
+      "bytes": 6686
+    },
+    {
+      "path": "site/placeholders/00-INDEX.html",
+      "sha256": "9623fd0f73325192727ae418e6e25d3867169c3a1d26429fff10d849eade77a6",
+      "bytes": 7106
+    },
+    {
+      "path": "site/placeholders/capital/FUNDRAISE_PITCH_EXAMPLE.html",
+      "sha256": "b36a6f775befb4ccc8f600064dfdc70e808ba3673d951da7ba0583e542076146",
+      "bytes": 16958
+    },
+    {
+      "path": "site/placeholders/capital/SCALE_BUDGET_FILLED_EXAMPLE.html",
+      "sha256": "a5737e1d4a300fc199e1a834385d9e767b4e4c8e18e176cff93283c12723cba6",
+      "bytes": 7019
+    },
+    {
+      "path": "site/placeholders/capital/TEN_YEAR_FINANCIAL_MODEL_EXAMPLE.html",
+      "sha256": "a3d092436646fe334c92cb62dc80be7b4388ccce07402e505b1b38a2216566e5",
+      "bytes": 8005
+    },
+    {
+      "path": "site/placeholders/capital/TERM_SHEET_EXAMPLE.html",
+      "sha256": "0ba92dcfb0dc500d3328d77e02548c47ea2e723881b35eda5e4017e2fb80b842",
+      "bytes": 8069
+    },
+    {
+      "path": "site/placeholders/commercial/BOUNDARY_ANNUAL_ATTESTATION_EXAMPLE.html",
+      "sha256": "047762373e9345ddb9bc21f3c5075f6d68e15b03bc2234dcd21663597766fc50",
+      "bytes": 4520
+    },
+    {
+      "path": "site/placeholders/commercial/FIRST_SKU_GO_LIVE_EXAMPLE.html",
+      "sha256": "f7e6a582dbe6557bc1f9ecf01330dcd1d729a576001b766f4791592505d38fcf",
+      "bytes": 5148
+    },
+    {
+      "path": "site/placeholders/commercial/MSA_HOSTED_INFRA_EXAMPLE.html",
+      "sha256": "2be18ad98e2cc037774c40125c48437513443dd790eaa4c065fcd57dca557b5f",
+      "bytes": 5419
+    },
+    {
+      "path": "site/placeholders/domains/OWNERSHIP_PUBLIC_NOTE_EXAMPLE.html",
+      "sha256": "a1e066b73a8f1f42abcb482c8bd3e2d79c0d7239396cb4ed20e523be8f146429",
+      "bytes": 4169
+    },
+    {
+      "path": "site/placeholders/domains/QUARTERLY_GOVERNANCE_REPORT_EXAMPLE.html",
+      "sha256": "f23df339cd78f1c12791b93af8ce6faaff35d3c868e89df596abcc8c2071cf53",
+      "bytes": 4874
+    },
+    {
+      "path": "site/placeholders/legal/COVENANT_FULL_EXAMPLE.html",
+      "sha256": "7c6d342a3ba564f8b8b79afa13262ec5339abfd4bdc990073cc4329219135ad2",
+      "bytes": 9403
+    },
+    {
+      "path": "site/placeholders/legal/ENTITY_FORMATION_PACK_EXAMPLE.html",
+      "sha256": "0b23c99c63d4527bc98ac1320d80935b52b9618a97e7ef34b701dc991107fabd",
+      "bytes": 6199
+    },
+    {
+      "path": "site/placeholders/legal/SAFE_HARBOR_AND_INTAKE_EXAMPLE.html",
+      "sha256": "06ac0024d3aac4c61fd95aa4c731e2d68c68fe9279869c497b0f4da00edc142a",
+      "bytes": 6001
+    },
+    {
+      "path": "site/placeholders/ops/DNS_ORG_APPLY_PACKET.html",
+      "sha256": "2f936500082298deeea41f5484f6a091fda1654d547858615629beabf36d7c2d",
+      "bytes": 5679
+    },
+    {
+      "path": "site/placeholders/ops/GITHUB_WORKFLOW_SCOPE_PACKET.html",
+      "sha256": "e5a546778136e9724ff7d7c804521e64dc38a9f9ecbe03c4f7f82ade543b62d0",
+      "bytes": 4525
+    },
+    {
+      "path": "site/placeholders/ops/R2_ENABLE_AND_FIRST_BUCKET.html",
+      "sha256": "96c82bce440397111510baea61532aa6e1259c0a5f6d5a3d24feeb2fe6338972",
+      "bytes": 4576
+    },
+    {
+      "path": "site/placeholders/org/CAP_TABLE_AND_FUNDING_EXAMPLE.html",
+      "sha256": "43a37a251fe205768ae4d0d9cdb7576814c504956cd6265e94e6bb7f96a5940d",
+      "bytes": 4615
+    },
+    {
+      "path": "site/placeholders/org/COMPENSATION_BANDS_EXAMPLE.html",
+      "sha256": "249dde0c3cbb482389edcabcb7d7809c791ff0fd732a248e463cbd5616714c54",
+      "bytes": 5254
+    },
+    {
+      "path": "site/placeholders/org/SECOND_CUSTODIAN_APPOINTMENT.html",
+      "sha256": "79d973f67a31f1b0e5fb712cee72c58efbb51a0c0753f6e74acf28d3fd6c41b3",
+      "bytes": 5806
+    },
+    {
+      "path": "site/placeholders/security/CCO_ROLE_DESCRIPTION.html",
+      "sha256": "2cfff0d32bca8e9cce07733ed672ededc58dd1e14b2cf1301951615972de57dc",
+      "bytes": 5698
+    },
+    {
+      "path": "site/placeholders/security/KEY_CEREMONY_TRANSCRIPT_EXAMPLE.html",
+      "sha256": "3a8fbdc2e623732f0f7d4d7fac734826aede644beaa03358690751d681159642",
+      "bytes": 5771
+    },
+    {
+      "path": "site/placeholders/security/REDTEAM_SOW_FILLED_EXAMPLE.html",
+      "sha256": "7d37fd2669f1bd83dca6cbacf452b66402fe68e181be643f3d2f1d3a0c4f96bd",
+      "bytes": 6035
     },
     {
       "path": "site/robots.txt",

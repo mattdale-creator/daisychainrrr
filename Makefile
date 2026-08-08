@@ -56,6 +56,10 @@ cost-ledger:
 placeholders-check:
 	python3 scripts/check_placeholder_labels.py
 
+placeholders-site:
+	python3 scripts/build_placeholder_pages.py
+	python3 scripts/check_placeholder_labels.py
+
 status:
 	python3 scripts/ttllm_status.py --write-site
 

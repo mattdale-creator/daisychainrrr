@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GitHub workflow scope — full operator pack — TTLLM placeholders</title>
+  <meta name="description" content="Written by Grok - Human checking required. Full ethos-complete example for human verification." />
+  <link rel="canonical" href="https://ttllms.com/placeholders/ops/GITHUB_WORKFLOW_SCOPE_PACKET.html" />
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .ph-wrap { max-width: 48rem; }
+    .ph-table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    .ph-table th, .ph-table td { border: 1px solid rgba(127,127,127,.35); padding: .4rem .55rem; text-align: left; vertical-align: top; }
+    .ph-banner { border-left: 4px solid #c9a227; padding: .75rem 1rem; margin: 1rem 0; background: rgba(201,162,39,.08); }
+    article h1 { font-size: 1.75rem; }
+    article h2 { margin-top: 1.75rem; }
+    article h3 { margin-top: 1.25rem; }
+    article pre { overflow-x: auto; padding: .75rem; background: rgba(0,0,0,.25); border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <div class="wrap ph-wrap">
+    <header class="site">
+      <a class="brand" href="../index.html">ttllms.com</a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="../placeholders.html">Placeholders</a>
+        <a href="../hard-gates.html">Hard gates</a>
+        <a href="../status.html">Status</a>
+      </nav>
+    </header>
+    <p class="eyebrow">Written by Grok - Human checking required</p>
+    <div class="ph-banner card">
+      <strong>Not executed law · not a closed hard gate · not soft tissue.</strong>
+      Full example written to TTLLM ethos (down to the bone, free public core never paywalled, product is the proof).
+      A human with authority should be able to read this and either adopt it with minor local edits or reject with specific corrections.
+      Source markdown: <code>docs/placeholders/ops/GITHUB_WORKFLOW_SCOPE_PACKET.md</code>
+    </div>
+    <article>
+<h1>GitHub workflow scope — full operator pack</h1>
+<blockquote class="card"><strong>Written by Grok - Human checking required</strong>  <br/>Platform eng voice. <strong>Hard gate T4.</strong>  <br/>Local <code>make fine-grain</code> / oneshot remains authoritative until Actions is public green.</blockquote>
+<hr/>
+<h2>1. Why CI is load-bearing</h2>
+<p>Seal freshness, DATA_CARD checks, public verify harness, and red-team harness must not depend on one laptop. CI is topology: load path for “green” that strangers can see. Soft tissue is claiming CI when workflow files cannot be pushed.</p>
+<hr/>
+<h2>2. Failure mode observed</h2>
+<p>Push of <code>.github/workflows/*.yml</code> rejected without OAuth/PAT <strong><code>workflow</code></strong> scope  </p>
+<p>(<em>refusing to allow an OAuth App to create or update workflow</em>).</p>
+<hr/>
+<h2>3. Fix steps</h2>
+<ol>
+<li>GitHub → Settings → Developer settings → Personal access tokens (classic)  </li>
+<li>Scopes: <strong><code>repo</code></strong>, <strong><code>workflow</code></strong> (minimum)  </li>
+<li>Configure git credential / <code>gh auth login</code> with that token  </li>
+<li>Publish workflow:</li>
+</ol>
+<pre class="mono"><code>mkdir -p .github/workflows
+cp docs/ci-templates/verify.yml .github/workflows/verify.yml
+# ensure .github workflows are not gitignored
+git add .github/workflows/verify.yml
+git commit -m &quot;ci: publish verify-free-core workflow&quot;
+git push origin main</code></pre>
+<ol>
+<li>Actions tab: workflow runs on main; all jobs green  </li>
+<li>Mark T4 closed in HUMAN_GATES with date  </li>
+</ol>
+<hr/>
+<h2>4. What the workflow must run</h2>
+<p>Aligned with <code>docs/ci-templates/verify.yml</code>:</p>
+<ul class="clean">
+<li>pytest  </li>
+<li>check_data_cards  </li>
+<li>check_seal_freshness  </li>
+<li>public_verify_harness  </li>
+<li>redteam_nano_harness  </li>
+<li>oneshot_verify_all  </li>
+</ul>
+<hr/>
+<h2>5. Until closed</h2>
+<pre class="mono"><code>make fine-grain
+python3 scripts/oneshot_verify_all.py</code></pre>
+<p>Do not claim “CI enforces seals on every push” until T4 is closed.</p>
+<hr/>
+<p><em>Written by Grok - Human checking required — also on https://ttllms.com/placeholders/</em></p>
+    </article>
+    <p><a href="../placeholders.html">← All placeholders</a></p>
+    <footer><p>md@0265.au · free public core never paywalled · <a href="../hard-gates.html">hard gates remain open</a></p></footer>
+  </div>
+</body>
+</html>

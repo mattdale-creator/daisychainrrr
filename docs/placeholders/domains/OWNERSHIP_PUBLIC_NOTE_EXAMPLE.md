@@ -1,16 +1,41 @@
-# Domain 2 — Public ownership note example
+# Domain 2 — Public ownership note (full example)
 
 > **Written by Grok - Human checking required**  
-> Written as if founder for public ownership transparency.
-
-## Current state (example language for site)
-TTLLM / daisychainrrr is founder-led. Operational contact: **md@0265.au**.  
-Domains **ttllms.com** and **ttllms.org** are registered under the founder’s Cloudflare account pending entity formation.  
-No external institutional owners. No priced equity round closed.  
-Free public core is not for sale as exclusive property of any customer.
-
-## After entity
-Replace with entity legal name, jurisdiction, and link to non-sensitive registry extract.
+> Founder voice for public ownership transparency. Update after Entity (T6).
 
 ---
-*Written by Grok - Human checking required*
+
+## Current public statement (example language for site)
+
+TTLLM / the **daisychainrrr** free public core is founder-led. Operational contact: **md@0265.au**.
+
+Domains **ttllms.com** (primary) and **ttllms.org** (secondary) are registered under the founder’s Cloudflare account pending legal entity formation. GitHub public repository: `mattdale-creator/daisychainrrr`.
+
+There are **no** closed institutional equity investors as of this note. There is **no** priced equity round closed. Free Public Core is not for sale as exclusive property of any customer; commercial SKUs, if any, sit outside the core under BOUNDARY.
+
+Single-human operational concentration is a public fact until a second custodian is appointed (hard gate T9) and Entity officers exist (T6).
+
+---
+
+## Influence
+
+Only the founder currently holds merge/deploy/claim authority above Domain 6 influence threshold. Influence rights register: `docs/specs/artefacts/02/INFLUENCE_RIGHTS_REGISTER.md`.
+
+---
+
+## After Entity formation (replace section)
+
+- Legal name and jurisdiction  
+- Link to non-sensitive registry extract if safe  
+- Share summary (non-sensitive)  
+- Officer names/handles as appropriate  
+
+---
+
+## Explicit non-claims
+
+This note does not assert a formed company, bank account, or investor syndicate.
+
+---
+
+*Written by Grok - Human checking required — also on https://ttllms.com/placeholders/*
