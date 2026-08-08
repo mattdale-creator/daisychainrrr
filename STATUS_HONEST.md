@@ -1,32 +1,36 @@
-# Honest status — buildable complete
+# Honest status — free-core buildable complete
 
-**Updated:** 2026-08-08T09:58:07Z  
-**Tag:** v0.5.0-buildable  
+**Updated:** 2026-08-08T12:00:00Z  
 **free_core:** 0.6.0  
-**FREE_CORE_SEAL files:** 10560 (ok=True)
+**Latest ship:** ethos-full placeholders on site · status API · handbook · seals  
 
-## Buildable complete on this Mac
-Everything that does not require new capital, legal entity powers, or missing Cloudflare token scopes is built, sealed, tested, and published under the free public core.
+## What “complete” means here
+**Free public core software + org process bone** that this environment can ship without capital, entity filing, or blocked platform scopes is built, sealed, tested, and published.
 
-See `ops/BUILDABLE_COMPLETE_CHECKLIST.md` and `docs/audits/ONE_SHOT_COMPLETION.md`.
+**Not complete:** hard gates T1–T11 (DNS org, R2, full token scopes, GH workflow push, entity, prod keys, bank, capital, second custodian, standing RT hire, real revenue).
 
-## Human handbook (2026-08-08)
-Load-path ops under `docs/handbook/` — domains 1–10, release/seal/train, incident/red-team, commercial isolation+refuse+SKU, human gates. Index: `docs/handbook/00-HANDBOOK-INDEX.md`. Remaining fine-grain worklist: `docs/handbook/FINE_GRAIN_GAPS.md`.
+## Verify
+```bash
+python3 scripts/oneshot_verify_all.py
+python3 scripts/ttllm_status.py --quiet-ok
+python3 scripts/public_verify_harness.py
+```
 
-## Fine-grain execution wave (2026-08-08)
-Automated bone now runnable without capital:
-- `scripts/check_seal_freshness.py` · `check_data_cards.py` · `public_verify_harness.py` · `check_public_urls.py`
-- Stream catalog · incident drill stream · supply lock · eval honesty packs · finetune lineage schema
-- CI: `.github/workflows/verify.yml` · `make fine-grain`
-- Domain 1 first monthly audit filed · ASSET_INVENTORY succession rows · security intake + policy page
-**Hard gates (T1–T11):** `docs/HARD_TECHNOLOGICAL_GATES.md` · https://ttllms.com/hard-gates  
-**Writable “human must write” work:** filled as Grok examples under `docs/placeholders/` (each **Written by Grok - Human checking required**) · https://ttllms.com/placeholders  
-**Walls bone:** `docs/walls/` · Site **is** redeployed to Pages/ttllms.com as we ship.
-
-## Human / capital gates only
-`ops/HUMAN_GATES.md` — DNS Edit, R2, Workers routes, entity, 32B capital, standing red team, HSM, revenue.
+## Public surfaces
+| Surface | URL |
+|---------|-----|
+| Site | https://ttllms.com |
+| Status | https://ttllms.com/status |
+| Hard gates | https://ttllms.com/hard-gates |
+| Placeholders (full text) | https://ttllms.com/placeholders |
+| Demo | https://ttllms.com/demo |
+| Repo | https://github.com/mattdale-creator/daisychainrrr |
 
 ## Tombstones
-Nano ≠ frontier. No multi-trillion production ttlink.
+- Nano ≠ frontier / ≠ OLMo-class capability  
+- Demo keys ≠ production roots of trust  
+- No multi-trillion production ttlink  
+- SKUs designed not sold  
+- CI workflow file may exist as template; GH Actions publish needs T4  
 
 *Down to the bone. Soft tissue is a defect.*

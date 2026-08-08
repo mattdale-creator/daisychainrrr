@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.decision_feed.v1",
-  "updated": "2026-08-08T16:00:00+00:00",
+  "updated": "2026-08-08T17:00:00+00:00",
   "entries": [
     {
       "id": "D-0007",
@@ -91,6 +91,12 @@
       "date": "2026-08-08",
       "title": "Ethos-full placeholders + site laid bare",
       "outcome": "rewrite all packs + site/placeholders HTML"
+    },
+    {
+      "id": "D-0030",
+      "date": "2026-08-08",
+      "title": "Free-core buildable complete bar affirmed",
+      "outcome": "STATUS_HONEST WRITABLE_COMPLETION culture site"
     }
   ]
 }

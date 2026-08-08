@@ -1,7 +1,7 @@
-# Cap table summary (Domain 2)
+# Cap table summary — Domain 2
 
-> **Written by Grok - Human checking required** — full example:
-> `docs/placeholders/org/CAP_TABLE_AND_FUNDING_EXAMPLE.md`
+> Full narrative example on site: [Cap table & funding](https://ttllms.com/placeholders/org/CAP_TABLE_AND_FUNDING_EXAMPLE.html)  
+> **Written by Grok - Human checking required** for that pack.
 
 | Holder | % | Notes |
 |--------|---|-------|
@@ -9,4 +9,4 @@
 | External investors | 0% | None closed |
 | ESOP | 0% | Not yet authorised |
 
-**Status:** illustrative structure only until entity + filings.
+**Status:** illustrative until entity filing (hard gate T6). Free public core is not equity.

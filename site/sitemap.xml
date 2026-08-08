@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://ttllms.com/</loc></url>
-  <url><loc>https://ttllms.com/architecture</loc></url>
-  <url><loc>https://ttllms.com/contact</loc></url>
-  <url><loc>https://ttllms.com/definition</loc></url>
-  <url><loc>https://ttllms.com/demo</loc></url>
-  <url><loc>https://ttllms.com/founding</loc></url>
-  <url><loc>https://ttllms.com/free-core</loc></url>
-  <url><loc>https://ttllms.com/nano</loc></url>
-  <url><loc>https://ttllms.com/stream</loc></url>
   <url><loc>https://ttllms.com/status</loc></url>
-  <url><loc>https://ttllms.com/walls</loc></url>
-  <url><loc>https://ttllms.com/security-policy</loc></url>
-  <url><loc>https://ttllms.com/models</loc></url>
-  <url><loc>https://ttllms.com/transparency</loc></url>
-  <url><loc>https://ttllms.com/api/ttlink/</loc></url>
-  <url><loc>https://ttllms.com/api/health/</loc></url>
   <url><loc>https://ttllms.com/hard-gates</loc></url>
   <url><loc>https://ttllms.com/placeholders</loc></url>
-  <url><loc>https://ttllms.com/walls</loc></url>
+  <url><loc>https://ttllms.com/demo</loc></url>
+  <url><loc>https://ttllms.com/free-core</loc></url>
   <url><loc>https://ttllms.com/economics</loc></url>
   <url><loc>https://ttllms.com/movement</loc></url>
+  <url><loc>https://ttllms.com/definition</loc></url>
+  <url><loc>https://ttllms.com/transparency</loc></url>
+  <url><loc>https://ttllms.com/stream</loc></url>
+  <url><loc>https://ttllms.com/nano</loc></url>
+  <url><loc>https://ttllms.com/models</loc></url>
+  <url><loc>https://ttllms.com/founding</loc></url>
+  <url><loc>https://ttllms.com/founding-prompts</loc></url>
+  <url><loc>https://ttllms.com/architecture</loc></url>
+  <url><loc>https://ttllms.com/contact</loc></url>
+  <url><loc>https://ttllms.com/security-policy</loc></url>
+  <url><loc>https://ttllms.com/walls</loc></url>
+  <url><loc>https://ttllms.com/placeholders/00-INDEX.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/capital/FUNDRAISE_PITCH_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/capital/SCALE_BUDGET_FILLED_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/capital/TEN_YEAR_FINANCIAL_MODEL_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/capital/TERM_SHEET_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/commercial/BOUNDARY_ANNUAL_ATTESTATION_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/commercial/FIRST_SKU_GO_LIVE_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/commercial/MSA_HOSTED_INFRA_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/domains/OWNERSHIP_PUBLIC_NOTE_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/domains/QUARTERLY_GOVERNANCE_REPORT_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/legal/COVENANT_FULL_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/legal/ENTITY_FORMATION_PACK_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/legal/SAFE_HARBOR_AND_INTAKE_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/ops/DNS_ORG_APPLY_PACKET.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/ops/GITHUB_WORKFLOW_SCOPE_PACKET.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/ops/R2_ENABLE_AND_FIRST_BUCKET.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/org/CAP_TABLE_AND_FUNDING_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/org/COMPENSATION_BANDS_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/org/SECOND_CUSTODIAN_APPOINTMENT.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/security/CCO_ROLE_DESCRIPTION.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/security/KEY_CEREMONY_TRANSCRIPT_EXAMPLE.html</loc></url>
+  <url><loc>https://ttllms.com/placeholders/security/REDTEAM_SOW_FILLED_EXAMPLE.html</loc></url>
 </urlset>

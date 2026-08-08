@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "df5c468a8a31ea856572df7187b4d7df05174eecf541f471c01772d5e76795fc",
-  "count": 10536,
+  "merkle_root": "d588409accbe3465a9e0bc2cf812c7c0bfce185e1e7ff54a23fadf520241e842",
+  "count": 10538,
   "leaves": [
     {
       "path": "LICENSE",
@@ -50715,8 +50715,13 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "ab12e4a390f893a68cf8679d07af6461246a77264427c458065d75578d689596",
-      "bytes": 1520
+      "sha256": "ba3518bb1684ddaf165c5b5984bad1c1a1d4a4cc51cde720b6596360e54cd09f",
+      "bytes": 1701
+    },
+    {
+      "path": "docs/audits/WRITABLE_COMPLETION.md",
+      "sha256": "cad17d72ddbc04827c1f44b05fafdacc79b4fc67d496b1dcb70c905aec2257c8",
+      "bytes": 1417
     },
     {
       "path": "docs/business/FOUNDING_FREE_CORE_MONETISATION.md",
@@ -51275,8 +51280,8 @@
     },
     {
       "path": "docs/specs/artefacts/02/CAP_TABLE_SUMMARY.md",
-      "sha256": "bee98891ecff3d37c41f74c9daef167d0789fa24394ead8dbac97de559e71cd2",
-      "bytes": 390
+      "sha256": "6390e4bfff771dce14e7f353addb385d2219595a44938729c3caa6f619b8fda7",
+      "bytes": 489
     },
     {
       "path": "docs/specs/artefacts/02/FUNDING_HISTORY_LOG.md",
@@ -51795,8 +51800,8 @@
     },
     {
       "path": "examples/keys/README.md",
-      "sha256": "85d2853187babc4c899cb54e0f60300cdd456f9b599b04bef08785728bf643f6",
-      "bytes": 224
+      "sha256": "d1e009eba5a36028d0c0b0538e5cbb63746746831c7c161fc71db950462cb4a2",
+      "bytes": 1172
     },
     {
       "path": "examples/keys/demo.private.pem",
@@ -52155,13 +52160,13 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "be7156557ed6449d7172012e4ae43d543aff50000c192fdf6c75ac7d410ecdcd",
-      "bytes": 5289
+      "sha256": "7d7f22c72c2d0d2a3a3b00f18f0825697943f4f7a0dc97cccc83fbf14d73d4bb",
+      "bytes": 5568
     },
     {
       "path": "registers/decisions/feed.json",
-      "sha256": "2357039f3e9d4d5c97a81f318921813f9f44ba53cce3b1c5efb23bd46a40dc75",
-      "bytes": 2669
+      "sha256": "45f3a4fa7757baab496be15dace845f20fa103d679e796c6a0416078f4213fe3",
+      "bytes": 2858
     },
     {
       "path": "registers/funding.md",
@@ -52354,6 +52359,11 @@
       "bytes": 2027
     },
     {
+      "path": "site/culture.html",
+      "sha256": "9c6574961e57ed2caa4b98d495e26f46e5c919a79c0b26af064402bbb0ea2ce1",
+      "bytes": 1642
+    },
+    {
       "path": "site/definition.html",
       "sha256": "370071771caa41037ebe9424d65bc0f27fed6e6065de81894bd2c1bbd12d13bd",
       "bytes": 2958
@@ -52505,8 +52515,8 @@
     },
     {
       "path": "site/index.html",
-      "sha256": "3996eadc815760ab4baa73747ace7aa56811062c582dcceac3f7d8c247a306ff",
-      "bytes": 4679
+      "sha256": "d6e6ab5b2f6c71669ecac50c1c8ee81e3dd789f6e08d94ccbaa78ec93e055ccf",
+      "bytes": 4892
     },
     {
       "path": "site/models.html",
@@ -52655,13 +52665,13 @@
     },
     {
       "path": "site/sitemap.xml",
-      "sha256": "2568d6a7757b5035dabb35ca6e8b22ec532667fd91a89479de71eaa2c16bcef9",
-      "bytes": 1204
+      "sha256": "2083aca4b223143d721021b3688c17098c22f4b3ffa9557bdea235bd28811eb1",
+      "bytes": 3189
     },
     {
       "path": "site/status.html",
-      "sha256": "fa5ecf3954b8737a751d83bf8e0eea78d8e57cb11d9c16450df42527ba16c5a4",
-      "bytes": 3406
+      "sha256": "2ab14a25e6d6569d127a70e1ea5eaaade18711f3c494bb67fc985d6d48329f66",
+      "bytes": 2721
     },
     {
       "path": "site/stream.html",

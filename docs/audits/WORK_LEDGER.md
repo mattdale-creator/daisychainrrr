@@ -13,3 +13,5 @@
 | 2026-08-08 | Writable bone GO: domain 4/8 fill, threat model, nano cost ledger script, economics+movement site, gap audit refresh | scripts/nano_cost_ledger.py, site/economics.html, site/movement.html |
 | 2026-08-08 | free_core 0.6.0 status + QueryGuard burst + demo stream/API/seal panels | free_core/status.py, scripts/ttllm_status.py, site/demo/* |
 | 2026-08-08 | Domain 02–09 artefact READMEs, tombstone standard, site hard-gates links, oneshot+status | docs/specs/artefacts/*/README.md |
+| 2026-08-08 | Ethos-full placeholders on site | site/placeholders/** |
+| 2026-08-08 | Free-core buildable complete bar refresh | STATUS_HONEST, WRITABLE_COMPLETION, culture.html |
