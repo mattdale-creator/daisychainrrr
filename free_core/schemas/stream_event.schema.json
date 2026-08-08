@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ttllms.com/schemas/stream_event.v1.json",
+  "title": "TTLLM Stream Event v1",
+  "type": "object",
+  "required": ["schema", "event_type", "timestamp_utc", "seq", "event_hash"],
+  "properties": {
+    "schema": { "const": "ttllm.stream_event.v1" },
+    "event_type": { "type": "string" },
+    "timestamp_utc": { "type": "string" },
+    "artefact_sha256": { "type": ["string", "null"] },
+    "payload": { "type": "object" },
+    "prev_hash": { "type": ["string", "null"] },
+    "seq": { "type": "integer" },
+    "event_hash": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  }
+}

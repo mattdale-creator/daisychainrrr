@@ -45,6 +45,6 @@
     }
   ],
   "extra": {
-    "seal": "nano-v3-ckpts"
+    "seal": "ttllm-nano-v3-ckpts"
   }
 }

@@ -55,6 +55,6 @@
     }
   ],
   "extra": {
-    "seal": "ttllm-nano-v2-checkpoints"
+    "seal": "ttllm-nano-v2-ckpts"
   }
 }

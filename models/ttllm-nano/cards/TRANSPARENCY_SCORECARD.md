@@ -1,30 +1,23 @@
-# Transparency scorecard — ttllm-nano 0.1.0-nano
+# Transparency scorecard — ttllm-nano 0.1.1
 
-Generated: 2026-08-08T08:40:58Z
+Generated: 2026-08-08T09:50:54Z
 
 | Domain | Status | Notes |
 |--------|--------|-------|
-| Free core: weights | PARTIAL | Nano char-LM weights + dense checkpoints (not 32B) |
-| Free core: data | MET | PG public-domain slices + full files + DATA_CARD + hashes |
-| Free core: code | MET | models/ttllm-nano/code/ |
-| Free core: checkpoints | MET | dense step_*.pt |
-| Free core: metrics | MET | metrics/train.jsonl + hyperparams |
-| Free core: ttlink | MET (corpus-scale) | index over train docs + shard manifest |
-| Free core: stream | MET | real train/seal events hash-chained |
-| Free core: crypto | MET | RELEASE_MANIFEST merkle |
-| 1 Governance | PARTIAL | Decision log entries for nano release |
-| 2 Ownership | PARTIAL | founder disclosure artefact |
-| 3 Data governance | MET | DATA_CARD + sources.json + legal log ready |
-| 4 Evaluation | PARTIAL | eval_pack; no capability cosplay |
-| 5 Incidents | PARTIAL | register ready; none yet |
-| 6 Compensation | PARTIAL | philosophy published |
-| 7 Supply chain | MET | dependency register for this release |
-| 8 Boundary | MET | nano is free core; no paid enclosure |
-| 9 Stewardship | PARTIAL | inventory lists nano artefacts |
-| 10 Red-team pub | PARTIAL | harness + empty findings register |
+| Data | MET | PG public domain + hashes |
+| Code | MET | public |
+| Checkpoints | MET | dense |
+| ttlink+canary | MET | {'ok': True, 'hits': 1, 'expected_sha256': '2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25'} |
+| Stream | MET | hash chain |
+| Crypto | MET | c522b3fa43a44894 |
+| Frontier scale | TOMBSTONE | not claimed |
 
-**Tombstones (honest):**
-- Not multi-trillion-token data
-- Not frontier capability
-- Not production FM-index
-- Demo signing keys ≠ production HSM
+## Tombstones
+
+- Not 32B
+- Not multi-trillion ttlink
+- Mac-local nano
+
+merkle_root: `c522b3fa43a4489470ee190fec04d3b9e5b3e4bf203367cf97cf41f3567133ed`
+
+*Ethos: down to the bone. Empty honesty beats soft tissue.*

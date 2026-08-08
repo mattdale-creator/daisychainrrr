@@ -18,3 +18,5 @@
 | D-0014 | 2026-08-08 | Ship nano-v3 on expanded data | Only retrain BPE v2 | Faster iteration on data expansion | models/ttllm-nano-v3 | founder+agent |
 | D-0015 | 2026-08-08 | Deploy ttlink API via Pages Functions | Wait for workers.dev | Public query path without subdomain | site/functions | founder+agent |
 | D-0016 | 2026-08-08 | Domain artefact packs filled for 1-10 | Leave scaffolds empty | Down to the bone ops | docs/specs/artefacts | founder+agent |
+| D-0017 | 2026-08-08 | Continuous bone loop: reseal all nanos + master domain scorecard | Stop | Product is the proof | free_core/release/pipeline.py | agent |
+| D-0018 | 2026-08-08 | Cross-product + actor eventuality matrices | Thin tree | Founding demand for deep paths | docs/architecture-tree/eventualities | agent |

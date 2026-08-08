@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ttllms.com/schemas/ttlink_index.v1.json",
+  "title": "TTLLM ttlink index v1",
+  "type": "object",
+  "required": ["schema", "docs"],
+  "properties": {
+    "schema": { "const": "ttllm.ttlink_index.v1" },
+    "docs": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["path", "text", "sha256"],
+        "properties": {
+          "path": { "type": "string" },
+          "text": { "type": "string" },
+          "sha256": { "type": "string" },
+          "bytes": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

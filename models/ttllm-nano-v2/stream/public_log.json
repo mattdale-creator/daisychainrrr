@@ -1,39 +1,39 @@
 {
   "schema": "ttllm.stream_log.v1",
   "count": 4,
-  "tip": "953a5382a7fe8a7a4d72e0cf1b3ecdc7698fd170ef6207c013844ae45436d2fb",
+  "tip": "bf66c26ae16e4734da763a838d60cc07988ec92ac77c931e11861a6ce052e70a",
   "events": [
     {
       "schema": "ttllm.stream_event.v1",
-      "event_type": "bpe_trained",
-      "timestamp_utc": "2026-08-08T09:03:21Z",
+      "event_type": "reseal",
+      "timestamp_utc": "2026-08-08T09:50:55Z",
       "artefact_sha256": null,
       "payload": {
-        "vocab": 1056,
-        "merges": "bpe.json"
+        "version": "0.2.1",
+        "merkle": "eb3d258f98f51b56770fb5241faa6ec117d166a80e7a0148b1fa7e1f4407b9b0"
       },
       "prev_hash": null,
       "seq": 0,
-      "event_hash": "a3fe59ebbff40a18dd296305ed136006f8ab864d3010dda064d8043e1bf4851e"
+      "event_hash": "4aefddcabb82851362ca59cf30b3c038a3e0b4e43049fc1b4051fb53f75b021a"
     },
     {
       "schema": "ttllm.stream_event.v1",
-      "event_type": "training_finished",
-      "timestamp_utc": "2026-08-08T09:03:21Z",
+      "event_type": "canary",
+      "timestamp_utc": "2026-08-08T09:50:55Z",
       "artefact_sha256": null,
       "payload": {
-        "steps": 1200,
-        "n_params": 3099648,
-        "wall_sec": 755.3390579223633
+        "ok": true,
+        "hits": 1,
+        "expected_sha256": "2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25"
       },
-      "prev_hash": "a3fe59ebbff40a18dd296305ed136006f8ab864d3010dda064d8043e1bf4851e",
+      "prev_hash": "4aefddcabb82851362ca59cf30b3c038a3e0b4e43049fc1b4051fb53f75b021a",
       "seq": 1,
-      "event_hash": "d44a6601747c7330495653642965ed2717be4e9bb07b33e8ba53f1b97409cfc9"
+      "event_hash": "4df15ac193daceaacc58bb74436a899af51116c46f104414551ba3f1a00bdf77"
     },
     {
       "schema": "ttllm.stream_event.v1",
       "event_type": "loss_metric",
-      "timestamp_utc": "2026-08-08T09:03:21Z",
+      "timestamp_utc": "2026-08-08T09:50:55Z",
       "artefact_sha256": null,
       "payload": {
         "step": 1200,
@@ -43,22 +43,21 @@
         "wall_sec": 745.7969281673431,
         "utc": "2026-08-08T09:02:45Z"
       },
-      "prev_hash": "d44a6601747c7330495653642965ed2717be4e9bb07b33e8ba53f1b97409cfc9",
+      "prev_hash": "4df15ac193daceaacc58bb74436a899af51116c46f104414551ba3f1a00bdf77",
       "seq": 2,
-      "event_hash": "e19a03b0ed1eed430e757bbf4d9e2bdd1fe2df97418da9c5429b75f74f311b87"
+      "event_hash": "5a47fab58b7a61ca1d3f1126b72c024ff682aace2023ebbd9c66c55b02be2832"
     },
     {
       "schema": "ttllm.stream_event.v1",
       "event_type": "release",
-      "timestamp_utc": "2026-08-08T09:03:21Z",
-      "artefact_sha256": "003862edaebc151b2246133414d48f6c3b32585fba156775ab27c7095637dd67",
+      "timestamp_utc": "2026-08-08T09:50:55Z",
+      "artefact_sha256": "eb3d258f98f51b56770fb5241faa6ec117d166a80e7a0148b1fa7e1f4407b9b0",
       "payload": {
-        "merkle_root": "003862edaebc151b2246133414d48f6c3b32585fba156775ab27c7095637dd67",
-        "ckpt_root": "8af619376466df1687213244b1187e969f3eb5046727dee0ccb2662a866d2fc8"
+        "version": "0.2.1"
       },
-      "prev_hash": "e19a03b0ed1eed430e757bbf4d9e2bdd1fe2df97418da9c5429b75f74f311b87",
+      "prev_hash": "5a47fab58b7a61ca1d3f1126b72c024ff682aace2023ebbd9c66c55b02be2832",
       "seq": 3,
-      "event_hash": "953a5382a7fe8a7a4d72e0cf1b3ecdc7698fd170ef6207c013844ae45436d2fb"
+      "event_hash": "bf66c26ae16e4734da763a838d60cc07988ec92ac77c931e11861a6ce052e70a"
     }
   ]
 }

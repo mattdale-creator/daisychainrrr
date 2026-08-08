@@ -1,19 +1,23 @@
-# Transparency scorecard — ttllm-nano-v2
+# Transparency scorecard — ttllm-nano-v2 0.2.1
 
-Generated: 2026-08-08T09:03:21Z
+Generated: 2026-08-08T09:50:55Z
 
-| Layer | Status |
-|-------|--------|
-| Data (PG + hashes + card) | MET |
-| Code public | MET |
-| Dense checkpoints | MET |
-| Metrics + ppl | MET |
-| BPE tokenizer published | MET |
-| Eval pack (process) | MET |
-| Merkle release + ckpt seal | MET |
-| ttlink + shards | MET |
-| Stream | MET |
-| Frontier capability | TOMBSTONE — not claimed |
+| Domain | Status | Notes |
+|--------|--------|-------|
+| Data | MET | PG public domain + hashes |
+| Code | MET | public |
+| Checkpoints | MET | dense |
+| ttlink+canary | MET | {'ok': True, 'hits': 1, 'expected_sha256': '2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25'} |
+| Stream | MET | hash chain |
+| Crypto | MET | eb3d258f98f51b56 |
+| Frontier scale | TOMBSTONE | not claimed |
 
-merkle_root: `003862edaebc151b2246133414d48f6c3b32585fba156775ab27c7095637dd67`  
-ckpt_root: `8af619376466df1687213244b1187e969f3eb5046727dee0ccb2662a866d2fc8`
+## Tombstones
+
+- Not 32B
+- Not multi-trillion ttlink
+- Mac-local nano
+
+merkle_root: `eb3d258f98f51b56770fb5241faa6ec117d166a80e7a0148b1fa7e1f4407b9b0`
+
+*Ethos: down to the bone. Empty honesty beats soft tissue.*

@@ -1,8 +1,18 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "abf40965373ffe4007dbb6cb1c4988f54890a4ff3edee8f909694da9ce71e483",
-  "count": 22,
+  "merkle_root": "0a7f3d77e5979a87244c8fb08d4e05b311c5e55f8c01ab54a22db33020987402",
+  "count": 29,
   "leaves": [
+    {
+      "path": "cards/MODEL_CARD.md",
+      "sha256": "964373ce1dbf187dc0eb4f928f043641c9bbed5847b65ab081de64166cd58075",
+      "bytes": 269
+    },
+    {
+      "path": "cards/TRANSPARENCY_SCORECARD.md",
+      "sha256": "3df4363c7adea11dacd771ccf1f9c29c990b7afaa239564e02a543e3d5e235bd",
+      "bytes": 717
+    },
     {
       "path": "code/generate.py",
       "sha256": "ee05337fcfc19b9878130d4b56feeb5c0c8fe3f7ae364b02bcc3af00459193cb",
@@ -20,8 +30,8 @@
     },
     {
       "path": "data/DATA_CARD.md",
-      "sha256": "6515f32a3d095ef2024e3c02a27b57c30f39ab840c8a06df87f8dfe8a146746e",
-      "bytes": 1912
+      "sha256": "2716c7b13c7eb17bf98dc772b022832039ced3a5c89f1783e17f0f11b4ca2591",
+      "bytes": 1903
     },
     {
       "path": "data/processed/corpus.txt",
@@ -99,6 +109,16 @@
       "bytes": 101466
     },
     {
+      "path": "manifests/CHECKPOINTS_MANIFEST.json",
+      "sha256": "155665485422e705b526101a41f6ca009d463e26dc677603d1036b7ab3636171",
+      "bytes": 1679
+    },
+    {
+      "path": "manifests/RELEASE_MANIFEST.json",
+      "sha256": "07610507ba2a0c578e3ae9bbdbd86454a821e8f97c1c3d5e067c1d8e278107ec",
+      "bytes": 3924
+    },
+    {
       "path": "metrics/hyperparams.json",
       "sha256": "839ee2150d431638930de64705ccddd14961cf3379db4f892433859334c07cc0",
       "bytes": 445
@@ -112,10 +132,25 @@
       "path": "metrics/train_console.log",
       "sha256": "bbcaddc14385ea14614fbc4b9848f135d47de04350e866d3a6ec84f1420abe68",
       "bytes": 1532
+    },
+    {
+      "path": "stream/public_log.json",
+      "sha256": "b9a2eccbc7f3dff305a68e354359c2d874a7579a9c6eee5dd4d6a482350ee0b2",
+      "bytes": 2121
+    },
+    {
+      "path": "ttlink/canary_check.json",
+      "sha256": "5c74e9dd84c4b11db002bc12793d201467171396f1c868cea8eac5bd9b970140",
+      "bytes": 119
+    },
+    {
+      "path": "ttlink/index.json",
+      "sha256": "d6d7333d825877b01761f4c583cbef88f6241b9ac8420a68ff2cfa446d7c7177",
+      "bytes": 619244
     }
   ],
   "extra": {
     "release": "ttllm-nano-v3",
-    "version": "0.3.0-nano-expanded-data"
+    "version": "0.3.1"
   }
 }

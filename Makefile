@@ -47,3 +47,10 @@ nano-v2-train:
 nano-v2-seal:
 	python3 models/ttllm-nano-v2/code/eval_pack.py
 	python3 models/ttllm-nano-v2/code/seal_release.py
+
+domain-scorecard:
+	python3 scripts/domain_scorecard_all.py
+
+reseal-nanos:
+	python3 -c "from free_core.release.pipeline import seal_model_tree; import pathlib;
+[print(seal_model_tree(pathlib.Path('models')/n, version='auto')['release']['count']) for n in ['ttllm-nano','ttllm-nano-v2','ttllm-nano-v3'] if (pathlib.Path('models')/n).exists()]"
