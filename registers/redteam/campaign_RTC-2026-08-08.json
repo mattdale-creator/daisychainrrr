@@ -1,0 +1,196 @@
+{
+  "schema": "ttllm.redteam_campaign.v1",
+  "campaign_id": "RTC-2026-08-08",
+  "utc": "2026-08-08T13:54:37Z",
+  "ethos": "constructive QA \u2014 product is the proof",
+  "results": [
+    {
+      "id": "RT-001",
+      "severity": "Critical",
+      "component": "provenance",
+      "title": "Manifest leaf tamper detected",
+      "detail": "Forged leaf hash must fail verify",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-002",
+      "severity": "Critical",
+      "component": "provenance",
+      "title": "Merkle root lie detected",
+      "detail": "result={'ok': False, 'merkle_root_matches_leaves': False, 'merkle_root_expected': 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'merkle_root_from_leaves': 'ffde480345c5041bbca7c87c91ce6d1060a90430ff4e309ae0081d38d3e41a17', 'verified_files': 11, 'mismatches': [], 'missing': []}",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-003",
+      "severity": "Critical",
+      "component": "stream",
+      "title": "Stream payload tamper breaks chain",
+      "detail": "event_hash must bind payload",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-004",
+      "severity": "Critical",
+      "component": "stream",
+      "title": "Stream prev_hash splice detected",
+      "detail": "prev_hash mismatch",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-005",
+      "severity": "High",
+      "component": "ttlink",
+      "title": "Canary present/absent semantics",
+      "detail": "inject then check; empty index absent",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-006",
+      "severity": "Medium",
+      "component": "query_guard",
+      "title": "Hard rate limit",
+      "detail": "allowed=5 blocked=True",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-007",
+      "severity": "Medium",
+      "component": "query_guard",
+      "title": "Unique span bulk extract throttle",
+      "detail": "policy={'window_sec': 60, 'hard_limit': 1000, 'suspicious_limit': 30, 'unique_span_burst': 5, 'offline_cli_unlimited': True, 'paywall': False}",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-008",
+      "severity": "Critical",
+      "component": "free_core_seal",
+      "title": "FREE_CORE_SEAL verifies",
+      "detail": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/manifests/FREE_CORE_SEAL.json",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-009",
+      "severity": "High",
+      "component": "provenance",
+      "title": "Inclusion proof roundtrip",
+      "detail": "first leaf",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-010",
+      "severity": "High",
+      "component": "nano_releases",
+      "title": "All nano RELEASE_MANIFEST verify",
+      "detail": "fails=[]",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-011",
+      "severity": "High",
+      "component": "status_api",
+      "title": "ttllm_status nanos match disk verify",
+      "detail": "bad=[] seal={'present': True, 'merkle_root': 'df7fffd3900cade8c7b5e851956c3130dff2c07951167402520bdbd663fb1c9c', 'count': 10542, 'verify_ok': True, 'fresh': True, 'fresh_merkle_root': 'df7fffd3900cade8c7b5e851956c3130dff2c07951167402520bdbd663fb1c9c', 'fresh_count': 10542}",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-012",
+      "severity": "High",
+      "component": "boundary",
+      "title": "BOUNDARY prohibits paywalling verification",
+      "detail": "Paywall / verif language present",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-013",
+      "severity": "Medium",
+      "component": "claim_gate",
+      "title": "Public claim gate forbids frontier nano claims",
+      "detail": "frontier language",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-014",
+      "severity": "Medium",
+      "component": "keys",
+      "title": "Demo private key sealed in free core?",
+      "detail": "in_seal=False",
+      "pass": true,
+      "residual": "If True, tutorial private key is public by design in examples/ \u2014 confirm README honesty"
+    },
+    {
+      "id": "RT-015",
+      "severity": "Medium",
+      "component": "nano_stream",
+      "title": "Nano stream chain + required events",
+      "detail": "missing=[] chain=True",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-016",
+      "severity": "High",
+      "component": "hard_gates",
+      "title": "Hard gates document lists open gates",
+      "detail": "T1 present; not all closed language",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-017",
+      "severity": "Medium",
+      "component": "site_snapshot",
+      "title": "status_snapshot ethos nano_is_not_frontier",
+      "detail": "/Users/hattr/Downloads/TTLLMS.com BUILD/01-repo/daisychainrrr/site/demo/status_snapshot.json",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-018",
+      "severity": "Critical",
+      "component": "secrets",
+      "title": "secrets.local.env not in FREE_CORE_SEAL",
+      "detail": "sealed=False",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-019",
+      "severity": "Low",
+      "component": "query_guard",
+      "title": "Policy asserts offline CLI unlimited",
+      "detail": "{'window_sec': 60.0, 'hard_limit': 120, 'suspicious_limit': 30, 'unique_span_burst': 40, 'offline_cli_unlimited': True, 'paywall': False}",
+      "pass": true,
+      "residual": ""
+    },
+    {
+      "id": "RT-020",
+      "severity": "Low",
+      "component": "provenance",
+      "title": "Disk content change would fail verify",
+      "detail": "orig=929c39df3b893220",
+      "pass": true,
+      "residual": ""
+    }
+  ],
+  "summary": {
+    "total": 20,
+    "passed": 20,
+    "failed": 0,
+    "high_critical_failed": 0,
+    "medium_low_failed": 0
+  },
+  "all_high_pass": true
+}

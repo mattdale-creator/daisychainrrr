@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "6097e240d942736716bf21096d94b9d0dedfac175e84043a7a97ab3c026775a8",
-  "count": 10541,
+  "merkle_root": "373e942aa44191f88f82d3ed0f1f0898c76d1d83b12ae88e9a04658a23a41e03",
+  "count": 10542,
   "leaves": [
     {
       "path": "LICENSE",
@@ -10,8 +10,8 @@
     },
     {
       "path": "Makefile",
-      "sha256": "be9198584b6517460b5250d5f1138e702d7be3309c76722c2a234d7a0eeb336a",
-      "bytes": 3074
+      "sha256": "bb7b25172ac8f7201ed18492de39d68f18e80f5874380e8336e55496c0276212",
+      "bytes": 3122
     },
     {
       "path": "README.md",
@@ -50725,8 +50725,8 @@
     },
     {
       "path": "docs/audits/loops/LOOP_2026-08-08.md",
-      "sha256": "2f86629269522eae19a8fd5d14a15336f2d23f3a8c05996e9fcc9211e7a31ec0",
-      "bytes": 2322
+      "sha256": "a133755758907976d073b655897e5711c62d25c6cba7112eb6b4a96a1183163d",
+      "bytes": 2654
     },
     {
       "path": "docs/business/FOUNDING_FREE_CORE_MONETISATION.md",
@@ -51814,11 +51814,6 @@
       "bytes": 1172
     },
     {
-      "path": "examples/keys/demo.private.pem",
-      "sha256": "4dfe45d5a1462c9f2c9dfdfc1ba34a4c2df04677af646927f1d1901b8c76cc6f",
-      "bytes": 119
-    },
-    {
       "path": "examples/keys/demo.public.pem",
       "sha256": "911839f16a97d4961b40e7a431eac936b347d7368c644805ed820c2f52677e8c",
       "bytes": 113
@@ -51965,8 +51960,8 @@
     },
     {
       "path": "free_core/provenance/seal_targets.py",
-      "sha256": "5c7c795fdbec0936345b85e2f8bb55e3f75c41ad92c637b558fe60a8d8627374",
-      "bytes": 1882
+      "sha256": "9845dff7536b70ed203f95f530121381f522efa1520d74923bfc9a8cbd947880",
+      "bytes": 2449
     },
     {
       "path": "free_core/provenance/sign.py",
@@ -52170,13 +52165,13 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "b664fcff4556a9a7c8913bbc5370b13c663ed74535b5360b1122053d63d6d7ee",
-      "bytes": 5881
+      "sha256": "65443cb6728704c9cfa8f89a48274c2da363ca8d9f17a2dc926f2699e2cacabf",
+      "bytes": 6138
     },
     {
       "path": "registers/decisions/feed.json",
-      "sha256": "5bf6e377d6653c7daecc01e96fe4aec32300cffb524ab577139148b6a9a3f011",
-      "bytes": 3044
+      "sha256": "eb270f1f5c8d47262543c8ab7652a225423641055f127ea8f87c1db43444d91d",
+      "bytes": 3211
     },
     {
       "path": "registers/funding.md",
@@ -52219,9 +52214,14 @@
       "bytes": 273
     },
     {
+      "path": "registers/redteam/CAMPAIGN_RTC-2026-08-08.md",
+      "sha256": "db5488023446218dd25f88130b947d67afd93a51bded3a600f4eaf84e4fcc23d",
+      "bytes": 2196
+    },
+    {
       "path": "registers/redteam/FINDINGS_REGISTER.md",
-      "sha256": "7356a62810c47810ef77676761991138db1f9b85c4cbb5fc87cce36f49a9bd66",
-      "bytes": 306
+      "sha256": "3d3ff7faa25d8447ecd81a19dfcb65f3b104c0df5b21ad130c25b5bfdc07e4fe",
+      "bytes": 3439
     },
     {
       "path": "registers/supply-chain/DEPENDENCY_REGISTER.md",
@@ -52324,6 +52324,11 @@
       "bytes": 4505
     },
     {
+      "path": "scripts/redteam_campaign_2026_08_08.py",
+      "sha256": "8a27a3bbf24d0abd324a1f00c2e4ec05aa922e97a0f25ad07fb1ae16a5844c67",
+      "bytes": 13585
+    },
+    {
       "path": "scripts/redteam_nano_harness.py",
       "sha256": "ec8f8f7718d731877c4d658782a39cad4cbe92c4de3b06fc066cce3f22def884",
       "bytes": 4231
@@ -52380,8 +52385,8 @@
     },
     {
       "path": "site/demo.html",
-      "sha256": "198bd439fbb1108510a3391872fa6ca42b6447062b96b84f25e683ae58f60088",
-      "bytes": 3642
+      "sha256": "dd656841d6473df7b7fd83efc08cdec61eae53620b476eebfe5464c3d4aa7f4b",
+      "bytes": 3814
     },
     {
       "path": "site/demo/MASTER_DOMAIN_SCORECARD.md",

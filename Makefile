@@ -30,6 +30,7 @@ nano-all: nano-data nano-train nano-seal
 
 redteam:
 	python3 scripts/redteam_nano_harness.py
+	python3 scripts/redteam_campaign_2026_08_08.py
 
 # Fine-grain automated bone (no capital)
 fine-grain:

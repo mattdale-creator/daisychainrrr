@@ -65,6 +65,17 @@ def collect_seal_targets(root: Path) -> List[Path]:
             continue
         if t.suffix == ".pyc" or "__pycache__" in t.parts:
             continue
+        # Volatile red-team run outputs (re-run should not invalidate FREE_CORE_SEAL)
+        if t.name.startswith("campaign_") and t.suffix == ".json":
+            continue
+        if t.name == "last_harness_run.json":
+            continue
+        # Never seal private key material (even tutorial keys) into free-core Merkle seal
+        name_l = t.name.lower()
+        if name_l.endswith(".private.pem") or name_l.endswith(".priv") or name_l == "private.pem":
+            continue
+        if name_l.endswith(".key") and "public" not in name_l:
+            continue
         filtered.append(t)
     return filtered
 
