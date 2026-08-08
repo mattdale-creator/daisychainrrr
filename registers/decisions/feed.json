@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.decision_feed.v1",
-  "updated": "2026-08-08T13:00:00+00:00",
+  "updated": "2026-08-08T14:00:00+00:00",
   "entries": [
     {
       "id": "D-0007",
@@ -73,6 +73,12 @@
       "date": "2026-08-08",
       "title": "Writable bone GO hard gates untouched",
       "outcome": "domain fill threat cost economics movement"
+    },
+    {
+      "id": "D-0027",
+      "date": "2026-08-08",
+      "title": "free_core 0.6 status + QueryGuard burst + demo matrix",
+      "outcome": "status.py ttllm_status matrix_stream"
     }
   ]
 }

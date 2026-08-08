@@ -56,6 +56,12 @@ cost-ledger:
 placeholders-check:
 	python3 scripts/check_placeholder_labels.py
 
+status:
+	python3 scripts/ttllm_status.py --write-site
+
+status-ok:
+	python3 scripts/ttllm_status.py --write-site --quiet-ok
+
 reseal-core:
 	python3 scripts/check_seal_freshness.py --write
 

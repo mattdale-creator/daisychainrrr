@@ -44,20 +44,33 @@
     </div>
     <div id="results"></div>
     <div class="card">
-      <h3>API (reference)</h3>
-      <p class="mono">POST /api/ttlink/query · GET /api/ttlink/stats</p>
-      <p>Pages Function over free-core demo corpus. Exact match + doc hashes. Not multi-trillion.</p>
+      <h3>API (live Pages Function)</h3>
+      <p class="mono">GET /api/ttlink/ · POST /api/ttlink/ with JSON <code>{"span":"bone"}</code></p>
+      <p>Exact match + doc hashes. Not multi-trillion. Offline CLI verify never requires this API.</p>
+      <p><button class="btn secondary" id="apiPing" type="button">Ping live API</button></p>
+      <pre class="mono" id="apiOut" style="white-space:pre-wrap;font-size:.85rem"></pre>
+    </div>
+    <div class="card">
+      <h3>Public stream tip (real events — not Matrix cosplay)</h3>
+      <p class="mono" id="streamTip">Loading stream…</p>
+      <div id="streamEvents"></div>
+    </div>
+    <div class="card">
+      <h3>Seal snapshot</h3>
+      <pre class="mono" id="sealSnap" style="white-space:pre-wrap;font-size:.85rem">Loading status_snapshot.json…</pre>
     </div>
     <h2>What this proves</h2>
     <ul class="clean">
       <li>Hits include document path, offsets, context, and <code>doc_sha256</code></li>
       <li>Index is generated from <code>examples/corpus/</code> in the public repo</li>
+      <li>Stream panel reads real hash-chained events from the demo log</li>
       <li>This is <em>not</em> a multi-trillion-token production index — we do not cosplay scale</li>
     </ul>
     <script src="demo/ttlink_demo.js"></script>
+    <script src="demo/matrix_stream.js"></script>
 
     <footer>
-      <p>Free public core never paywalled · <a href="https://github.com/mattdale-creator/daisychainrrr">GitHub</a> · <a href=".well-known/security.txt">security.txt</a> · md@0265.au</p>
+      <p>Free public core never paywalled · <a href="https://github.com/mattdale-creator/daisychainrrr">GitHub</a> · <a href="security.txt">security.txt</a> · <a href="economics.html">economics</a> · md@0265.au</p>
       <p class="mono">Down to the binary. The product is the proof.</p>
     </footer>
   </div>

@@ -1,0 +1,52 @@
+{
+  "schema": "ttllm.project_status.v1",
+  "utc": "2026-08-08T11:33:58Z",
+  "free_core_version": "0.6.0",
+  "repo": "daisychainrrr (public)",
+  "seal": {
+    "present": true,
+    "merkle_root": "faaa3c2739ab920db940fc078a5bb4b6dd869111dae097ea81d8763aea20cbd4",
+    "count": 10513,
+    "verify_ok": true,
+    "fresh": true,
+    "fresh_merkle_root": "faaa3c2739ab920db940fc078a5bb4b6dd869111dae097ea81d8763aea20cbd4",
+    "fresh_count": 10513
+  },
+  "nanos": [
+    {
+      "name": "ttllm-nano",
+      "release_manifest": true,
+      "verify_ok": true,
+      "merkle_root": "b090ac934a151b87f03c4af92dad0421d0a10a0e9a2d760261bf3377adc3caba"
+    },
+    {
+      "name": "ttllm-nano-v2",
+      "release_manifest": true,
+      "verify_ok": false,
+      "merkle_root": "9bb01bd7a46975ebeead084b4bf9d0b2eabf3285db97147821678478c2ddfa06"
+    },
+    {
+      "name": "ttllm-nano-v3",
+      "release_manifest": true,
+      "verify_ok": true,
+      "merkle_root": "937f1c5c4a0430377874200080bbf76670641ffcb327e0125df57ea266fbbe44"
+    },
+    {
+      "name": "ttllm-nano-v4",
+      "release_manifest": true,
+      "verify_ok": true,
+      "merkle_root": "6dfaa9d41c928537e6bc1bfea42c13811d05c26737f1962e7a77665de6866974"
+    }
+  ],
+  "hard_gates_doc": true,
+  "ethos": {
+    "free_public_core_never_paywalled": true,
+    "nano_is_not_frontier": true,
+    "hard_gates_not_faked": true
+  },
+  "commands": {
+    "verify": "python3 scripts/public_verify_harness.py",
+    "seal_freshness": "python3 scripts/check_seal_freshness.py",
+    "redteam": "python3 scripts/redteam_nano_harness.py"
+  }
+}

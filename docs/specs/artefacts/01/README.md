@@ -1,10 +1,17 @@
-# Domain 01 operational artefacts
+# Domain 1 artefacts — Governance
 
-Updated: 2026-08-08T09:14:38Z
+| Artefact | Path |
+|----------|------|
+| Charter | GOVERNANCE_CHARTER.md |
+| Materiality | MATERIALITY_THRESHOLD.md |
+| Decision process | DECISION_LOG_PROCESS.md |
+| Monthly audit checklist | MONTHLY_AUDIT_CHECKLIST.md |
+| Exception handling | EXCEPTION_HANDLING.md |
+| Custodian role | GOVERNANCE_CUSTODIAN_ROLE.md |
+| Quarterly template | QUARTERLY_REPORT_TEMPLATE.md |
+| Audits filed | audits/ |
+| Live register | `registers/decisions/` |
+| Handbook | `docs/handbook/domains/01-governance-ops.md` |
+| Example quarterly | `docs/placeholders/domains/QUARTERLY_GOVERNANCE_REPORT_EXAMPLE.md` |
 
-- [x] `GOVERNANCE_CHARTER.md` (charter) — exists
-- [ ] `DECISION_LOG_PROCESS.md` (process) — scaffold filled
-- [ ] `MATERIALITY_THRESHOLD.md` (threshold) — scaffold filled
-- [ ] `GOVERNANCE_CUSTODIAN_ROLE.md` (role) — scaffold filled
-- [ ] `EXCEPTION_HANDLING.md` (process) — scaffold filled
-- [ ] `MONTHLY_AUDIT_CHECKLIST.md` (checklist) — scaffold filled
+**Status:** process bone present; independent second auditor still open (people).

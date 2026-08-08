@@ -11,3 +11,4 @@
 | 2026-08-08 | Handbook load-paths + fine-grain automation + walls bone | docs/handbook, scripts/*_harness, docs/walls |
 | 2026-08-08 | Grok placeholders + hard gates T1–T11 | docs/placeholders, HARD_TECHNOLOGICAL_GATES |
 | 2026-08-08 | Writable bone GO: domain 4/8 fill, threat model, nano cost ledger script, economics+movement site, gap audit refresh | scripts/nano_cost_ledger.py, site/economics.html, site/movement.html |
+| 2026-08-08 | free_core 0.6.0 status + QueryGuard burst + demo stream/API/seal panels | free_core/status.py, scripts/ttllm_status.py, site/demo/* |

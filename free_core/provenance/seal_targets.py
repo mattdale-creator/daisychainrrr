@@ -43,6 +43,8 @@ SEAL_EXCLUDE_NAMES = {
     "last_status_ttllms_com.json",
     "last_status_ttllms_org.json",
     "secrets.local.env",
+    # Generated snapshot for site demo; refreshed without resealing free core
+    "status_snapshot.json",
 }
 
 

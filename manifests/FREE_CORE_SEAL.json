@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "944d71c47917eb0ff1a06dc2385b6080837ee76609e7407efa9927ec795c67e3",
-  "count": 10510,
+  "merkle_root": "faaa3c2739ab920db940fc078a5bb4b6dd869111dae097ea81d8763aea20cbd4",
+  "count": 10513,
   "leaves": [
     {
       "path": "LICENSE",
@@ -10,8 +10,8 @@
     },
     {
       "path": "Makefile",
-      "sha256": "add4437ee54a05cae21aa960e93140781d679bd30d7b9ce57bb387ebb376870b",
-      "bytes": 2841
+      "sha256": "9987e3e9a66af955d4eda1a47572cd8b9d29e6b1cac26a21f5a385b5c191e436",
+      "bytes": 2965
     },
     {
       "path": "README.md",
@@ -50715,8 +50715,8 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "855f14a154ba594465b38753f40899086bb306cdaad79a2d563f0ac7cf5e9580",
-      "bytes": 1228
+      "sha256": "49d80ce0561b901813bb63ab0ebadc935558f751fb9a19730f07478137f0c5b0",
+      "bytes": 1377
     },
     {
       "path": "docs/business/FOUNDING_FREE_CORE_MONETISATION.md",
@@ -51255,8 +51255,8 @@
     },
     {
       "path": "docs/specs/artefacts/01/README.md",
-      "sha256": "ab406411abc94fb6796c90624e83e34645322e952ba7f6e7de86695692b72688",
-      "bytes": 435
+      "sha256": "0b7a054473cfd31b471a394a2294dc51963bc9b4f7ada97dc9664b33fe009583",
+      "bytes": 715
     },
     {
       "path": "docs/specs/artefacts/01/audits/MONTHLY_AUDIT_2026-08.md",
@@ -51405,8 +51405,8 @@
     },
     {
       "path": "docs/specs/artefacts/05/README.md",
-      "sha256": "09d34fd1c90bc2f286dd2b997a473f9d828b2b26305ac4c4ec48929422a6bf93",
-      "bytes": 472
+      "sha256": "006494fef42523e59b5fce300f5111f1357021d294c67d727207778e41af79be",
+      "bytes": 541
     },
     {
       "path": "docs/specs/artefacts/05/SECURITY_EXEMPTION_PROCESS.md",
@@ -51420,8 +51420,8 @@
     },
     {
       "path": "docs/specs/artefacts/05/SEVERITY_THRESHOLDS.md",
-      "sha256": "1da92e370e3819b02521d4767b19b8f81039ba82961d6cf5dd75449c2b3d1727",
-      "bytes": 497
+      "sha256": "16c7b37f597a6e2a255604014cd9f5a06f5e1ee6dcd9fcea90c6cfcf0a1c4168",
+      "bytes": 1320
     },
     {
       "path": "docs/specs/artefacts/05/TRANSPARENCY_SYSTEM_FAILURE_CLASS.md",
@@ -51600,8 +51600,8 @@
     },
     {
       "path": "docs/specs/artefacts/10/FINDINGS_CLASSIFICATION.md",
-      "sha256": "76a27a8a7c361f3b4259895360cd9a6f22c3862662b2071c07056b52248612a6",
-      "bytes": 453
+      "sha256": "1fb49a79f1d91d720ed572d043cfe49e3de4a0bb90cbfb60b0e6dfea33e92ce8",
+      "bytes": 1073
     },
     {
       "path": "docs/specs/artefacts/10/INTERNAL_WORKFLOW_HOOKS.md",
@@ -51615,8 +51615,8 @@
     },
     {
       "path": "docs/specs/artefacts/10/README.md",
-      "sha256": "552a566f3be3e044f7a03c9be6bf8c3ea64e9a05305fd71d864207b9f3855d74",
-      "bytes": 463
+      "sha256": "c21f4af1208c350da8e56c37e1e13e84154b435c30bb3d3ddbc6520fc3c2f7bf",
+      "bytes": 512
     },
     {
       "path": "docs/specs/artefacts/10/REDTEAM_PUBLICATION_STANDARD.md",
@@ -51905,7 +51905,7 @@
     },
     {
       "path": "free_core/__init__.py",
-      "sha256": "8fca16d77053845992b2ef50972fe3d44c86db20720ff12752b487100df615a5",
+      "sha256": "4bd94b0b8cc117328207a5e85f432ca2f889569b338b26df9d6b23dd93219d39",
       "bytes": 52
     },
     {
@@ -51950,8 +51950,8 @@
     },
     {
       "path": "free_core/provenance/seal_targets.py",
-      "sha256": "e3a0b540a99fb49c3c1432f3da42c3ee8b06caf866f14e5aa3da87c2c20b0191",
-      "bytes": 1776
+      "sha256": "5c7c795fdbec0936345b85e2f8bb55e3f75c41ad92c637b558fe60a8d8627374",
+      "bytes": 1882
     },
     {
       "path": "free_core/provenance/sign.py",
@@ -52015,13 +52015,18 @@
     },
     {
       "path": "free_core/security/query_guard.py",
-      "sha256": "006d4422ef0db0cc8dcf8798c220f8ee3de65cbf1d23b46b430bb8879cb499b4",
-      "bytes": 1622
+      "sha256": "8b60b962ceb020467e50be594e184882889f956048302f5c81ffe44cd559b1ad",
+      "bytes": 2984
     },
     {
       "path": "free_core/security/shard.py",
       "sha256": "a333637f5d491d603acdfa7dbf245710345c556f1fd2a5f7e3088746c2acfdd4",
       "bytes": 1731
+    },
+    {
+      "path": "free_core/status.py",
+      "sha256": "4b02afe86446ea39d96e43082881c6f12448419c520bf82cf935931f99aac84e",
+      "bytes": 2870
     },
     {
       "path": "free_core/stream/__init__.py",
@@ -52140,7 +52145,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "6a3d851f344d07f06c4651530ff143cc3b47854ad536ec4d42d841bbf1341dd6",
+      "sha256": "d063d425a211cc5496a2044b6ca097e4443f61304bd5733a0e3695d2cf547367",
       "bytes": 754
     },
     {
@@ -52150,13 +52155,13 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "2a1ef9bef10a347456cee654481a2619233e83a43abf18a61e869fe6c4d4b426",
-      "bytes": 4499
+      "sha256": "8579dd19f362fa53a56e0185f47648b2b18ed4ec968bc57fb6b692d7d3be9b7b",
+      "bytes": 4771
     },
     {
       "path": "registers/decisions/feed.json",
-      "sha256": "3a05ea0d402b8dc2f2763f29ad4c89bbdd7c8a24c4363187ee848084f87bc308",
-      "bytes": 2118
+      "sha256": "66bccc0accc17d935968cd942e748a0448f3e09a41c0ccf8368a443791716e0e",
+      "bytes": 2309
     },
     {
       "path": "registers/funding.md",
@@ -52304,6 +52309,11 @@
       "bytes": 4231
     },
     {
+      "path": "scripts/ttllm_status.py",
+      "sha256": "5f3b50286530810ec5559606489bfe254447fee7ab2f22acf7c642c5b36b14e8",
+      "bytes": 1307
+    },
+    {
       "path": "site/.well-known/security.txt",
       "sha256": "49eeaf4825d37f27e352e942cf8edf1310176fc38e4bc437184e6f63430cb7cd",
       "bytes": 235
@@ -52345,8 +52355,8 @@
     },
     {
       "path": "site/demo.html",
-      "sha256": "166dad44bcfba2317d9a03617fdcfe2386e3a0e08846f017951cec5f8c15fd3d",
-      "bytes": 2879
+      "sha256": "198bd439fbb1108510a3391872fa6ca42b6447062b96b84f25e683ae58f60088",
+      "bytes": 3642
     },
     {
       "path": "site/demo/MASTER_DOMAIN_SCORECARD.md",
@@ -52357,6 +52367,11 @@
       "path": "site/demo/demo.public.pem",
       "sha256": "911839f16a97d4961b40e7a431eac936b347d7368c644805ed820c2f52677e8c",
       "bytes": 113
+    },
+    {
+      "path": "site/demo/matrix_stream.js",
+      "sha256": "eddd40d6711d61e7a13f164960abce3f4065f026da32fd8756687e5a31f2fa35",
+      "bytes": 2151
     },
     {
       "path": "site/demo/nano-v2/MODEL_CARD.md",
