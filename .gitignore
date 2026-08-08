@@ -31,3 +31,6 @@ package-lock.json
 keys/*.private.pem
 *.private.pem
 !examples/keys/demo.private.pem
+
+# Requires GitHub token workflow scope to push; keep local until gate opens
+.github/
