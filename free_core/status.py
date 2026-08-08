@@ -92,6 +92,7 @@ def collect_status(repo: Path | None = None) -> Dict[str, Any]:
             "inclusion_proof_demo": "python3 scripts/demo_inclusion_proof.py",
             "nano_stream_tips": "python3 scripts/publish_nano_stream_tips.py",
             "public_proof": "python3 scripts/public_proof.py",
+            "commercial_status": "python3 scripts/commercial_status.py",
         },
         "testing_loop": {
             "procedure": "docs/security/TESTING_LOOP.md",

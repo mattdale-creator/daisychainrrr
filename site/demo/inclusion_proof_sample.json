@@ -3,8 +3,8 @@
   "ethos": "product is the proof \u2014 offline, unpaid, free public core",
   "manifest": "manifests/FREE_CORE_SEAL.json",
   "path": "README.md",
-  "merkle_root": "ba71e433add3ea9b271c773f80c3f04b659bfad44a307065bbc541a26b1b3f34",
-  "leaf_count": 10553,
+  "merkle_root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
+  "leaf_count": 10558,
   "proof": {
     "schema": "ttllm.merkle_proof.v1",
     "leaf_index": 2,
@@ -12,7 +12,7 @@
     "proof": [
       {
         "position": "right",
-        "hash": "96c4d488d65c75afb8b7f9c2eddd3083644728f4a9c183ed53909b28de53307b"
+        "hash": "bc062ad9112430ee4b482c80c8c1e81331f7ec859f4b47d0058e3bd9391d0fd3"
       },
       {
         "position": "left",
@@ -20,54 +20,54 @@
       },
       {
         "position": "right",
-        "hash": "d9e12466c15f5e3313b38414d1f7965b6748c560c4db8ae62cfbd9e29e7b4126"
+        "hash": "aef82e1b1fc59b918bab01b24bc893f8c3e309669e08b8fe74bbed1d84a7d2d2"
       },
       {
         "position": "right",
-        "hash": "1a5f4fd97d93b10dee175d9ce7c1c667ef207a97496248b0e42f80f92e606e28"
+        "hash": "84fccda2bd8ab50fb336122cc3d1e2a59150138c06fce39245f6f1eb43318919"
       },
       {
         "position": "right",
-        "hash": "9a1b22b6d238d71b461319047aab9634b3ae69c9baeb074b90ac816d9d906be0"
+        "hash": "f1908b37100b20f4521495095fe3e2b8914fd74035baefcce5454463b85bb8a4"
       },
       {
         "position": "right",
-        "hash": "f9f9255324dc563e45010e30c09b24b79c7c5d62d66bbcf4c557caf56fe7fb3d"
+        "hash": "260c063c9ba91b3f4f393c6f3ea4dcd0cebdfc0c87ee237623518bbd6b6505ce"
       },
       {
         "position": "right",
-        "hash": "82fef3ce52b371a8e2cc787695bde5019a4676fd0769d56ae08674d5944a01ac"
+        "hash": "f8761afd41fb6897cfeab23ab21f66dfce9e8029bd54dd3966956b3aae5e8f9c"
       },
       {
         "position": "right",
-        "hash": "1b075649cea3f47b5bdc306f210db3c6c5c4bb8f60a739074ad64e48313ea0cb"
+        "hash": "863cc9406b7ff1a1b3f65b3202cd231122b202d63c2500099911bee6e3f665f4"
       },
       {
         "position": "right",
-        "hash": "8205b7d7bd15dd05800275d6e1481982b3f05564f5d69508c1af5195293f613b"
+        "hash": "a33df7b1aad010139255151dffe225d09c9fa5990cfcb9715fc4aa87671e2b9a"
       },
       {
         "position": "right",
-        "hash": "47ed6471a092b2f588a97d53faf65d8a56c54c0ec679036f1b5aed37374b9e12"
+        "hash": "631f03a4b98a42c1d4c9a220139af52fa56c9ce7cd870fbb60e5efba1a14bde5"
       },
       {
         "position": "right",
-        "hash": "47306e75e73a1f8aba99cba03a067d105e94bf55a6d8b2d99e7d1f942495f764"
+        "hash": "dc00091d80db9eef21e71c5a8e248d95abbad882b91e81dc90a1023ac6193639"
       },
       {
         "position": "right",
-        "hash": "828b9d00d6cb50935f36102899668aa0771156996bc489e0ae3bf120a93c4df2"
+        "hash": "64c2b97c39341f413512fd4d29896a4f1a1231154a3c9d219ee14fa9f1a20a2b"
       },
       {
         "position": "right",
-        "hash": "15e6af5b6c7d1997a361ab59414883d59acf21537e60b6bd55ed8509899c50d9"
+        "hash": "673cb40850cee3c621e9292a4180c02602fe894bcb0a9166594be4022adc5294"
       },
       {
         "position": "right",
-        "hash": "d868c5f3348306554e2446318f62b9a80666084b10f354d82287f73df18f1f45"
+        "hash": "79bd0096d019fa210f8e5b7797aaa07a782d57f371b71661443736f0cef4e4d5"
       }
     ],
-    "root": "ba71e433add3ea9b271c773f80c3f04b659bfad44a307065bbc541a26b1b3f34",
+    "root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
     "path": "README.md"
   },
   "verified": true,

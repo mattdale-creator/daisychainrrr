@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "ba71e433add3ea9b271c773f80c3f04b659bfad44a307065bbc541a26b1b3f34",
-  "count": 10553,
+  "merkle_root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
+  "count": 10558,
   "leaves": [
     {
       "path": "LICENSE",
@@ -20,8 +20,8 @@
     },
     {
       "path": "commercial/BOUNDARY.md",
-      "sha256": "96c4d488d65c75afb8b7f9c2eddd3083644728f4a9c183ed53909b28de53307b",
-      "bytes": 1894
+      "sha256": "bc062ad9112430ee4b482c80c8c1e81331f7ec859f4b47d0058e3bd9391d0fd3",
+      "bytes": 2563
     },
     {
       "path": "commercial/ISOLATION_RUNBOOK.md",
@@ -29,9 +29,19 @@
       "bytes": 851
     },
     {
+      "path": "commercial/PRE_REVENUE_OPERATING_PACK.md",
+      "sha256": "0cffe90ac0ef7a43f3ce69a710f32ba1cfb4e63dad04e3d2c042c780f656ccfb",
+      "bytes": 2631
+    },
+    {
       "path": "commercial/README.md",
-      "sha256": "76b4592053c12441fd3119e60a3468618b3617abfc9ae4bc57c407394f1ec38c",
-      "bytes": 88
+      "sha256": "3ae3349ef730e06c7be2e04e75f43e002dcf79123f31979066c0bae87482b237",
+      "bytes": 1590
+    },
+    {
+      "path": "commercial/REFUSE_RESPONSE.md",
+      "sha256": "2b1dbe9bd8ffca05f1d4c6b8c5797cfeecac4d01b8b1437b4c044c8d086eb887",
+      "bytes": 2362
     },
     {
       "path": "commercial/skus/analysis-workbench.md",
@@ -50715,8 +50725,8 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "d57ed0db5bf60204e421278039400df05e9fade622c87abfb2c694a4a5a7426d",
-      "bytes": 2568
+      "sha256": "187863bd4eb4671ba338fb33cf6cbd19c22eb32cb1f8f254ce3670ccbaa0c16f",
+      "bytes": 2725
     },
     {
       "path": "docs/audits/WRITABLE_COMPLETION.md",
@@ -51915,18 +51925,23 @@
     },
     {
       "path": "free_core/__init__.py",
-      "sha256": "f1fcc5268632d0687ce18c8943a4f4f238d1e8e5e83e5b716a7cc204fa1d4552",
+      "sha256": "cfa3c02967c32ddef496079ed99703624ed01e7dcd58a6421eb00a276a8701d1",
       "bytes": 52
     },
     {
       "path": "free_core/business/__init__.py",
-      "sha256": "1767ab08fee4c411e7c425b5f9ba119e8da8c7977da38124c67e8228ca6ec560",
-      "bytes": 446
+      "sha256": "8c2e6c911b7a34645abb32c6d3e6146934569ce1b4a33248e692f339b4916932",
+      "bytes": 542
     },
     {
       "path": "free_core/business/boundary_guard.py",
       "sha256": "04efbd67f44e8a8bb1d06e54bfe60d20ba18464d717623450f61dd9415be5f93",
       "bytes": 11759
+    },
+    {
+      "path": "free_core/business/sku_catalog.py",
+      "sha256": "9ce6b2e886988e76b96f31e76fdb0772cb5d923c4abf3f073565c0879520cc5d",
+      "bytes": 5532
     },
     {
       "path": "free_core/eval/__init__.py",
@@ -51970,8 +51985,8 @@
     },
     {
       "path": "free_core/provenance/seal_targets.py",
-      "sha256": "5a46437794a73f07d457d0301f16708965af52c13eb3c7cd5f9224c657d7f6f7",
-      "bytes": 2740
+      "sha256": "569c523f1e98fec8e32914cf65f65f4a27e98fa6975e48da6009fa3648fe2559",
+      "bytes": 2830
     },
     {
       "path": "free_core/provenance/sign.py",
@@ -52045,8 +52060,8 @@
     },
     {
       "path": "free_core/status.py",
-      "sha256": "8b41078b0e53f01518ca9339b707aaa1fe07673182b6cff1e40c55595759489e",
-      "bytes": 5977
+      "sha256": "ec265f2589789123b73323f0f734f72c1601a75b9a28f3354893b685e7ccccd0",
+      "bytes": 6050
     },
     {
       "path": "free_core/stream/__init__.py",
@@ -52170,7 +52185,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "f81cd455a9087d8294188a104b587629b05ac1e1aaef1f5795b46471a9900271",
+      "sha256": "9567b5697435fba1ef00c085d04b765bacd1d826765cfb1de4e2f7708041b71d",
       "bytes": 793
     },
     {
@@ -52180,8 +52195,8 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "908fa9c2f6ccfea596d3a5d5b6637bef99cc08c8171b52f86e411a77a9e689e8",
-      "bytes": 7954
+      "sha256": "59613ec98adb93a00c96a2f12c773efd3a6dcfe689a1505698a75400309a42e1",
+      "bytes": 8257
     },
     {
       "path": "registers/decisions/feed.json",
@@ -52314,6 +52329,11 @@
       "bytes": 2875
     },
     {
+      "path": "scripts/commercial_status.py",
+      "sha256": "9dc7f41463eb5a400a812a0fc92cb4a2eeffb1102f1c6fcb12d28bd5c0aeedcd",
+      "bytes": 3529
+    },
+    {
       "path": "scripts/continuous_build_loop.py",
       "sha256": "c52da34733be2166f0f923f5c8cf5f0038d2e5244f351f210070a3074bea1598",
       "bytes": 1385
@@ -52412,6 +52432,11 @@
       "path": "site/architecture.html",
       "sha256": "95ab96190824daa89e08da2fd70d3f2b905f75589b7650cfb1875d5e38ba5145",
       "bytes": 2611
+    },
+    {
+      "path": "site/commercial.html",
+      "sha256": "a6205c10a2855bff3efbe7a8ad1da6c9cdb880b4014a0ff308e0cbb4ec0b854a",
+      "bytes": 5124
     },
     {
       "path": "site/contact.html",
@@ -52550,8 +52575,8 @@
     },
     {
       "path": "site/economics.html",
-      "sha256": "75125121649a385c1f75bb2afe669d846c7dd5a5aa32c3c1f4b81d2c95485d18",
-      "bytes": 2195
+      "sha256": "69df56b46ba69fb3d75f9ac243f7b3f1d7f58b024c8eb6fbad99de259ff3c647",
+      "bytes": 2381
     },
     {
       "path": "site/founding-prompts.html",
@@ -52585,8 +52610,8 @@
     },
     {
       "path": "site/index.html",
-      "sha256": "d6e6ab5b2f6c71669ecac50c1c8ee81e3dd789f6e08d94ccbaa78ec93e055ccf",
-      "bytes": 4892
+      "sha256": "257b3e51eb013e2de5e3e73a41ad189d09cb388080564fa9956d75b963e6912d",
+      "bytes": 5142
     },
     {
       "path": "site/models.html",
@@ -52772,6 +52797,6 @@
   "extra": {
     "seal": "free_public_core",
     "repo": "daisychainrrr",
-    "version": "0.6.3"
+    "version": "0.6.4"
   }
 }

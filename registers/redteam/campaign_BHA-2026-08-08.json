@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.business_redteam.v1",
   "campaign_id": "BHA-2026-08-08",
-  "utc": "2026-08-08T18:31:10Z",
+  "utc": "2026-08-08T21:26:57Z",
   "framing": "black-hat lens constructive QA \u2014 not criminal instruction",
   "personas": [
     "investor_capture",
@@ -19,7 +19,7 @@
       "persona": "investor_capture+customer_coercion+openwash",
       "title": "No High/Critical close-core claims in commercial/site/business surfaces",
       "pass": true,
-      "detail": "scanned ok stats={'files_scanned': 52, 'boundary_ok': True, 'sku_ok': True, 'site_ok': True, 'high_findings': 0}",
+      "detail": "scanned ok stats={'files_scanned': 55, 'boundary_ok': True, 'sku_ok': True, 'site_ok': True, 'high_findings': 0}",
       "residual": ""
     },
     {
@@ -144,7 +144,7 @@
     "ok": true,
     "findings": [],
     "stats": {
-      "files_scanned": 52,
+      "files_scanned": 55,
       "boundary_ok": true,
       "sku_ok": true,
       "site_ok": true,

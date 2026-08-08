@@ -1,8 +1,8 @@
 # Honest status — free-core buildable complete
 
-**Updated:** 2026-08-09T00:30:00Z  
-**free_core:** 0.6.3  
-**Latest ship:** public unpaid proof surface · direction sense-check · multi-nano verify  
+**Updated:** 2026-08-09T01:30:00Z  
+**free_core:** 0.6.4  
+**Latest ship:** pre-revenue commercial bone · SKU catalog · refuse pack · public commercial page  
 
 ## Direction sense-check (founding load path)
 
@@ -29,6 +29,7 @@ python3 scripts/public_verify_harness.py
 python3 scripts/run_testing_loop.py   # company testing-loop automated half
 python3 scripts/demo_inclusion_proof.py
 python3 scripts/publish_nano_stream_tips.py
+python3 scripts/commercial_status.py
 ```
 
 ## Public surfaces

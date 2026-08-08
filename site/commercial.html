@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Commercial — TTLLM</title>
+  <meta name="description" content="Paid layers outside the free public core. Designed / not sold. Free core never paywalled." />
+  <link rel="canonical" href="https://ttllms.com/commercial.html" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <a class="brand" href="index.html">ttllms.com</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="free-core.html">Free core</a>
+        <a href="commercial.html" aria-current="page">Commercial</a>
+        <a href="economics.html">Economics</a>
+        <a href="status.html">Status</a>
+        <a href="hard-gates.html">Hard gates</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <p class="eyebrow">Domain 8 · BOUNDARY · pre-revenue</p>
+    <h1>Commercial layers</h1>
+    <p class="tagline">Monetise <em>outside</em> the free public core. We do not sell the bone. We do not claim invoices we do not have.</p>
+
+    <div class="card">
+      <h3>Non-negotiable</h3>
+      <ul class="clean">
+        <li><strong>Free public core never paywalled</strong> — weights path, basic ttlink, manifests, public stream, verify tooling</li>
+        <li><strong>Precedence:</strong> free core &gt; commercial convenience / revenue</li>
+        <li><strong>Selling today:</strong> <span class="status-def">no</span> — all SKUs designed / not sold</li>
+        <li>First sale needs hard gates T6 (entity) · T7 (bank/KYC) · T11 (real counterparty) + go-live checklist</li>
+      </ul>
+      <p class="mono" id="commBadge">Loading commercial_status.json…</p>
+    </div>
+
+    <div class="card">
+      <h3>Designed SKUs (founding paid layers)</h3>
+      <div id="skuTable">Loading catalog…</div>
+      <p>Source: public repo <code>commercial/skus/</code> · machine catalog via <code>python3 scripts/commercial_status.py</code></p>
+    </div>
+
+    <div class="card">
+      <h3>What you can do now</h3>
+      <ul class="clean">
+        <li><strong>Verify free core unpaid</strong> — <a href="status.html">status / public proof</a> · <a href="demo.html">ttlink demo</a></li>
+        <li><strong>Express interest</strong> — md@0265.au (interest only; not a sale)</li>
+        <li><strong>Read BOUNDARY</strong> — <a href="https://github.com/mattdale-creator/daisychainrrr/blob/main/commercial/BOUNDARY.md">BOUNDARY.md</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>What we refuse</h3>
+      <p>Paywalled verification · exclusive free-core bone · investor terms that force core closure · silent TTLLM fine-tunes without lineage.</p>
+      <p>Template: repo <code>commercial/REFUSE_RESPONSE.md</code></p>
+    </div>
+
+    <div class="card">
+      <h3>Pre-revenue operating pack</h3>
+      <p>How the business runs before the first invoice — without fake shopfronts.</p>
+      <p class="mono">commercial/PRE_REVENUE_OPERATING_PACK.md</p>
+      <p><a class="btn secondary" href="economics.html">Economics (honest) →</a>
+         <a class="btn secondary" href="hard-gates.html">Hard gates →</a>
+         <a class="btn" href="contact.html">Contact →</a></p>
+    </div>
+
+    <footer>
+      <p>Free public core never paywalled · <a href="https://github.com/mattdale-creator/daisychainrrr">GitHub</a> · md@0265.au</p>
+      <p class="mono">Down to the binary. Soft tissue is a defect.</p>
+    </footer>
+  </div>
+  <script>
+    (async function () {
+      const badge = document.getElementById("commBadge");
+      const table = document.getElementById("skuTable");
+      try {
+        const r = await fetch("demo/commercial_status.json", { cache: "no-store" });
+        const c = await r.json();
+        badge.innerHTML =
+          (c.all_ok ? '<span class="status-ok">commercial integrity ok</span>' : '<span class="status-bad">integrity fail</span>') +
+          " · pre_revenue <strong>" +
+          c.pre_revenue +
+          "</strong> · selling <strong>" +
+          c.selling +
+          "</strong> · free_core " +
+          (c.free_core_version || "?") +
+          " · " +
+          (c.utc || "");
+        const skus = (c.sku_catalog && c.sku_catalog.skus) || [];
+        if (!skus.length) {
+          table.textContent = "No SKUs in catalog.";
+          return;
+        }
+        table.innerHTML =
+          '<table><tr><th>SKU</th><th>Status</th><th>Problem</th></tr>' +
+          skus
+            .map(function (s) {
+              return (
+                "<tr><td class='mono'>" +
+                (s.id || "") +
+                "</td><td>" +
+                (s.status || "") +
+                "</td><td>" +
+                (s.problem || "") +
+                "</td></tr>"
+              );
+            })
+            .join("") +
+          "</table>";
+      } catch (e) {
+        badge.textContent = "commercial_status.json missing — run: python3 scripts/commercial_status.py";
+        table.textContent = "";
+      }
+    })();
+  </script>
+</body>
+</html>

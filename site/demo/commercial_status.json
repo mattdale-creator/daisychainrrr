@@ -1,0 +1,184 @@
+{
+  "schema": "ttllm.commercial_status.v1",
+  "utc": "2026-08-08T21:26:51Z",
+  "free_core_version": "0.6.4",
+  "pre_revenue": true,
+  "selling": false,
+  "ethos": {
+    "free_public_core_never_paywalled": true,
+    "monetise_outside_core": true,
+    "product_is_the_proof": true,
+    "no_fake_invoices": true
+  },
+  "contact": "md@0265.au",
+  "sku_catalog": {
+    "schema": "ttllm.sku_catalog.v1",
+    "ethos": {
+      "free_public_core_never_paywalled": true,
+      "paid_layers_outside_core": true,
+      "designed_not_sold_until_hard_gates": true,
+      "revenue_is_t11": true
+    },
+    "pre_revenue": true,
+    "contact": "md@0265.au",
+    "boundary": "commercial/BOUNDARY.md",
+    "isolation": "commercial/ISOLATION_RUNBOOK.md",
+    "refuse_handbook": "docs/handbook/commercial/02-refuse-close-core.md",
+    "sku_count": 6,
+    "skus": [
+      {
+        "id": "hosted-infra",
+        "path": "commercial/skus/hosted-infra.md",
+        "title": "hosted-infra",
+        "status": "designed / not sold",
+        "problem": "Institutions need reliability, compliance, or human help on top of inspectable models.",
+        "pays_for": "Operational delivery of **hosted-infra** (SLA, tooling, support, methodology) \u2014 not exclusive bone.",
+        "free_core_unaffected": true,
+        "designed_not_sold": true,
+        "live_claim": false,
+        "hard_gates_before_sale": [
+          "T6_entity",
+          "T7_bank_kyc",
+          "T11_first_revenue_counterparty"
+        ]
+      },
+      {
+        "id": "enterprise-ttlink",
+        "path": "commercial/skus/enterprise-ttlink.md",
+        "title": "enterprise-ttlink",
+        "status": "designed / not sold",
+        "problem": "Institutions need reliability, compliance, or human help on top of inspectable models.",
+        "pays_for": "Operational delivery of **enterprise-ttlink** (SLA, tooling, support, methodology) \u2014 not exclusive bone.",
+        "free_core_unaffected": true,
+        "designed_not_sold": true,
+        "live_claim": false,
+        "hard_gates_before_sale": [
+          "T6_entity",
+          "T7_bank_kyc",
+          "T11_first_revenue_counterparty"
+        ]
+      },
+      {
+        "id": "certified-finetunes",
+        "path": "commercial/skus/certified-finetunes.md",
+        "title": "certified-finetunes",
+        "status": "designed / not sold",
+        "problem": "Institutions need reliability, compliance, or human help on top of inspectable models.",
+        "pays_for": "Operational delivery of **certified-finetunes** (SLA, tooling, support, methodology) \u2014 not exclusive bone.",
+        "free_core_unaffected": true,
+        "designed_not_sold": true,
+        "live_claim": false,
+        "hard_gates_before_sale": [
+          "T6_entity",
+          "T7_bank_kyc",
+          "T11_first_revenue_counterparty"
+        ]
+      },
+      {
+        "id": "analysis-workbench",
+        "path": "commercial/skus/analysis-workbench.md",
+        "title": "analysis-workbench",
+        "status": "designed / not sold",
+        "problem": "Institutions need reliability, compliance, or human help on top of inspectable models.",
+        "pays_for": "Operational delivery of **analysis-workbench** (SLA, tooling, support, methodology) \u2014 not exclusive bone.",
+        "free_core_unaffected": true,
+        "designed_not_sold": true,
+        "live_claim": false,
+        "hard_gates_before_sale": [
+          "T6_entity",
+          "T7_bank_kyc",
+          "T11_first_revenue_counterparty"
+        ]
+      },
+      {
+        "id": "priority-support",
+        "path": "commercial/skus/priority-support.md",
+        "title": "priority-support",
+        "status": "designed / not sold",
+        "problem": "Institutions need reliability, compliance, or human help on top of inspectable models.",
+        "pays_for": "Operational delivery of **priority-support** (SLA, tooling, support, methodology) \u2014 not exclusive bone.",
+        "free_core_unaffected": true,
+        "designed_not_sold": true,
+        "live_claim": false,
+        "hard_gates_before_sale": [
+          "T6_entity",
+          "T7_bank_kyc",
+          "T11_first_revenue_counterparty"
+        ]
+      },
+      {
+        "id": "taas-methodology",
+        "path": "commercial/skus/taas-methodology.md",
+        "title": "taas-methodology",
+        "status": "designed / not sold",
+        "problem": "Institutions need reliability, compliance, or human help on top of inspectable models.",
+        "pays_for": "Operational delivery of **taas-methodology** (SLA, tooling, support, methodology) \u2014 not exclusive bone.",
+        "free_core_unaffected": true,
+        "designed_not_sold": true,
+        "live_claim": false,
+        "hard_gates_before_sale": [
+          "T6_entity",
+          "T7_bank_kyc",
+          "T11_first_revenue_counterparty"
+        ]
+      }
+    ],
+    "missing_files": [],
+    "false_live_claims": [],
+    "integrity": {
+      "ok": true,
+      "all_designed_not_sold": true,
+      "all_state_free_core_unaffected": true,
+      "boundary_present": true
+    },
+    "hard_gates_before_first_sale": [
+      "T6 \u2014 legal entity",
+      "T7 \u2014 bank / payment KYC",
+      "T11 \u2014 real customer signature + payment"
+    ],
+    "allowed_pre_revenue_work": [
+      "Publish BOUNDARY and SKU designs",
+      "Refuse close-core asks with public template",
+      "Dry-run go-live checklists",
+      "Collect interest at md@0265.au without selling exclusive bone",
+      "Keep free-core verify unpaid"
+    ]
+  },
+  "boundary_scan": {
+    "ok": true,
+    "findings": [],
+    "stats": {
+      "bytes": 2557
+    }
+  },
+  "sku_status_scan": {
+    "ok": true,
+    "findings": [],
+    "stats": {
+      "sku_files": 7,
+      "live_claims": 0
+    }
+  },
+  "site_scan": {
+    "ok": true,
+    "findings": [],
+    "stats": {
+      "pages": 22
+    }
+  },
+  "repo_close_core_scan": {
+    "ok": true,
+    "finding_count": 0,
+    "high_critical": 0
+  },
+  "artefacts": {
+    "boundary": "commercial/BOUNDARY.md",
+    "isolation": "commercial/ISOLATION_RUNBOOK.md",
+    "refuse_response": "commercial/REFUSE_RESPONSE.md",
+    "pre_revenue_pack": "commercial/PRE_REVENUE_OPERATING_PACK.md",
+    "go_live_handbook": "docs/handbook/commercial/03-sku-go-live.md",
+    "site": "site/commercial.html"
+  },
+  "all_ok": true,
+  "tombstone": "SKUs are designed / not sold. First sale requires T6+T7+T11 and docs/handbook/commercial/03-sku-go-live.md checklist."
+}

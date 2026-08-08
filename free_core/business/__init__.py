@@ -6,6 +6,7 @@ from .boundary_guard import (
     scan_sku_statuses,
     scan_site_business_claims,
 )
+from .sku_catalog import catalog_ok, load_sku_catalog
 
 __all__ = [
     "BoundaryScanResult",
@@ -13,4 +14,6 @@ __all__ = [
     "scan_repo_for_close_core_claims",
     "scan_sku_statuses",
     "scan_site_business_claims",
+    "load_sku_catalog",
+    "catalog_ok",
 ]
