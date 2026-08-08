@@ -10,6 +10,9 @@ Everything that does not require new capital, legal entity powers, or missing Cl
 
 See `ops/BUILDABLE_COMPLETE_CHECKLIST.md` and `docs/audits/ONE_SHOT_COMPLETION.md`.
 
+## Human handbook (2026-08-08)
+Load-path ops under `docs/handbook/` — domains 1–10, release/seal/train, incident/red-team, commercial isolation+refuse+SKU, human gates. Index: `docs/handbook/00-HANDBOOK-INDEX.md`. Remaining fine-grain worklist: `docs/handbook/FINE_GRAIN_GAPS.md` (proof automation, domain rituals, schemas — not capital theater).
+
 ## Human / capital gates only
 `ops/HUMAN_GATES.md` — DNS Edit, R2, Workers routes, entity, 32B capital, standing red team, HSM, revenue.
 

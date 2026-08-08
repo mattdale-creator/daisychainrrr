@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.decision_feed.v1",
-  "updated": "2026-08-08T08:50:16.226990+00:00",
+  "updated": "2026-08-08T10:45:00+00:00",
   "entries": [
     {
       "id": "D-0007",
@@ -37,6 +37,18 @@
       "date": "2026-08-08",
       "title": "Local ttlink HTTP API",
       "outcome": "free_core/ttlink/server.py"
+    },
+    {
+      "id": "D-0021",
+      "date": "2026-08-08",
+      "title": "Fill eventuality leaves with real procedures",
+      "outcome": "docs/architecture-tree/eventualities/"
+    },
+    {
+      "id": "D-0022",
+      "date": "2026-08-08",
+      "title": "Human load-path handbook over 10k leaf novels",
+      "outcome": "docs/handbook/"
     }
   ]
 }

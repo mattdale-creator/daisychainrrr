@@ -21,3 +21,4 @@
 | D-0017 | 2026-08-08 | Continuous bone loop: reseal all nanos + master domain scorecard | Stop | Product is the proof | free_core/release/pipeline.py | agent |
 | D-0018 | 2026-08-08 | Cross-product + actor eventuality matrices | Thin tree | Founding demand for deep paths | docs/architecture-tree/eventualities | agent |
 | D-0021 | 2026-08-08 | Fill eventuality leaves with real procedures | Leave path stubs | User: real filling of leaves; remove structure-without-content | docs/architecture-tree/eventualities/ | agent |
+| D-0022 | 2026-08-08 | Human load-path handbook over 10k leaf novels | Unique essay per eventuality | Ethos: implementable procedures + shared skeleton; bespoke where required | docs/handbook/ (domains, release, incident, commercial, gates) | founder+agent |

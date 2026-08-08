@@ -31,11 +31,19 @@ This repository is the organisational skeleton for the TTLLM project: free publi
 
 ---
 
+## Human handbook (load-path ops)
+
+Implementable runbooks for humans — domains 1–10, release/seal/train, incidents, commercial BOUNDARY, human gates:
+
+- **[docs/handbook/00-HANDBOOK-INDEX.md](docs/handbook/00-HANDBOOK-INDEX.md)** — start here for operations
+- Quality bar: exact commands · registers · BOUNDARY · scorecards/tombstones · RACI
+- Fine-grain remaining gaps: [docs/handbook/FINE_GRAIN_GAPS.md](docs/handbook/FINE_GRAIN_GAPS.md)
+
 ## Architecture tree (architect-complete)
 
 Full executable HOWTO for every founding branch (ethos, product, technology, security, business, ten transparency domains, org, ops, epochs 00–05):
 
-- **[docs/architecture-tree/00-MASTER-TREE.md](docs/architecture-tree/00-MASTER-TREE.md)** — start here
+- **[docs/architecture-tree/00-MASTER-TREE.md](docs/architecture-tree/00-MASTER-TREE.md)** — start here for architecture catalog
 - [STATUS.md](docs/architecture-tree/STATUS.md) — rollup
 - [ARCHITECT-COMPLETE.md](docs/architecture-tree/10-checklists/ARCHITECT-COMPLETE.md) — checklist
 - [HUMAN-CAPITAL-GATES.md](docs/architecture-tree/10-checklists/HUMAN-CAPITAL-GATES.md) — what only humans/money open
