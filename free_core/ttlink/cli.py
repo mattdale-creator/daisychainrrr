@@ -23,6 +23,10 @@ def main(argv=None):
     st = sub.add_parser("stats", help="Index statistics")
     st.add_argument("--index", default="examples/ttlink_index.json")
 
+    c = sub.add_parser("canary-check", help="Check canary document presence")
+    c.add_argument("--index", default="examples/ttlink_index.json")
+    c.add_argument("--secret", default="bone-not-soft-tissue")
+
     args = p.parse_args(argv)
     if args.cmd == "index":
         idx = TtlinkIndex()
@@ -40,6 +44,10 @@ def main(argv=None):
     elif args.cmd == "stats":
         idx = TtlinkIndex.load(Path(args.index))
         print(json.dumps(idx.stats(), indent=2))
+    elif args.cmd == "canary-check":
+        from free_core.security.canary import check_canary
+        idx = TtlinkIndex.load(Path(args.index))
+        print(json.dumps(check_canary(idx, args.secret), indent=2))
 
 
 if __name__ == "__main__":
