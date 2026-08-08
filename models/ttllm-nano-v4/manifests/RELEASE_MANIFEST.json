@@ -1,8 +1,18 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "8d3581d6a916502299d02cb0920f86d74d4c78654e7c870965d9bd024f93e3f6",
-  "count": 22,
+  "merkle_root": "406c2dfb1f6ebb627e461634118a11913793f69a32803bc623b920c9e9b7676a",
+  "count": 28,
   "leaves": [
+    {
+      "path": "cards/MODEL_CARD.md",
+      "sha256": "f04167869398d8d9c8961abe1c3dc51082cf92499d885896efaf60fa62124c0a",
+      "bytes": 73
+    },
+    {
+      "path": "cards/TRANSPARENCY_SCORECARD.md",
+      "sha256": "30938335a173d97958a1ea2c33c49852b80944309deace32267ae099bf269f12",
+      "bytes": 555
+    },
     {
       "path": "code/generate.py",
       "sha256": "ee05337fcfc19b9878130d4b56feeb5c0c8fe3f7ae364b02bcc3af00459193cb",
@@ -99,6 +109,16 @@
       "bytes": 101466
     },
     {
+      "path": "manifests/CHECKPOINTS_MANIFEST.json",
+      "sha256": "11589ff5ab0ae7c694f1619770416fc83c1b2c88c2a5e21cf90a1b6edeed201d",
+      "bytes": 1313
+    },
+    {
+      "path": "manifests/RELEASE_MANIFEST.json",
+      "sha256": "81b4fc4a69affeeb19c301a2bb7f37f2d631175521622b3b0dd0ca0992ada3b8",
+      "bytes": 4869
+    },
+    {
       "path": "metrics/hyperparams.json",
       "sha256": "b9bb6b08a5686c00394dbb971fb4fa63526088a4af2317f5a5ec56dbd9c62c5a",
       "bytes": 445
@@ -112,10 +132,20 @@
       "path": "metrics/train_console.log",
       "sha256": "3b3fcbddd44c679be7af18bbcf95e98cd34fe51ac846cd18cbbe8bf498a05dd4",
       "bytes": 1115
+    },
+    {
+      "path": "stream/public_log.json",
+      "sha256": "2bee55911fd4891dd7fe1c155f1351f8af10bb625b35f8b6434603439fc0b1e5",
+      "bytes": 1053
+    },
+    {
+      "path": "ttlink/index.json",
+      "sha256": "b098922eaf5b8fac0972b2d7828d5d0f8f6c800589dfc4001128df98e07e3003",
+      "bytes": 619616
     }
   ],
   "extra": {
     "release": "ttllm-nano-v4",
-    "version": "0.4.0"
+    "version": "0.4.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "5e3a8cf6793b49fd1b51d6203767806950fbfeea5bc08a0a475a2e8438abc3bf",
+  "merkle_root": "1f633eb54791e6b7b44a7ea72d4d2a49de4ea1e0d30746d44db4201df28419c2",
   "count": 40,
   "leaves": [
     {
@@ -10,8 +10,8 @@
     },
     {
       "path": "cards/TRANSPARENCY_SCORECARD.md",
-      "sha256": "4bf96687667daf31156d4fa6890c2f574be02230d1af2b34230c964553c226be",
-      "bytes": 694
+      "sha256": "880a33d81fb486e075b38bf48e41c52a0493d6bc4ee1805fdae48d003b0557f3",
+      "bytes": 662
     },
     {
       "path": "code/generate.py",
@@ -135,8 +135,8 @@
     },
     {
       "path": "manifests/RELEASE_MANIFEST.json",
-      "sha256": "60cc234e3040ea343f9fe44612d0eb30d8c6ee62bfc3eb33d8b683543b5b1c77",
-      "bytes": 6768
+      "sha256": "2cdd1016f2bfd5a18ba85831dcae2b07d65cc4829cee4d6d0eddb4d245d00dc7",
+      "bytes": 6769
     },
     {
       "path": "metrics/cost_ledger.md",
@@ -155,8 +155,8 @@
     },
     {
       "path": "stream/public_log.json",
-      "sha256": "83d4fc457302146ca0ca347bbfb99d25d0870ef2f31634a467baed02a1e6f22e",
-      "bytes": 2126
+      "sha256": "6483f6808e7f2adf01f2aa7c6f30b92436051116218aee4e2a510956d2b08abc",
+      "bytes": 1067
     },
     {
       "path": "ttlink/binding.json",
@@ -170,8 +170,8 @@
     },
     {
       "path": "ttlink/index.json",
-      "sha256": "ce916f95a07fa6d109d0c74fdad793c1a95af8de89d78eafde6fa2e110d8adb0",
-      "bytes": 619226
+      "sha256": "fa47a7680bf3d42a25d45965f691f1c644f335767b62ae66551664bd610e7fbf",
+      "bytes": 619598
     },
     {
       "path": "ttlink/index_with_canary.json",

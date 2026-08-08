@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "0a7f3d77e5979a87244c8fb08d4e05b311c5e55f8c01ab54a22db33020987402",
+  "merkle_root": "ca4acc3a2b7b193e202655ce5507999aa1f71f67ba8e4a216bd8e1b10a2e7ed3",
   "count": 29,
   "leaves": [
     {
@@ -10,8 +10,8 @@
     },
     {
       "path": "cards/TRANSPARENCY_SCORECARD.md",
-      "sha256": "3df4363c7adea11dacd771ccf1f9c29c990b7afaa239564e02a543e3d5e235bd",
-      "bytes": 717
+      "sha256": "4b8d7d56a4e2cf08a2e5bafe0e8a43afba62f0559fa6cecf87cef4e7d3f07d24",
+      "bytes": 555
     },
     {
       "path": "code/generate.py",
@@ -110,13 +110,13 @@
     },
     {
       "path": "manifests/CHECKPOINTS_MANIFEST.json",
-      "sha256": "155665485422e705b526101a41f6ca009d463e26dc677603d1036b7ab3636171",
-      "bytes": 1679
+      "sha256": "13c8a15df4c1242698d33ea22039ba218f282633ba0ab47b732649d194ff34d7",
+      "bytes": 1685
     },
     {
       "path": "manifests/RELEASE_MANIFEST.json",
-      "sha256": "07610507ba2a0c578e3ae9bbdbd86454a821e8f97c1c3d5e067c1d8e278107ec",
-      "bytes": 3924
+      "sha256": "209fb1e98334da0b26579d383e432da9f2619fdef5531a3b0b79f63a3a8ab504",
+      "bytes": 5028
     },
     {
       "path": "metrics/hyperparams.json",
@@ -135,8 +135,8 @@
     },
     {
       "path": "stream/public_log.json",
-      "sha256": "b9a2eccbc7f3dff305a68e354359c2d874a7579a9c6eee5dd4d6a482350ee0b2",
-      "bytes": 2121
+      "sha256": "8069e22b6b576055d24d7be15fcaa71edd1fa85bf08dfcc94d73571d479aecef",
+      "bytes": 2126
     },
     {
       "path": "ttlink/canary_check.json",
@@ -145,12 +145,12 @@
     },
     {
       "path": "ttlink/index.json",
-      "sha256": "d6d7333d825877b01761f4c583cbef88f6241b9ac8420a68ff2cfa446d7c7177",
-      "bytes": 619244
+      "sha256": "6bafbc2e1e0e5cbc57a3eaccaac6c9ad2c4de8cf1737e10f72a3fdfb9465ce06",
+      "bytes": 619616
     }
   ],
   "extra": {
     "release": "ttllm-nano-v3",
-    "version": "0.3.1"
+    "version": "0.3.2"
   }
 }

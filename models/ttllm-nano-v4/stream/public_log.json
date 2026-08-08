@@ -1,32 +1,32 @@
 {
   "schema": "ttllm.stream_log.v1",
   "count": 2,
-  "tip": "57fa7657f771a1d9b700ada32e241fee120670a064662534cab66877520c5813",
+  "tip": "a6c3d229edff74bc7ab86dde9adf42fa6d38f123392c17180eef4c62cbcfe3b2",
   "events": [
     {
       "schema": "ttllm.stream_event.v1",
-      "event_type": "training_finished",
-      "timestamp_utc": "2026-08-08T09:54:10Z",
+      "event_type": "oneshot_reseal",
+      "timestamp_utc": "2026-08-08T09:58:10Z",
       "artefact_sha256": null,
       "payload": {
-        "steps": 400,
-        "version": "0.4.0"
+        "version": "0.4.1",
+        "utc": "2026-08-08T09:58:07Z"
       },
       "prev_hash": null,
       "seq": 0,
-      "event_hash": "d54338623b992b1e3041f96e7ae09b0e4d5a7ebe0948de34b944a8bb9c91e18e"
+      "event_hash": "278686bce12737d162ec663ea9cbab78572c1c2a07a5ae4a4f67f0be1d148a7a"
     },
     {
       "schema": "ttllm.stream_event.v1",
       "event_type": "release",
-      "timestamp_utc": "2026-08-08T09:54:10Z",
-      "artefact_sha256": "8d3581d6a916502299d02cb0920f86d74d4c78654e7c870965d9bd024f93e3f6",
+      "timestamp_utc": "2026-08-08T09:58:10Z",
+      "artefact_sha256": "406c2dfb1f6ebb627e461634118a11913793f69a32803bc623b920c9e9b7676a",
       "payload": {
-        "merkle": "8d3581d6a916502299d02cb0920f86d74d4c78654e7c870965d9bd024f93e3f6"
+        "merkle": "406c2dfb1f6ebb627e461634118a11913793f69a32803bc623b920c9e9b7676a"
       },
-      "prev_hash": "d54338623b992b1e3041f96e7ae09b0e4d5a7ebe0948de34b944a8bb9c91e18e",
+      "prev_hash": "278686bce12737d162ec663ea9cbab78572c1c2a07a5ae4a4f67f0be1d148a7a",
       "seq": 1,
-      "event_hash": "57fa7657f771a1d9b700ada32e241fee120670a064662534cab66877520c5813"
+      "event_hash": "a6c3d229edff74bc7ab86dde9adf42fa6d38f123392c17180eef4c62cbcfe3b2"
     }
   ]
 }

@@ -1,5 +1,5 @@
 # Master domain scorecard — project
-Generated: 2026-08-08T09:50:55Z
+Generated: 2026-08-08T09:58:24Z
 
 | # | Domain | Status | Notes |
 |---|--------|--------|-------|

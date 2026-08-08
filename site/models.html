@@ -12,24 +12,23 @@
       <a class="brand" href="index.html">ttllms.com</a>
       <nav>
         <a href="index.html">Home</a>
-        <a href="nano.html">Nano</a>
         <a href="models.html" aria-current="page">Models</a>
+        <a href="status.html">Status</a>
         <a href="demo.html">Demo</a>
         <a href="transparency.html">Transparency</a>
-        <a href="architecture.html">Architecture</a>
       </nav>
     </header>
-    <h1>Public models (nano scale)</h1>
-    <p class="tagline">Shape of total transparency. Not frontier scale. Tombstones required.</p>
+    <h1>Public models (nano)</h1>
+    <p class="tagline">Shape of total transparency on verifiable public-domain data. Not frontier scale.</p>
     <table>
-      <tr><th>Release</th><th>Data</th><th>Notes</th></tr>
-      <tr><td><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/models/ttllm-nano">ttllm-nano</a></td><td>PG PD slices</td><td>char LM, dense ckpts</td></tr>
-      <tr><td><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/models/ttllm-nano-v2">ttllm-nano-v2</a></td><td>same + BPE</td><td>~3.1M params, ppl metrics</td></tr>
-      <tr><td><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/models/ttllm-nano-v3">ttllm-nano-v3</a></td><td>6 PG sources</td><td>expanded data, canary ttlink</td></tr>
-    <tr><td><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/models/ttllm-nano-v4">ttllm-nano-v4</a></td><td>6 PG sources</td><td>400-step iteration</td></tr>
+      <tr><th>Release</th><th>Tokenizer</th><th>Data</th></tr>
+      <tr><td><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/models/ttllm-nano">ttllm-nano</a></td><td>char</td><td>PG PD</td></tr>
+      <tr><td><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/models/ttllm-nano-v2">ttllm-nano-v2</a></td><td>BPE</td><td>PG PD</td></tr>
+      <tr><td><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/models/ttllm-nano-v3">ttllm-nano-v3</a></td><td>char</td><td>6× PG PD</td></tr>
+      <tr><td><a href="https://github.com/mattdale-creator/daisychainrrr/tree/main/models/ttllm-nano-v4">ttllm-nano-v4</a></td><td>char</td><td>6× PG PD</td></tr>
     </table>
-    <p>All under free public core. See scorecards in each release <code>cards/</code>.</p>
-    <footer><p>md@0265.au · down to the bone</p></footer>
+    <p>Each ships code, data card+hashes, dense checkpoints, metrics, ttlink, stream, Merkle seals, scorecard.</p>
+    <footer><p>md@0265.au · free public core</p></footer>
   </div>
 </body>
 </html>

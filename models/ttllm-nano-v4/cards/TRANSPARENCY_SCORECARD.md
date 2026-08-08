@@ -1,20 +1,23 @@
-# Transparency scorecard — ttllm-nano-v4 0.4.0
+# Transparency scorecard — ttllm-nano-v4 0.4.1
 
-Generated: 2026-08-08T09:54:10Z
+Generated: 2026-08-08T09:58:10Z
 
 | Domain | Status | Notes |
 |--------|--------|-------|
-| Data | MET | 6 PG sources |
+| Data | MET | PG public domain |
 | Code | MET | public |
 | Checkpoints | MET | dense |
-| Canary | MET |  |
+| ttlink+canary | MET | {'ok': True, 'hits': 1, 'expected_sha256': '2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25'} |
+| Stream | MET |  |
+| Crypto | MET | 406c2dfb1f6ebb62 |
 | Frontier | TOMBSTONE | not claimed |
 
 ## Tombstones
 
 - Not 32B
-- Iteration train on expanded corpus
+- Not multi-trillion index
+- Mac nano
 
-merkle_root: `8d3581d6a916502299d02cb0920f86d74d4c78654e7c870965d9bd024f93e3f6`
+merkle_root: `406c2dfb1f6ebb627e461634118a11913793f69a32803bc623b920c9e9b7676a`
 
 *Ethos: down to the bone. Empty honesty beats soft tissue.*

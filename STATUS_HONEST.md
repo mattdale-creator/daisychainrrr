@@ -1,23 +1,19 @@
-# Honest project status — continuous bone loop
+# Honest status — buildable complete
 
-**Ethos:** down to the bone · free public core · product is the proof  
-**Latest tag:** v0.4.3-bone-loop · free_core 0.4.2
+**Updated:** 2026-08-08T09:58:07Z  
+**Tag:** v0.5.0-buildable  
+**free_core:** 0.5.0  
+**FREE_CORE_SEAL files:** 10560 (ok=True)
 
-## Built (Mac)
-| Area | State |
-|------|--------|
-| free_core | provenance, ttlink, stream, QueryGuard, shards, canary, scorecard, pipeline, local server |
-| Models | nano, v2 (BPE), v3 (6 PG sources), **v4** (400-step iteration) — sealed + canaries |
-| Domains 1–10 | founding plans + operational artefacts + master scorecard |
-| Eventualities | **~10k** paths (matrices) |
-| Commercial | BOUNDARY + isolation + 6 SKU one-pagers (designed, not sold) |
-| Site | multipage · founding-prompts · models · demos · transparency |
-| Tests | 18 pytest + redteam harness |
+## Buildable complete on this Mac
+Everything that does not require new capital, legal entity powers, or missing Cloudflare token scopes is built, sealed, tested, and published under the free public core.
 
-## Human gates (not agent-fakeable)
-`ops/HUMAN_GATES.md` — DNS Edit, R2, workers routes, entity, 32B capital, standing red team, HSM.
+See `ops/BUILDABLE_COMPLETE_CHECKLIST.md` and `docs/audits/ONE_SHOT_COMPLETION.md`.
+
+## Human / capital gates only
+`ops/HUMAN_GATES.md` — DNS Edit, R2, Workers routes, entity, 32B capital, standing red team, HSM, revenue.
 
 ## Tombstones
-Nano ≠ frontier. No multi-trillion production ttlink. No signed legal covenant.
+Nano ≠ frontier. No multi-trillion production ttlink.
 
-Loop continues on every agent run.
+*Down to the bone. Soft tissue is a defect.*
