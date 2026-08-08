@@ -1,16 +1,16 @@
 {
   "schema": "ttllm.project_status.v1",
-  "utc": "2026-08-08T15:23:03Z",
-  "free_core_version": "0.6.2",
+  "utc": "2026-08-08T18:31:15Z",
+  "free_core_version": "0.6.3",
   "repo": "daisychainrrr (public)",
   "seal": {
     "present": true,
-    "merkle_root": "3cbe287108e7672b27b30726bed9be634919543b33f088139e734f90b13d953e",
-    "count": 10552,
+    "merkle_root": "ba71e433add3ea9b271c773f80c3f04b659bfad44a307065bbc541a26b1b3f34",
+    "count": 10553,
     "verify_ok": true,
     "fresh": true,
-    "fresh_merkle_root": "3cbe287108e7672b27b30726bed9be634919543b33f088139e734f90b13d953e",
-    "fresh_count": 10552
+    "fresh_merkle_root": "ba71e433add3ea9b271c773f80c3f04b659bfad44a307065bbc541a26b1b3f34",
+    "fresh_count": 10553
   },
   "nanos": [
     {
@@ -86,7 +86,8 @@
     "redteam_business": "python3 scripts/redteam_business_attack.py",
     "testing_loop": "python3 scripts/run_testing_loop.py",
     "inclusion_proof_demo": "python3 scripts/demo_inclusion_proof.py",
-    "nano_stream_tips": "python3 scripts/publish_nano_stream_tips.py"
+    "nano_stream_tips": "python3 scripts/publish_nano_stream_tips.py",
+    "public_proof": "python3 scripts/public_proof.py"
   },
   "testing_loop": {
     "procedure": "docs/security/TESTING_LOOP.md",

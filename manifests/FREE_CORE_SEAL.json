@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "3cbe287108e7672b27b30726bed9be634919543b33f088139e734f90b13d953e",
-  "count": 10552,
+  "merkle_root": "ba71e433add3ea9b271c773f80c3f04b659bfad44a307065bbc541a26b1b3f34",
+  "count": 10553,
   "leaves": [
     {
       "path": "LICENSE",
@@ -50715,8 +50715,8 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "0117129ed2eec31ed8b5ea82c8d7cd1b2ce3ddf92ee07f5990374e172020ac4f",
-      "bytes": 2393
+      "sha256": "d57ed0db5bf60204e421278039400df05e9fade622c87abfb2c694a4a5a7426d",
+      "bytes": 2568
     },
     {
       "path": "docs/audits/WRITABLE_COMPLETION.md",
@@ -51915,7 +51915,7 @@
     },
     {
       "path": "free_core/__init__.py",
-      "sha256": "f08eb0f9c245e5e18db68a6a162fcd5856dd8d0928021937900a494ba561c45c",
+      "sha256": "f1fcc5268632d0687ce18c8943a4f4f238d1e8e5e83e5b716a7cc204fa1d4552",
       "bytes": 52
     },
     {
@@ -51970,8 +51970,8 @@
     },
     {
       "path": "free_core/provenance/seal_targets.py",
-      "sha256": "b2985fd25f405a298ac3361b7631167a1151881b1a3fcec10350b4d4b0b5cbc5",
-      "bytes": 2645
+      "sha256": "5a46437794a73f07d457d0301f16708965af52c13eb3c7cd5f9224c657d7f6f7",
+      "bytes": 2740
     },
     {
       "path": "free_core/provenance/sign.py",
@@ -52045,8 +52045,8 @@
     },
     {
       "path": "free_core/status.py",
-      "sha256": "bb57d7502f5b140d2f205e3513362a396bd2cb2da279ce8228393492a1b785a9",
-      "bytes": 5914
+      "sha256": "8b41078b0e53f01518ca9339b707aaa1fe07673182b6cff1e40c55595759489e",
+      "bytes": 5977
     },
     {
       "path": "free_core/stream/__init__.py",
@@ -52170,7 +52170,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "f5f456ed95b42d40576e45968a12245c45036cd3457c10161d4d33b7dac35ba5",
+      "sha256": "f81cd455a9087d8294188a104b587629b05ac1e1aaef1f5795b46471a9900271",
       "bytes": 793
     },
     {
@@ -52180,8 +52180,8 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "08c61893be90c198244012dde708574b210000cc166935bfdd610e979e7f669e",
-      "bytes": 7629
+      "sha256": "908fa9c2f6ccfea596d3a5d5b6637bef99cc08c8171b52f86e411a77a9e689e8",
+      "bytes": 7954
     },
     {
       "path": "registers/decisions/feed.json",
@@ -52344,9 +52344,14 @@
       "bytes": 3017
     },
     {
+      "path": "scripts/public_proof.py",
+      "sha256": "66d4142ed74f9bac7d9073aac789e58572761dd8cc86a2be36bee38b8302e5da",
+      "bytes": 6280
+    },
+    {
       "path": "scripts/public_verify_harness.py",
-      "sha256": "7d4e4969b4d311bbe6ff61dd878d89f00a009dde30e1a8f95f035a3a78108dc4",
-      "bytes": 4505
+      "sha256": "d223b929a6e2c94346751f90b99f3f9439473289e935c481d42555e8b7cb3429",
+      "bytes": 4903
     },
     {
       "path": "scripts/publish_nano_stream_tips.py",
@@ -52425,8 +52430,8 @@
     },
     {
       "path": "site/demo.html",
-      "sha256": "ff1a77ab627410b9cdc7757811dfcf3d2ea9734f52193d0ee5aaa5b8ff875af6",
-      "bytes": 4606
+      "sha256": "297b6fc3d757547ae71be54426a9f24bc5a7c112c1007400e883a7ff0d533728",
+      "bytes": 5309
     },
     {
       "path": "site/demo/MASTER_DOMAIN_SCORECARD.md",
@@ -52440,8 +52445,8 @@
     },
     {
       "path": "site/demo/matrix_stream.js",
-      "sha256": "f526e4765280a7b1e8a4f02efc3d24c8e3a80c017aa3b882d1041b7b5f1342cb",
-      "bytes": 2888
+      "sha256": "8585da938eee4fcb72a4824fbc492eb01cec153d28db5e9c316561ab084ac33c",
+      "bytes": 4179
     },
     {
       "path": "site/demo/nano-v2/MODEL_CARD.md",
@@ -52535,8 +52540,8 @@
     },
     {
       "path": "site/demo/ttlink_demo.js",
-      "sha256": "af88c2c524d6a0d95d91fe827633b22a1477c460040598fa337dec764cd15bba",
-      "bytes": 2581
+      "sha256": "823da25871ad1217b3663f018a447a7ce2bc17ec6f5534bc208680570e60e1ff",
+      "bytes": 2833
     },
     {
       "path": "site/demo/ttlink_index.json",
@@ -52735,8 +52740,8 @@
     },
     {
       "path": "site/status.html",
-      "sha256": "7506b47724d352659406fb74225db02aa9fca648969425651052726abc7add8f",
-      "bytes": 2824
+      "sha256": "a11ae191c254ee3c452a28e1b9590328d1c48fcb6962c5830addcf9cd7c4d401",
+      "bytes": 5255
     },
     {
       "path": "site/stream.html",
@@ -52767,6 +52772,6 @@
   "extra": {
     "seal": "free_public_core",
     "repo": "daisychainrrr",
-    "version": "0.6.1"
+    "version": "0.6.3"
   }
 }

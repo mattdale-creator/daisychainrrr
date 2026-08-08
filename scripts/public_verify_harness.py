@@ -69,38 +69,48 @@ def main() -> int:
     else:
         fails.append("missing_ttlink_index")
 
-    # 4. nano release if present
-    nano = REPO / "models/ttllm-nano"
-    if nano.exists():
+    # 4. every nano release present (shape of TTLLM — not frontier scale)
+    models = REPO / "models"
+    nanos = sorted(models.glob("ttllm-nano*")) if models.is_dir() else []
+    if not nanos:
+        print("nano releases SKIP (none present)")
+    for nano in nanos:
+        if not nano.is_dir():
+            continue
+        name = nano.name
         rm = nano / "manifests/RELEASE_MANIFEST.json"
         if rm.exists():
             r = verify_manifest(load_manifest(rm), nano)
-            print("nano RELEASE_MANIFEST", r["ok"])
+            print(f"{name} RELEASE_MANIFEST", r["ok"])
             if not r["ok"]:
-                fails.append("nano_manifest")
+                fails.append(f"{name}_manifest")
+        else:
+            fails.append(f"{name}_missing_manifest")
         sp = nano / "stream/public_log.json"
         if sp.exists():
             log = StreamLog.load(sp)
             ch = log.verify_chain()
-            print("nano stream", ch)
+            print(f"{name} stream", ch)
             if not ch.get("ok"):
-                fails.append("nano_stream")
-            types = {e.get("event_type") for e in log.events}
-            missing = [t for t in required_for_class("nano") if t not in types]
-            print("nano required events missing", missing)
-            if missing:
-                fails.append(f"nano_stream_events:{','.join(missing)}")
+                fails.append(f"{name}_stream")
+            if name == "ttllm-nano":
+                types = {e.get("event_type") for e in log.events}
+                missing = [t for t in required_for_class("nano") if t not in types]
+                print("nano required events missing", missing)
+                if missing:
+                    fails.append(f"nano_stream_events:{','.join(missing)}")
+        else:
+            fails.append(f"{name}_missing_stream")
         ip = nano / "ttlink/index.json"
         if ip.exists():
             c = check_canary(TtlinkIndex.load(ip), "ttllm-public-canary-v1")
-            # older nanos may use bone-not-soft-tissue default
             if not c.get("ok"):
                 c2 = check_canary(TtlinkIndex.load(ip), "bone-not-soft-tissue")
-                print("nano canary", c, "fallback", c2)
+                print(f"{name} canary", c, "fallback", c2)
                 if not c2.get("ok"):
                     print("  canary miss non-fatal for mixed secrets")
             else:
-                print("nano canary", c)
+                print(f"{name} canary", c)
 
     # 5. BOUNDARY readable unpaid
     b = REPO / "commercial/BOUNDARY.md"

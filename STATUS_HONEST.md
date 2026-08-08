@@ -1,8 +1,19 @@
 # Honest status — free-core buildable complete
 
-**Updated:** 2026-08-08T15:20:00Z  
-**free_core:** 0.6.2  
-**Latest ship:** post-crash resume · multi-nano stream tips · site 0.6.1→0.6.2  
+**Updated:** 2026-08-09T00:30:00Z  
+**free_core:** 0.6.3  
+**Latest ship:** public unpaid proof surface · direction sense-check · multi-nano verify  
+
+## Direction sense-check (founding load path)
+
+| Question | Answer |
+|----------|--------|
+| Still building what the founding conversation asked? | **Yes** — free public core, ttlink, crypto provenance, real stream, org domains 1–10, red-team of the transparency layer, monetise **outside** BOUNDARY |
+| Soft-tissue drift risk? | **Watched** — do not declare company-complete; do not close T1–T11 without evidence; do not cosplay OLMo-scale |
+| What matters most now? | Proof outsiders can re-run unpaid (`public_proof.py`); live site truth; publish git; human closes T1 (.org DNS) when ready |
+| What we deliberately skip | Paywalled verify · fake entity/revenue · frontier claims · Matrix aesthetic without data |
+
+Founding SoT: `founding/conversation/USER_PROMPTS.md`, `TRANSCRIPT_ONLY.md`, `founding/PROVENANCE.md`.
 
 ## What “complete” means here
 **Free public core software + org process bone** that this environment can ship without capital, entity filing, or blocked platform scopes is built, sealed, tested, and published.
@@ -11,6 +22,7 @@
 
 ## Verify
 ```bash
+python3 scripts/public_proof.py
 python3 scripts/oneshot_verify_all.py
 python3 scripts/ttllm_status.py --quiet-ok
 python3 scripts/public_verify_harness.py
@@ -23,10 +35,11 @@ python3 scripts/publish_nano_stream_tips.py
 | Surface | URL |
 |---------|-----|
 | Site | https://ttllms.com |
-| Status | https://ttllms.com/status |
+| Status + proof | https://ttllms.com/status |
 | Hard gates | https://ttllms.com/hard-gates |
 | Placeholders (full text) | https://ttllms.com/placeholders |
-| Demo | https://ttllms.com/demo |
+| Demo (real ttlink) | https://ttllms.com/demo |
+| Stream (nano tips) | https://ttllms.com/stream |
 | Repo | https://github.com/mattdale-creator/daisychainrrr |
 
 ## Tombstones

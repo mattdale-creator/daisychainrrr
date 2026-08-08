@@ -1,0 +1,96 @@
+{
+  "schema": "ttllm.public_proof.v1",
+  "utc": "2026-08-08T18:31:03Z",
+  "free_core_version": "0.6.3",
+  "ethos": {
+    "product_is_the_proof": true,
+    "free_public_core_never_paywalled": true,
+    "green_means_verify_and_fresh": true,
+    "nano_is_not_frontier": true,
+    "hard_gates_not_faked": true
+  },
+  "direction": {
+    "on_track": true,
+    "why": "Building free-core proof surface + nano shape + org bone from founding SoT; not faking T1\u2013T11 or claiming OLMo-scale.",
+    "not_doing": [
+      "paywalled verification",
+      "silent hard-gate close",
+      "frontier capability cosplay",
+      "Matrix aesthetic without real stream/ttlink data"
+    ],
+    "founding_load_path": "founding/conversation/USER_PROMPTS.md + TRANSCRIPT_ONLY.md"
+  },
+  "checks": {
+    "free_core_seal_green": true,
+    "inclusion_readme": true,
+    "public_verify_harness": true,
+    "nano_streams_all_chain_ok": true,
+    "boundary_named": true,
+    "founding_transcript_present": true
+  },
+  "all_ok": true,
+  "seal": {
+    "present": true,
+    "verify_ok": true,
+    "fresh": true,
+    "merkle_root": "ba71e433add3ea9b271c773f80c3f04b659bfad44a307065bbc541a26b1b3f34",
+    "count": 10553,
+    "green": true,
+    "inclusion_readme_ok": true
+  },
+  "nano_streams": {
+    "all_chain_ok": true,
+    "nano_count": 4,
+    "tips": [
+      {
+        "name": "ttllm-nano",
+        "chain_ok": true,
+        "tip": "032dff39417ee5ade3aa0797e984fe463d51b541091cb1366d918a77f16cda7d",
+        "count": 5
+      },
+      {
+        "name": "ttllm-nano-v2",
+        "chain_ok": true,
+        "tip": "b9fe73fba08c05740520829dfe848a2df9b2573ec7827b0629f455c480c75660",
+        "count": 4
+      },
+      {
+        "name": "ttllm-nano-v3",
+        "chain_ok": true,
+        "tip": "471a900c28e3dcca5a6a663b6ef0c31af991f23396126209a34f3eda9ef4ef00",
+        "count": 5
+      },
+      {
+        "name": "ttllm-nano-v4",
+        "chain_ok": true,
+        "tip": "83e159496496d9558c918d5da5b87c745d5fa4f74d5263cc1e24d9ae31f9ae74",
+        "count": 5
+      }
+    ]
+  },
+  "harness": {
+    "ok": true,
+    "exit_code": 0,
+    "fails": [],
+    "command": "python3 scripts/public_verify_harness.py"
+  },
+  "status_seal": {
+    "present": true,
+    "merkle_root": "ba71e433add3ea9b271c773f80c3f04b659bfad44a307065bbc541a26b1b3f34",
+    "count": 10553,
+    "verify_ok": true,
+    "fresh": true,
+    "fresh_merkle_root": "ba71e433add3ea9b271c773f80c3f04b659bfad44a307065bbc541a26b1b3f34",
+    "fresh_count": 10553
+  },
+  "recipe": [
+    "git clone https://github.com/mattdale-creator/daisychainrrr",
+    "cd daisychainrrr",
+    "python3 scripts/public_proof.py",
+    "python3 scripts/public_verify_harness.py",
+    "python3 scripts/oneshot_verify_all.py",
+    "python3 scripts/ttllm_status.py --quiet-ok"
+  ],
+  "contact": "md@0265.au",
+  "site": "https://ttllms.com"
+}

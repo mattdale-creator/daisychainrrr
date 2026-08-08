@@ -17,23 +17,45 @@
         <a href="hard-gates.html">Hard gates</a>
         <a href="placeholders.html">Placeholders</a>
         <a href="demo.html">Demo</a>
+        <a href="stream.html">Stream</a>
         <a href="free-core.html">Free core</a>
+        <a href="testing-loop.html">Testing loop</a>
       </nav>
     </header>
-    <p class="eyebrow">down to the bone · free_core 0.6 · no soft tissue</p>
+    <p class="eyebrow">down to the bone · free_core 0.6.3 · no soft tissue</p>
     <h1>Honest status</h1>
-    <p class="tagline">Free public core software and process bone that can ship without capital or entity is built. Hard gates stay open and named.</p>
+    <p class="tagline">Free public core software and process bone that can ship without capital or entity is built. Hard gates stay open and named. Green means verify <strong>and</strong> fresh.</p>
+
+    <div class="card">
+      <h3>Public proof (unpaid · no auth)</h3>
+      <p class="mono" id="proofBadge">Loading demo/public_proof.json…</p>
+      <pre class="mono" id="proofSnap" style="white-space:pre-wrap;font-size:.85rem"></pre>
+      <p>Anyone can re-run from a cold checkout:</p>
+      <pre class="mono" style="white-space:pre-wrap">python3 scripts/public_proof.py
+python3 scripts/public_verify_harness.py
+python3 scripts/oneshot_verify_all.py
+python3 scripts/ttllm_status.py --quiet-ok</pre>
+    </div>
+
+    <div class="card">
+      <h3>Direction sense-check</h3>
+      <p id="directionText">Loading…</p>
+      <ul class="clean" id="directionNot">
+      </ul>
+    </div>
+
     <div class="card">
       <h3>Built (agent-reachable)</h3>
       <ul class="clean">
-        <li>free_core 0.6 — seals, stream, ttlink, QueryGuard, status API, release pipeline</li>
+        <li>free_core 0.6.3 — seals, stream, multi-nano tips, ttlink, QueryGuard, status API, public_proof, release pipeline</li>
         <li>ttllm-nano through nano-v4 (public-domain data, honesty packs, cost ledgers)</li>
         <li>Domains 1–10 specs, registers, human handbook</li>
         <li>BOUNDARY, isolation, SKU designs, refuse/go-live runbooks</li>
-        <li>Automation: oneshot verify, seal freshness, DATA_CARD check, red-team harness</li>
+        <li>Automation: oneshot verify, seal freshness, DATA_CARD check, red-team harness, BHA, testing loop</li>
         <li>Ethos-full Grok placeholders <strong>laid bare on this site</strong></li>
       </ul>
       <p><a class="btn secondary" href="demo.html">Demo →</a>
+         <a class="btn secondary" href="stream.html">Stream tips →</a>
          <a class="btn secondary" href="economics.html">Economics →</a>
          <a class="btn" href="placeholders.html">Placeholders →</a></p>
     </div>
@@ -46,16 +68,45 @@
       </p>
     </div>
     <div class="card">
-      <h3>Verify offline</h3>
-      <pre class="mono" style="white-space:pre-wrap">python3 scripts/oneshot_verify_all.py
-python3 scripts/ttllm_status.py --quiet-ok</pre>
-    </div>
-    <div class="card">
       <h3>Tombstones</h3>
       <p>Nano ≠ frontier. Demo keys ≠ production roots of trust. No multi-TB production ttlink. SKUs not sold.</p>
     </div>
-    <p class="mono">Updated: 2026-08-08T12:00:00Z · free-core buildable complete bar</p>
+    <p class="mono" id="updatedLine">Updated: loading…</p>
     <footer><p>md@0265.au · free public core never paywalled</p></footer>
   </div>
+  <script>
+    (async function () {
+      const badge = document.getElementById("proofBadge");
+      const snap = document.getElementById("proofSnap");
+      const dir = document.getElementById("directionText");
+      const notList = document.getElementById("directionNot");
+      const updated = document.getElementById("updatedLine");
+      try {
+        const r = await fetch("demo/public_proof.json", { cache: "no-store" });
+        const p = await r.json();
+        const ok = p.all_ok;
+        badge.innerHTML = ok
+          ? '<span class="status-ok">all_ok true</span> · free_core <strong>' + (p.free_core_version || "?") + "</strong> · " + (p.utc || "")
+          : '<span class="status-bad">all_ok false</span> · free_core <strong>' + (p.free_core_version || "?") + "</strong>";
+        snap.textContent = JSON.stringify(
+          { checks: p.checks, seal: p.seal, nano_streams: p.nano_streams, harness: p.harness && { ok: p.harness.ok, fails: p.harness.fails } },
+          null,
+          2
+        );
+        if (p.direction) {
+          dir.textContent = (p.direction.on_track ? "On track. " : "Off track. ") + (p.direction.why || "");
+          (p.direction.not_doing || []).forEach(function (x) {
+            const li = document.createElement("li");
+            li.textContent = "Not doing: " + x;
+            notList.appendChild(li);
+          });
+        }
+        updated.textContent = "Proof snapshot: " + (p.utc || "?") + " · free_core " + (p.free_core_version || "?");
+      } catch (e) {
+        badge.textContent = "public_proof.json missing — run: python3 scripts/public_proof.py";
+        dir.textContent = "Could not load direction snapshot.";
+      }
+    })();
+  </script>
 </body>
 </html>

@@ -43,6 +43,7 @@
           free_core_version: st.free_core_version,
           seal: st.seal,
           ethos: st.ethos,
+          nano_streams: st.nano_streams,
           utc: st.utc,
         },
         null,
@@ -51,6 +52,39 @@
     }
   } catch (e) {
     if (sealSnap) sealSnap.textContent = "status_snapshot.json not generated yet — run: python3 scripts/ttllm_status.py --write-site";
+  }
+
+  const nanoTipsLine = document.getElementById("nanoTipsLine");
+  try {
+    const r = await fetch("demo/nano_stream_tips.json", { cache: "no-store" });
+    const tips = await r.json();
+    if (nanoTipsLine) {
+      const ok = tips.all_chain_ok ? "all chains ok" : "CHAIN BREAK";
+      const bits = (tips.nanos || [])
+        .map(function (n) {
+          return n.name + " tip=" + ((n.tip || "").slice(0, 12)) + "…";
+        })
+        .join(" · ");
+      nanoTipsLine.textContent = ok + " · " + (tips.nano_count || 0) + " nanos · " + bits;
+    }
+  } catch (e) {
+    if (nanoTipsLine) nanoTipsLine.textContent = "nano tips missing — run: python3 scripts/publish_nano_stream_tips.py";
+  }
+
+  const publicProofLine = document.getElementById("publicProofLine");
+  try {
+    const r = await fetch("demo/public_proof.json", { cache: "no-store" });
+    const p = await r.json();
+    if (publicProofLine) {
+      publicProofLine.textContent =
+        (p.all_ok ? "all_ok true" : "all_ok false") +
+        " · free_core " +
+        (p.free_core_version || "?") +
+        " · " +
+        (p.utc || "");
+    }
+  } catch (e) {
+    if (publicProofLine) publicProofLine.textContent = "public_proof missing — run: python3 scripts/public_proof.py";
   }
 
   const inclSnap = document.getElementById("inclSnap");

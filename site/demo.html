@@ -39,6 +39,8 @@
         <button class="btn secondary" id="ex1" type="button">ttlink</button>
         <button class="btn secondary" id="ex2" type="button">OLMo</button>
         <button class="btn secondary" id="ex3" type="button">checkpoints</button>
+        <button class="btn secondary" id="ex4" type="button">down to the bone</button>
+        <button class="btn secondary" id="ex5" type="button">free public core</button>
       </p>
       <p class="mono" id="stats">Loading index…</p>
     </div>
@@ -63,16 +65,23 @@ python3 -m free_core.provenance.cli proof \
       <h3>Public stream tip (real events — not Matrix cosplay)</h3>
       <p class="mono" id="streamTip">Loading stream…</p>
       <div id="streamEvents"></div>
+      <p class="mono" id="nanoTipsLine">Loading multi-nano tips…</p>
+      <p><a href="stream.html">All nano tip hashes →</a> · <a href="demo/nano_stream_tips.json">nano_stream_tips.json</a></p>
     </div>
     <div class="card">
       <h3>Seal snapshot</h3>
       <pre class="mono" id="sealSnap" style="white-space:pre-wrap;font-size:.85rem">Loading status_snapshot.json…</pre>
     </div>
+    <div class="card">
+      <h3>Unpaid public proof</h3>
+      <p class="mono" id="publicProofLine">Loading public_proof.json…</p>
+      <p>Founding demand: anyone can verify without paying. <a href="status.html">Status page →</a></p>
+    </div>
     <h2>What this proves</h2>
     <ul class="clean">
-      <li>Hits include document path, offsets, context, and <code>doc_sha256</code></li>
+      <li>Hits include document path, offsets, context, and <code>doc_sha256</code> — real links, not decorative rain</li>
       <li>Index is generated from <code>examples/corpus/</code> in the public repo</li>
-      <li>Stream panel reads real hash-chained events from the demo log</li>
+      <li>Stream panel reads real hash-chained events from the demo log; nano tips are re-verified before publish</li>
       <li>This is <em>not</em> a multi-trillion-token production index — we do not cosplay scale</li>
     </ul>
     <script src="demo/ttlink_demo.js"></script>

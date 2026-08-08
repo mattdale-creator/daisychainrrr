@@ -58,6 +58,10 @@
   document.getElementById("ex1").onclick = () => { input.value = "ttlink"; search(); };
   document.getElementById("ex2").onclick = () => { input.value = "OLMo"; search(); };
   document.getElementById("ex3").onclick = () => { input.value = "checkpoints"; search(); };
+  const ex4 = document.getElementById("ex4");
+  const ex5 = document.getElementById("ex5");
+  if (ex4) ex4.onclick = () => { input.value = "down to the bone"; search(); };
+  if (ex5) ex5.onclick = () => { input.value = "free public core"; search(); };
   input.addEventListener("keydown", (e) => { if (e.key === "Enter") search(); });
   search();
 })();

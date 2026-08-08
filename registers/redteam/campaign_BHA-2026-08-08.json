@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.business_redteam.v1",
   "campaign_id": "BHA-2026-08-08",
-  "utc": "2026-08-08T15:22:58Z",
+  "utc": "2026-08-08T18:31:10Z",
   "framing": "black-hat lens constructive QA \u2014 not criminal instruction",
   "personas": [
     "investor_capture",
@@ -37,7 +37,7 @@
       "persona": "verify_paywall",
       "title": "public_verify_harness exits 0 (unpaid proof path)",
       "pass": true,
-      "detail": "f README.md True\nexamples/stream {'ok': True, 'count': 7, 'tip': 'bd3a9afd01ec36a185876d4b34ec9b4cb073452512009587b7a479c6d31c72d1'}\nttlink_query hits 1\nnano RELEASE_MANIFEST True\nnano stream {'ok': True, 'count': 5, 'tip': '032dff39417ee5ade3aa0797e984fe463d51b541091cb1366d918a77f16cda7d'}\nnano required events missing []\nnano canary {'ok': True, 'hits': 1, 'expected_sha256': '2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25'}\nBOUNDARY ok\nFAILS []\n{\n  \"ok\": true,\n  \"fails\": []\n}\n",
+      "detail": "6126209a34f3eda9ef4ef00'}\nttllm-nano-v3 canary {'ok': True, 'hits': 1, 'expected_sha256': '2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25'}\nttllm-nano-v4 RELEASE_MANIFEST True\nttllm-nano-v4 stream {'ok': True, 'count': 5, 'tip': '83e159496496d9558c918d5da5b87c745d5fa4f74d5263cc1e24d9ae31f9ae74'}\nttllm-nano-v4 canary {'ok': True, 'hits': 1, 'expected_sha256': '2f4d5625a37eda163f5ea1a2b2d42b26cd7d4b1a43f2227fd5e7243e706afc25'}\nBOUNDARY ok\nFAILS []\n{\n  \"ok\": true,\n  \"fails\": []\n}\n",
       "residual": ""
     },
     {

@@ -29,7 +29,7 @@ SEAL_ROOT_FILES = (
 SEAL_EXTRA = {
     "seal": "free_public_core",
     "repo": "daisychainrrr",
-    "version": "0.6.1",
+    "version": "0.6.3",
 }
 
 
@@ -49,6 +49,8 @@ SEAL_EXCLUDE_NAMES = {
     "inclusion_proof_sample.json",
     # Testing-loop automated run summary (volatile)
     "last_testing_loop_run.json",
+    # Last unpaid public-proof run (wall-clock; must not thrash seal)
+    "public_proof.json",
 }
 
 
