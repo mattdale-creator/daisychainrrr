@@ -1,10 +1,13 @@
-# Domain 07 operational artefacts
+# Domain 7 artefacts — Supply chain
 
-Updated: 2026-08-08T09:14:38Z
+| Artefact | Path |
+|----------|------|
+| Dependency register | DEPENDENCY_REGISTER.md |
+| Dependency change log | DEPENDENCY_CHANGE_LOG.md |
+| Materiality for deps | MATERIALITY_FOR_DEPS.md |
+| Risk summary | SUPPLY_CHAIN_RISK_SUMMARY.md |
+| Live lock | `registers/supply-chain/SUPPLY_LOCK.json` |
+| Builder | `scripts/build_supply_lock.py` |
+| Handbook | `docs/handbook/domains/07-supply-chain-ops.md` |
 
-- [ ] `DEPENDENCY_REGISTER.md` (register) — scaffold filled
-- [ ] `SUPPLY_CHAIN_RISK_SUMMARY.md` (summary) — scaffold filled
-- [ ] `COMPUTE_PROVENANCE_NOTE_TEMPLATE.md` (template) — scaffold filled
-- [ ] `DEPENDENCY_CHANGE_LOG.md` (log) — scaffold filled
-- [ ] `ANNUAL_SUPPLY_CHAIN_ATTESTATION.md` (template) — scaffold filled
-- [ ] `MATERIALITY_FOR_DEPS.md` (threshold) — scaffold filled
+Runtime deps of free_core are intentionally minimal; extras are declared in `pyproject.toml`.

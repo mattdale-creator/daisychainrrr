@@ -1,10 +1,15 @@
-# Domain 02 operational artefacts
+# Domain 2 artefacts — Ownership & funding
 
-Updated: 2026-08-08T09:14:38Z
+| Artefact | Path |
+|----------|------|
+| Cap table summary | CAP_TABLE_SUMMARY.md |
+| Funding history | FUNDING_HISTORY_LOG.md |
+| Influence rights | INFLUENCE_RIGHTS_REGISTER.md |
+| Beneficial ownership | BENEFICIAL_OWNERSHIP.md |
+| Side letter prohibition | SIDE_LETTER_PROHIBITION.md |
+| Annual attestation template | ANNUAL_ATTESTATION_TEMPLATE.md |
+| Live | `registers/ownership/` |
+| Handbook | `docs/handbook/domains/02-ownership-ops.md` |
+| Grok examples | `docs/placeholders/org/CAP_TABLE_AND_FUNDING_EXAMPLE.md` |
 
-- [ ] `CAP_TABLE_SUMMARY.md` (disclosure) — scaffold filled
-- [ ] `FUNDING_HISTORY_LOG.md` (log) — scaffold filled
-- [ ] `INFLUENCE_RIGHTS_REGISTER.md` (register) — scaffold filled
-- [ ] `BENEFICIAL_OWNERSHIP.md` (disclosure) — scaffold filled
-- [ ] `ANNUAL_ATTESTATION_TEMPLATE.md` (template) — scaffold filled
-- [ ] `SIDE_LETTER_PROHIBITION.md` (policy) — scaffold filled
+**Hard gate:** entity formation **T6** before filings are real.

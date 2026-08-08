@@ -20,6 +20,7 @@ crypto = ["cryptography>=42.0"]
 ttllm-manifest = "free_core.provenance.cli:main"
 ttllm-ttlink = "free_core.ttlink.cli:main"
 ttllm-stream = "free_core.stream.cli:main"
+ttllm-status = "free_core.status:main"
 
 [tool.setuptools.packages.find]
 where = ["."]

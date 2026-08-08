@@ -63,6 +63,16 @@ def main():
         fails.append("data_cards")
     if _run("public_verify_harness.py") != 0:
         fails.append("public_verify_harness")
+    if _run("check_placeholder_labels.py") != 0:
+        fails.append("placeholder_labels")
+    # status must report verify+fresh after above (writes site snapshot; excluded from seal)
+    st = subprocess.call(
+        [sys.executable, str(REPO / "scripts" / "ttllm_status.py"), "--write-site", "--quiet-ok"],
+        cwd=str(REPO),
+    )
+    print("RUN ttllm_status --quiet-ok ->", st)
+    if st != 0:
+        fails.append("ttllm_status")
 
     print("FAILS", fails)
     return 0 if not fails else 1

@@ -1,10 +1,14 @@
-# Domain 08 operational artefacts
+# Domain 8 artefacts — Boundary
 
-Updated: 2026-08-08T09:14:38Z
+| Artefact | Path |
+|----------|------|
+| Boundary spec mirror | BOUNDARY_SPEC.md |
+| Change process | BOUNDARY_CHANGE_PROCESS.md |
+| Prohibited opacity | PROHIBITED_OPACITY.md |
+| Allowed commercial privacy | ALLOWED_COMMERCIAL_PRIVACY.md |
+| Canonical BOUNDARY | `commercial/BOUNDARY.md` |
+| Isolation | `commercial/ISOLATION_RUNBOOK.md` |
+| Handbook | `docs/handbook/domains/08-boundary-ops.md` |
+| Refuse path | `docs/handbook/commercial/02-refuse-close-core.md` |
 
-- [ ] `BOUNDARY_SPEC.md` (spec) — scaffold filled
-- [ ] `ALLOWED_COMMERCIAL_PRIVACY.md` (list) — scaffold filled
-- [ ] `PROHIBITED_OPACITY.md` (list) — scaffold filled
-- [ ] `BOUNDARY_CHANGE_PROCESS.md` (process) — scaffold filled
-- [ ] `NEW_FEATURE_BOUNDARY_REVIEW.md` (checklist) — scaffold filled
-- [ ] `ANNUAL_BOUNDARY_ATTESTATION.md` (template) — scaffold filled
+Precedence: free public core > commercial convenience.

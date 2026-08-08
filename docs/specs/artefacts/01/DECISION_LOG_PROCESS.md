@@ -1,14 +1,22 @@
-# Decision Log process
+# Decision log process — Domain 1
 
-**Updated:** 2026-08-08
+## Where
+- Human log: `registers/decisions/LOG.md` (append-only table)  
+- Machine feed: `registers/decisions/feed.json`  
 
-1. Detect material decision (see MATERIALITY_THRESHOLD.md).
-2. Within 7 days, append to `registers/decisions/LOG.md` and `feed.json`.
-3. Fields: ID, date, title, options considered, rationale, outcome, roles.
-4. Capture dissent if raised in writing.
-5. Monthly completeness audit by Governance Custodian (founder until role filled).
-6. Quarterly public summary in domain report.
+## When (materiality)
+Log within **7 days** if the decision affects free public core, BOUNDARY, public training, transparency policy, ownership/funding, domains/DNS/signing keys, High+ incidents, or roles with release/security authority.  
+See `MATERIALITY_THRESHOLD.md`.
 
-## Technical
-- Append-only Markdown + JSON feed
-- Prefer git history as integrity layer; future: signed transparency log
+## How
+1. Assign next `D-NNNN`  
+2. Date UTC, title, options, rationale, outcome, roles  
+3. Mirror fact to `feed.json`  
+4. Commit without secrets  
+5. If BOUNDARY/core claims change → scorecard + consider stream event  
+
+## Monthly
+Use `MONTHLY_AUDIT_CHECKLIST.md` and file under `audits/`.
+
+## Handbook
+`docs/handbook/domains/01-governance-ops.md`

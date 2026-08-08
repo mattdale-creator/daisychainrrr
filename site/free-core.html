@@ -28,9 +28,16 @@
       </nav>
     </header>
     
-    <p class="eyebrow">Never paywalled</p>
+    <p class="eyebrow">Never paywalled · free_core 0.6</p>
     <h1>Free public core</h1>
     <p class="tagline">Bone is public. Muscle (services) may be paid. Never enclose the bone.</p>
+    <div class="card">
+      <h3>Verify offline (unpaid)</h3>
+      <pre class="mono" style="white-space:pre-wrap">python3 scripts/public_verify_harness.py
+python3 scripts/ttllm_status.py --quiet-ok
+python3 -m free_core.provenance.cli verify --manifest manifests/FREE_CORE_SEAL.json --base .</pre>
+      <p><a href="status.html">Status</a> · <a href="hard-gates.html">Hard gates</a> · <a href="demo.html">Demo</a> · <a href="economics.html">Economics</a></p>
+    </div>
     <div class="card">
       <h3>Must remain free</h3>
       <ul class="clean">

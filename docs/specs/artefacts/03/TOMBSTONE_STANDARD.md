@@ -1,10 +1,24 @@
-# Tombstone standard
+# Tombstone standard — Domain 3 (and claim honesty)
 
-When a required TTLLM bone layer is missing or removed:
+A **tombstone** is an explicit public statement that something is **not** done, not claimed, or not available — with reason.
 
-1. Publish a **tombstone** stating what is missing, why, and whether restoration is planned.
-2. Never brand the release fully TTLLM-compliant if a required layer is tombstoned without disclosure.
-3. Cryptographic history of prior inclusion preserved where legally allowed.
-4. Link tombstone from scorecard and stream event `tombstone`.
+## Required when
+- Capability is not frontier / not competitive  
+- Artefact was never produced (e.g. multi-TB ttlink)  
+- Artefact withdrawn via Domain 3 process  
+- Hard gate blocks completion (link T1–T11)  
 
-Examples of valid tombstones: "not 32B", "not multi-trillion index", "demo keys ≠ HSM".
+## Form
+```markdown
+**TOMBSTONE:** <what is not true>
+**Reason:** <why>
+**Evidence/path:** <doc or “none”>
+**Supersedes:** <prior claim if any>
+```
+
+## Forbidden
+Deleting a claim silently. “Coming soon” without tombstone. Green status with red harness.
+
+## Related
+- Domain 4 public claim gate  
+- Scorecards: MET / PARTIAL / TOMBSTONE vocabulary

@@ -73,3 +73,39 @@ def collect_status(repo: Path | None = None) -> Dict[str, Any]:
 
 def status_json(repo: Path | None = None) -> str:
     return json.dumps(collect_status(repo), indent=2) + "\n"
+
+
+def main(argv: list[str] | None = None) -> int:
+    """CLI entry for `ttllm-status`."""
+    import argparse
+    import sys
+
+    ap = argparse.ArgumentParser(prog="ttllm-status", description="TTLLM free-core project status")
+    ap.add_argument("--write-site", action="store_true", help="Write site/demo/status_snapshot.json")
+    ap.add_argument("--quiet-ok", action="store_true", help="Exit 1 if seal not verify+fresh")
+    ap.add_argument("--repo", default=None, help="Repo root (default: walk from cwd / package)")
+    args = ap.parse_args(argv)
+    if args.repo:
+        root = Path(args.repo).resolve()
+    else:
+        pkg_root = Path(__file__).resolve().parents[1]
+        root = pkg_root if (pkg_root / "free_core").is_dir() else Path.cwd()
+        root = _repo_root(root)
+    st = collect_status(root)
+    print(json.dumps(st, indent=2))
+    if args.write_site:
+        out = root / "site" / "demo" / "status_snapshot.json"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        pub = dict(st)
+        pub["repo"] = "daisychainrrr (public)"
+        out.write_text(json.dumps(pub, indent=2) + "\n", encoding="utf-8")
+        print(f"wrote {out}", file=sys.stderr)
+    if args.quiet_ok:
+        seal = st.get("seal") or {}
+        if not (seal.get("verify_ok") and seal.get("fresh")):
+            return 1
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

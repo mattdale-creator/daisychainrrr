@@ -1,10 +1,12 @@
-# Domain 09 operational artefacts
+# Domain 9 artefacts — Stewardship
 
-Updated: 2026-08-08T09:14:38Z
+| Artefact | Path |
+|----------|------|
+| Change of control triggers | CHANGE_OF_CONTROL_TRIGGERS.md |
+| Covenant (short) | `continuity/COVENANT.md` |
+| Covenant full example | `docs/placeholders/legal/COVENANT_FULL_EXAMPLE.md` |
+| Asset inventory | `continuity/ASSET_INVENTORY.md` |
+| Dead-man procedure | `docs/walls/artefacts/DEADMAN_SUCCESSION.md` |
+| Handbook | `docs/handbook/domains/09-stewardship-ops.md` |
 
-- [ ] `CONTINUITY_COVENANT.md` (covenant) — scaffold filled
-- [ ] `PUBLIC_CORE_ASSET_INVENTORY.md` (inventory) — scaffold filled
-- [ ] `SUCCESSION_FAILURE_MODES.md` (plan) — scaffold filled
-- [ ] `KEY_SIGNING_CONTINUITY.md` (design) — scaffold filled
-- [ ] `CHANGE_OF_CONTROL_TRIGGERS.md` (policy) — scaffold filled
-- [ ] `ANNUAL_CONTINUITY_ATTESTATION.md` (template) — scaffold filled
+**Hard gates:** entity T6 · keys T5 · second custodian T9.

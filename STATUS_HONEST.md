@@ -2,7 +2,7 @@
 
 **Updated:** 2026-08-08T09:58:07Z  
 **Tag:** v0.5.0-buildable  
-**free_core:** 0.5.0  
+**free_core:** 0.6.0  
 **FREE_CORE_SEAL files:** 10560 (ok=True)
 
 ## Buildable complete on this Mac

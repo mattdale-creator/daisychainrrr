@@ -1,10 +1,10 @@
-# Domain 06 operational artefacts
+# Domain 6 artefacts — Compensation
 
-Updated: 2026-08-08T09:14:38Z
+| Artefact | Path |
+|----------|------|
+| Philosophy | COMPENSATION_PHILOSOPHY.md |
+| Influence threshold example | INFLUENCE_THRESHOLD_EXAMPLE.md |
+| Bands example (Grok) | `docs/placeholders/org/COMPENSATION_BANDS_EXAMPLE.md` |
+| Handbook | `docs/handbook/domains/06-compensation-ops.md` |
 
-- [x] `COMPENSATION_PHILOSOPHY.md` (policy) — exists
-- [ ] `ROLE_BANDS_TEMPLATE.md` (template) — scaffold filled
-- [ ] `EQUITY_OVERVIEW.md` (disclosure) — scaffold filled
-- [ ] `PERFORMANCE_CRITERIA_TRANSPARENCY.md` (policy) — scaffold filled
-- [ ] `INCENTIVE_EXCEPTION_LOG.md` (log) — scaffold filled
-- [ ] `ALIGNMENT_TEST.md` (checklist) — scaffold filled
+No payroll yet. Influential roles remain disclosable when hired.

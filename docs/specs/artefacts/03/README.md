@@ -1,10 +1,14 @@
-# Domain 03 operational artefacts
+# Domain 3 artefacts — Data governance
 
-Updated: 2026-08-08T09:14:38Z
+| Artefact | Path |
+|----------|------|
+| Data governance policy | DATA_GOVERNANCE_POLICY.md |
+| Tombstone standard | TOMBSTONE_STANDARD.md |
+| Restoration bias | RESTORATION_BIAS.md |
+| Legal action intake | LEGAL_ACTION_INTAKE.md |
+| Provenance manifest template | DATA_PROVENANCE_MANIFEST_TEMPLATE.md |
+| Live DATA_CARDs | `models/*/data/DATA_CARD.md` |
+| Machine check | `scripts/check_data_cards.py` |
+| Handbook | `docs/handbook/domains/03-data-legal-ops.md` |
 
-- [ ] `DATA_GOVERNANCE_POLICY.md` (policy) — scaffold filled
-- [ ] `DATA_PROVENANCE_MANIFEST_TEMPLATE.md` (template) — scaffold filled
-- [ ] `LEGAL_ACTION_INTAKE.md` (process) — scaffold filled
-- [ ] `TOMBSTONE_STANDARD.md` (standard) — scaffold filled
-- [ ] `RESTORATION_BIAS.md` (policy) — scaffold filled
-- [ ] `QUARTERLY_DATA_REPORT_TEMPLATE.md` (template) — scaffold filled
+Nano public-domain PG path is bone. Scale mixture: `docs/security/DATA_MIXTURE_MANIFEST_SPEC.md`.
