@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "78aaa58a5a9c3f6506934c2edca902d742780106d0d99ca241cd6b36b4f33369",
-  "count": 1153,
+  "merkle_root": "5f02b6c67ceea928840a290108ad6cd2c9affe33939a71d98e9bcf3f4be76d88",
+  "count": 1734,
   "leaves": [
     {
       "path": "LICENSE",
@@ -10,8 +10,8 @@
     },
     {
       "path": "Makefile",
-      "sha256": "39170a62d4093cf0ee152ec85ba900b6e4c068fd5efdc9a3cd4262b180481880",
-      "bytes": 1141
+      "sha256": "a35e4f31f656fe4728abdd35725a771e6703ebe42057042b4e5abe517d56655d",
+      "bytes": 1393
     },
     {
       "path": "README.md",
@@ -19,9 +19,19 @@
       "bytes": 7337
     },
     {
+      "path": "STATUS_HONEST.md",
+      "sha256": "73187b98f4bedc2dc983f0fc75a7d7f5e28e27258b343a262175ec9aea08c1f7",
+      "bytes": 763
+    },
+    {
       "path": "commercial/BOUNDARY.md",
       "sha256": "96c4d488d65c75afb8b7f9c2eddd3083644728f4a9c183ed53909b28de53307b",
       "bytes": 1894
+    },
+    {
+      "path": "commercial/ISOLATION_RUNBOOK.md",
+      "sha256": "40579bb10cd67c2ef4a0d0daa148e5bcb7d2ce9f9259764aad12df9e7855f753",
+      "bytes": 851
     },
     {
       "path": "commercial/README.md",
@@ -35,8 +45,8 @@
     },
     {
       "path": "continuity/COVENANT.md",
-      "sha256": "49afa4a3dd9553162b932aa26e27f4ebaa1402643b8cd89b4505b393aebd959e",
-      "bytes": 585
+      "sha256": "51f8312231356fdc530e9410b1626783015df663ed872e9eb19d31b71101ecb7",
+      "bytes": 964
     },
     {
       "path": "docs/architecture-tree/00-MASTER-TREE.md",
@@ -435,8 +445,8 @@
     },
     {
       "path": "docs/architecture-tree/eventualities/00-INDEX.md",
-      "sha256": "b9ff43176f39a4628b803c0f37056d9300c109002d8b124a7a9b042957ccaf50",
-      "bytes": 1956
+      "sha256": "cf6c244b0e708cc6978e57e25c15f73d67d16c72c5ce90ec85607ca02137e2dd",
+      "bytes": 2033
     },
     {
       "path": "docs/architecture-tree/eventualities/01-ethos/down-to-the-bone/README.md",
@@ -2059,6 +2069,611 @@
       "bytes": 605
     },
     {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/README.md",
+      "sha256": "c1f89f6186af9c56c5f82eb11565c3437298dce10ff9950d337ce6bd3444d213",
+      "bytes": 800
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/bpe-not-published/README.md",
+      "sha256": "63ba46b437ca8cc84b2738082e5f6b23ca1541a32df0ad1a3393c8d38e000ec1",
+      "bytes": 121
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/bpe-not-published/detect.md",
+      "sha256": "1fca4c54f5e7ecb60092fd0cdccca2ef9551113b04e24f7a1cc8aa6b1f460f07",
+      "bytes": 93
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/bpe-not-published/owner.md",
+      "sha256": "0a9525fba151996202344d370088f496f99f638aac3d45b2ce1a7138145fbd59",
+      "bytes": 92
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/bpe-not-published/prevent.md",
+      "sha256": "4b569f0794e30d394aaeaa7b53198dba8da78df00edab9087adb07fa28838961",
+      "bytes": 94
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/bpe-not-published/respond.md",
+      "sha256": "6aec3f0f2bf390566e8b05bbd02d8402060bc68fe4461b7af4d8b973226268e1",
+      "bytes": 94
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/bpe-not-published/scorecard-impact.md",
+      "sha256": "b5862c49758e1485ba040e4843de2e3190dca4610653492d5b887e41bfc4c830",
+      "bytes": 103
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/bpe-not-published/stream-event.md",
+      "sha256": "61a52d589847aaf8822f8200c278fa516d6dd2617ea6dda488fea38e6790d68f",
+      "bytes": 99
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/bpe-not-published/test.md",
+      "sha256": "97a980a3670bb22f3ebcc53926992fbd5b3d60b52aa283ad4a3d19cb6cade0c7",
+      "bytes": 91
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/canary-missing-from-index/README.md",
+      "sha256": "b5b255d47bc278f7f06caebcae1fdaf89500b68225f0054d69762c1eea127417",
+      "bytes": 129
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/canary-missing-from-index/detect.md",
+      "sha256": "5624ed347ee8e284422f52dd9bd25ad70a0d2eb7de3f9bc2556921798193f209",
+      "bytes": 101
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/canary-missing-from-index/owner.md",
+      "sha256": "e0e4d9faee5c7ce3ef471fa3422d7de97512a3b3d774a94641fd41cc9670916f",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/canary-missing-from-index/prevent.md",
+      "sha256": "c080f251006373a3f9ac2d0b134310959deaa3ca3dea0710867e63b6403eb8a5",
+      "bytes": 102
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/canary-missing-from-index/respond.md",
+      "sha256": "b3877e298d7f4a9afd4899602ed725ce8a72f653f37601a2de0de27298f5270c",
+      "bytes": 102
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/canary-missing-from-index/scorecard-impact.md",
+      "sha256": "d3780f3c48384d92e4a0bca9f68cc2adbb2c172d0fc2d457b032c4b7ecfec7d2",
+      "bytes": 111
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/canary-missing-from-index/stream-event.md",
+      "sha256": "3ef48bd6061b6108be9bb0b662ba4c857d91632f2c041704cee5fd2abbbf46ed",
+      "bytes": 107
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/canary-missing-from-index/test.md",
+      "sha256": "61bdef6ad96806362e6b7bed2e698680430677e01200f615309d92110e4c6739",
+      "bytes": 99
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/checkpoint-corrupt-load/README.md",
+      "sha256": "e151b976acd5e0fb673ec0725bcfc9a21ba88f8b37abda112fb337f66c99fcce",
+      "bytes": 127
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/checkpoint-corrupt-load/detect.md",
+      "sha256": "d7ed25b55129142df1463ec3ffe57433d80c6a82d593323481d3899dc9695db9",
+      "bytes": 99
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/checkpoint-corrupt-load/owner.md",
+      "sha256": "839a572e706b1baf4aa57e204533a794fddde50296d6622e45777248830b8942",
+      "bytes": 98
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/checkpoint-corrupt-load/prevent.md",
+      "sha256": "5674ab67aba07162e2e4a346c098b6ea3056175ba82db1665fde1bc8a35ef8fe",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/checkpoint-corrupt-load/respond.md",
+      "sha256": "2d85fbb412071c4b28110e14d41225ad1bf0f4418b7a49bd820f9ffbaa90035b",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/checkpoint-corrupt-load/scorecard-impact.md",
+      "sha256": "fa42104b3a068ab472b6b17f268a60a01cf659e226fe23962976b40ca7671165",
+      "bytes": 109
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/checkpoint-corrupt-load/stream-event.md",
+      "sha256": "78b4266f3fdc66b84fecf84b5d2a83e151671f6db90651cbc23852fc25ee9dc0",
+      "bytes": 105
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/checkpoint-corrupt-load/test.md",
+      "sha256": "cbb0820038da649afdddc6176ffa4f776188c368de2c94fcd9a710c5e1d6ece1",
+      "bytes": 97
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/cost-ledger-missing/README.md",
+      "sha256": "94417a39e7a305d0988630b51cbbcc0fa2592a214a66f31974392a648a14fb7d",
+      "bytes": 123
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/cost-ledger-missing/detect.md",
+      "sha256": "3b60bb242a75ff3ed36636ff92f49b9d8193788326e9a4035dc25429e1316a00",
+      "bytes": 95
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/cost-ledger-missing/owner.md",
+      "sha256": "9cffa0f88bffc4d78fdef88cc407e14663827775c2483b51cc280586a326c570",
+      "bytes": 94
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/cost-ledger-missing/prevent.md",
+      "sha256": "12e1da9e5247a41b267aa228076121ef55af1289328c6df561e00447a952d1a0",
+      "bytes": 96
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/cost-ledger-missing/respond.md",
+      "sha256": "bf00f89281ad572e5db24d84615f5345972ee518ffa1ec726dff99ba409ef98f",
+      "bytes": 96
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/cost-ledger-missing/scorecard-impact.md",
+      "sha256": "d2ec28601715a39584c616f735c85be22ef9db3ef3fb06c83a15c7019ef04543",
+      "bytes": 105
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/cost-ledger-missing/stream-event.md",
+      "sha256": "064368457b0d05b11e9aea418c23bc8f5412db7f72f277b75ed63c976a988526",
+      "bytes": 101
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/cost-ledger-missing/test.md",
+      "sha256": "93accd662ca956a5fe2b7db49f212987b307d8c8c67f4d643972795ef4e7a93a",
+      "bytes": 93
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/data-fetch-fail-offline/README.md",
+      "sha256": "e7fb9311a8622c656e97b0aa0b3b4026f1607e47af1a96361a5bd67fa265a5e1",
+      "bytes": 127
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/data-fetch-fail-offline/detect.md",
+      "sha256": "ffaee9c951b1a551321ecd3d4188d2571ec4cc4531e8fb158096e47729b35cbf",
+      "bytes": 99
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/data-fetch-fail-offline/owner.md",
+      "sha256": "5953c3a609ce4e4dce5ba0f82bb3dab686c0f7a303856c9004d63be8b3cf030e",
+      "bytes": 98
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/data-fetch-fail-offline/prevent.md",
+      "sha256": "0e955e9512cbe92ce1cc19aa04762a4faf3c58685849addd7e82dd6a89fa4b4f",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/data-fetch-fail-offline/respond.md",
+      "sha256": "41f7595daf4592042212adec7274f5b919cf8ab0de7c11811a326a5f87dbdae6",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/data-fetch-fail-offline/scorecard-impact.md",
+      "sha256": "0d52c94e3689ddee10b23fb9d48f1ca35560efe315f7a64c38cfe4356502a738",
+      "bytes": 109
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/data-fetch-fail-offline/stream-event.md",
+      "sha256": "aace5566f67f442474b31b2ed5f45453b92601fb9c6463654c0d7083fcc7d607",
+      "bytes": 105
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/data-fetch-fail-offline/test.md",
+      "sha256": "4c968925fefa14c193634eb9466f57cfd927c7af8b4089b7bac6fc8b888edaa8",
+      "bytes": 97
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/eval-skipped-before-claim/README.md",
+      "sha256": "0df64105e88c7516ec0ca24f360069c4a2320b9eda3f402ea1bd86003e63effc",
+      "bytes": 129
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/eval-skipped-before-claim/detect.md",
+      "sha256": "46eeb15420285f5bae90334652e01b7af7eb9c4a790ff6d03dbedf717a124928",
+      "bytes": 101
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/eval-skipped-before-claim/owner.md",
+      "sha256": "3592fa7487894c6c0be781fe3ea4296c909446e573d2f2693bf5e00aa76b4fa0",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/eval-skipped-before-claim/prevent.md",
+      "sha256": "1901b4cf2131795b9f3eb0613b992df9c69ed9159eb867a76dd73ca159023d52",
+      "bytes": 102
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/eval-skipped-before-claim/respond.md",
+      "sha256": "4b34197383e5a1f1dc814db5629e735a3169e8066776d8ea9e74a6c8e0e5f442",
+      "bytes": 102
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/eval-skipped-before-claim/scorecard-impact.md",
+      "sha256": "cbe418ebfe0c2b030c5129d720623ab64f408229fa86a67628fd105dd4704970",
+      "bytes": 111
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/eval-skipped-before-claim/stream-event.md",
+      "sha256": "8858397d85aabe471bf1d2e551e0b85c65dec7a344863971eaff9a3df4fea842",
+      "bytes": 107
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/eval-skipped-before-claim/test.md",
+      "sha256": "a84f1168263434bdc7d8b6df08364f665c4efd7c7956e815eb9a333d11587615",
+      "bytes": 99
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/final-pt-unsigned/README.md",
+      "sha256": "3a74ac17ffc3dec276780ebb4c7aaa4cb23fbf04eddc927820fc941279255361",
+      "bytes": 121
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/final-pt-unsigned/detect.md",
+      "sha256": "8409416d880626ad620618dd7e968bb41006c9a72135c2e59ec051f2ff743426",
+      "bytes": 93
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/final-pt-unsigned/owner.md",
+      "sha256": "d88d280057521357a50cbba38bb84772be3a554c7278a99ce4be131971f0cebe",
+      "bytes": 92
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/final-pt-unsigned/prevent.md",
+      "sha256": "7cfa16a1b0ce6191cc9e8f4f0ba8537bf32887116714b6d1cb07b59fcf9c04a6",
+      "bytes": 94
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/final-pt-unsigned/respond.md",
+      "sha256": "e94ba52a8b87fbe08a973a0a95a2d3f3b5e7e0a1c212e5adafe17e16807924a9",
+      "bytes": 94
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/final-pt-unsigned/scorecard-impact.md",
+      "sha256": "50be7669df3f95ebe0f220f07d2c663084520aa9375d087d6aefdc38fc324179",
+      "bytes": 103
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/final-pt-unsigned/stream-event.md",
+      "sha256": "646a04ec1cf15853691326572a88fee12d876849b7e9cc4f08fa54c8a876bf62",
+      "bytes": 99
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/final-pt-unsigned/test.md",
+      "sha256": "3f5f6d9d81d2abf1c45d854ab5ef5ad63bd8f567d8179239cd9e78a2929f0485",
+      "bytes": 91
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hash-mismatch-after-fetch/README.md",
+      "sha256": "15d051a9248925d2a92cb8f7043eade22c116a96ada150130c8f1da8f7bc37b5",
+      "bytes": 129
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hash-mismatch-after-fetch/detect.md",
+      "sha256": "7d75b94395619b877d417363d4a5c5518f21c58241ea6b6b16abc29f12f928b0",
+      "bytes": 101
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hash-mismatch-after-fetch/owner.md",
+      "sha256": "abad311e64963a0be812c11af94435bf432f9813074af49a589b013c8ebe80fc",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hash-mismatch-after-fetch/prevent.md",
+      "sha256": "18ffc0d6b264c1a2177f7fd6ead2b69f838f371bf484c56f18975f5fc117b5c5",
+      "bytes": 102
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hash-mismatch-after-fetch/respond.md",
+      "sha256": "616f335fb48fa47b108ba8ce4cae52c5a75d85e9e2a6480525a517d019856503",
+      "bytes": 102
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hash-mismatch-after-fetch/scorecard-impact.md",
+      "sha256": "dc2692210ea56da8929700f01dece516ba30eb7bfabbaa5333853456a07fbd94",
+      "bytes": 111
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hash-mismatch-after-fetch/stream-event.md",
+      "sha256": "d11b89f5520dd0027cf36e0bd941e2a99f0a294c70f7be6fe9b7b812dff6c8c4",
+      "bytes": 107
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hash-mismatch-after-fetch/test.md",
+      "sha256": "07a14cd3a8f4caae729d72172f38300228b65617098278afe2c2933a6f947d15",
+      "bytes": 99
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hyperparams-disagree-with-ckpt/README.md",
+      "sha256": "9d737cc408ce1a0c018692d933288f491cee22266fa52f4f6627bff075a1fcd3",
+      "bytes": 134
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hyperparams-disagree-with-ckpt/detect.md",
+      "sha256": "f7bfce1b07a1b96ab7627ce878647a4107807e24d59fb67527dfa91845830c71",
+      "bytes": 106
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hyperparams-disagree-with-ckpt/owner.md",
+      "sha256": "abe529e9fd97a43175886e7d18eba6f244d772a38c54b6eb547789613a2ebc00",
+      "bytes": 105
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hyperparams-disagree-with-ckpt/prevent.md",
+      "sha256": "b2cb8a91baf8cf1b79145ef39cfcdc89667f08cf9f167b1b9736d606eea1b9d2",
+      "bytes": 107
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hyperparams-disagree-with-ckpt/respond.md",
+      "sha256": "4b51dc464caa9eb5de9aa92b69dd16e7eba446af96d855c451930b053fa098f8",
+      "bytes": 107
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hyperparams-disagree-with-ckpt/scorecard-impact.md",
+      "sha256": "fb6ee8b244c21d32cd0384a3ba8d2ae9ad1124ae21ad5f4241c6fa46eff556af",
+      "bytes": 116
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hyperparams-disagree-with-ckpt/stream-event.md",
+      "sha256": "95097b7d8b647b56a8a363153a0b011e0a756221f0453e1131a643ac7ac6b68e",
+      "bytes": 112
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/hyperparams-disagree-with-ckpt/test.md",
+      "sha256": "5d54d19c52417a170395eceb849f39d4d68990df917531f2bff4c87162ce7793",
+      "bytes": 104
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/manifest-excludes-weights/README.md",
+      "sha256": "5829b3eacd9f82b14970e4ff8635e89c23f9711b4a3b9fcf333a668821bd03bb",
+      "bytes": 129
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/manifest-excludes-weights/detect.md",
+      "sha256": "34cc40f10533f79b42460f14d7a7151804a48dc256f628763cbb222ccfac55a4",
+      "bytes": 101
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/manifest-excludes-weights/owner.md",
+      "sha256": "54555943456ce285a1eec225521318dfc609102b9f5501c58644976fc58ed15f",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/manifest-excludes-weights/prevent.md",
+      "sha256": "08734848849af99fc5af053a6d5e021fc683c5ebcb846664446b47666dcf92e2",
+      "bytes": 102
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/manifest-excludes-weights/respond.md",
+      "sha256": "2beab953b4500d2fa6fdb1e3740b8141297b0e8ec0f2c38f5b3f254b742aec27",
+      "bytes": 102
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/manifest-excludes-weights/scorecard-impact.md",
+      "sha256": "7947937160974cdd2c978addbdba784e4cb7aa5a6d3056c327351b64e2cef4bb",
+      "bytes": 111
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/manifest-excludes-weights/stream-event.md",
+      "sha256": "94a00c0109d5d854227e8b5e59f38461927a1d3fc3750e8a20fdd95ebd6792c6",
+      "bytes": 107
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/manifest-excludes-weights/test.md",
+      "sha256": "e983d88483a908fe310de1c1ada9b9fefb45e8f5f523ca680d66d092d3ca5013",
+      "bytes": 99
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/mps-nondeterminism/README.md",
+      "sha256": "c34b1747bf5bfe948e146c2b3d91e018f62abc337774de81fd6802424a79216b",
+      "bytes": 122
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/mps-nondeterminism/detect.md",
+      "sha256": "724ca566d5db3243e8f036afdc36525e76ab86fa85106cd737e61486f509b12b",
+      "bytes": 94
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/mps-nondeterminism/owner.md",
+      "sha256": "fd2a4781178bf27f7f3354960fd4ef2e0f350044a0b26cbcbde1c0dce720ca17",
+      "bytes": 93
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/mps-nondeterminism/prevent.md",
+      "sha256": "331b3ada53942dacff13d904c723460119e38fa3761f2044450edd3c67bcff10",
+      "bytes": 95
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/mps-nondeterminism/respond.md",
+      "sha256": "71b0b52c767c01298957357229c6fe0ce071cb5a5785349dfe0c11f6ce480737",
+      "bytes": 95
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/mps-nondeterminism/scorecard-impact.md",
+      "sha256": "a63f8eec153f794c8cf8233b2fdd76f34b9c802c801cc792f0bc646319f5cf62",
+      "bytes": 104
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/mps-nondeterminism/stream-event.md",
+      "sha256": "79f89a3fa968b91d4ddc8677edf7e55e6923ef16e99ae5015446d0c5e0764139",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/mps-nondeterminism/test.md",
+      "sha256": "02080c7136de616c478890eb4ab689a88ebf4941b4a97dec0455099cc1699e70",
+      "bytes": 92
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/overfit-hidden/README.md",
+      "sha256": "edeb3349c2a20545d624a5b63ed9d577d82b41175a128ec4866959c403fc693f",
+      "bytes": 118
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/overfit-hidden/detect.md",
+      "sha256": "5f8e10500baa2fad84919cc665dd527a70dc0e59c850f7f151651005f5297d07",
+      "bytes": 90
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/overfit-hidden/owner.md",
+      "sha256": "d880f87aa7306b037a37dcf83c2c275c1a46ee0b7c13ab1bb57faa83cccac671",
+      "bytes": 89
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/overfit-hidden/prevent.md",
+      "sha256": "7e4c358ee2c3eb584faf6d412ab6ba633c423dc727c2cd1180608c7de6200c62",
+      "bytes": 91
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/overfit-hidden/respond.md",
+      "sha256": "58ea3cc6c161d423bb70ca4469441f6f940147d2707d3ec1dd5908016e75fb84",
+      "bytes": 91
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/overfit-hidden/scorecard-impact.md",
+      "sha256": "0e0451619f941d5f8bf18a4729aab4c3d06431d9cb9ecb84e983fd56d1e84219",
+      "bytes": 100
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/overfit-hidden/stream-event.md",
+      "sha256": "8cdd3e47710ec5d7daf5e64ba894c91aa7e635c372464fd4ce25c69cb68e44d6",
+      "bytes": 96
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/overfit-hidden/test.md",
+      "sha256": "ae246d4b87952908a6b54f71bcd7d753cd8d809b86adc15d33329f9de03bfcd0",
+      "bytes": 88
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/scorecard-stale/README.md",
+      "sha256": "8c5862bdecb0a5818b9180cb35e316923d6af10c501650fa8e5ffb40b0bc0022",
+      "bytes": 119
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/scorecard-stale/detect.md",
+      "sha256": "e6c73f3b224442310380594860393bfa16d1234ff24e2352fddc6d211e301c73",
+      "bytes": 91
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/scorecard-stale/owner.md",
+      "sha256": "2c08ae5a3d6b253a6d6db85df14a3169a658057df6c2f012d29480456bf3b0df",
+      "bytes": 90
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/scorecard-stale/prevent.md",
+      "sha256": "88267c3f31a656c5bbeabb5c88134ae661219203c25e8fa153591f67d4e51dbe",
+      "bytes": 92
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/scorecard-stale/respond.md",
+      "sha256": "6d75a4e5b68bf07b26e83d60ffc23c04e4f7a5059f37ccacc9c4b810b87321c1",
+      "bytes": 92
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/scorecard-stale/scorecard-impact.md",
+      "sha256": "5f63b1db47d422fe9bc5ff7dd2860026fec4c55de57dfe2da423494a22e517ba",
+      "bytes": 101
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/scorecard-stale/stream-event.md",
+      "sha256": "048818ecaab5d74deaa61fbde200a0ad05e2e5a45b81a535df64e0f392ea7013",
+      "bytes": 97
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/scorecard-stale/test.md",
+      "sha256": "dce2c7a0c1e9514cb4645c5550a747ee04da2574aa426f5bc24e78cced8dba68",
+      "bytes": 89
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/seed-not-logged/README.md",
+      "sha256": "8f1554f12c3a39df0c9104a18b26b3dbb7e7568aaaea3f5ed376699a82d46841",
+      "bytes": 119
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/seed-not-logged/detect.md",
+      "sha256": "f63cf26a6b3c1bb42db0d627d255d3cfc195652c81820d94b0ea36c79755c1d6",
+      "bytes": 91
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/seed-not-logged/owner.md",
+      "sha256": "68acea9217a4004651467505fb9f3923eb5cb91c071213e9dc8f5e0be149ded8",
+      "bytes": 90
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/seed-not-logged/prevent.md",
+      "sha256": "ebe7479c668e07d5101edb3e090fe5589434705bc1e3a04f334bcfb17e9b0c3f",
+      "bytes": 92
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/seed-not-logged/respond.md",
+      "sha256": "5d7660ffa3c3130a872f73cca0a0fd139db650b7af629a9dac4bc3738dbcfc41",
+      "bytes": 92
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/seed-not-logged/scorecard-impact.md",
+      "sha256": "9d4ed0ecc2a1ac55cb466a164c6ceeb19aaaf7cbbff7eb2778e2e4bedb7c0ce2",
+      "bytes": 101
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/seed-not-logged/stream-event.md",
+      "sha256": "cfc1b5c38e9d5b19b054cbba5ca7087ee997a823bb033653587bea7b810b773f",
+      "bytes": 97
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/seed-not-logged/test.md",
+      "sha256": "703611cfec92efc4d8f24ec729d4ef6dd62017deead64f5fbe2dd82e7e9f4b1c",
+      "bytes": 89
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/stream-not-updated-on-release/README.md",
+      "sha256": "4aedef31d244c6359f9e1e15a09ac9d43c84f6c3204cc72a9ec486893c01f8cb",
+      "bytes": 133
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/stream-not-updated-on-release/detect.md",
+      "sha256": "16ea494522f3689812d2bc57f0ff3ce3e3c7a1eec213e39cabc794869c26e150",
+      "bytes": 105
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/stream-not-updated-on-release/owner.md",
+      "sha256": "86031d8a2da44f21f85f52f34bc9fe694a8a2cc81a62f577d039246bf0160548",
+      "bytes": 104
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/stream-not-updated-on-release/prevent.md",
+      "sha256": "79a8dfd49cff8035cfb272c553bcfd89de790061f622175d7134c8a05f6ec4da",
+      "bytes": 106
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/stream-not-updated-on-release/respond.md",
+      "sha256": "32e45d4585e56dcf3a6be674e3aeb7596f574f1e8d288472d4477005ee61c45d",
+      "bytes": 106
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/stream-not-updated-on-release/scorecard-impact.md",
+      "sha256": "61d62602d8b10be55614dcd9bc0cc9e850690deff9ac11d91b24f1c02fc5bcf8",
+      "bytes": 115
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/stream-not-updated-on-release/stream-event.md",
+      "sha256": "656ddbad2cc286b0ab8dfd238f55314487dcd0ee48118e1b0397bf2936727388",
+      "bytes": 111
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/training-pipeline-deep/stream-not-updated-on-release/test.md",
+      "sha256": "2808efbde9e95b077937c1fe3ef4ec823fa3b4da11a79a3a182856f40a6954a7",
+      "bytes": 103
+    },
+    {
       "path": "docs/architecture-tree/eventualities/03-technology/training/README.md",
       "sha256": "9cc86560746a7723cd82b94cce655c434b89e377962629198488d93ddcbcd351",
       "bytes": 366
@@ -2242,6 +2857,206 @@
       "path": "docs/architecture-tree/eventualities/03-technology/training/unlogged-seeds/tombstone-criteria.md",
       "sha256": "adfb99df379896886ae0c9c469f9b6cd81dec925b4c7b9504af3551d08abbc77",
       "bytes": 570
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/canary-fail/README.md",
+      "sha256": "3915ff6fc22ef1eb9e676760666ab7e234a6de53993027ad48e26a8821ff8054",
+      "bytes": 60
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/canary-fail/detect.md",
+      "sha256": "16badccb043bc81870211852b6886f95dca5f4a9d84d392674a92d1949073c51",
+      "bytes": 33
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/canary-fail/prevent.md",
+      "sha256": "40e38a64708f2562d53f9727cff379e8959a985b0984e9c0b4bd405d5bcfad5c",
+      "bytes": 34
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/canary-fail/respond.md",
+      "sha256": "54a2d33b8d8240dd04e90be7ea694182a3f72b826ae827116b2d48e0f5ae35fd",
+      "bytes": 34
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/canary-fail/test.md",
+      "sha256": "3f6fded3a24fcbc75a7abc264b5b523623eeb6a598c78cb7bab93b90fba4a9d6",
+      "bytes": 31
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/client-id-spoof/README.md",
+      "sha256": "80ef6a7a2c57c7ea7ee852fcd8b67943b4d1171a0555350cceba0a5eb280fb6c",
+      "bytes": 64
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/client-id-spoof/detect.md",
+      "sha256": "911899114b92949f773e979ba5b014ebc1dcd3374ef1dbb28acd00c9965c8b13",
+      "bytes": 37
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/client-id-spoof/prevent.md",
+      "sha256": "6ba3a94cf80cb4386c2bb5380f2a1632acd1b44a2a7fb88b4d672ce48e80f911",
+      "bytes": 38
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/client-id-spoof/respond.md",
+      "sha256": "8c91b05f4711563b22c7b6812d867f316b5c785050c151a05e32737d4df14523",
+      "bytes": 38
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/client-id-spoof/test.md",
+      "sha256": "766c20d3030e739b3b2838df84f3b4646ed7ec599cca74ae2a39569366d02f5c",
+      "bytes": 35
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/cors-abuse/README.md",
+      "sha256": "99bc95ff3b45094f6fc5c3a46753bf90f40987b7ae74261241f74aa774afaef5",
+      "bytes": 59
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/cors-abuse/detect.md",
+      "sha256": "6c8db5df04ec20b04237cbc861a68bf5995a0671ab56879f628584858f134e95",
+      "bytes": 32
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/cors-abuse/prevent.md",
+      "sha256": "dfa905d336bc7c7f2ddcfc2902061bed28781f4768fe59dad6b978757f22dcb2",
+      "bytes": 33
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/cors-abuse/respond.md",
+      "sha256": "c856a62fdc6e15bfdb850d3fef18a6ed488cac8c96c26e952c032aec696523c8",
+      "bytes": 33
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/cors-abuse/test.md",
+      "sha256": "fb50b7c30a894ff1b8c0233d5020c95516c35f96a431db3b38080fe6b6a06f6e",
+      "bytes": 30
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/index-path-traversal/README.md",
+      "sha256": "c143efd9a1207b76b1a66114c896f49648f0839ee6126154617da24e4c05ae29",
+      "bytes": 69
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/index-path-traversal/detect.md",
+      "sha256": "dd94e64924f2186b7b28d7d05d575ca59dd438fe178425f1fd0e3cc802f1dea3",
+      "bytes": 42
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/index-path-traversal/prevent.md",
+      "sha256": "6ee6248094c6c07dfb0d9b1c14b4dab5520a9b9341572b18203bbbdb1e8c3480",
+      "bytes": 43
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/index-path-traversal/respond.md",
+      "sha256": "04eb382b499daa177e66fb0e0156c5974ca316e5b53dce12c0149a5a1776cf83",
+      "bytes": 43
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/index-path-traversal/test.md",
+      "sha256": "bc4b2d3d0433c5575c79f155bb260c4f572bc0d4e238432d0d35eae30dc972f7",
+      "bytes": 40
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/memory-exhaust-large-span/README.md",
+      "sha256": "5330dc6c32426a4c4835be391c8e25447af4d563ebcb93941b8e6186c8c08a73",
+      "bytes": 74
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/memory-exhaust-large-span/detect.md",
+      "sha256": "9a66e3665585b0a109a0f1dcef8bd9af0d022ae68117dc1c5ebf0532fc07f0d4",
+      "bytes": 47
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/memory-exhaust-large-span/prevent.md",
+      "sha256": "74dfaff8c7e2117b5e6e8150d83bcc17ca752f81bdb57b43abe58f2913799b89",
+      "bytes": 48
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/memory-exhaust-large-span/respond.md",
+      "sha256": "74c3fb9d87b6162d654bde99a49f4c27489946ad43ad90d994bc590902d7ff23",
+      "bytes": 48
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/memory-exhaust-large-span/test.md",
+      "sha256": "20abff5acc68fc1d82faff4a8650fd6b13f74931d139b5b0ac21eafa9f26b0db",
+      "bytes": 45
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/rate-limit-bypass/README.md",
+      "sha256": "d936249695ffe704433a89a3334ce441e1b1c1364cbccb77e13d1cf1f952d65e",
+      "bytes": 66
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/rate-limit-bypass/detect.md",
+      "sha256": "1facc26b19de4f51fd8dbcd85fe6971bd61ce14238c1f9c29cfcd065a975f849",
+      "bytes": 39
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/rate-limit-bypass/prevent.md",
+      "sha256": "edab52c9ec66c139a1d844d79a3394966bcc498e5aae05f4d66f7519cc57f8a6",
+      "bytes": 40
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/rate-limit-bypass/respond.md",
+      "sha256": "dd6b82ec3d37d44eae58f3ce23f06d0ac5d50d0d5d2050d045f3971f37b26b4f",
+      "bytes": 40
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/rate-limit-bypass/test.md",
+      "sha256": "27c322e7a8d80318c612a630399175f5aa682aec18a8a5a3c775f071e322e0c3",
+      "bytes": 37
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/span-empty/README.md",
+      "sha256": "86097cae3a4c270fe08d1db7cbf7563efb02e1feffd5c9ec0deadb290d296e3b",
+      "bytes": 59
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/span-empty/detect.md",
+      "sha256": "b3b332b12a53b29e3de8c31e2bec5cade17f36397fc844300252718131309e85",
+      "bytes": 32
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/span-empty/prevent.md",
+      "sha256": "4f23b0a14189bdfc8016b54ec35e9301d3ba1c0fa4622e39f68693a5a9632a2d",
+      "bytes": 33
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/span-empty/respond.md",
+      "sha256": "7ac2b26cc1f22a04f964dc48ca5422d644b3e995b7fd73c4fe4f963c1041022e",
+      "bytes": 33
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/span-empty/test.md",
+      "sha256": "56009ce44dcd045a99d14e3dc7ee04b80a2a7e5ecf55f1ff893f7042792eb7f9",
+      "bytes": 30
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/stale-index-file/README.md",
+      "sha256": "f5ac4c9f0674789c96d251606d23cc670e980ff80983dd69232ea2654b05c027",
+      "bytes": 65
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/stale-index-file/detect.md",
+      "sha256": "5983280592176b305a6957ad9888c3d9212cf4c7419a79cced62a3244bbe6e9d",
+      "bytes": 38
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/stale-index-file/prevent.md",
+      "sha256": "73702a3ca4581515a17f0e997e940014a8a3fd0c2c1a0c2836615be3a40fcc4b",
+      "bytes": 39
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/stale-index-file/respond.md",
+      "sha256": "681f37da04c77eadaa770b7c4a3d5b9097cc992bce1aa9ca3bcc4001bb6a952e",
+      "bytes": 39
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/03-technology/ttlink-api-deep/stale-index-file/test.md",
+      "sha256": "18988640da81e2ac5bafcfd312f168c46538d1d4264b3b7e35660bdaac5f5933",
+      "bytes": 36
     },
     {
       "path": "docs/architecture-tree/eventualities/04-security/commercial-arm/README.md",
@@ -2819,6 +3634,41 @@
       "bytes": 1106
     },
     {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/README.md",
+      "sha256": "8eb6b6a6546454aab80f1217c927d887407b4b8265a95b5a154cdf527958449e",
+      "bytes": 149
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/bulk-extract-via-ui.md",
+      "sha256": "f7cf9eff1fe57cc44d0dbe97a906462887175b8cae9952ef0480064493ee9867",
+      "bytes": 515
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/bulk-extract-via-ui/contract-clause.md",
+      "sha256": "d426aa0fa6f7406f359f6e0c474c17828c40861dc00a0fc0e0537bf421f5b3bd",
+      "bytes": 173
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/bulk-extract-via-ui/detect.md",
+      "sha256": "5a950360a5b3061f4dee26290a8bee7652e590b96f5f0bb1a61347d3f0a3f8e0",
+      "bytes": 164
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/bulk-extract-via-ui/prevent.md",
+      "sha256": "cceeb2527d08f25cee408c8ac042457fcdc91e8e8657b293b5e4a5a2af072238",
+      "bytes": 165
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/bulk-extract-via-ui/respond.md",
+      "sha256": "fef9dac70a2b2e1924b44a41233f3bb16d40933dc4e5a7999222b777bc69f676",
+      "bytes": 165
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/bulk-extract-via-ui/test.md",
+      "sha256": "3a5aa70ae1dadf0e9f310a6f87a26378f9a444b372915a6e4fd5fb0017ac007c",
+      "bytes": 162
+    },
+    {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/detect.md",
       "sha256": "a19127cca80ff67dd1224e003ae6734893bd63caafa5037a9331f8bea36233cb",
       "bytes": 547
@@ -2844,14 +3694,109 @@
       "bytes": 583
     },
     {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/undisclosed-held-out-eval.md",
+      "sha256": "0fabebc806559a9309573e100e47e029c1f4b347328b80b50ab6937600af330c",
+      "bytes": 533
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/undisclosed-held-out-eval/contract-clause.md",
+      "sha256": "397931273f146c3cefa1022437c3a32954e61b35f94e424872d141c484973251",
+      "bytes": 179
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/undisclosed-held-out-eval/detect.md",
+      "sha256": "4888f6c3f9f92c73340d2c674dc28abcc62b86743d06319354047f8537883027",
+      "bytes": 170
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/undisclosed-held-out-eval/prevent.md",
+      "sha256": "62666f5accc36d11b1659a2c4a7567991706cc8df37401ef3528d770430500bc",
+      "bytes": 171
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/undisclosed-held-out-eval/respond.md",
+      "sha256": "dd7099baa7e52ef18813eb1c2dec963748d3545197333814caf70c76fc891db2",
+      "bytes": 171
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/analysis-workbench/undisclosed-held-out-eval/test.md",
+      "sha256": "351665d76e4376802b7235f5b8cc098521eedbcc6721ecb71600dccb09f6c689",
+      "bytes": 168
+    },
+    {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes.md",
       "sha256": "c39b78cb99d86c7f21a577282f19a8d1cb1aecc45fc61fb8f1833d521bbe8b98",
       "bytes": 1109
     },
     {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/README.md",
+      "sha256": "d7364bc6c200ac974e1aaa554d295ea8a5c9ca57d85f354da7a8423b5ce79481",
+      "bytes": 232
+    },
+    {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/detect.md",
       "sha256": "efe3eefbeb29993674773e75d9873a5e10af0c80c01cc78c7d5dc90baca4885e",
       "bytes": 550
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/indemnity-without-eval.md",
+      "sha256": "345ebb9ba037dc0e6ba4a44a1812ccb732185d3af93868843bac7fb0cc94e85f",
+      "bytes": 527
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/indemnity-without-eval/contract-clause.md",
+      "sha256": "e9f4b1c3461f4da957e9757ebf1c1658e548d8d0e4cf5d0e53b438597bfe847e",
+      "bytes": 177
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/indemnity-without-eval/detect.md",
+      "sha256": "fb3fc1907ea6e57ac184833f0b032a2237c7b09cb2f49ed5ae23d2670be29c13",
+      "bytes": 168
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/indemnity-without-eval/prevent.md",
+      "sha256": "8375111d76cf22d9df264c5e0a52bc3ab8bb5785e187ea218457007a2a6f1e01",
+      "bytes": 169
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/indemnity-without-eval/respond.md",
+      "sha256": "7efece6cd0dcfbf2cd9a0c98e55b41b947f1d23e741bdfaace8a87b6ba79639a",
+      "bytes": 169
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/indemnity-without-eval/test.md",
+      "sha256": "ffcec5f846a4dcf91bdd812e3f9053f201a1e933dcdaa404b10a5195f8a4de62",
+      "bytes": 166
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/inherits-transparency-broken.md",
+      "sha256": "d162e1fcc4c0c8d3906e70cf0981b797eafa6f8e330976143906a72f01ca4c12",
+      "bytes": 545
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/inherits-transparency-broken/contract-clause.md",
+      "sha256": "30c4096bcded0e0968b30eb9037b9d13245140bd67c8b642ab6e44bdc44ed07c",
+      "bytes": 183
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/inherits-transparency-broken/detect.md",
+      "sha256": "b3de3924e7fe8fd04198362a3cdaf47addd73f228d1aed776546ccb12a84bdae",
+      "bytes": 174
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/inherits-transparency-broken/prevent.md",
+      "sha256": "a1033bc32fd84d4df4344d7d092abc7a3f843b7009b6f91fe846ac676574a805",
+      "bytes": 175
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/inherits-transparency-broken/respond.md",
+      "sha256": "310ab58163c4db349d10f58da7106ca68ef5011947a62735165e7688a2628972",
+      "bytes": 175
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/inherits-transparency-broken/test.md",
+      "sha256": "d2f15ca33490083e81e7272b1ec03e59bfe14717b372aea03ac48ff92dea5531",
+      "bytes": 172
     },
     {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/prevent.md",
@@ -2862,6 +3807,36 @@
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/respond.md",
       "sha256": "c7c35cfb11e3f7584a1a5f5e6cdb065cda8d1c5da7292dbf5146b99a97f5f045",
       "bytes": 553
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/silent-customer-data-in-public.md",
+      "sha256": "229df6f3e991da1187c3355518a393a2d61b1ce3f9eca0dd2a4cd0892391d721",
+      "bytes": 551
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/silent-customer-data-in-public/contract-clause.md",
+      "sha256": "8bab83b778d3907dcb347a59ac9831ea7053e97f457d3445c607e833e40f7f61",
+      "bytes": 185
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/silent-customer-data-in-public/detect.md",
+      "sha256": "1a27cdd084fb90694d0796fad256088800b396b1a95a736fcb2a2308250be344",
+      "bytes": 176
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/silent-customer-data-in-public/prevent.md",
+      "sha256": "99f2347a261a8d77d3f2f84113e2ab2ce0788dd376303de1697fb60b79d74bca",
+      "bytes": 177
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/silent-customer-data-in-public/respond.md",
+      "sha256": "a0f5fcfdb93dde49ec4b00ebf337ae78dad9d9b28bae2e027766771ddaac903a",
+      "bytes": 177
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/silent-customer-data-in-public/test.md",
+      "sha256": "9a7169324c131c16a7f80ca27675521f3828dbc2f73e720d285cd3463490d162",
+      "bytes": 174
     },
     {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/certified-finetunes/test-or-drill.md",
@@ -2879,9 +3854,74 @@
       "bytes": 1103
     },
     {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/README.md",
+      "sha256": "4d95a0810d43bd09134dda151b8aefaaadcbd1cffff7cef1d407f20a7088a5ab",
+      "bytes": 254
+    },
+    {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/detect.md",
       "sha256": "695417fee05f895cc4b6b10badf1e06f24cb63b98390e054fbf084e0c2678c68",
       "bytes": 544
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/grc-export-forgery.md",
+      "sha256": "e7d3dab84ddcf1d65395ed4e330d721daad6fe4f64515795e82c164cfd9d7c52",
+      "bytes": 509
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/grc-export-forgery/contract-clause.md",
+      "sha256": "04d0ff6731bc29b531b28fe1a348465c703f72408e9d8c6ea5966cd85c039a53",
+      "bytes": 171
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/grc-export-forgery/detect.md",
+      "sha256": "3c8fd58dc6271ca2ee40c81e03a488165d03b35a7e71ddfc1208787c3bde4daa",
+      "bytes": 162
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/grc-export-forgery/prevent.md",
+      "sha256": "666894e8515f8611321398022a3a291be7534d189d63a844093a8e9b6fa00ae1",
+      "bytes": 163
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/grc-export-forgery/respond.md",
+      "sha256": "137b6e5ff8efad91c80e2d17183b80c0060eed088855d74e9a1e505ab06bbefe",
+      "bytes": 163
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/grc-export-forgery/test.md",
+      "sha256": "8e74740772409aa200fea1883e000eaac166815437d69ccf1bbce5cfdcca6e2b",
+      "bytes": 160
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/paywall-basic-links.md",
+      "sha256": "5ce39b9e3b8c462e968f956f47357e7dc958f2401abcf282167ed8732bf641f9",
+      "bytes": 512
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/paywall-basic-links/contract-clause.md",
+      "sha256": "d009e52df95c00e7420f7114dbbea177e22a50f6dcc63aeb8e2d8c7fc90ee6b5",
+      "bytes": 172
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/paywall-basic-links/detect.md",
+      "sha256": "7ddc8b92d69fe369a14d1ea375eac51005c0bc6533385c0e640bb6ab82c68d16",
+      "bytes": 163
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/paywall-basic-links/prevent.md",
+      "sha256": "16472c2cb7d4041eb17d2ee8dd312192d05d23b1200c1e846255bb3c1aa7f0f3",
+      "bytes": 164
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/paywall-basic-links/respond.md",
+      "sha256": "d22d2fa0a8543186c8e8ab38f5e0227961d883f5ec578d064dd00cef52a53ee8",
+      "bytes": 164
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/paywall-basic-links/test.md",
+      "sha256": "8a0139e52939bbd929f5044b1bc1a06100848a10bebfc7643effcf059eb0e1d3",
+      "bytes": 161
     },
     {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/prevent.md",
@@ -2889,9 +3929,69 @@
       "bytes": 547
     },
     {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/private-index-leaks-to-public.md",
+      "sha256": "5a1c1ff9370c28b463f9ac2a80a1f01bdac8d9ff7c68c97855b86b1bb0692bd3",
+      "bytes": 542
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/private-index-leaks-to-public/contract-clause.md",
+      "sha256": "26d65d10a04654c68a5c23a079bde93bed1ed0c03b389af6e7995f4d133f3766",
+      "bytes": 182
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/private-index-leaks-to-public/detect.md",
+      "sha256": "88c068268bd3a65493806ccbae0f861ac463246b1cf037cc0586002b94f32f28",
+      "bytes": 173
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/private-index-leaks-to-public/prevent.md",
+      "sha256": "927a00ca985c5ba9fe9fa99d3b2c9632eedbe40d9d771e1debed3a8f09b8da72",
+      "bytes": 174
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/private-index-leaks-to-public/respond.md",
+      "sha256": "1badf256d40afbca42aaa199a8be1a9899152abb8b2557d9775c27a9435fdb14",
+      "bytes": 174
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/private-index-leaks-to-public/test.md",
+      "sha256": "1544d0040b55d0f663ea6c0de683f5c9850082b1b71a086bacf0ca5ca655ded5",
+      "bytes": 171
+    },
+    {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/respond.md",
       "sha256": "9a2785b2a965fb7e05d7f10c9b3537342541188a86667a84f47cd9a1d97d2dd7",
       "bytes": 547
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/retention-undisclosed.md",
+      "sha256": "5c411f6121f258c765b77ad07b8241afe64b33f8166fce97de5e4a778c21b4ce",
+      "bytes": 518
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/retention-undisclosed/contract-clause.md",
+      "sha256": "acfc95f97bbe891d4f4f0f4ee1b1eb89b45fbb851b684ad5e1d9fb9490f2d3a4",
+      "bytes": 174
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/retention-undisclosed/detect.md",
+      "sha256": "73495b7bbf1fff6975404056bd95fb868fcb78e6af98f22bf30df20b291ac44e",
+      "bytes": 165
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/retention-undisclosed/prevent.md",
+      "sha256": "a8ff540ac5ddfea5fffc4ba1d48a1d1762fc305446ad49c9a0ae44e17e3e43aa",
+      "bytes": 166
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/retention-undisclosed/respond.md",
+      "sha256": "4397c70b87ce811214726772e1f7d7716609ac30cb939c297f21e03737a89cd9",
+      "bytes": 166
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/retention-undisclosed/test.md",
+      "sha256": "cb705a50f9fab99af33e6c733b9532d2009afe918aee3ab0b7c6242581220124",
+      "bytes": 163
     },
     {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/enterprise-ttlink/test-or-drill.md",
@@ -2909,6 +4009,131 @@
       "bytes": 1088
     },
     {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/README.md",
+      "sha256": "4e952650bf8e5767d3f413b95d949bad5c786d331c6c49e3611c8cfa1dab4a2c",
+      "bytes": 233
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/auth-takeover.md",
+      "sha256": "bbc41e5bd4e5971fdce8d79e4df96b4d3c74d9101dd0b0a4ffc8728d127c8dfa",
+      "bytes": 479
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/auth-takeover/contract-clause.md",
+      "sha256": "43443c96c06d01ee02be4e6ce65ca9bf386d7ef35a0e2e3710ccb02f9669fea6",
+      "bytes": 161
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/auth-takeover/detect.md",
+      "sha256": "cbd11f035b996fab7597db2fcdaa7b88285bcbab91a8ac149a5dfb191b773546",
+      "bytes": 152
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/auth-takeover/prevent.md",
+      "sha256": "03790a789440149601a3412af7761eae5737596b294326fc4c56188b37cf59b3",
+      "bytes": 153
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/auth-takeover/respond.md",
+      "sha256": "91639941581ada113d219e887a546abdac407dbcd6d82b324fd85aeb87003141",
+      "bytes": 153
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/auth-takeover/test.md",
+      "sha256": "2eace45f334e30985f747e728cd735389ff180218619da13689ba00e3fcbb979",
+      "bytes": 150
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/billing-fraud.md",
+      "sha256": "8f659cb5a1a9670786e233d1a87a04a66a0532a8eb52af8e0594d03f728f365e",
+      "bytes": 479
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/billing-fraud/contract-clause.md",
+      "sha256": "a4983502f4a70a3f30d5cb3d781e41754f76d47cf3b00ede0b2aaf908d228ec8",
+      "bytes": 161
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/billing-fraud/detect.md",
+      "sha256": "783c231844194fad812c557ca1684c4ec88436a97bebd7b9a7597ec9a877b832",
+      "bytes": 152
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/billing-fraud/prevent.md",
+      "sha256": "87e63f09d2c0383909c0ab679d4fad391f5f42781d41e14a07bdd502638f5da7",
+      "bytes": 153
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/billing-fraud/respond.md",
+      "sha256": "e023bfa9c01547ea5c93fc984efb15292297863ca0317a8424196929d0ef98fb",
+      "bytes": 153
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/billing-fraud/test.md",
+      "sha256": "308cead0b67524b29d481a4af69b9284aef4990de7f13b6fbf57183abea5cd42",
+      "bytes": 150
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/capacity-exhaustion.md",
+      "sha256": "ab379fa495d519084e7f1d2a0f61798331b577cb3188caff31775f9940f75ace",
+      "bytes": 497
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/capacity-exhaustion/contract-clause.md",
+      "sha256": "98f67687eda7623c9d95b438da30971c7ab2a51710d15b096af30f311e04f9e7",
+      "bytes": 167
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/capacity-exhaustion/detect.md",
+      "sha256": "921d82fb5c6a0d3ed757a608227688bb2e1f3dee2a37d4881adab0aa8ac53550",
+      "bytes": 158
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/capacity-exhaustion/prevent.md",
+      "sha256": "8b88907160367ade5c2696d199c14ea7b0dabb35b0fce24fe0354a006c453e07",
+      "bytes": 159
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/capacity-exhaustion/respond.md",
+      "sha256": "4f68527cc80ba947433f2546666a7f0aeee41db4a79e2283ce6fcd5e0a06e0e8",
+      "bytes": 159
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/capacity-exhaustion/test.md",
+      "sha256": "67c1e808d6716c720206c3bdf763689cee1d2944dd4628fa42ee41b169d643b4",
+      "bytes": 156
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/crypto-mining-abuse.md",
+      "sha256": "1ae778c87e81b86272a333a6a5e4b7ad26768f672799e89154ec25d2c3f320a6",
+      "bytes": 497
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/crypto-mining-abuse/contract-clause.md",
+      "sha256": "b9cf757f56073972506e3986d7c75f5516e81b24c45ce4f5ea24f062317efc19",
+      "bytes": 167
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/crypto-mining-abuse/detect.md",
+      "sha256": "90c0d5b61194d690f071089f71656864c1dfb279b027068edc25013bef997863",
+      "bytes": 158
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/crypto-mining-abuse/prevent.md",
+      "sha256": "68c47139bfd70dacf97665e2bc22321d3e3f7668779818956400250336476c50",
+      "bytes": 159
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/crypto-mining-abuse/respond.md",
+      "sha256": "21ec55213c524d17c439247481f559e768e3fdcdae4ee833121233bb86dd3286",
+      "bytes": 159
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/crypto-mining-abuse/test.md",
+      "sha256": "5c07721b76276bd18cbb89491c5967557bfa5fcf3d77e0bad11881900d15d2e1",
+      "bytes": 156
+    },
+    {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/detect.md",
       "sha256": "e5d2ee2aebaa45f14d485a8de86400c00178283ce48471e356afec3289d99bf1",
       "bytes": 529
@@ -2922,6 +4147,36 @@
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/respond.md",
       "sha256": "8551ef0785d32bf60728428a4a8e17a59019cffc691731784a7fb772812726d5",
       "bytes": 532
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/sla-breach.md",
+      "sha256": "c796ae31cbfb8a114e91fefe4ddc74d00049da73e4dbddd404756826d277ac1f",
+      "bytes": 470
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/sla-breach/contract-clause.md",
+      "sha256": "a58baf2878cfa15e89a6045bd857eec80b343f1aaa593b437c6a08c181a65749",
+      "bytes": 158
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/sla-breach/detect.md",
+      "sha256": "571848e3a9fc733027723c0c84c414eda93d51678170068a9a970f6c13db008e",
+      "bytes": 149
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/sla-breach/prevent.md",
+      "sha256": "17f92feaf39823e8767708774d4532d3c21d076a76d8ed4c53d26a91b272e6c4",
+      "bytes": 150
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/sla-breach/respond.md",
+      "sha256": "011e62f94ed7f5812fee043c33592a219d87dc7a0321e2e89045e1597a07bc77",
+      "bytes": 150
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/sla-breach/test.md",
+      "sha256": "ba542d5fb70b8f5bafa58507fdce003fdb21373fd9ac3897db28cd9f2725c6b0",
+      "bytes": 147
     },
     {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/hosted-infra/test-or-drill.md",
@@ -2939,6 +4194,11 @@
       "bytes": 1100
     },
     {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/README.md",
+      "sha256": "f16fc7d99d96137bff107ad373e40d71200c428e1495d79ddd189391c33e2412",
+      "bytes": 177
+    },
+    {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/detect.md",
       "sha256": "670749f225c3df086e28cdc49925a4b9dabc282ba452f5118cd002d85f2f7d16",
       "bytes": 541
@@ -2949,9 +4209,69 @@
       "bytes": 544
     },
     {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/privileged-access-without-logging.md",
+      "sha256": "58a35fcc76e99783afc593a4275a1514e7371dc324d136ec92934772d7cf1317",
+      "bytes": 551
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/privileged-access-without-logging/contract-clause.md",
+      "sha256": "7c1a14b179dd0f22066888e03034d257bd16221ad0fc3954fa58e691746e0084",
+      "bytes": 185
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/privileged-access-without-logging/detect.md",
+      "sha256": "ef6d11f6ef280442becdde66ca39d5bb44c42f4e149023e55e5b60ddcc925b4b",
+      "bytes": 176
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/privileged-access-without-logging/prevent.md",
+      "sha256": "6c6949eb1f3d40e3516290feb830e7b5c6d473bd6713c69f1f1d38eab691f14b",
+      "bytes": 177
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/privileged-access-without-logging/respond.md",
+      "sha256": "584549a83326219eddc333f0ade4964647f6bc9d02f0bc5971b0f49f016821c2",
+      "bytes": 177
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/privileged-access-without-logging/test.md",
+      "sha256": "2248e76640616c5a8e31a4a01e886e8fcec268724b95c21e0acd2b76d73404b7",
+      "bytes": 174
+    },
+    {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/respond.md",
       "sha256": "3ec474db57bd9c8f1104d51aa2b31826bcf07e8f2e5c1f351c1f4015567d0e1e",
       "bytes": 544
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/support-social-engineering.md",
+      "sha256": "2189db7a1dbe7e32e071f2d2477396fa724e73d436b30480e1aac625dc1294fe",
+      "bytes": 530
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/support-social-engineering/contract-clause.md",
+      "sha256": "ec55a08c9cbd39bf32840bf4e3c1cdff8f56594c8ee0d2ddf81a8b2a61d2314d",
+      "bytes": 178
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/support-social-engineering/detect.md",
+      "sha256": "49c5b317f62cffbd90c4f204b9a3d532781597b3948793168ef2f0dcff1f520b",
+      "bytes": 169
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/support-social-engineering/prevent.md",
+      "sha256": "711b480f416a4172a9e21b73b0ff5168d51d5f6d98d507ce92d6528328f60cdb",
+      "bytes": 170
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/support-social-engineering/respond.md",
+      "sha256": "0a1408c30ae94d1cfaec3494cce56965054bef2d3fae7f67d435af1e08610a1d",
+      "bytes": 170
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/support-social-engineering/test.md",
+      "sha256": "954ede82a37d2bfdead7a50119c4867e9abaa1d3aa860b429708c7294a95cdeb",
+      "bytes": 167
     },
     {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/priority-support/test-or-drill.md",
@@ -2969,9 +4289,74 @@
       "bytes": 1100
     },
     {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/README.md",
+      "sha256": "cffdcf01436bd8a3ba9bd5ccf4d37a19a530b4587a4df1a6c8b770d41783a588",
+      "bytes": 179
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/consulting-closes-client-core.md",
+      "sha256": "a33dbb606173c32d95cc4e49871bd4a05f567f815d40714739e7e950e56b336f",
+      "bytes": 539
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/consulting-closes-client-core/contract-clause.md",
+      "sha256": "be9c0f4c1881f8e518ae01b15966d18efc5301ece9c5663ce810fce0778b8e47",
+      "bytes": 181
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/consulting-closes-client-core/detect.md",
+      "sha256": "7058e74a546a570e5666f3fe404197a2e88c8898a99d3652737bd3c035361a80",
+      "bytes": 172
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/consulting-closes-client-core/prevent.md",
+      "sha256": "d23444464e927e1a11e24a4b80be57b728a08154d31a9466a00c26a3c0f0f6ff",
+      "bytes": 173
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/consulting-closes-client-core/respond.md",
+      "sha256": "4e863fc6cab0c98de33bc27814064e49c0f641fe1386b73d7acea8a3220d18b0",
+      "bytes": 173
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/consulting-closes-client-core/test.md",
+      "sha256": "946be5ab39b658fdf32b018447a2186b24ad0182b23eeef991012c94a33fb752",
+      "bytes": 170
+    },
+    {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/detect.md",
       "sha256": "62a6aed1ab1be3f8fd3bab033948c3e9e169f619815bfa522a629b3dc713341d",
       "bytes": 541
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/methodology-drift-from-BOUNDARY.md",
+      "sha256": "33acad5368aabbb46cb5039bf2a83854ae94108f74e33b5ea65d94675442634e",
+      "bytes": 545
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/methodology-drift-from-BOUNDARY/contract-clause.md",
+      "sha256": "ad78fb42dd5944e76cb0cf6fe059cd32184ac4ed4fb02019562b532e3a3bf7c9",
+      "bytes": 183
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/methodology-drift-from-BOUNDARY/detect.md",
+      "sha256": "67835dc01de8b88818605260bd4c781b3fae040e65bc7c7ec8d16b1cb9eeee6f",
+      "bytes": 174
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/methodology-drift-from-BOUNDARY/prevent.md",
+      "sha256": "dce811fee9310df7b41a1b23d237484fc158f7c02eaee00e7ec2d82b15bcc8fd",
+      "bytes": 175
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/methodology-drift-from-BOUNDARY/respond.md",
+      "sha256": "5d290a9e14555603f7afdec5b7b06e663f116b283c2762c70e05325d532dd78e",
+      "bytes": 175
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/methodology-drift-from-BOUNDARY/test.md",
+      "sha256": "e1d596590e44a3d376eb64a31fedcb7f9c8d6689cb1eb863267395019d98dd0b",
+      "bytes": 172
     },
     {
       "path": "docs/architecture-tree/eventualities/05-business/paid-layers/taas-methodology/prevent.md",
@@ -3122,6 +4507,96 @@
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/README.md",
       "sha256": "cb32f77699664fb62559dfbc669513b17cd0841a851ae029d9aa2247cb46a368",
       "bytes": 250
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/decision-older-than-7-days-unlogged.md",
+      "sha256": "553e0c8234544e87d72fed606cc9bcbc5ccd0707f2499fb39465083f72d2205a",
+      "bytes": 213
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/decision-older-than-7-days-unlogged/detect.md",
+      "sha256": "13a7e72d37636f93b519c70f0840f70a2466c4cfbd74a5b62aab6047e2a0aab5",
+      "bytes": 86
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/decision-older-than-7-days-unlogged/drill.md",
+      "sha256": "577d5587cf6687d75f09f4e86143b65b2da59306d113ede51e3464a5a0ee30b8",
+      "bytes": 85
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/decision-older-than-7-days-unlogged/owner.md",
+      "sha256": "d35a6c30694b9966ea926ff869b5d22ee5ea61ccbe28f7bec760c3263c34771f",
+      "bytes": 85
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/decision-older-than-7-days-unlogged/prevent.md",
+      "sha256": "331bcd0afff90aa85fc35cf4f862aed10c1836bb15381514dd26ff8d03a96483",
+      "bytes": 87
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/decision-older-than-7-days-unlogged/respond.md",
+      "sha256": "2ee584669c24f7c952bdfab299aff05c218d49db0cb5c77ee4265deae134994b",
+      "bytes": 87
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/dissent-not-recorded.md",
+      "sha256": "856ff86ebf852099689bcdd7d6af0fafc362f47834c9566ff6444ab81a910857",
+      "bytes": 183
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/dissent-not-recorded/detect.md",
+      "sha256": "6e503919e3873d7a57d46f783ef26ba6ed7906b49d9db6c7e01b8c4b83b98bc9",
+      "bytes": 71
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/dissent-not-recorded/drill.md",
+      "sha256": "b28973bbf29045c803f19f74b7c7d4d678a1358c5c3f177d427253d729c1c8bf",
+      "bytes": 70
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/dissent-not-recorded/owner.md",
+      "sha256": "b86c898edfa2e6564bb0effac777c0be31e4e1363f42b69e203535566d146f2d",
+      "bytes": 70
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/dissent-not-recorded/prevent.md",
+      "sha256": "204c807bf969e80fb33b795a313957a24967e962b1e41dbecbfb35811ca26b8f",
+      "bytes": 72
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/dissent-not-recorded/respond.md",
+      "sha256": "4697e8508cd298e8cd348c2a641386289baffb7b7709c25432271e3f145ba5e7",
+      "bytes": 72
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/exception-expired-still-secret.md",
+      "sha256": "b2c21fa882d7d4f222cf5cb98408afa4b2010b540f4169054249c30bc3a2a163",
+      "bytes": 203
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/exception-expired-still-secret/detect.md",
+      "sha256": "198fc85c6a13b4ee30a334be636f6bc1d44ced96286e20e9d9df68357685f10d",
+      "bytes": 81
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/exception-expired-still-secret/drill.md",
+      "sha256": "0363279ca51c3a002e2924c958922d7daf84cbaea8778ea3c980cf8d675cce5f",
+      "bytes": 80
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/exception-expired-still-secret/owner.md",
+      "sha256": "9998df7976ced26adaf122b4d414aa3191ddc22ab2c3649dc52ee7c65759442f",
+      "bytes": 80
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/exception-expired-still-secret/prevent.md",
+      "sha256": "25780a58bbae4a0caadeb2eaae0433e0cf4fc88aa9da8481901f56d2e5b0c1ea",
+      "bytes": 82
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/exception-expired-still-secret/respond.md",
+      "sha256": "7cc6bd7c394a9643a68646028d1b6438ea214624f0065fe81d8f5a5551a748ff",
+      "bytes": 82
     },
     {
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d01-governance/exception-never-expires.md",
@@ -3374,6 +4849,36 @@
       "bytes": 260
     },
     {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/informal-email-pressure.md",
+      "sha256": "96acef411c7f30a04036b49633405faff6abc4360ad3c8a8a85c2b3c95771f96",
+      "bytes": 189
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/informal-email-pressure/detect.md",
+      "sha256": "88745ea4d339231b1973d3d325734a611d4e442f0ea1253ee55f065ea0b8c424",
+      "bytes": 74
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/informal-email-pressure/drill.md",
+      "sha256": "fae3182bc37c17ab53090198ab9b4712b5a5284a43c2286a923f9b8671af4d8d",
+      "bytes": 73
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/informal-email-pressure/owner.md",
+      "sha256": "28590d04c275aa888cdeb12f9718320f81919cd65b98e2e2c01d3c21136412fd",
+      "bytes": 73
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/informal-email-pressure/prevent.md",
+      "sha256": "52fa41da8d8d8c429ea37bd0dee018ff5e5ea4964da638b2428adf1e8ac280e1",
+      "bytes": 75
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/informal-email-pressure/respond.md",
+      "sha256": "6c75a08d0c0552695dddbd4ab4d9cd85c7c384982fb646335c4f292982547f4f",
+      "bytes": 75
+    },
+    {
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/informal-pressure.md",
       "sha256": "63b281e4c8d648fbd652dbcb5539a28d09bed3e54949bd1927d565c6bf523c12",
       "bytes": 1130
@@ -3402,6 +4907,36 @@
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/informal-pressure/tombstone-criteria.md",
       "sha256": "499931beb4697c1e5ca89460b630f0ee47758ed298f1d347d9639dc39a3316d5",
       "bytes": 595
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/restoration-forgotten.md",
+      "sha256": "e21ca8decf32b509a3133939fe07512ab807f9cde2f56585b7412e5f1d5af8eb",
+      "bytes": 185
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/restoration-forgotten/detect.md",
+      "sha256": "6e44c539087e469e97ff7ad6c3cd38eae185d1f5931a9107ca4ad2340bd98ed2",
+      "bytes": 72
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/restoration-forgotten/drill.md",
+      "sha256": "64a0aa1352930d7bf94628923a3f4b2885aa010b7d04fc40a3bb54c006d39b00",
+      "bytes": 71
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/restoration-forgotten/owner.md",
+      "sha256": "3f81084a27c1cb808b5b5986be9d1c6473d33e18390e5c99d0476feec20b1160",
+      "bytes": 71
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/restoration-forgotten/prevent.md",
+      "sha256": "833656d53e6568ae1e727f6707aa6fe9ea12857797c42996fae6b784b7b70948",
+      "bytes": 73
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/restoration-forgotten/respond.md",
+      "sha256": "114265775a5f39238cef6143b58271653d6bc8ac2ca98b5b20abd4160d327cd6",
+      "bytes": 73
     },
     {
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/restoration-not-default.md",
@@ -3464,6 +4999,36 @@
       "bytes": 589
     },
     {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/takedown-without-tombstone.md",
+      "sha256": "0bce6937a2b4063a685c6873dd173de7973475e9f9fd8921e6842063e4dae830",
+      "bytes": 195
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/takedown-without-tombstone/detect.md",
+      "sha256": "c45c07802417c3c4c8a0235751ea2fa4dcc95206a09dd9590c704a92566f162e",
+      "bytes": 77
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/takedown-without-tombstone/drill.md",
+      "sha256": "88d27837ab636562aa756b82cb7147405cbfe93d9fa9b022093edbb5de453df3",
+      "bytes": 76
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/takedown-without-tombstone/owner.md",
+      "sha256": "851b8fa19c89531ad047123cca86d3732ce7ae3ea7e7e25de0466ab0ce5f7840",
+      "bytes": 76
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/takedown-without-tombstone/prevent.md",
+      "sha256": "c5ca89162ecb0ac3e87785b88721a458eed4216cb85607a718a3432f3a87b945",
+      "bytes": 78
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/takedown-without-tombstone/respond.md",
+      "sha256": "a04fd5d282b5806b7113c687cdb23f0767e888f21864fcceee9b1e89bb478a97",
+      "bytes": 78
+    },
+    {
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d03-data-legal/under-logging-changes.md",
       "sha256": "0cdcfee1ba9d743452de09dfc48c243ab8fa093c82f8d30fe2d4b008230357c8",
       "bytes": 1142
@@ -3497,6 +5062,36 @@
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/README.md",
       "sha256": "204efac581701cd465cdb2599543573ed2d170f19ad163f2b9bec2ad6efee57c",
       "bytes": 294
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/contamination-skipped.md",
+      "sha256": "6c17ae088cc828f03492c6374a4e021ed568435a5c4e56d0f05d25e5c3a578ab",
+      "bytes": 185
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/contamination-skipped/detect.md",
+      "sha256": "92fab81dc1b44177d0ce031d533abe18742d6d4e795e535b69d48e5cd38a4302",
+      "bytes": 72
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/contamination-skipped/drill.md",
+      "sha256": "695457ad3991fc2f27c38e37ad10b590d778a2d2f1daa779b94bd062054beea1",
+      "bytes": 71
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/contamination-skipped/owner.md",
+      "sha256": "d0fbd8471a66e40903c594dfaf9d42b9fd18bc601557576c80ea1320af9a0018",
+      "bytes": 71
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/contamination-skipped/prevent.md",
+      "sha256": "a43cae6f9655e209facd3a2e999603d6ebc3400c7957986e0427b07adf035f54",
+      "bytes": 73
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/contamination-skipped/respond.md",
+      "sha256": "0f9b0dd636b89b234d250c36cd4d7132865808cd92e98d4f31e8c966d187b2ac",
+      "bytes": 73
     },
     {
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/contamination-unreported.md",
@@ -3587,6 +5182,66 @@
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/private-leaderboard/tombstone-criteria.md",
       "sha256": "1ad5276211f921a687829ac47253b40ddf60af4eb2332976c8b797294ce3c97c",
       "bytes": 601
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/public-claim-without-protocol.md",
+      "sha256": "bcda5a51557ccc09bb2f6b68ec7117c11d5c4c0f67b12c3615af1ab11356b253",
+      "bytes": 201
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/public-claim-without-protocol/detect.md",
+      "sha256": "e36ad863381c0ce9e6405e748abbf16dde1569484c51094528c01b9e0ecfd7e9",
+      "bytes": 80
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/public-claim-without-protocol/drill.md",
+      "sha256": "6dfa22f3bbcd4d1a827e276c1bf047f3a06590a5ba5117511e7c9cd7064766b4",
+      "bytes": 79
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/public-claim-without-protocol/owner.md",
+      "sha256": "01eec75f94945ac0146d555cca3eb2748e9f695bc08fef7be7e1d611530a1bc6",
+      "bytes": 79
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/public-claim-without-protocol/prevent.md",
+      "sha256": "d4c54b3fd12b4f57c4d5220206ce2634a5e3d48f9c7ef454e11ebeb99d531e9d",
+      "bytes": 81
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/public-claim-without-protocol/respond.md",
+      "sha256": "4d4c948daf44134e83300fc2a33ec75f58e28b883f4c20371f20966effcb9232",
+      "bytes": 81
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/raw-results-not-archived.md",
+      "sha256": "7ebc967ad3b54e71d320feb274df0d9f696dc56fead3f6ee17d7570b78c877f4",
+      "bytes": 191
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/raw-results-not-archived/detect.md",
+      "sha256": "a600513d02d79674eacd703f058497a4da6521beeb03aed93430d906ed0a173f",
+      "bytes": 75
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/raw-results-not-archived/drill.md",
+      "sha256": "12928b831d16ba1e5651bb0a8ab815593cb996915b84cf639b5089707cde3a5c",
+      "bytes": 74
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/raw-results-not-archived/owner.md",
+      "sha256": "6a1a4e4d4a4c5be8c028fb25b56a252e2992917134b57b45645c9eb9481878a3",
+      "bytes": 74
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/raw-results-not-archived/prevent.md",
+      "sha256": "f07f8bd946dfdaa6c837ecc9da6d9a111958bfb009742c2b82784a4bab4b64d5",
+      "bytes": 76
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/raw-results-not-archived/respond.md",
+      "sha256": "3fcb908f2ef784110fa0f8e8a43fa474b0c39a1e09b09cfeefb108cd8faab777",
+      "bytes": 76
     },
     {
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d04-evaluation/third-party-benchmark-limits.md",
@@ -3909,6 +5564,36 @@
       "bytes": 218
     },
     {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/customer-asks-exclusive-weights.md",
+      "sha256": "d0c2918606e2d87ca1a81d034ed970e869351f082f4de34486303376883c7145",
+      "bytes": 203
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/customer-asks-exclusive-weights/detect.md",
+      "sha256": "92a3f4c6e2ae0356468f55767a2c9649e87bd6a7d1f1660604b1672c5471de2d",
+      "bytes": 82
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/customer-asks-exclusive-weights/drill.md",
+      "sha256": "10a72462c7b300362cae51f4f0240f70deb64037aff28e3fc40117ba2c71fcc1",
+      "bytes": 81
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/customer-asks-exclusive-weights/owner.md",
+      "sha256": "2577c2b2fc046267a0fac5f9244574ca3532d9c7ee8810b7fc6566e1285d567a",
+      "bytes": 81
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/customer-asks-exclusive-weights/prevent.md",
+      "sha256": "cc7e845920471606c38243f73e547e328c012a1a0e1477fe50f6d1deae375b00",
+      "bytes": 83
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/customer-asks-exclusive-weights/respond.md",
+      "sha256": "1a0e235ecb912494a1bf8d611d851fc5911c2ace44cb16fd89685feff5496d92",
+      "bytes": 83
+    },
+    {
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/customer-exclusivity-request.md",
       "sha256": "a94006d7ba825b7dd81c19d66d73965662037bd6a471d9b5813e378791078928",
       "bytes": 1161
@@ -3997,6 +5682,66 @@
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/gradual-erosion/tombstone-criteria.md",
       "sha256": "abdede8babfe531aef715be757babd641a4be32b5e28ff042a33e22d91530313",
       "bytes": 587
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/sales-demo-hides-free-core.md",
+      "sha256": "5557ac94de7ef31b77f3291b227e8347ba943d50553c487bd22f05f4c009eea6",
+      "bytes": 193
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/sales-demo-hides-free-core/detect.md",
+      "sha256": "e26fcb107b880acad26bbee7eddb340cec64347deee11f7b5fb82ae5719f8e61",
+      "bytes": 77
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/sales-demo-hides-free-core/drill.md",
+      "sha256": "75988c7fb8e838ac9b5f8be2f6d81911a22278bfdfb1fe1728358180ce7ae515",
+      "bytes": 76
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/sales-demo-hides-free-core/owner.md",
+      "sha256": "63bbaa4e3b0f48c3ff93181bb1ed98ac124eb3f408d2f644c116c6e2e8879d97",
+      "bytes": 76
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/sales-demo-hides-free-core/prevent.md",
+      "sha256": "eaec484f278c16587a4e3f6aabbe216583fee34fb3e3d4953779eb16e7d6521f",
+      "bytes": 78
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/sales-demo-hides-free-core/respond.md",
+      "sha256": "324e3eb530d0bc58396b9144674b3c260fb1babfcafe7795dcca3e23aab61343",
+      "bytes": 78
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/side-letter-detected.md",
+      "sha256": "ecd41d9931e24ac60459cce309f8869aacc47451a9b62b1c3a5410dacaf114c8",
+      "bytes": 181
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/side-letter-detected/detect.md",
+      "sha256": "738d0622520cab4f13d4d9aa70314e882c85c21f82f0d78bfe1a51564aede9ec",
+      "bytes": 71
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/side-letter-detected/drill.md",
+      "sha256": "c1ae37704f7517a619fc7a6a0c38d45b099ab7f7ecbbc0f934e26c9b35b4d738",
+      "bytes": 70
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/side-letter-detected/owner.md",
+      "sha256": "406d82e1a5219ec5fd09b01a4ff277d6f819984c18ede43dfc1aa2b61e13815b",
+      "bytes": 70
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/side-letter-detected/prevent.md",
+      "sha256": "9ce663890aa928d297f05ce52a44ca4f14482418d69fe3fa516eac228a78e860",
+      "bytes": 72
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d08-boundary/side-letter-detected/respond.md",
+      "sha256": "67e9d66f5c1d4d5304fbaa08328d9a4f18836cfb6fcc17a6cb5843d43e8196d0",
+      "bytes": 72
     },
     {
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d09-stewardship/README.md",
@@ -4157,6 +5902,96 @@
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/chilling-effect/tombstone-criteria.md",
       "sha256": "5494d43a93f8a8fed16742a2d9c70a311137c1c5fc779379ac3e282b1253cafc",
       "bytes": 590
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/critical-withheld-indefinitely.md",
+      "sha256": "c8c64b5d80a808efa4e38008f98d7bb6ffe4f9eac613f8a37799a976f2f7f632",
+      "bytes": 204
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/critical-withheld-indefinitely/detect.md",
+      "sha256": "d85e3aa3206e308632c3a68e27d49789fd497436efe680566e79db632abaf778",
+      "bytes": 81
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/critical-withheld-indefinitely/drill.md",
+      "sha256": "f2b357842c122034b9a0b5e23faa09d3762707dc2271650b385d2a5dd4fb5a81",
+      "bytes": 80
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/critical-withheld-indefinitely/owner.md",
+      "sha256": "4e09858996a9bd4b40734d0f1bdb147010a251d0105623023ddc2d357c737fed",
+      "bytes": 80
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/critical-withheld-indefinitely/prevent.md",
+      "sha256": "f3569bf25467391ef8976a642c530b15a69110295504e3d29419c439ce6d6823",
+      "bytes": 82
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/critical-withheld-indefinitely/respond.md",
+      "sha256": "a1df58dbe13042f76039463db2c714d8b7c4da45c4824cf32c8aa3859c347b60",
+      "bytes": 82
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/exemption-auto-renewed.md",
+      "sha256": "106400e08ce90c46a5a84e9a9fdd3726e7a08b5d12344e981e3d716ae6f453a3",
+      "bytes": 188
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/exemption-auto-renewed/detect.md",
+      "sha256": "c9fef921bfe5a97b351b0c1e90cd0ce4d5bd4f6b7af42d773ea0af5f809eb0d4",
+      "bytes": 73
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/exemption-auto-renewed/drill.md",
+      "sha256": "2b31448a7478bafe4c360652ddf5e5523916a2cfe24f921734bf0679562ab4a6",
+      "bytes": 72
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/exemption-auto-renewed/owner.md",
+      "sha256": "60a990dd518385e5b3edd88aa5fd03d4a11c04fe344a7df976937442a81adeea",
+      "bytes": 72
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/exemption-auto-renewed/prevent.md",
+      "sha256": "7bbb05738fce17ea9d998bceb9afff5e169e3313f07e81f6332ba245947abe9c",
+      "bytes": 74
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/exemption-auto-renewed/respond.md",
+      "sha256": "81fdf25eaf61125ce0b2423e5cb43c38775e2490b918aef303e8bd7d3c06287a",
+      "bytes": 74
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/finding-closed-without-register.md",
+      "sha256": "06a6decd5557ff0e5ba243729ae0006d09397289737ee132cdcd3ca0213922dc",
+      "bytes": 206
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/finding-closed-without-register/detect.md",
+      "sha256": "d7316596e680696d7c6a8451f05159691cf51603b45da73fb3e78ee6ea518754",
+      "bytes": 82
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/finding-closed-without-register/drill.md",
+      "sha256": "ed4aa4c50ca0ffe665d6e9920efe7f55bfa26e538755ff0cf808f9818efe1e95",
+      "bytes": 81
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/finding-closed-without-register/owner.md",
+      "sha256": "d826b06fe55347921a85a1d28b54c61c4fc46200637cf6555497671dbf9fb5da",
+      "bytes": 81
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/finding-closed-without-register/prevent.md",
+      "sha256": "a4a2c04bf83e60df7ca320d6c534fd08dd601b864bf0b5ab60babcddd80c7744",
+      "bytes": 83
+    },
+    {
+      "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/finding-closed-without-register/respond.md",
+      "sha256": "b5b9f6e649fc7d262a805936ba482137e74bc2e7779d8ad19a6d317a41907119",
+      "bytes": 83
     },
     {
       "path": "docs/architecture-tree/eventualities/06-transparency-domains/d10-redteam-pub/findings-suppressed.md",
@@ -4985,8 +6820,23 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "946dbf17898485a9338209e61f9b7a7d92940e3610b32bc24de9a892d5fe5147",
-      "bytes": 393
+      "sha256": "066677da9a3980598795d3e1de442a91edb47f0893faefe2a7f59d76d503679e",
+      "bytes": 677
+    },
+    {
+      "path": "docs/business/FOUNDING_FREE_CORE_MONETISATION.md",
+      "sha256": "3ade4ebc36e5d80b0e08989d0e4b04f04a7027705aa7b1d070c63c72f58c8a3e",
+      "bytes": 2780
+    },
+    {
+      "path": "docs/business/FOUNDING_MOTIVES_MASS_BACKING.md",
+      "sha256": "a5e06bcab07b0012e86092e40d6e264680bc5545913135bf033360eb6cfb0c95",
+      "bytes": 3789
+    },
+    {
+      "path": "docs/business/FOUNDING_PAID_LAYERS.md",
+      "sha256": "bd185bf31a1e18be4aef82745c943b6ec9ae35d2afe9fb5b9494148ed653524e",
+      "bytes": 2406
     },
     {
       "path": "docs/business/FOUNDING_PITCHES_AND_MBA.md",
@@ -5034,6 +6884,26 @@
       "bytes": 4163
     },
     {
+      "path": "docs/culture/FOUNDING_COMPANY_CULTURE.md",
+      "sha256": "f3a20604748c1f382031856f5860cdc350f3c14419f1d207713dafe0995da70c",
+      "bytes": 3262
+    },
+    {
+      "path": "docs/culture/FOUNDING_HUMAN_MOVEMENT.md",
+      "sha256": "c678bfd97de47eb66aedb145e5dc7ad59a54d4927b51c1ea5263eb60c698ad3a",
+      "bytes": 4546
+    },
+    {
+      "path": "docs/culture/FOUNDING_ORG_AS_DEMONSTRATION.md",
+      "sha256": "9649ea176b9bed429db9cfc9feabdd0d59e227e8d181cfe362a8217933916ab4",
+      "bytes": 2154
+    },
+    {
+      "path": "docs/culture/FOUNDING_PUBLISH_CONVERSATION.md",
+      "sha256": "eaaa91b791c80bbe48a71e1444b3dfa25297d7cb2567b821cd0303bf655909ad",
+      "bytes": 1527
+    },
+    {
       "path": "docs/culture/company-culture.md",
       "sha256": "6af016b57c66aab242c62215b11ee0797e0492253de22c07d74fa8b25fbc07bc",
       "bytes": 272
@@ -5057,6 +6927,21 @@
       "path": "docs/manifesto.md",
       "sha256": "943a1d1a585bd861a660d72046f2ab514dac244201228843d5ae525d9a331a36",
       "bytes": 1700
+    },
+    {
+      "path": "docs/security/FOUNDING_PLINY_CCO.md",
+      "sha256": "290868f03b1126256c7aebb3243df86d49094bd489b5991dfd324dd70b79086f",
+      "bytes": 1882
+    },
+    {
+      "path": "docs/security/FOUNDING_PROTECT_PROFIT_ARM.md",
+      "sha256": "50aa28e73eda8d46bf0ce4e8553f28d31b15a53c7ad8145254bacad2c0e09a17",
+      "bytes": 3846
+    },
+    {
+      "path": "docs/security/FOUNDING_REDTEAM_REQUIREMENTS.md",
+      "sha256": "06c12cffd82f48f6f8b1cd5de8613105e69d5493a8c4b6d2f671bdd49363271f",
+      "bytes": 2920
     },
     {
       "path": "docs/security/pliny-cco-notes.md",
@@ -5129,9 +7014,169 @@
       "bytes": 6906
     },
     {
+      "path": "docs/specs/artefacts/00_QUARTERLY_BOOTSTRAP_2026Q3.md",
+      "sha256": "638bb2a56086550f6de00202e3ab2f7111e8a1c2f54dfb1e8aeacc8a303a6292",
+      "bytes": 1277
+    },
+    {
+      "path": "docs/specs/artefacts/01/DECISION_LOG_PROCESS.md",
+      "sha256": "0e7cff3faea71298bc90e4467ab805646d811d25f8e5b5d3ba22d15b53336a01",
+      "bytes": 550
+    },
+    {
+      "path": "docs/specs/artefacts/01/EXCEPTION_HANDLING.md",
+      "sha256": "3a7cb87ff69c166dd7731f84838797655b06bb302f28beefcc55a752ccf7ef12",
+      "bytes": 1236
+    },
+    {
       "path": "docs/specs/artefacts/01/GOVERNANCE_CHARTER.md",
       "sha256": "f9263cdddd479bec3dde89389561a6bee5977ff7579b4710d76d09c42596606f",
       "bytes": 1025
+    },
+    {
+      "path": "docs/specs/artefacts/01/GOVERNANCE_CUSTODIAN_ROLE.md",
+      "sha256": "aa8a0113ff1f64a38bdfd206f126650d1c7538868223d17a67b4c8edf1faf9d2",
+      "bytes": 1240
+    },
+    {
+      "path": "docs/specs/artefacts/01/MATERIALITY_THRESHOLD.md",
+      "sha256": "1490896058a7b17be0719b3bed16903a7f4480ea56f422113ae0fcaf668488ea",
+      "bytes": 915
+    },
+    {
+      "path": "docs/specs/artefacts/01/MONTHLY_AUDIT_CHECKLIST.md",
+      "sha256": "807b716f487a68c2213e7571bacbe1b249534a4914aecaaaf6fe8931cbfd7a87",
+      "bytes": 1243
+    },
+    {
+      "path": "docs/specs/artefacts/01/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "5a903cbeeeb3d71f9904d396fd489424ca37dd0ad5018d4c746cc36121b378e4",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/01/README.md",
+      "sha256": "ab406411abc94fb6796c90624e83e34645322e952ba7f6e7de86695692b72688",
+      "bytes": 435
+    },
+    {
+      "path": "docs/specs/artefacts/02/ANNUAL_ATTESTATION_TEMPLATE.md",
+      "sha256": "c1d5a909445dbc72c6894cfd40e0dd82c8cf4e0dc88d53b225152749de7cfbbb",
+      "bytes": 1246
+    },
+    {
+      "path": "docs/specs/artefacts/02/BENEFICIAL_OWNERSHIP.md",
+      "sha256": "7fa2ea64d12ba7ec7f2955fe9b6ba812cae14ecb0a324c132b5c8166b5d1f100",
+      "bytes": 1241
+    },
+    {
+      "path": "docs/specs/artefacts/02/CAP_TABLE_SUMMARY.md",
+      "sha256": "e355ff243322972981fddab3a6e0cf534e8661b3862ea20ec354359c721b911e",
+      "bytes": 269
+    },
+    {
+      "path": "docs/specs/artefacts/02/FUNDING_HISTORY_LOG.md",
+      "sha256": "df89bca0669985a9477f35010a98286e9178fa922577b702d268faba9bf9d1ab",
+      "bytes": 290
+    },
+    {
+      "path": "docs/specs/artefacts/02/INFLUENCE_RIGHTS_REGISTER.md",
+      "sha256": "ac26fe86a8af2f80835e7e7db2707c5357c06664a02abac113d68ee88dcd8adb",
+      "bytes": 262
+    },
+    {
+      "path": "docs/specs/artefacts/02/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "384d76a49996a65128cc74f688a7cf563ce5d3e34f8210f169f8ee934190f55c",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/02/README.md",
+      "sha256": "ec93e8570a3552abd0cdd06eaccccc2ba4a5ea3dbda891f0522e60eac9f995ee",
+      "bytes": 452
+    },
+    {
+      "path": "docs/specs/artefacts/02/SIDE_LETTER_PROHIBITION.md",
+      "sha256": "bfd08df9f22c67d439266cb140d7d561aaa818be417cdfee2a223be81462a95b",
+      "bytes": 1240
+    },
+    {
+      "path": "docs/specs/artefacts/03/DATA_GOVERNANCE_POLICY.md",
+      "sha256": "ee7022221d100e630b70e37388b125a2c76dd218522bf681101b43c7e30eed25",
+      "bytes": 658
+    },
+    {
+      "path": "docs/specs/artefacts/03/DATA_PROVENANCE_MANIFEST_TEMPLATE.md",
+      "sha256": "f925233fec239c1b73b358158b6687a52608ca20f3bc632fb9e67edc6e20b3d0",
+      "bytes": 1252
+    },
+    {
+      "path": "docs/specs/artefacts/03/LEGAL_ACTION_INTAKE.md",
+      "sha256": "0cf697b83ad1181b1dc0ea6d540206e309dcdbece9020860c0cadba7356c4a05",
+      "bytes": 1237
+    },
+    {
+      "path": "docs/specs/artefacts/03/QUARTERLY_DATA_REPORT_TEMPLATE.md",
+      "sha256": "5ba3a3892adb74e1fb427491162c7cb12c506d47af7725a291ee598e1000993e",
+      "bytes": 1249
+    },
+    {
+      "path": "docs/specs/artefacts/03/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "e77a4a0fb3d5bb16c1e62ac8eb82e1b139cb77ce4ddbb040e8b1e479519dd37a",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/03/README.md",
+      "sha256": "fc7d318233f301b14a5b52809a6198d7f27a853ecb2c19101164264a602a7edb",
+      "bytes": 457
+    },
+    {
+      "path": "docs/specs/artefacts/03/RESTORATION_BIAS.md",
+      "sha256": "7b0968447887d4100752136600de44ac9340f8cc210a96642c84577043c5ee83",
+      "bytes": 1233
+    },
+    {
+      "path": "docs/specs/artefacts/03/TOMBSTONE_STANDARD.md",
+      "sha256": "6080fd73b0670c2a3c65f2fa0aeadb18d2f7e3029f91784d6ac484c61d3b6a7c",
+      "bytes": 506
+    },
+    {
+      "path": "docs/specs/artefacts/04/CONTAMINATION_ANALYSIS_TEMPLATE.md",
+      "sha256": "68d8765686bd6fc47e525cbaf923d45f4b5c6ff689b013462393dc88c682d148",
+      "bytes": 1250
+    },
+    {
+      "path": "docs/specs/artefacts/04/EVALUATION_PROTOCOL_TEMPLATE.md",
+      "sha256": "4fd3a75f20300524f169fd938ac9e17ea2eb56e5700818a8d7d3c9059b48980d",
+      "bytes": 1247
+    },
+    {
+      "path": "docs/specs/artefacts/04/EVAL_CHANGE_LOG.md",
+      "sha256": "2af8d377e13348adffe40d3c6e46536628b6a76185441ae56e9d8317ff345730",
+      "bytes": 228
+    },
+    {
+      "path": "docs/specs/artefacts/04/PRIVATE_EVAL_REGISTER.md",
+      "sha256": "5126a10b97fe43d6a81194ebb209498f2fedd5edddad521429f4721f314d0a90",
+      "bytes": 1240
+    },
+    {
+      "path": "docs/specs/artefacts/04/PUBLIC_CLAIM_GATE.md",
+      "sha256": "330dbc2e86f0c4307c0b8cfcb86353bd988aab27814a66e4120a1c0aea9bd4f9",
+      "bytes": 374
+    },
+    {
+      "path": "docs/specs/artefacts/04/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "d1e71ab03491e8ab1d978a1639bcdaf21eec55a63426b16a83aaee26e5f4ea84",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/04/README.md",
+      "sha256": "ac30eb6b4326dd6318942b3be6e40777ee97a2d26f93994c35c537c4f9da7273",
+      "bytes": 461
+    },
+    {
+      "path": "docs/specs/artefacts/04/REPRODUCIBILITY_PACKAGE_CHECKLIST.md",
+      "sha256": "2ea662fb15436fa9f55788ff4343db495bb030262f1fd83d70707fff12d222a1",
+      "bytes": 1253
     },
     {
       "path": "docs/specs/artefacts/05/INCIDENT_DISCLOSURE_POLICY.md",
@@ -5139,14 +7184,239 @@
       "bytes": 623
     },
     {
+      "path": "docs/specs/artefacts/05/POSTMORTEM_TEMPLATE.md",
+      "sha256": "3d1d37a98edf9e42e079b08ae9bb2d37cd7c05c7735fe694d01d9b1d1c9e0255",
+      "bytes": 1238
+    },
+    {
+      "path": "docs/specs/artefacts/05/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "26c3d836ccdd5172f62cfcb70166b9478a36c1bd6cd705a2dd62adba0a9b5a51",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/05/README.md",
+      "sha256": "09d34fd1c90bc2f286dd2b997a473f9d828b2b26305ac4c4ec48929422a6bf93",
+      "bytes": 472
+    },
+    {
+      "path": "docs/specs/artefacts/05/SECURITY_EXEMPTION_PROCESS.md",
+      "sha256": "f0ab62616ed3939ce7291e791ebf60210d28bb89ecce2ad5726060c3d0dcab83",
+      "bytes": 1244
+    },
+    {
+      "path": "docs/specs/artefacts/05/SEMIANNUAL_INTEGRITY_REPORT_TEMPLATE.md",
+      "sha256": "319eb01ba8d732695f64c75e741bd0cf82fa69110c1adcbcb5322e7f9c2067a4",
+      "bytes": 1255
+    },
+    {
+      "path": "docs/specs/artefacts/05/SEVERITY_THRESHOLDS.md",
+      "sha256": "1da92e370e3819b02521d4767b19b8f81039ba82961d6cf5dd75449c2b3d1727",
+      "bytes": 497
+    },
+    {
+      "path": "docs/specs/artefacts/05/TRANSPARENCY_SYSTEM_FAILURE_CLASS.md",
+      "sha256": "27d159e1a18fe41e35fe7e616744a1f74b85929340973a6bb11048c653663b42",
+      "bytes": 1252
+    },
+    {
+      "path": "docs/specs/artefacts/06/ALIGNMENT_TEST.md",
+      "sha256": "670b24e80007684278048c61abd37582aa181b0ef1b17d7d5a5c54a1f5b941ab",
+      "bytes": 1234
+    },
+    {
       "path": "docs/specs/artefacts/06/COMPENSATION_PHILOSOPHY.md",
       "sha256": "31b830f6d09138d016b65d1669e0db2ec3385c4cdcf7fecebde97c5aff275b2f",
       "bytes": 498
     },
     {
+      "path": "docs/specs/artefacts/06/EQUITY_OVERVIEW.md",
+      "sha256": "d32ecaa18c45c5ceeb0a8f03163f22023417ca68194fe8718cc5b14991fea068",
+      "bytes": 1236
+    },
+    {
+      "path": "docs/specs/artefacts/06/INCENTIVE_EXCEPTION_LOG.md",
+      "sha256": "693ccf4f4e14e00f3984fe28ce7ca480fcc379922dfe9e02a50f5beae62582a1",
+      "bytes": 1237
+    },
+    {
+      "path": "docs/specs/artefacts/06/PERFORMANCE_CRITERIA_TRANSPARENCY.md",
+      "sha256": "a8f424906fadf2a1a09ba40e4815e0ee8dad405abd4dd162d3fda0900778908b",
+      "bytes": 1250
+    },
+    {
+      "path": "docs/specs/artefacts/06/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "a8b84e37c8ba9d744e5700695310388a1831a25c503a31a75152a2ec2176da51",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/06/README.md",
+      "sha256": "d6b75fa8fecc3a12353b01582806e94a12192751cd82a2da3bc5487e696578c9",
+      "bytes": 436
+    },
+    {
+      "path": "docs/specs/artefacts/06/ROLE_BANDS_TEMPLATE.md",
+      "sha256": "cd05795fe413229e8f431310cc70b6164a6713a993f63dc400021fa5372af438",
+      "bytes": 1238
+    },
+    {
+      "path": "docs/specs/artefacts/07/ANNUAL_SUPPLY_CHAIN_ATTESTATION.md",
+      "sha256": "b70c5f1357f064e44422c26388c3f962887ac34da0b60e6c169ba8c7da756b7b",
+      "bytes": 1250
+    },
+    {
+      "path": "docs/specs/artefacts/07/COMPUTE_PROVENANCE_NOTE_TEMPLATE.md",
+      "sha256": "7316d4aa855b5694d2afda3923b24428ba47c9575b723d4b3b55a60d1a124001",
+      "bytes": 1251
+    },
+    {
+      "path": "docs/specs/artefacts/07/DEPENDENCY_CHANGE_LOG.md",
+      "sha256": "55cf990066b7f3a73ee55d4fe1d7845e87c2b15c24c635c8252df86985830b1b",
+      "bytes": 1235
+    },
+    {
+      "path": "docs/specs/artefacts/07/DEPENDENCY_REGISTER.md",
+      "sha256": "673c9e16343b5d374a817cb025de484a15cd1e359740d44981b21f9943f2558e",
+      "bytes": 1238
+    },
+    {
+      "path": "docs/specs/artefacts/07/MATERIALITY_FOR_DEPS.md",
+      "sha256": "20f376bda7444f9a07a0bf1756d9cad163190cf880cd2b92c130d28e7b2a15d0",
+      "bytes": 1240
+    },
+    {
+      "path": "docs/specs/artefacts/07/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "daa7db97fbedfd053768eae61e736609edd8a2c19140f8794d4af35be3c5a36a",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/07/README.md",
+      "sha256": "9ba23d0df25adc8602a419e8c904b1e3064a206530a03eef5ac5b41f70907dd1",
+      "bytes": 467
+    },
+    {
+      "path": "docs/specs/artefacts/07/SUPPLY_CHAIN_RISK_SUMMARY.md",
+      "sha256": "ec08121ec74433941f7b14e5bf8ce4ca7a85c1a3c824452f5066ed21cf389d40",
+      "bytes": 1243
+    },
+    {
+      "path": "docs/specs/artefacts/08/ALLOWED_COMMERCIAL_PRIVACY.md",
+      "sha256": "0861a58a89dcd8e9bce475e058c59ea39fcec76fcb991727f7a86de170a87cd2",
+      "bytes": 415
+    },
+    {
+      "path": "docs/specs/artefacts/08/ANNUAL_BOUNDARY_ATTESTATION.md",
+      "sha256": "a9358fa03aba489f4bc5c822b363646eee91f6375f9d174ef0de70d63c3e7a2d",
+      "bytes": 1246
+    },
+    {
+      "path": "docs/specs/artefacts/08/BOUNDARY_CHANGE_PROCESS.md",
+      "sha256": "d488887c2bcde4ac11cb6d0578c25b034e6f080aaff96df3f3d44b240c18131c",
+      "bytes": 320
+    },
+    {
+      "path": "docs/specs/artefacts/08/BOUNDARY_SPEC.md",
+      "sha256": "3e3cd38ece96d6bf16f09627402712d25d2f4b026add97f20077996d7eeb4daa",
+      "bytes": 1228
+    },
+    {
+      "path": "docs/specs/artefacts/08/NEW_FEATURE_BOUNDARY_REVIEW.md",
+      "sha256": "01f91ed1fefd519a677bf8f52e71c96f0ab2d7163cd0d696a4f46eef9686b52c",
+      "bytes": 1247
+    },
+    {
+      "path": "docs/specs/artefacts/08/PROHIBITED_OPACITY.md",
+      "sha256": "ea3fe3c6198462c6c9f85587c6152b3d38bfb619ecf6cd4e22ce4a14f55727e0",
+      "bytes": 345
+    },
+    {
+      "path": "docs/specs/artefacts/08/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "3b137ec6b56974a0dde1917e15d654f9931f1859ac370495c99095bbd64c2132",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/08/README.md",
+      "sha256": "ae5bb5b437b2d70654ae41db295d301c63eb511bbeca7aa8d9ad0dc96d926f97",
+      "bytes": 446
+    },
+    {
+      "path": "docs/specs/artefacts/09/ANNUAL_CONTINUITY_ATTESTATION.md",
+      "sha256": "87287edc4f6d0cfca26bc82b419cec82c221cf63d68433e9919ddaf93f0868ec",
+      "bytes": 1248
+    },
+    {
+      "path": "docs/specs/artefacts/09/CHANGE_OF_CONTROL_TRIGGERS.md",
+      "sha256": "7082a974c500b983fc2fdb40650b00f9a5155ecf366919d7b55ac2601ca9a19b",
+      "bytes": 409
+    },
+    {
+      "path": "docs/specs/artefacts/09/CONTINUITY_COVENANT.md",
+      "sha256": "3f33c622c35a975262124fe732d7e063d669ef1f879f73209c3db66f15dbdc8a",
+      "bytes": 1238
+    },
+    {
+      "path": "docs/specs/artefacts/09/KEY_SIGNING_CONTINUITY.md",
+      "sha256": "7ad1178b7edc87f6fbd789203c868ddb74887949b7f60a42367bb77e448a79d1",
+      "bytes": 1239
+    },
+    {
+      "path": "docs/specs/artefacts/09/PUBLIC_CORE_ASSET_INVENTORY.md",
+      "sha256": "c6d26e5691f7cb58bf2b96f54328a44a3aefbaadd1d5ef2119584f76e8a7aacf",
+      "bytes": 1247
+    },
+    {
+      "path": "docs/specs/artefacts/09/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "a777c2bdabcca9bfd43117da6c499e4d9b264b32a3e2d3eef202e2fce3cb7f61",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/09/README.md",
+      "sha256": "2bd97b590a134ba74decb0be32ca4d4b25c37b8c1f1b1d6a6af540de7b24afe0",
+      "bytes": 464
+    },
+    {
+      "path": "docs/specs/artefacts/09/SUCCESSION_FAILURE_MODES.md",
+      "sha256": "76e7251c1a936275db67004bc980afc1b63a55eaea33443cbe463e70a9a0e8b5",
+      "bytes": 1239
+    },
+    {
+      "path": "docs/specs/artefacts/10/EXEMPTION_RULES.md",
+      "sha256": "69bffea38c8ed3e3e2eb1dd51cf262308ab22253798991cb155040a5faee5816",
+      "bytes": 1233
+    },
+    {
+      "path": "docs/specs/artefacts/10/FINDINGS_CLASSIFICATION.md",
+      "sha256": "76a27a8a7c361f3b4259895360cd9a6f22c3862662b2071c07056b52248612a6",
+      "bytes": 453
+    },
+    {
+      "path": "docs/specs/artefacts/10/INTERNAL_WORKFLOW_HOOKS.md",
+      "sha256": "e66f5edd8cb07a8bccf61ea27fc98a0d8cf291cbbfc0ab9da6b282cd12c5828e",
+      "bytes": 1241
+    },
+    {
+      "path": "docs/specs/artefacts/10/QUARTERLY_REPORT_TEMPLATE.md",
+      "sha256": "903ed4afab066f14cc9aeb1aad2277d27e93f29a015ce045b3938f1fc2682f86",
+      "bytes": 326
+    },
+    {
+      "path": "docs/specs/artefacts/10/README.md",
+      "sha256": "552a566f3be3e044f7a03c9be6bf8c3ea64e9a05305fd71d864207b9f3855d74",
+      "bytes": 463
+    },
+    {
       "path": "docs/specs/artefacts/10/REDTEAM_PUBLICATION_STANDARD.md",
       "sha256": "3fc240cffb8c5a9752de56b5990c113494f25b0fcc2d4cdfd3d3a8e99f56465b",
       "bytes": 719
+    },
+    {
+      "path": "docs/specs/artefacts/10/REMEDIATION_TRACKER_PROCESS.md",
+      "sha256": "f14a0da3db5c25a5b8e9c71c9544370d573ed1e903abd4c95f04de3ea1fa2196",
+      "bytes": 1245
+    },
+    {
+      "path": "docs/specs/artefacts/10/SEMIANNUAL_REDTEAM_SUMMARY_TEMPLATE.md",
+      "sha256": "616eef3499cdea6a16bfd09b7dd4b28ae60ded7c846242e66fa8c0e4693f38ef",
+      "bytes": 1254
     },
     {
       "path": "examples/corpus/01_manifesto_excerpt.txt",
@@ -5324,14 +7594,34 @@
       "bytes": 2629
     },
     {
+      "path": "free_core/release/__init__.py",
+      "sha256": "d803218a43126dfdafc8590f5e63c5def6163452ef8ddc6f0881dbc9c5653ecd",
+      "bytes": 39
+    },
+    {
+      "path": "free_core/release/scorecard.py",
+      "sha256": "0e3ebc413e0639a2e405852a764a5a0f98fbb51cfb2ebad93b43ab769223a2bb",
+      "bytes": 1037
+    },
+    {
       "path": "free_core/schemas/manifest.schema.json",
       "sha256": "ea18c99dc3b9e0f1da598174883a3219250f79a5468670729f662d341d31b379",
       "bytes": 719
     },
     {
+      "path": "free_core/schemas/ttlink.openapi.yaml",
+      "sha256": "269e4fbc4ade53db0043fa147c238195f50693d721e1ae223c73feb16b1abaa3",
+      "bytes": 1808
+    },
+    {
       "path": "free_core/security/__init__.py",
-      "sha256": "30dae28440668dedae71e214742305c84e04e56248a15f5b61958176caefc605",
-      "bytes": 82
+      "sha256": "8f9586901cbe8215852ac7c77f9a8c8a0f49f4c8092bf2de60ba1eb46e3b4f8c",
+      "bytes": 143
+    },
+    {
+      "path": "free_core/security/canary.py",
+      "sha256": "3b11b7291986b3be8820148749df04259a78ea94bdac816b4e719eb0abe44c75",
+      "bytes": 1096
     },
     {
       "path": "free_core/security/query_guard.py",
@@ -5379,9 +7669,379 @@
       "bytes": 3978
     },
     {
+      "path": "free_core/ttlink/server.py",
+      "sha256": "4ec6ec2c831851bcf335a6cd0b681325fafe6808753be3475cf62dedd1140570",
+      "bytes": 3079
+    },
+    {
       "path": "models/README.md",
-      "sha256": "f8db282359c2ae3910fa66b14a8f01838d7f43344024491e50b299ece5096d60",
-      "bytes": 620
+      "sha256": "b979d159d52b6776693279a777eec578dcfe9a0e2eb27336611a863fb822a83e",
+      "bytes": 666
+    },
+    {
+      "path": "models/ttllm-nano-v2/cards/MODEL_CARD.md",
+      "sha256": "8e99ca3c072da531fa178abf0d9855b65e64f1f11a3313bbab3fc1471d89df45",
+      "bytes": 720
+    },
+    {
+      "path": "models/ttllm-nano-v2/cards/TRANSPARENCY_SCORECARD.md",
+      "sha256": "bda7e060ef34adc95f8f7959f027b5db4d92c5c2371237dc2b806475f49a4e06",
+      "bytes": 647
+    },
+    {
+      "path": "models/ttllm-nano-v2/code/bpe.py",
+      "sha256": "edf71449cd81a8376d68c6ee98210ffc12bdf5d2645e38432f1424a596ac0a11",
+      "bytes": 2375
+    },
+    {
+      "path": "models/ttllm-nano-v2/code/eval_pack.py",
+      "sha256": "8fb39636684edad04daf10cc611c621909e25f50da490406c9d0c105267843e5",
+      "bytes": 2000
+    },
+    {
+      "path": "models/ttllm-nano-v2/code/generate.py",
+      "sha256": "5bcaae34e2911ad58c9afc3a66853a50686ad08e5abbabda521a3d5c9e0bb8e5",
+      "bytes": 1544
+    },
+    {
+      "path": "models/ttllm-nano-v2/code/model.py",
+      "sha256": "3bf99d7ad7998608a616f70eccfe59f320f2445125771f32ed829855b022c9f5",
+      "bytes": 4047
+    },
+    {
+      "path": "models/ttllm-nano-v2/code/prepare_bpe.py",
+      "sha256": "0910802451795c7777b07a74f9ecf8f608d7fcb7a6d980272d15fea62fed2313",
+      "bytes": 1306
+    },
+    {
+      "path": "models/ttllm-nano-v2/code/seal_release.py",
+      "sha256": "d6dd6d3891d26865dffdaf6448ad8e17bc0bf5f53be5c518e53d363876e6d28b",
+      "bytes": 4332
+    },
+    {
+      "path": "models/ttllm-nano-v2/code/train.py",
+      "sha256": "2454d8aba91cba834ae77f1c97a8e002c8c3fc5f3abe7a243ee734fd2b430b99",
+      "bytes": 5514
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/DATA_CARD.md",
+      "sha256": "6515f32a3d095ef2024e3c02a27b57c30f39ab840c8a06df87f8dfe8a146746e",
+      "bytes": 1912
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/processed/bpe.json",
+      "sha256": "c0c466f4db44631e566382c6906fabbfaa03906da1ba58cf230707dacee288b4",
+      "bytes": 27090
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/processed/corpus.txt",
+      "sha256": "b26077bd9f598f145ded5693c2ad5ce02e61695a9644555cb8361194ffc5c5b0",
+      "bytes": 588198
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/processed/meta.json",
+      "sha256": "719f47b52388d5cfb995438335fc6f87f4e3552ffc3d706bf28f70c243ce356e",
+      "bytes": 3041
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/processed/meta_v2.json",
+      "sha256": "a9fca5cc116f6194e9e523a56a912e9f30762e55a9886fee3a50f9af13567092",
+      "bytes": 276
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/processed/sources.json",
+      "sha256": "c4d21ae0eb3448d156c5d3aeeecb7008c206e5dce708942c3f2488098ebe6c58",
+      "bytes": 3199
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/processed/tokens.bin",
+      "sha256": "77b63be2d7a31f7bd2754e85dc99aae7162fffd13a8954b08f54aef48cefae88",
+      "bytes": 426400
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg11_alice_excerpt.full.txt",
+      "sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+      "bytes": 151191
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg11_alice_excerpt.trainslice.txt",
+      "sha256": "02c34df7cb8614058b8570c4586588d28e51fb57bc51da3ce10a2bf86198fab5",
+      "bytes": 83211
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg1342_pride_prejudice_excerpt.full.txt",
+      "sha256": "a5666f87abf2cbfdaa27ea8c73bd284da9649b9a2ab27b4e6c8f6aeab1bd1c88",
+      "bytes": 738046
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg1342_pride_prejudice_excerpt.trainslice.txt",
+      "sha256": "e8035130fcf49aabdbff8d1c63b86d0a097d51c74d25a4edef095984611386b6",
+      "bytes": 122137
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg1661_sherlock.full.txt",
+      "sha256": "b9c105a5c0cf9fcb37c7d0211658851ed56074519c9455d15e20f04c0c5a3174",
+      "bytes": 607504
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg1661_sherlock.trainslice.txt",
+      "sha256": "a98c41d2218e19233f89bf055d8b58ede062bc35926a8ff51f848a1083123cb5",
+      "bytes": 102654
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg174_dorian.full.txt",
+      "sha256": "7782dd93e6a457979ef451735c9fe4bd666968c314859d545f0d27a8c9b86aa2",
+      "bytes": 446090
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg174_dorian.trainslice.txt",
+      "sha256": "ef5b468b8e3d38e4452e360d58dc0a0fc39a2304fed907cc794e5dfa9fd76f7c",
+      "bytes": 81767
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg84_frankenstein_excerpt.full.txt",
+      "sha256": "06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77",
+      "bytes": 421633
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg84_frankenstein_excerpt.trainslice.txt",
+      "sha256": "a02b29c4e829dd61101a94ffc67c3393b18dcc01ad3c3a6da07380fa16073b66",
+      "bytes": 100392
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg98_two_cities.full.txt",
+      "sha256": "e3dfeb67feb904ac0f73a35204a175c58248422c2be8556802cb8820d958d67c",
+      "bytes": 771600
+    },
+    {
+      "path": "models/ttllm-nano-v2/data/raw/pg98_two_cities.trainslice.txt",
+      "sha256": "9b7144fd03843c77bed16863d19d2fda152b13257402ca948335d44c3831020c",
+      "bytes": 101466
+    },
+    {
+      "path": "models/ttllm-nano-v2/evals/eval_pack.json",
+      "sha256": "238f3d11dc85a4a53d87f1551e00a703cb631ea528778f6c427dcdf5b53d2043",
+      "bytes": 611
+    },
+    {
+      "path": "models/ttllm-nano-v2/evals/sample_generation.txt",
+      "sha256": "ae4894dac9bfd1aa5b45dc4715b38b4ffd80d81c765dc86f705b67d3b192b2e9",
+      "bytes": 226
+    },
+    {
+      "path": "models/ttllm-nano-v2/manifests/CHECKPOINTS_MANIFEST.json",
+      "sha256": "46393ecaefbf3ede162624e680feba7238e1ebaf8aff7adcf1bf727043b576d4",
+      "bytes": 2066
+    },
+    {
+      "path": "models/ttllm-nano-v2/manifests/RELEASE_MANIFEST.json",
+      "sha256": "4d026dca65d2f70dbeeef3db4b6ba4c335afba061f68769d58cbe26cec61c645",
+      "bytes": 3966
+    },
+    {
+      "path": "models/ttllm-nano-v2/metrics/cost_ledger.md",
+      "sha256": "fdf3ff1177d3b522e2a9ac464b7a3e6950b311e2311c77b26aa3bd6a9943ff25",
+      "bytes": 388
+    },
+    {
+      "path": "models/ttllm-nano-v2/metrics/hyperparams.json",
+      "sha256": "ca0bf3e9706bc476e130a6f938fa4fcff7aee6896c2bf30c2a81775694cd4d9a",
+      "bytes": 596
+    },
+    {
+      "path": "models/ttllm-nano-v2/metrics/train.jsonl",
+      "sha256": "fe518aa6c3ac367d5fcf890aae4b937ee249f1509fba7143f3fd6b17abab2e6f",
+      "bytes": 4285
+    },
+    {
+      "path": "models/ttllm-nano-v2/stream/public_log.json",
+      "sha256": "28c520df2ef1c6b462a845d0251592c6f758bd1279b4e603af0d832c18a7fabf",
+      "bytes": 2228
+    },
+    {
+      "path": "models/ttllm-nano-v2/ttlink/binding.json",
+      "sha256": "3a802be7d53d8c05596abac568c64ad6c3aef1992f6b8eba83ab3c03b5ea0ad6",
+      "bytes": 878
+    },
+    {
+      "path": "models/ttllm-nano-v2/ttlink/canary.json",
+      "sha256": "15ccb0b0ce63ce8661f9364b454716ebef016cdfaf7b90822ec8ef1949e3a114",
+      "bytes": 362
+    },
+    {
+      "path": "models/ttllm-nano-v2/ttlink/index.json",
+      "sha256": "655c9b964cd04d585cf95922ae4993ecbc820b60b1736fab230b1118b1e0769d",
+      "bytes": 321549
+    },
+    {
+      "path": "models/ttllm-nano-v2/ttlink/index_with_canary.json",
+      "sha256": "67bc69217d115d1b0fd32ec07316454dbdca63fe911b535708ca449409b4549c",
+      "bytes": 321658
+    },
+    {
+      "path": "models/ttllm-nano-v2/ttlink/shard_manifest.json",
+      "sha256": "b420ca304541c0040da4cd0025e1520178e6d592799154f52059d6e714a104fa",
+      "bytes": 645
+    },
+    {
+      "path": "models/ttllm-nano-v2/ttlink/shards/shard_000.json",
+      "sha256": "e874a83a4601624ecc7afa70140ae9b3d7af037ed197945c7002c734cced9088",
+      "bytes": 132
+    },
+    {
+      "path": "models/ttllm-nano-v2/ttlink/shards/shard_001.json",
+      "sha256": "81da48c21470d040146edfaa8bf85bfca1b049f4c740f69a1a3c1e62518ff0c8",
+      "bytes": 144
+    },
+    {
+      "path": "models/ttllm-nano-v2/ttlink/shards/shard_002.json",
+      "sha256": "ff1c2b878cc7969a943e52b75d35f1464c205adb6709b11ffafe8833b57da30d",
+      "bytes": 139
+    },
+    {
+      "path": "models/ttllm-nano-v3/cards/MODEL_CARD.md",
+      "sha256": "964373ce1dbf187dc0eb4f928f043641c9bbed5847b65ab081de64166cd58075",
+      "bytes": 269
+    },
+    {
+      "path": "models/ttllm-nano-v3/cards/TRANSPARENCY_SCORECARD.md",
+      "sha256": "3df4363c7adea11dacd771ccf1f9c29c990b7afaa239564e02a543e3d5e235bd",
+      "bytes": 717
+    },
+    {
+      "path": "models/ttllm-nano-v3/code/generate.py",
+      "sha256": "ee05337fcfc19b9878130d4b56feeb5c0c8fe3f7ae364b02bcc3af00459193cb",
+      "bytes": 1288
+    },
+    {
+      "path": "models/ttllm-nano-v3/code/model.py",
+      "sha256": "3bf99d7ad7998608a616f70eccfe59f320f2445125771f32ed829855b022c9f5",
+      "bytes": 4047
+    },
+    {
+      "path": "models/ttllm-nano-v3/code/train.py",
+      "sha256": "d477a60bc1c8c8a89c17fc44288b3e96da7e8d44b707c77ef8a7a23b346b74f3",
+      "bytes": 5185
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/DATA_CARD.md",
+      "sha256": "2716c7b13c7eb17bf98dc772b022832039ced3a5c89f1783e17f0f11b4ca2591",
+      "bytes": 1903
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/processed/corpus.txt",
+      "sha256": "b26077bd9f598f145ded5693c2ad5ce02e61695a9644555cb8361194ffc5c5b0",
+      "bytes": 588198
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/processed/meta.json",
+      "sha256": "719f47b52388d5cfb995438335fc6f87f4e3552ffc3d706bf28f70c243ce356e",
+      "bytes": 3041
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/processed/sources.json",
+      "sha256": "c4d21ae0eb3448d156c5d3aeeecb7008c206e5dce708942c3f2488098ebe6c58",
+      "bytes": 3199
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg11_alice_excerpt.full.txt",
+      "sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+      "bytes": 151191
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg11_alice_excerpt.trainslice.txt",
+      "sha256": "02c34df7cb8614058b8570c4586588d28e51fb57bc51da3ce10a2bf86198fab5",
+      "bytes": 83211
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg1342_pride_prejudice_excerpt.full.txt",
+      "sha256": "a5666f87abf2cbfdaa27ea8c73bd284da9649b9a2ab27b4e6c8f6aeab1bd1c88",
+      "bytes": 738046
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg1342_pride_prejudice_excerpt.trainslice.txt",
+      "sha256": "e8035130fcf49aabdbff8d1c63b86d0a097d51c74d25a4edef095984611386b6",
+      "bytes": 122137
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg1661_sherlock.full.txt",
+      "sha256": "b9c105a5c0cf9fcb37c7d0211658851ed56074519c9455d15e20f04c0c5a3174",
+      "bytes": 607504
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg1661_sherlock.trainslice.txt",
+      "sha256": "a98c41d2218e19233f89bf055d8b58ede062bc35926a8ff51f848a1083123cb5",
+      "bytes": 102654
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg174_dorian.full.txt",
+      "sha256": "7782dd93e6a457979ef451735c9fe4bd666968c314859d545f0d27a8c9b86aa2",
+      "bytes": 446090
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg174_dorian.trainslice.txt",
+      "sha256": "ef5b468b8e3d38e4452e360d58dc0a0fc39a2304fed907cc794e5dfa9fd76f7c",
+      "bytes": 81767
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg84_frankenstein_excerpt.full.txt",
+      "sha256": "06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77",
+      "bytes": 421633
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg84_frankenstein_excerpt.trainslice.txt",
+      "sha256": "a02b29c4e829dd61101a94ffc67c3393b18dcc01ad3c3a6da07380fa16073b66",
+      "bytes": 100392
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg98_two_cities.full.txt",
+      "sha256": "e3dfeb67feb904ac0f73a35204a175c58248422c2be8556802cb8820d958d67c",
+      "bytes": 771600
+    },
+    {
+      "path": "models/ttllm-nano-v3/data/raw/pg98_two_cities.trainslice.txt",
+      "sha256": "9b7144fd03843c77bed16863d19d2fda152b13257402ca948335d44c3831020c",
+      "bytes": 101466
+    },
+    {
+      "path": "models/ttllm-nano-v3/manifests/CHECKPOINTS_MANIFEST.json",
+      "sha256": "155665485422e705b526101a41f6ca009d463e26dc677603d1036b7ab3636171",
+      "bytes": 1679
+    },
+    {
+      "path": "models/ttllm-nano-v3/manifests/RELEASE_MANIFEST.json",
+      "sha256": "07610507ba2a0c578e3ae9bbdbd86454a821e8f97c1c3d5e067c1d8e278107ec",
+      "bytes": 3924
+    },
+    {
+      "path": "models/ttllm-nano-v3/metrics/hyperparams.json",
+      "sha256": "839ee2150d431638930de64705ccddd14961cf3379db4f892433859334c07cc0",
+      "bytes": 445
+    },
+    {
+      "path": "models/ttllm-nano-v3/metrics/train.jsonl",
+      "sha256": "1e64cf3550914a8cb0ae4ec3ced33de856643d36f583c55cbb26a91b02c02203",
+      "bytes": 1831
+    },
+    {
+      "path": "models/ttllm-nano-v3/metrics/train_console.log",
+      "sha256": "bbcaddc14385ea14614fbc4b9848f135d47de04350e866d3a6ec84f1420abe68",
+      "bytes": 1532
+    },
+    {
+      "path": "models/ttllm-nano-v3/stream/public_log.json",
+      "sha256": "b9a2eccbc7f3dff305a68e354359c2d874a7579a9c6eee5dd4d6a482350ee0b2",
+      "bytes": 2121
+    },
+    {
+      "path": "models/ttllm-nano-v3/ttlink/canary_check.json",
+      "sha256": "5c74e9dd84c4b11db002bc12793d201467171396f1c868cea8eac5bd9b970140",
+      "bytes": 119
+    },
+    {
+      "path": "models/ttllm-nano-v3/ttlink/index.json",
+      "sha256": "d6d7333d825877b01761f4c583cbef88f6241b9ac8420a68ff2cfa446d7c7177",
+      "bytes": 619244
     },
     {
       "path": "models/ttllm-nano/cards/MODEL_CARD.md",
@@ -5420,23 +8080,23 @@
     },
     {
       "path": "models/ttllm-nano/data/DATA_CARD.md",
-      "sha256": "6515f32a3d095ef2024e3c02a27b57c30f39ab840c8a06df87f8dfe8a146746e",
-      "bytes": 1912
+      "sha256": "3d0445139896f56fb6fe7c52510815ab80f910904780877429082071120a9b27",
+      "bytes": 1903
     },
     {
       "path": "models/ttllm-nano/data/processed/corpus.txt",
-      "sha256": "aa1b7083c28c0f133778d4dd8bac02c8e37fa419d47be821537c4ae32f71046a",
-      "bytes": 305882
+      "sha256": "b26077bd9f598f145ded5693c2ad5ce02e61695a9644555cb8361194ffc5c5b0",
+      "bytes": 588198
     },
     {
       "path": "models/ttllm-nano/data/processed/meta.json",
-      "sha256": "5c14615b40819cc5aba39256ccd4a7d391b590c5a26958462baf96341a53a46c",
-      "bytes": 2965
+      "sha256": "719f47b52388d5cfb995438335fc6f87f4e3552ffc3d706bf28f70c243ce356e",
+      "bytes": 3041
     },
     {
       "path": "models/ttllm-nano/data/processed/sources.json",
-      "sha256": "d49af3108d96f56b359fb19e7f7d2f5f95df0808791b15049c3ee3ebf2ca3e55",
-      "bytes": 1753
+      "sha256": "c4d21ae0eb3448d156c5d3aeeecb7008c206e5dce708942c3f2488098ebe6c58",
+      "bytes": 3199
     },
     {
       "path": "models/ttllm-nano/data/raw/pg11_alice_excerpt.full.txt",
@@ -5459,6 +8119,26 @@
       "bytes": 122137
     },
     {
+      "path": "models/ttllm-nano/data/raw/pg1661_sherlock.full.txt",
+      "sha256": "b9c105a5c0cf9fcb37c7d0211658851ed56074519c9455d15e20f04c0c5a3174",
+      "bytes": 607504
+    },
+    {
+      "path": "models/ttllm-nano/data/raw/pg1661_sherlock.trainslice.txt",
+      "sha256": "a98c41d2218e19233f89bf055d8b58ede062bc35926a8ff51f848a1083123cb5",
+      "bytes": 102654
+    },
+    {
+      "path": "models/ttllm-nano/data/raw/pg174_dorian.full.txt",
+      "sha256": "7782dd93e6a457979ef451735c9fe4bd666968c314859d545f0d27a8c9b86aa2",
+      "bytes": 446090
+    },
+    {
+      "path": "models/ttllm-nano/data/raw/pg174_dorian.trainslice.txt",
+      "sha256": "ef5b468b8e3d38e4452e360d58dc0a0fc39a2304fed907cc794e5dfa9fd76f7c",
+      "bytes": 81767
+    },
+    {
       "path": "models/ttllm-nano/data/raw/pg84_frankenstein_excerpt.full.txt",
       "sha256": "06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77",
       "bytes": 421633
@@ -5469,6 +8149,16 @@
       "bytes": 100392
     },
     {
+      "path": "models/ttllm-nano/data/raw/pg98_two_cities.full.txt",
+      "sha256": "e3dfeb67feb904ac0f73a35204a175c58248422c2be8556802cb8820d958d67c",
+      "bytes": 771600
+    },
+    {
+      "path": "models/ttllm-nano/data/raw/pg98_two_cities.trainslice.txt",
+      "sha256": "9b7144fd03843c77bed16863d19d2fda152b13257402ca948335d44c3831020c",
+      "bytes": 101466
+    },
+    {
       "path": "models/ttllm-nano/evals/eval_pack.json",
       "sha256": "420d71ce81094551ba5f999b330b1a36fddba8aff3db2ab6f0572a01f61294fa",
       "bytes": 1242
@@ -5477,6 +8167,11 @@
       "path": "models/ttllm-nano/evals/sample_generation.txt",
       "sha256": "8ba978230164db2150fda00ad1811ff10e3183839e2c25b2a32287bd0fed2955",
       "bytes": 127
+    },
+    {
+      "path": "models/ttllm-nano/manifests/CHECKPOINTS_MANIFEST.json",
+      "sha256": "3fa75520bb24175d8fe010f2a6dfc01bcf9b4dc394fd4ef42bd5ae76236bcb13",
+      "bytes": 2031
     },
     {
       "path": "models/ttllm-nano/manifests/RELEASE_MANIFEST.json",
@@ -5509,9 +8204,19 @@
       "bytes": 1111
     },
     {
+      "path": "models/ttllm-nano/ttlink/canary.json",
+      "sha256": "15ccb0b0ce63ce8661f9364b454716ebef016cdfaf7b90822ec8ef1949e3a114",
+      "bytes": 362
+    },
+    {
       "path": "models/ttllm-nano/ttlink/index.json",
       "sha256": "369ee2e6bdb8320b4d884b9c662090c5066475aa375a3ef2cd5b0741251ee831",
       "bytes": 642473
+    },
+    {
+      "path": "models/ttllm-nano/ttlink/index_with_canary.json",
+      "sha256": "309f550eb4253c1f1dbe6470c460fb24621a5901d017acffb542592c81a43879",
+      "bytes": 321649
     },
     {
       "path": "models/ttllm-nano/ttlink/shard_manifest.json",
@@ -5539,6 +8244,101 @@
       "bytes": 282
     },
     {
+      "path": "ops/AUTONOMOUS_READINESS.md",
+      "sha256": "c422a522f646986f64f64a96e2769ac1cba3768a6146f15363ae42ac8cc0ef40",
+      "bytes": 2761
+    },
+    {
+      "path": "ops/AUTONOMOUS_RUNBOOK.md",
+      "sha256": "03a063909ad45917d508d3954d6a3554edcb05b74a2865d169b132f9d4b9b789",
+      "bytes": 1899
+    },
+    {
+      "path": "ops/CREDENTIALS_STATUS.md",
+      "sha256": "91338034e00ff556673e287cba00549cbfcfc243c23960adc4635cc5c1c4e7ce",
+      "bytes": 6273
+    },
+    {
+      "path": "ops/DNS_CNAMES_REQUIRED.md",
+      "sha256": "1ddaab87dc63ea825951ff66327d582a11dfd541eb9a4da5cadd05589f7a002a",
+      "bytes": 1522
+    },
+    {
+      "path": "ops/DOMAIN_PURCHASE_RESULT.md",
+      "sha256": "2ac3d3f117c7c9c03e72d92b04f6aa5176122ec8e7ec9b4f924d7f60c3707454",
+      "bytes": 1152
+    },
+    {
+      "path": "ops/HUMAN_GATES.md",
+      "sha256": "4f4073a370eee21fb5898c6ce1581f440693a9e0cf19514359e5cd1d4c8dc70e",
+      "bytes": 573
+    },
+    {
+      "path": "ops/ORG_DNS_PENDING.md",
+      "sha256": "df990345127a12377e81cf1f0e9f59f943ba5ff563a37fb43880d5c90a818b3e",
+      "bytes": 563
+    },
+    {
+      "path": "ops/PROJECT_CONTACT.md",
+      "sha256": "dda3a48f601c9325a09f79785e7d17d6ef243b8dff965d6e8401370996e056d8",
+      "bytes": 453
+    },
+    {
+      "path": "ops/apply_dns_ttllms.sh",
+      "sha256": "829f61747ad35dd03bd1d4f1615556e17f01c17bc967c571e55181a43849229d",
+      "bytes": 1671
+    },
+    {
+      "path": "ops/dns-import/ttllms.com.zone",
+      "sha256": "6e00f19800b10ba38e7911ae846b9ccfc65237d8ff40d2c04dc7eb714a7f24cf",
+      "bytes": 334
+    },
+    {
+      "path": "ops/dns-import/ttllms.org.zone",
+      "sha256": "5f9a16126f830cd10752027bed21156e3e8dd06a6048a33b6ffafd5a8883cd66",
+      "bytes": 289
+    },
+    {
+      "path": "ops/last_check.json",
+      "sha256": "9061e21aa368a4978a352795c29144444759ad403ecb8e4194e3de44df69abb4",
+      "bytes": 342
+    },
+    {
+      "path": "ops/last_registration_ttllms_com.json",
+      "sha256": "f5ab33c1c8bb07b672184924dcffb0827e628b135bf2f555723bd94e27ff206a",
+      "bytes": 494
+    },
+    {
+      "path": "ops/last_registration_ttllms_org.json",
+      "sha256": "7ea7501a51a879ecafeafa304c2cdd4eb1e31106b985fac87640f574b666ff3a",
+      "bytes": 494
+    },
+    {
+      "path": "ops/last_status_ttllms_com.json",
+      "sha256": "b801ba50b953592d3dae544fe8cf42f289ce5fa035ae037c60c44baa556491da",
+      "bytes": 495
+    },
+    {
+      "path": "ops/last_status_ttllms_org.json",
+      "sha256": "9904784637e811d37d67a67346577f1ca17f76d088f3be006f026dd1dbadd9ea",
+      "bytes": 495
+    },
+    {
+      "path": "ops/one_shot_ttllms.sh",
+      "sha256": "ea2212c041764843a417c44c839fe928b55f71bfd84ef9414ec343ea3180b156",
+      "bytes": 4585
+    },
+    {
+      "path": "ops/secrets.local.env",
+      "sha256": "c49ffc4ecce548a21ffd5c4f3c29cfe4cc2d217f5817a7e2891ddba7f69bd388",
+      "bytes": 362
+    },
+    {
+      "path": "ops/secrets.local.env.example",
+      "sha256": "31e92ed08f64420d9c666274b7705c1071cc8b562fc9e3ed12dd0dec325837ea",
+      "bytes": 160
+    },
+    {
       "path": "prompts/FOUNDING_BATTERY_v1.md",
       "sha256": "516387285794384980b8c346556f390381706e61bd37163afac4d34de94c85f7",
       "bytes": 17576
@@ -5554,6 +8354,61 @@
       "bytes": 180
     },
     {
+      "path": "prompts/battery/README.md",
+      "sha256": "c8a4ac47db13934a3ca4702f8a0cb65bc3f7154a9d199ddb279584da35e8e64f",
+      "bytes": 190
+    },
+    {
+      "path": "prompts/battery/domain_01.md",
+      "sha256": "6b16e6ffd1c96cb8dda7e2f8049ca491654e010c2e68ac20c622edb97aa7d406",
+      "bytes": 938
+    },
+    {
+      "path": "prompts/battery/domain_02.md",
+      "sha256": "480e137069c6e0646162ab8431d6737ea433c9fd2d3138761c94256a30fb59a4",
+      "bytes": 944
+    },
+    {
+      "path": "prompts/battery/domain_03.md",
+      "sha256": "33f2e6c43f0311089f86e23fe8f79dcc4c1392cebfb8f074600b6ff8f71d7f3d",
+      "bytes": 962
+    },
+    {
+      "path": "prompts/battery/domain_04.md",
+      "sha256": "4a4df33823ee2f732ccf97a320bcbd6245aa727c6c617edb21a71fab61edfe9e",
+      "bytes": 952
+    },
+    {
+      "path": "prompts/battery/domain_05.md",
+      "sha256": "95ff14c7fe04103f34776f4b2e0182bcd58bec5848f9d1ad2f8848ecd04a24fd",
+      "bytes": 976
+    },
+    {
+      "path": "prompts/battery/domain_06.md",
+      "sha256": "dd0a589f1517d9cb5acf74843de1e1e47fd809b2def50300227b8129cb4c6723",
+      "bytes": 950
+    },
+    {
+      "path": "prompts/battery/domain_07.md",
+      "sha256": "f93db9d742f53e6495255477d55d875fdfe14dbf35761d81742dc86a43a63be3",
+      "bytes": 958
+    },
+    {
+      "path": "prompts/battery/domain_08.md",
+      "sha256": "552a093ea0ad81cf10ce79f6784f55d02ae52a542c08704e556adf9ffb0388ae",
+      "bytes": 990
+    },
+    {
+      "path": "prompts/battery/domain_09.md",
+      "sha256": "d0739868f4fc59bf814c44274cade66d9c827e48cde5c1c112ccb60980f040bb",
+      "bytes": 930
+    },
+    {
+      "path": "prompts/battery/domain_10.md",
+      "sha256": "b27ecdb08f5017cefdf4a69f7530fe2655ebb24575f92d10d3456e9eaf0563dd",
+      "bytes": 956
+    },
+    {
       "path": "pyproject.toml",
       "sha256": "f1833a2caedb6bc8ce9a409958c4a4e7ca25aecfb2f09a70570d13880a943ab0",
       "bytes": 754
@@ -5565,13 +8420,13 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "e7318121a854a5ce14c7232665713e352747c2b76ce42e1496250057539a4041",
-      "bytes": 1408
+      "sha256": "13a1f5157604fd438fa5835a75afdb51b9d957357c12abefb87cf093db417724",
+      "bytes": 2536
     },
     {
       "path": "registers/decisions/feed.json",
-      "sha256": "fe1791a60a4db65575ee73cb48ffdb4401f2ba799d6c7cd56c3d34676ec28eeb",
-      "bytes": 569
+      "sha256": "0f2d590d04f89ea61a0e958274a9798d8247fcf6b128b2b5cb56ee1331e0f509",
+      "bytes": 1027
     },
     {
       "path": "registers/funding.md",
@@ -5620,13 +8475,18 @@
     },
     {
       "path": "registers/supply-chain/DEPENDENCY_REGISTER.md",
-      "sha256": "28b0369d050a9243e77d3a0dca563ccefe3ab1af0f50b64cbb695df1c01545ff",
-      "bytes": 831
+      "sha256": "d132e21ee7dac9ba8b4b0d0842e4c921399d6923a92acef7a25c02bc9363a2ef",
+      "bytes": 1025
     },
     {
       "path": "scripts/build_public_artefacts.py",
       "sha256": "8ff13076e80ada85ed5ec41f22c9d6470def5c8eb1d0093ef9b5d61bb5913f53",
       "bytes": 3186
+    },
+    {
+      "path": "scripts/continuous_build_loop.py",
+      "sha256": "c52da34733be2166f0f923f5c8cf5f0038d2e5244f351f210070a3074bea1598",
+      "bytes": 1385
     },
     {
       "path": "scripts/redteam_nano_harness.py",
@@ -5645,28 +8505,48 @@
     },
     {
       "path": "site/architecture.html",
-      "sha256": "61c6168e6652c26ad27b371b96a2303532145bf4217e2e35bff4eaf924d611bd",
-      "bytes": 2396
+      "sha256": "c2d5ccb8e4d5373472569b22ebbe650a215844fd622e80bfc9e2a6f8944d6164",
+      "bytes": 2449
     },
     {
       "path": "site/contact.html",
-      "sha256": "1e327cf03d0d771a5beff24d412df2f03f761ffed9217778e1d6bf3225a85ebe",
-      "bytes": 1812
+      "sha256": "107616783b3d196358a85697ab1dd64f001920e5ab23e3ddd1f67f3fcdca14d5",
+      "bytes": 1865
     },
     {
       "path": "site/definition.html",
-      "sha256": "47ee3009253eb97fcdeb518b367432e86e739b4a074efacbea89306782ad9b7e",
-      "bytes": 2743
+      "sha256": "98ed9a31e3091cb04c173296aa93c8d15fe6beb089df90aae7a7b744f841b5ca",
+      "bytes": 2796
     },
     {
       "path": "site/demo.html",
-      "sha256": "62a09e330bf91995a153b2a0b795a94c7f30fd95ffba32384f22bc89ab6fb9c7",
-      "bytes": 2503
+      "sha256": "c64de94525e6b5e969db1f21c294b9bac7a58d8bdaa3ece98c3ca64d168cb703",
+      "bytes": 2797
     },
     {
       "path": "site/demo/demo.public.pem",
       "sha256": "911839f16a97d4961b40e7a431eac936b347d7368c644805ed820c2f52677e8c",
       "bytes": 113
+    },
+    {
+      "path": "site/demo/nano-v2/MODEL_CARD.md",
+      "sha256": "8e99ca3c072da531fa178abf0d9855b65e64f1f11a3313bbab3fc1471d89df45",
+      "bytes": 720
+    },
+    {
+      "path": "site/demo/nano-v2/TRANSPARENCY_SCORECARD.md",
+      "sha256": "4d259f631dc29af18835d01284ab669e95f8c2365cbf90339a25ff27dc6e2485",
+      "bytes": 582
+    },
+    {
+      "path": "site/demo/nano-v2/eval_pack.json",
+      "sha256": "238f3d11dc85a4a53d87f1551e00a703cb631ea528778f6c427dcdf5b53d2043",
+      "bytes": 611
+    },
+    {
+      "path": "site/demo/nano-v2/public_log.json",
+      "sha256": "28c520df2ef1c6b462a845d0251592c6f758bd1279b4e603af0d832c18a7fabf",
+      "bytes": 2228
     },
     {
       "path": "site/demo/nano/DATA_CARD.md",
@@ -5725,23 +8605,28 @@
     },
     {
       "path": "site/founding.html",
-      "sha256": "de2eaf2532d3de79d90f32e983be068919611937929a586a6a09a144364b4e58",
-      "bytes": 2827
+      "sha256": "eb834b804a028c963350bafe3c2b6257cae573db199f2175f0fe155c1e97386b",
+      "bytes": 2880
     },
     {
       "path": "site/free-core.html",
-      "sha256": "46c33281b77a433c95471d4706199c935afaf94c37b81ae5d84b5a448b46a461",
-      "bytes": 2829
+      "sha256": "69e7a5d32c6e87a547f2a2d8628aeaf92fbdde5f9e821ed4c6946a2888d65722",
+      "bytes": 2882
+    },
+    {
+      "path": "site/functions/api/ttlink.js",
+      "sha256": "5fb2da7222c31a96830f3f69f13b9c310619b5631954285d9727a9abb87d3db7",
+      "bytes": 3974
     },
     {
       "path": "site/index.html",
-      "sha256": "edd144a90e7602baff89c080273d3a37e70d99c5674dd84a8ee6609a76fcd258",
-      "bytes": 3326
+      "sha256": "6a9a33fabf27176a15e11283bd0de0a458d51c1214e679f794f9740e360de1bc",
+      "bytes": 3482
     },
     {
       "path": "site/nano.html",
-      "sha256": "d72169866459d3b99c29be11488f8874478fbbe352f449fd3c35c174fea85b08",
-      "bytes": 2647
+      "sha256": "85bad60ebe9db1681bf2a08d7bbc815aefe583fd33e0b33fffa5ecbb0fb086e7",
+      "bytes": 2880
     },
     {
       "path": "site/robots.txt",
@@ -5760,17 +8645,37 @@
     },
     {
       "path": "site/stream.html",
-      "sha256": "2b087ecdac3a9f0557753a97fc9c0f67c6ef6539486b23f4ec8947a4dcc15779",
-      "bytes": 1837
+      "sha256": "9c81c863f14cb2cd270257dbbbf626463e1f2394351f392aad9199390f50fd10",
+      "bytes": 1890
     },
     {
       "path": "site/styles.css",
       "sha256": "bd571cb39dee7239b1d2a4b7903e67bf5b11fc6006263772637d1aa79c13c625",
       "bytes": 3571
+    },
+    {
+      "path": "site/transparency.html",
+      "sha256": "90154d3d654404453fa7c0d1b11a12a1341351e90a22c3a6a48a7304bbd5f220",
+      "bytes": 3721
+    },
+    {
+      "path": "workers/ttlink-api/index_data.json",
+      "sha256": "62c3018aa85b911efc63d84a478c88d9eaad09bd41872321e7bb85f767d26152",
+      "bytes": 2318
+    },
+    {
+      "path": "workers/ttlink-api/worker.js",
+      "sha256": "544a963af6208a9dc8182f64c7f00c0956f8e4343b7920f83138cea436a458b2",
+      "bytes": 5145
+    },
+    {
+      "path": "workers/ttlink-api/wrangler.toml",
+      "sha256": "b889c920c135d27666a0a63af404beb53745a0b9198c59731413dac35ccec843",
+      "bytes": 189
     }
   ],
   "extra": {
     "seal": "free_public_core",
-    "version": "0.3.0"
+    "version": "0.4.0"
   }
 }
