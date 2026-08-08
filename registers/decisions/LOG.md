@@ -11,3 +11,6 @@
 | D-0007 | 2026-08-08 | Admit prior completion claims were soft tissue | Defend shallow ship | Radical honesty | GAP_AUDIT + deep rebuild | founder+agent |
 | D-0008 | 2026-08-08 | Ship Mac-local ttllm-nano with PG public-domain data | Wait for capital 32B | Conversation requires working skeleton shape | models/ttllm-nano | founder+agent |
 | D-0009 | 2026-08-08 | Domain specs = full founding turn plans | Keep thin stubs | Turns 37–46 are normative | docs/specs/01–10 | founder+agent |
+| D-0010 | 2026-08-08 | Ship ttllm-nano-v2 with pure-Python BPE | Stay on char-only nano | Better tokenizer still fully public/verifiable | models/ttllm-nano-v2 | founder+agent |
+| D-0011 | 2026-08-08 | Publish Domain quarterly bootstrap report | Wait for entity | Honesty about partial ops history | docs/specs/artefacts/00_QUARTERLY_BOOTSTRAP_2026Q3.md | founder+agent |
+| D-0012 | 2026-08-08 | Local ttlink HTTP API (stdlib) | Wait for Workers | Runnable reference without cloud | free_core/ttlink/server.py | founder+agent |

@@ -1,0 +1,64 @@
+{
+  "schema": "ttllm.stream_log.v1",
+  "count": 4,
+  "tip": "953a5382a7fe8a7a4d72e0cf1b3ecdc7698fd170ef6207c013844ae45436d2fb",
+  "events": [
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "bpe_trained",
+      "timestamp_utc": "2026-08-08T09:03:21Z",
+      "artefact_sha256": null,
+      "payload": {
+        "vocab": 1056,
+        "merges": "bpe.json"
+      },
+      "prev_hash": null,
+      "seq": 0,
+      "event_hash": "a3fe59ebbff40a18dd296305ed136006f8ab864d3010dda064d8043e1bf4851e"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "training_finished",
+      "timestamp_utc": "2026-08-08T09:03:21Z",
+      "artefact_sha256": null,
+      "payload": {
+        "steps": 1200,
+        "n_params": 3099648,
+        "wall_sec": 755.3390579223633
+      },
+      "prev_hash": "a3fe59ebbff40a18dd296305ed136006f8ab864d3010dda064d8043e1bf4851e",
+      "seq": 1,
+      "event_hash": "d44a6601747c7330495653642965ed2717be4e9bb07b33e8ba53f1b97409cfc9"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "loss_metric",
+      "timestamp_utc": "2026-08-08T09:03:21Z",
+      "artefact_sha256": null,
+      "payload": {
+        "step": 1200,
+        "train_loss": 2.893095052242279,
+        "val_loss": 4.660738682746887,
+        "val_ppl": 105.71414253537534,
+        "wall_sec": 745.7969281673431,
+        "utc": "2026-08-08T09:02:45Z"
+      },
+      "prev_hash": "d44a6601747c7330495653642965ed2717be4e9bb07b33e8ba53f1b97409cfc9",
+      "seq": 2,
+      "event_hash": "e19a03b0ed1eed430e757bbf4d9e2bdd1fe2df97418da9c5429b75f74f311b87"
+    },
+    {
+      "schema": "ttllm.stream_event.v1",
+      "event_type": "release",
+      "timestamp_utc": "2026-08-08T09:03:21Z",
+      "artefact_sha256": "003862edaebc151b2246133414d48f6c3b32585fba156775ab27c7095637dd67",
+      "payload": {
+        "merkle_root": "003862edaebc151b2246133414d48f6c3b32585fba156775ab27c7095637dd67",
+        "ckpt_root": "8af619376466df1687213244b1187e969f3eb5046727dee0ccb2662a866d2fc8"
+      },
+      "prev_hash": "e19a03b0ed1eed430e757bbf4d9e2bdd1fe2df97418da9c5429b75f74f311b87",
+      "seq": 3,
+      "event_hash": "953a5382a7fe8a7a4d72e0cf1b3ecdc7698fd170ef6207c013844ae45436d2fb"
+    }
+  ]
+}

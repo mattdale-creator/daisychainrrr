@@ -1,0 +1,126 @@
+{
+  "schema": "ttllm.manifest.v1",
+  "merkle_root": "003862edaebc151b2246133414d48f6c3b32585fba156775ab27c7095637dd67",
+  "count": 23,
+  "leaves": [
+    {
+      "path": "code/bpe.py",
+      "sha256": "edf71449cd81a8376d68c6ee98210ffc12bdf5d2645e38432f1424a596ac0a11",
+      "bytes": 2375
+    },
+    {
+      "path": "code/eval_pack.py",
+      "sha256": "8fb39636684edad04daf10cc611c621909e25f50da490406c9d0c105267843e5",
+      "bytes": 2000
+    },
+    {
+      "path": "code/generate.py",
+      "sha256": "5bcaae34e2911ad58c9afc3a66853a50686ad08e5abbabda521a3d5c9e0bb8e5",
+      "bytes": 1544
+    },
+    {
+      "path": "code/model.py",
+      "sha256": "3bf99d7ad7998608a616f70eccfe59f320f2445125771f32ed829855b022c9f5",
+      "bytes": 4047
+    },
+    {
+      "path": "code/prepare_bpe.py",
+      "sha256": "0910802451795c7777b07a74f9ecf8f608d7fcb7a6d980272d15fea62fed2313",
+      "bytes": 1306
+    },
+    {
+      "path": "code/seal_release.py",
+      "sha256": "d6dd6d3891d26865dffdaf6448ad8e17bc0bf5f53be5c518e53d363876e6d28b",
+      "bytes": 4332
+    },
+    {
+      "path": "code/train.py",
+      "sha256": "2454d8aba91cba834ae77f1c97a8e002c8c3fc5f3abe7a243ee734fd2b430b99",
+      "bytes": 5514
+    },
+    {
+      "path": "data/DATA_CARD.md",
+      "sha256": "6515f32a3d095ef2024e3c02a27b57c30f39ab840c8a06df87f8dfe8a146746e",
+      "bytes": 1912
+    },
+    {
+      "path": "data/processed/bpe.json",
+      "sha256": "c0c466f4db44631e566382c6906fabbfaa03906da1ba58cf230707dacee288b4",
+      "bytes": 27090
+    },
+    {
+      "path": "data/processed/corpus.txt",
+      "sha256": "aa1b7083c28c0f133778d4dd8bac02c8e37fa419d47be821537c4ae32f71046a",
+      "bytes": 305882
+    },
+    {
+      "path": "data/processed/meta.json",
+      "sha256": "5c14615b40819cc5aba39256ccd4a7d391b590c5a26958462baf96341a53a46c",
+      "bytes": 2965
+    },
+    {
+      "path": "data/processed/meta_v2.json",
+      "sha256": "a9fca5cc116f6194e9e523a56a912e9f30762e55a9886fee3a50f9af13567092",
+      "bytes": 276
+    },
+    {
+      "path": "data/processed/sources.json",
+      "sha256": "d49af3108d96f56b359fb19e7f7d2f5f95df0808791b15049c3ee3ebf2ca3e55",
+      "bytes": 1753
+    },
+    {
+      "path": "data/processed/tokens.bin",
+      "sha256": "77b63be2d7a31f7bd2754e85dc99aae7162fffd13a8954b08f54aef48cefae88",
+      "bytes": 426400
+    },
+    {
+      "path": "data/raw/pg11_alice_excerpt.full.txt",
+      "sha256": "a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754",
+      "bytes": 151191
+    },
+    {
+      "path": "data/raw/pg11_alice_excerpt.trainslice.txt",
+      "sha256": "02c34df7cb8614058b8570c4586588d28e51fb57bc51da3ce10a2bf86198fab5",
+      "bytes": 83211
+    },
+    {
+      "path": "data/raw/pg1342_pride_prejudice_excerpt.full.txt",
+      "sha256": "a5666f87abf2cbfdaa27ea8c73bd284da9649b9a2ab27b4e6c8f6aeab1bd1c88",
+      "bytes": 738046
+    },
+    {
+      "path": "data/raw/pg1342_pride_prejudice_excerpt.trainslice.txt",
+      "sha256": "e8035130fcf49aabdbff8d1c63b86d0a097d51c74d25a4edef095984611386b6",
+      "bytes": 122137
+    },
+    {
+      "path": "data/raw/pg84_frankenstein_excerpt.full.txt",
+      "sha256": "06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77",
+      "bytes": 421633
+    },
+    {
+      "path": "data/raw/pg84_frankenstein_excerpt.trainslice.txt",
+      "sha256": "a02b29c4e829dd61101a94ffc67c3393b18dcc01ad3c3a6da07380fa16073b66",
+      "bytes": 100392
+    },
+    {
+      "path": "evals/eval_pack.json",
+      "sha256": "238f3d11dc85a4a53d87f1551e00a703cb631ea528778f6c427dcdf5b53d2043",
+      "bytes": 611
+    },
+    {
+      "path": "metrics/hyperparams.json",
+      "sha256": "ca0bf3e9706bc476e130a6f938fa4fcff7aee6896c2bf30c2a81775694cd4d9a",
+      "bytes": 596
+    },
+    {
+      "path": "metrics/train.jsonl",
+      "sha256": "fe518aa6c3ac367d5fcf890aae4b937ee249f1509fba7143f3fd6b17abab2e6f",
+      "bytes": 4285
+    }
+  ],
+  "extra": {
+    "release": "ttllm-nano-v2",
+    "version": "0.2.0-nano-bpe"
+  }
+}

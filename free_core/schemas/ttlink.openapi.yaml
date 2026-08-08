@@ -1,0 +1,66 @@
+openapi: 3.0.3
+info:
+  title: TTLLM ttlink reference API
+  version: 0.3.0
+  description: |
+    Human-viewable provenance query API (reference scale).
+    Exact substring match against indexed corpus documents.
+    Production multi-trillion index is a separate engine class.
+servers:
+  - url: https://ttllms.com
+    description: Static site hosts demo JSON; API server TBD
+paths:
+  /v1/ttlink/query:
+    post:
+      summary: Query span against index
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [span]
+              properties:
+                span:
+                  type: string
+                max_hits:
+                  type: integer
+                  default: 20
+                case_sensitive:
+                  type: boolean
+                  default: true
+                client_id:
+                  type: string
+                  description: For QueryGuard rate limiting
+      responses:
+        "200":
+          description: Hits
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  hits:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Hit"
+        "429":
+          description: Rate limited by QueryGuard
+  /v1/ttlink/stats:
+    get:
+      summary: Index statistics
+      responses:
+        "200":
+          description: Stats
+components:
+  schemas:
+    Hit:
+      type: object
+      properties:
+        doc_id: { type: string }
+        path: { type: string }
+        start: { type: integer }
+        end: { type: integer }
+        context: { type: string }
+        doc_sha256: { type: string }
+        match: { type: string }

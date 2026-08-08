@@ -1,0 +1,22 @@
+{
+  "schema": "ttllm.shard_manifest.v1",
+  "merkle_root": "3171019cdb202c1549e32ebb291d5ac29613e54f760faebb63100f67f2010dd9",
+  "count": 3,
+  "leaves": [
+    {
+      "path": "ttlink/shards/shard_000.json",
+      "sha256": "e874a83a4601624ecc7afa70140ae9b3d7af037ed197945c7002c734cced9088",
+      "bytes": 132
+    },
+    {
+      "path": "ttlink/shards/shard_001.json",
+      "sha256": "81da48c21470d040146edfaa8bf85bfca1b049f4c740f69a1a3c1e62518ff0c8",
+      "bytes": 144
+    },
+    {
+      "path": "ttlink/shards/shard_002.json",
+      "sha256": "ff1c2b878cc7969a943e52b75d35f1464c205adb6709b11ffafe8833b57da30d",
+      "bytes": 139
+    }
+  ]
+}

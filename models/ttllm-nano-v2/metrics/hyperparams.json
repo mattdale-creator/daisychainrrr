@@ -1,0 +1,21 @@
+{
+  "schema": "ttllm.nano.v2.hyperparams",
+  "version": "0.2.0-nano-bpe",
+  "steps": 1200,
+  "batch_size": 32,
+  "block_size": 128,
+  "n_layer": 6,
+  "n_head": 4,
+  "n_embd": 192,
+  "lr": 0.0003,
+  "seed": 7,
+  "device": "mps",
+  "n_params": 3099648,
+  "tokenizer": "bpe-utf8-base",
+  "vocab_size": 1056,
+  "corpus_sha256": "aa1b7083c28c0f133778d4dd8bac02c8e37fa419d47be821537c4ae32f71046a",
+  "tokens_sha256": "77b63be2d7a31f7bd2754e85dc99aae7162fffd13a8954b08f54aef48cefae88",
+  "started_utc": "2026-08-08T08:50:19Z",
+  "finished_utc": "2026-08-08T09:02:55Z",
+  "wall_sec": 755.3390579223633
+}

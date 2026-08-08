@@ -37,3 +37,13 @@ verify-all: test demo redteam
 
 lint:
 	python3 -m compileall free_core tests scripts models/ttllm-nano/code
+
+nano-v2-data:
+	python3 models/ttllm-nano-v2/code/prepare_bpe.py
+
+nano-v2-train:
+	python3 models/ttllm-nano-v2/code/train.py --steps 1200
+
+nano-v2-seal:
+	python3 models/ttllm-nano-v2/code/eval_pack.py
+	python3 models/ttllm-nano-v2/code/seal_release.py

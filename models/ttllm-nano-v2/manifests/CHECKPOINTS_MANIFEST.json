@@ -1,0 +1,60 @@
+{
+  "schema": "ttllm.manifest.v1",
+  "merkle_root": "8af619376466df1687213244b1187e969f3eb5046727dee0ccb2662a866d2fc8",
+  "count": 10,
+  "leaves": [
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/final.pt",
+      "sha256": "8bc79945a29adff04d2389c852ccae654aa975a5b9742da60ed015b2edc4e68c",
+      "bytes": 12820862
+    },
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/step_000000.pt",
+      "sha256": "ff93e0facd6944bfb7b547782d5489a76dbcf271afac9d30b2317b3db0db2b8c",
+      "bytes": 12828952
+    },
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/step_000150.pt",
+      "sha256": "5bbe612ddd3f0195313f6afa6638853925342f9eabedf9ef70aebeafb87ef862",
+      "bytes": 37708406
+    },
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/step_000300.pt",
+      "sha256": "c6f2c410285a4399f3bc4db1df8d90ccffcd2053c3de6b9878aee1cf51c7e8cc",
+      "bytes": 37708406
+    },
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/step_000450.pt",
+      "sha256": "28d7258ac672c1bde96d368e7d343dc71ea1a718a4ab359a3972db7ad4e2e0df",
+      "bytes": 37708406
+    },
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/step_000600.pt",
+      "sha256": "6229e691ecc2b4739ac6fbb44aefabf6c48358a5fcb816a971f0ace4f6e164a4",
+      "bytes": 37708406
+    },
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/step_000750.pt",
+      "sha256": "b6689f765cb162acb6811ec87ca79209e6810aa700ce48cc2c297fbd980ac344",
+      "bytes": 37708406
+    },
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/step_000900.pt",
+      "sha256": "44ca8bfcfba2154d528d2bb53d8b6176300a3568457a46f61420b5510e397662",
+      "bytes": 37708406
+    },
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/step_001050.pt",
+      "sha256": "c3ee62c457832a1da02b559caee9699adab3320e246f9fb913b961a3ca083838",
+      "bytes": 37708406
+    },
+    {
+      "path": "models/ttllm-nano-v2/checkpoints/step_001200.pt",
+      "sha256": "a7a1d6b141ad3c7dde2296f9e4e985f7a808f3ea2f227eb33269d4ed3db29803",
+      "bytes": 37708406
+    }
+  ],
+  "extra": {
+    "seal": "ttllm-nano-v2-checkpoints"
+  }
+}

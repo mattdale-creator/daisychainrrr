@@ -1,0 +1,8 @@
+{
+  "schema": "ttllm.nano.v2.meta",
+  "vocab_size": 1056,
+  "n_tokens": 106600,
+  "corpus_sha256": "aa1b7083c28c0f133778d4dd8bac02c8e37fa419d47be821537c4ae32f71046a",
+  "tokens_sha256": "77b63be2d7a31f7bd2754e85dc99aae7162fffd13a8954b08f54aef48cefae88",
+  "bpe_merges": 800
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "ttllm.nano.v2.eval.v1",
+  "generated_utc": "2026-08-08T09:03:21Z",
+  "final_metrics": {
+    "step": 1200,
+    "train_loss": 2.893095052242279,
+    "val_loss": 4.660738682746887,
+    "val_ppl": 105.71414253537534,
+    "wall_sec": 745.7969281673431,
+    "utc": "2026-08-08T09:02:45Z"
+  },
+  "bpe_roundtrip": {
+    "n": 5,
+    "ok": 5,
+    "pass": true
+  },
+  "ttlink_retrieval_hits": {
+    "Alice": 5,
+    "Darcy": 5,
+    "monster": 4,
+    "Gutenberg": 0
+  },
+  "honesty": "No frontier capability claims. Eval proves process: metrics exist, BPE invertible on samples, ttlink finds corpus spans."
+}

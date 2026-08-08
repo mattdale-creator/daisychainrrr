@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.decision_feed.v1",
-  "updated": "2026-08-08T08:36:51.334834+00:00",
+  "updated": "2026-08-08T08:50:16.226990+00:00",
   "entries": [
     {
       "id": "D-0007",
@@ -19,6 +19,24 @@
       "date": "2026-08-08",
       "title": "Domain specs full founding plans",
       "outcome": "docs/specs"
+    },
+    {
+      "id": "D-0010",
+      "date": "2026-08-08",
+      "title": "ttllm-nano-v2 BPE",
+      "outcome": "models/ttllm-nano-v2"
+    },
+    {
+      "id": "D-0011",
+      "date": "2026-08-08",
+      "title": "Quarterly bootstrap report",
+      "outcome": "artefacts/00_QUARTERLY_BOOTSTRAP_2026Q3.md"
+    },
+    {
+      "id": "D-0012",
+      "date": "2026-08-08",
+      "title": "Local ttlink HTTP API",
+      "outcome": "free_core/ttlink/server.py"
     }
   ]
 }
