@@ -26,7 +26,7 @@
 | Custom domains on Pages | attached; **ttllms.com apex HTTPS live** |
 | Secrets | `ops/secrets.local.env` (gitignored) |
 | Contact policy | **md@0265.au** |
-| free_core | **0.6.2** (local + ttllms.com status) |
+| free_core | **0.6.5** (local + ttllms.com status) |
 
 ## DNS status (honest, 2026-08-08 reevaluation)
 
