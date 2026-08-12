@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.manifest.v1",
-  "merkle_root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
-  "count": 10558,
+  "merkle_root": "e7303753447875a8ec1c75c1dfc24a77f21642b13f83aa8e3d2bd220b89979bf",
+  "count": 10563,
   "leaves": [
     {
       "path": "LICENSE",
@@ -30,8 +30,8 @@
     },
     {
       "path": "commercial/PRE_REVENUE_OPERATING_PACK.md",
-      "sha256": "0cffe90ac0ef7a43f3ce69a710f32ba1cfb4e63dad04e3d2c042c780f656ccfb",
-      "bytes": 2631
+      "sha256": "075420d9553788e0702f7401ed002d2f5c6e171b8d3d1b987a3998cf4715dba0",
+      "bytes": 2773
     },
     {
       "path": "commercial/README.md",
@@ -50725,8 +50725,8 @@
     },
     {
       "path": "docs/audits/WORK_LEDGER.md",
-      "sha256": "187863bd4eb4671ba338fb33cf6cbd19c22eb32cb1f8f254ce3670ccbaa0c16f",
-      "bytes": 2725
+      "sha256": "5f2bf5e51a0248dfea6cab2e9cadd425b9838e292bde162dfe683df9bc18ac55",
+      "bytes": 2922
     },
     {
       "path": "docs/audits/WRITABLE_COMPLETION.md",
@@ -50737,6 +50737,11 @@
       "path": "docs/audits/loops/LOOP_2026-08-08.md",
       "sha256": "b04ed9975975bfbda7175e77fdb7e45a58015a95d1b0b536712d93a0b5fdcd98",
       "bytes": 3870
+    },
+    {
+      "path": "docs/audits/loops/LOOP_2026-08-12.md",
+      "sha256": "87dd678c83504b300d0f384ea22a84b834eaa087702d3ca6ad695383f196fcc6",
+      "bytes": 2305
     },
     {
       "path": "docs/business/FOUNDING_FREE_CORE_MONETISATION.md",
@@ -51660,8 +51665,8 @@
     },
     {
       "path": "docs/specs/artefacts/MASTER_DOMAIN_SCORECARD.md",
-      "sha256": "6ade4c8d17bdd51f6ad547d6f7ca965ed95bac803fa489039f2e53ae3976f007",
-      "bytes": 1011
+      "sha256": "49114ab96c513145ea732c6e9cec93a7bfe31579203aa396710747bc35f92f66",
+      "bytes": 1456
     },
     {
       "path": "docs/specs/artefacts/stream/STREAM_EVENT_CATALOG.md",
@@ -51925,18 +51930,23 @@
     },
     {
       "path": "free_core/__init__.py",
-      "sha256": "cfa3c02967c32ddef496079ed99703624ed01e7dcd58a6421eb00a276a8701d1",
+      "sha256": "5d8c119995c2d33703f12fe3766546e3c4b159c68dcaf7bc71483a27f39fa6d9",
       "bytes": 52
     },
     {
       "path": "free_core/business/__init__.py",
-      "sha256": "8c2e6c911b7a34645abb32c6d3e6146934569ce1b4a33248e692f339b4916932",
-      "bytes": 542
+      "sha256": "c84b19200c57cf46a9f4673043cd297e9e6e908cca69ffa4c0696d9311a7186c",
+      "bytes": 690
     },
     {
       "path": "free_core/business/boundary_guard.py",
       "sha256": "04efbd67f44e8a8bb1d06e54bfe60d20ba18464d717623450f61dd9415be5f93",
       "bytes": 11759
+    },
+    {
+      "path": "free_core/business/interest_intake.py",
+      "sha256": "fc7b78ec03a94bdf4cf8a122319cfb83925731e5609483dd65f02e28c78e7239",
+      "bytes": 7731
     },
     {
       "path": "free_core/business/sku_catalog.py",
@@ -51957,6 +51967,16 @@
       "path": "free_core/eval/honesty.py",
       "sha256": "5ea35a226afab7e8cbb615e037cbf55d599d14ae2650212a3b55a01cea6d212d",
       "bytes": 1917
+    },
+    {
+      "path": "free_core/org/__init__.py",
+      "sha256": "80d8181570e97c63ca9b2f309acc93e927e0621dcbb6fa3481d22802d50f885f",
+      "bytes": 220
+    },
+    {
+      "path": "free_core/org/domain_scorecard.py",
+      "sha256": "83a91c6a0a54f9317180bb70425cc6ed7263a56577b9340413bf5c5d525b8931",
+      "bytes": 9007
     },
     {
       "path": "free_core/provenance/__init__.py",
@@ -51985,8 +52005,8 @@
     },
     {
       "path": "free_core/provenance/seal_targets.py",
-      "sha256": "569c523f1e98fec8e32914cf65f65f4a27e98fa6975e48da6009fa3648fe2559",
-      "bytes": 2830
+      "sha256": "7ada8360f3f3709fb51e426c8a6214a58282a6fedabe0eaf370753a03ed74d13",
+      "bytes": 2918
     },
     {
       "path": "free_core/provenance/sign.py",
@@ -52060,8 +52080,8 @@
     },
     {
       "path": "free_core/status.py",
-      "sha256": "ec265f2589789123b73323f0f734f72c1601a75b9a28f3354893b685e7ccccd0",
-      "bytes": 6050
+      "sha256": "8d31835669d041b52953c08d342187ae707a3ccb73c02addd420ba5965569a6d",
+      "bytes": 6324
     },
     {
       "path": "free_core/stream/__init__.py",
@@ -52185,7 +52205,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "9567b5697435fba1ef00c085d04b765bacd1d826765cfb1de4e2f7708041b71d",
+      "sha256": "d08b0c069f6a76ff6c8c0743a89f54c086b3308483f2c37f332901f4173e493d",
       "bytes": 793
     },
     {
@@ -52195,8 +52215,8 @@
     },
     {
       "path": "registers/decisions/LOG.md",
-      "sha256": "59613ec98adb93a00c96a2f12c773efd3a6dcfe689a1505698a75400309a42e1",
-      "bytes": 8257
+      "sha256": "309eedf41e413c5461d088732fd0ba07dfc81dfc5615f8ecae066e6e650cb5ac",
+      "bytes": 8542
     },
     {
       "path": "registers/decisions/feed.json",
@@ -52345,13 +52365,18 @@
     },
     {
       "path": "scripts/domain_scorecard_all.py",
-      "sha256": "40889a60956f0badef40d39cdccc20e623241c1398d418ad55d5e3a84a833fe7",
-      "bytes": 1654
+      "sha256": "c8234acda7e8480adb1ff558cf2f888e7498b67c8a03fd5a013a93a8d6c09d89",
+      "bytes": 786
     },
     {
       "path": "scripts/fill_eventuality_leaves.py",
       "sha256": "05dfe7b583c95490225c0b0a17560f133415cd5743d93a0fd73cc785139459d3",
       "bytes": 549
+    },
+    {
+      "path": "scripts/interest_intake.py",
+      "sha256": "ed9fbd8b456d39849aca0fd657f93084dca24ffeaf36dc22e778913ee4a75fa8",
+      "bytes": 2117
     },
     {
       "path": "scripts/nano_cost_ledger.py",
@@ -52435,8 +52460,8 @@
     },
     {
       "path": "site/commercial.html",
-      "sha256": "a6205c10a2855bff3efbe7a8ad1da6c9cdb880b4014a0ff308e0cbb4ec0b854a",
-      "bytes": 5124
+      "sha256": "fc18c02a874c6bae5857c21a8565a54f0d99de90dc97691d063314539c958077",
+      "bytes": 6946
     },
     {
       "path": "site/contact.html",
@@ -52797,6 +52822,6 @@
   "extra": {
     "seal": "free_public_core",
     "repo": "daisychainrrr",
-    "version": "0.6.4"
+    "version": "0.6.5"
   }
 }

@@ -1,16 +1,16 @@
 {
   "schema": "ttllm.project_status.v1",
-  "utc": "2026-08-08T21:27:02Z",
-  "free_core_version": "0.6.4",
+  "utc": "2026-08-12T15:16:37Z",
+  "free_core_version": "0.6.5",
   "repo": "daisychainrrr (public)",
   "seal": {
     "present": true,
-    "merkle_root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
-    "count": 10558,
+    "merkle_root": "e7303753447875a8ec1c75c1dfc24a77f21642b13f83aa8e3d2bd220b89979bf",
+    "count": 10563,
     "verify_ok": true,
     "fresh": true,
-    "fresh_merkle_root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
-    "fresh_count": 10558
+    "fresh_merkle_root": "e7303753447875a8ec1c75c1dfc24a77f21642b13f83aa8e3d2bd220b89979bf",
+    "fresh_count": 10563
   },
   "nanos": [
     {
@@ -88,18 +88,22 @@
     "inclusion_proof_demo": "python3 scripts/demo_inclusion_proof.py",
     "nano_stream_tips": "python3 scripts/publish_nano_stream_tips.py",
     "public_proof": "python3 scripts/public_proof.py",
-    "commercial_status": "python3 scripts/commercial_status.py"
+    "commercial_status": "python3 scripts/commercial_status.py",
+    "interest_intake": "python3 scripts/interest_intake.py --demo",
+    "domain_scorecard": "python3 scripts/domain_scorecard_all.py"
   },
   "testing_loop": {
     "procedure": "docs/security/TESTING_LOOP.md",
     "first_cycle": "docs/audits/loops/LOOP_2026-08-08.md",
+    "latest_cycle": "docs/audits/loops/LOOP_2026-08-12.md",
     "cadence": [
       "every free-core claim ship",
       "weekly while building hard",
       "monthly + Domain 1 skim",
       "quarterly full loop",
       "pre-fundraise / first SKU",
-      "post integrity incident"
+      "post integrity incident",
+      "post machine crash / session resume"
     ],
     "ethos": "Measure twice. Attack the skeleton. Publish the red. Never fake the green."
   }

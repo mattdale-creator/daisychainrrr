@@ -29,7 +29,7 @@ SEAL_ROOT_FILES = (
 SEAL_EXTRA = {
     "seal": "free_public_core",
     "repo": "daisychainrrr",
-    "version": "0.6.4",
+    "version": "0.6.5",
 }
 
 
@@ -53,6 +53,8 @@ SEAL_EXCLUDE_NAMES = {
     "public_proof.json",
     # Commercial status snapshot (pre-revenue; regenerated)
     "commercial_status.json",
+    # Interest-intake demo corpus output (regenerated)
+    "interest_intake_demo.json",
 }
 
 

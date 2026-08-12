@@ -93,10 +93,13 @@ def collect_status(repo: Path | None = None) -> Dict[str, Any]:
             "nano_stream_tips": "python3 scripts/publish_nano_stream_tips.py",
             "public_proof": "python3 scripts/public_proof.py",
             "commercial_status": "python3 scripts/commercial_status.py",
+            "interest_intake": "python3 scripts/interest_intake.py --demo",
+            "domain_scorecard": "python3 scripts/domain_scorecard_all.py",
         },
         "testing_loop": {
             "procedure": "docs/security/TESTING_LOOP.md",
             "first_cycle": "docs/audits/loops/LOOP_2026-08-08.md",
+            "latest_cycle": "docs/audits/loops/LOOP_2026-08-12.md",
             "cadence": [
                 "every free-core claim ship",
                 "weekly while building hard",
@@ -104,6 +107,7 @@ def collect_status(repo: Path | None = None) -> Dict[str, Any]:
                 "quarterly full loop",
                 "pre-fundraise / first SKU",
                 "post integrity incident",
+                "post machine crash / session resume",
             ],
             "ethos": "Measure twice. Attack the skeleton. Publish the red. Never fake the green.",
         },

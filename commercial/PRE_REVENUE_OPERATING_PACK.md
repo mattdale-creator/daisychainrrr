@@ -58,8 +58,10 @@ Only after:
 
 ```bash
 python3 scripts/commercial_status.py
+python3 scripts/interest_intake.py --demo
 python3 scripts/redteam_business_attack.py
 python3 -c "from free_core.business.sku_catalog import catalog_ok; assert catalog_ok()"
+python3 -c "from free_core.business.interest_intake import demo_corpus_ok; assert demo_corpus_ok()"
 ```
 
 ## Public surfaces

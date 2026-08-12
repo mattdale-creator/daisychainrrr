@@ -60,6 +60,14 @@
     </div>
 
     <div class="card">
+      <h3>Interest intake (machine classifier)</h3>
+      <p>Inbound messages are routed into honest paths — refuse close-core, capture paid-layer interest only, point scale funders at hard gate T8, or send verify requests to unpaid proof. <strong>No auto-invoice.</strong></p>
+      <p class="mono" id="intakeBadge">Loading interest_intake_demo.json…</p>
+      <div id="intakeTable"></div>
+      <p class="mono">python3 scripts/interest_intake.py --demo · free_core.business.interest_intake</p>
+    </div>
+
+    <div class="card">
       <h3>Pre-revenue operating pack</h3>
       <p>How the business runs before the first invoice — without fake shopfronts.</p>
       <p class="mono">commercial/PRE_REVENUE_OPERATING_PACK.md</p>
@@ -114,6 +122,39 @@
       } catch (e) {
         badge.textContent = "commercial_status.json missing — run: python3 scripts/commercial_status.py";
         table.textContent = "";
+      }
+      const ib = document.getElementById("intakeBadge");
+      const it = document.getElementById("intakeTable");
+      try {
+        const r2 = await fetch("demo/interest_intake_demo.json", { cache: "no-store" });
+        const d = await r2.json();
+        ib.innerHTML =
+          (d.demo_corpus_ok ? '<span class="status-ok">intake demo ok</span>' : '<span class="status-bad">intake demo fail</span>') +
+          " · pre_revenue <strong>" +
+          d.pre_revenue +
+          "</strong> · selling <strong>" +
+          d.selling +
+          "</strong> · paths " +
+          JSON.stringify(d.path_counts || {});
+        const vs = d.verdicts || [];
+        it.innerHTML =
+          "<table><tr><th>Path</th><th>Title</th><th>Action</th></tr>" +
+          vs
+            .map(function (v) {
+              return (
+                "<tr><td class='mono'>" +
+                (v.path || "") +
+                "</td><td>" +
+                (v.title || "") +
+                "</td><td>" +
+                (v.action || "") +
+                "</td></tr>"
+              );
+            })
+            .join("") +
+          "</table>";
+      } catch (e2) {
+        ib.textContent = "interest_intake_demo.json missing — run: python3 scripts/interest_intake.py --demo --write-site";
       }
     })();
   </script>

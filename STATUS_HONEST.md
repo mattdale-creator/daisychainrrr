@@ -1,8 +1,8 @@
 # Honest status — free-core buildable complete
 
-**Updated:** 2026-08-09T01:30:00Z  
-**free_core:** 0.6.4  
-**Latest ship:** pre-revenue commercial bone · SKU catalog · refuse pack · public commercial page  
+**Updated:** 2026-08-12T15:20:00Z  
+**free_core:** 0.6.5  
+**Latest ship:** post-crash resume · interest intake classifier · evidence domain scorecard · LOOP_2026-08-12  
 
 ## Direction sense-check (founding load path)
 
@@ -30,6 +30,8 @@ python3 scripts/run_testing_loop.py   # company testing-loop automated half
 python3 scripts/demo_inclusion_proof.py
 python3 scripts/publish_nano_stream_tips.py
 python3 scripts/commercial_status.py
+python3 scripts/interest_intake.py --demo
+python3 scripts/domain_scorecard_all.py
 ```
 
 ## Public surfaces
@@ -37,6 +39,7 @@ python3 scripts/commercial_status.py
 |---------|-----|
 | Site | https://ttllms.com |
 | Status + proof | https://ttllms.com/status |
+| Commercial (pre-revenue) | https://ttllms.com/commercial.html |
 | Hard gates | https://ttllms.com/hard-gates |
 | Placeholders (full text) | https://ttllms.com/placeholders |
 | Demo (real ttlink) | https://ttllms.com/demo |

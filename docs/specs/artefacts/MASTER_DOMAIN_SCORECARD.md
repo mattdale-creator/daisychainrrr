@@ -1,23 +1,27 @@
 # Master domain scorecard — project
-Generated: 2026-08-08T10:51:06Z
+Generated: 2026-08-12T15:16:20Z
 
 | # | Domain | Status | Notes |
 |---|--------|--------|-------|
-| 1 | Governance | PARTIAL | Charter + decision log; no board |
-| 2 | Ownership/Funding | PARTIAL | 100% founder disclosure; $0 institutional |
-| 3 | Data governance | MET-nano | DATA_CARDs + PG hashes + legal logs ready |
-| 4 | Evaluation | PARTIAL | Process eval packs only; no capability claims |
-| 5 | Incidents | PARTIAL | Policy + empty log |
-| 6 | Compensation | PARTIAL | Philosophy; no employees |
-| 7 | Supply chain | MET | Dependency register current |
-| 8 | Boundary | MET-pre-revenue | BOUNDARY.md + isolation runbook |
-| 9 | Stewardship | PARTIAL | Draft covenant unsigned |
-| 10 | Red-team publication | PARTIAL | Harness green; no standing team |
+| 1 | Governance | BONE-process | Charter + decision log + audit process; no board (entity T6 open) |
+| 2 | Ownership/Funding | PARTIAL | Founder disclosure packs present; $0 institutional; entity T6 open |
+| 3 | Data governance | MET-nano | DATA_CARDs on 4 nano tree(s); PG public-domain hashes |
+| 4 | Evaluation | BONE-honest | Claim gate + honesty packs; no frontier capability claims |
+| 5 | Incidents | BONE-process | Policy + tabletop process; no real High severity yet |
+| 6 | Compensation | PARTIAL | Philosophy + band examples; no payroll (entity/hire gates) |
+| 7 | Supply chain | MET | Dependency register / SUPPLY_LOCK current for free-core software |
+| 8 | Boundary | MET-pre-revenue | BOUNDARY + refuse + 6 SKU designs; selling=false |
+| 9 | Stewardship | PARTIAL | Draft covenant / continuity inventory; unsigned (T5/T6/T9 open) |
+| 10 | Red-team publication | BONE-process | Harness + campaigns published; standing hire is hard gate T10 |
 
 ## Tombstones
 - No 32B / multi-trillion TTLLM
-- No production FM-index
-- No entity / signed covenant
-- Pages Function /api/ttlink may not route (static fallback) — client demo remains bone
+- No production multi-trillion ttlink index
+- No entity / signed covenant / standing RT hire
+- Nano shape only — not OLMo-class
+
+Artefact markdown files under docs/specs/artefacts: **86**
+
+Machine source: `free_core.org.domain_scorecard` · regenerate: `python3 scripts/domain_scorecard_all.py`
 
 *Down to the bone.*

@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.commercial_status.v1",
-  "utc": "2026-08-08T21:26:51Z",
-  "free_core_version": "0.6.4",
+  "utc": "2026-08-12T15:16:33Z",
+  "free_core_version": "0.6.5",
   "pre_revenue": true,
   "selling": false,
   "ethos": {

@@ -1,40 +1,31 @@
 #!/usr/bin/env python3
-"""Emit master scorecard across domains for current project state."""
+"""Emit evidence-based master domain scorecard (Domains 1–10)."""
+from __future__ import annotations
+import json
+import sys
 from pathlib import Path
-from datetime import datetime, timezone
 
-ROOT = Path(__file__).resolve().parents[1]
-scores = [
-    (1, "Governance", "PARTIAL", "Charter + decision log; no board"),
-    (2, "Ownership/Funding", "PARTIAL", "100% founder disclosure; $0 institutional"),
-    (3, "Data governance", "MET-nano", "DATA_CARDs + PG hashes + legal logs ready"),
-    (4, "Evaluation", "PARTIAL", "Process eval packs only; no capability claims"),
-    (5, "Incidents", "PARTIAL", "Policy + empty log"),
-    (6, "Compensation", "PARTIAL", "Philosophy; no employees"),
-    (7, "Supply chain", "MET", "Dependency register current"),
-    (8, "Boundary", "MET-pre-revenue", "BOUNDARY.md + isolation runbook"),
-    (9, "Stewardship", "PARTIAL", "Draft covenant unsigned"),
-    (10, "Red-team publication", "PARTIAL", "Harness green; no standing team"),
-]
-lines = [
-    "# Master domain scorecard — project",
-    f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}",
-    "",
-    "| # | Domain | Status | Notes |",
-    "|---|--------|--------|-------|",
-]
-for n, name, st, notes in scores:
-    lines.append(f"| {n} | {name} | {st} | {notes} |")
-lines += [
-    "",
-    "## Tombstones",
-    "- No 32B / multi-trillion TTLLM",
-    "- No production FM-index",
-    "- No entity / signed covenant",
-    "- Pages Function /api/ttlink may not route (static fallback) — client demo remains bone",
-    "",
-    "*Down to the bone.*",
-]
-out = ROOT / "docs/specs/artefacts/MASTER_DOMAIN_SCORECARD.md"
-out.write_text("\n".join(lines) + "\n")
-print("wrote", out)
+REPO = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO))
+
+from free_core.org.domain_scorecard import write_master_scorecard  # noqa: E402
+
+
+def main() -> int:
+    out, card = write_master_scorecard(REPO)
+    print("wrote", out)
+    print(
+        json.dumps(
+            {
+                "domains": len(card["domains"]),
+                "statuses": {d["number"]: d["status"] for d in card["domains"]},
+                "artefact_md_count": card.get("artefact_md_count"),
+            },
+            indent=2,
+        )
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

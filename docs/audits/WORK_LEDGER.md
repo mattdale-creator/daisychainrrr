@@ -21,3 +21,4 @@
 | 2026-08-08 | Full SoT reevaluation post-crash: reload founding, soft-tissue DNS docs, seal-stable nano tips | nano_tips stable write, AUTONOMOUS_RUNBOOK, vault README, reseal, D-0037 |
 | 2026-08-09 | Continue + direction sense-check → free_core 0.6.3 public_proof unpaid surface | public_proof.py, status.html, demo proof panel, multi-nano harness, D-0038 |
 | 2026-08-09 | Business bone pre-revenue: SKU catalog, refuse, commercial site, BOUNDARY 0.3 | free_core 0.6.4, commercial/*, site/commercial.html, D-0039 |
+| 2026-08-12 | Post-Mac-crash resume: testing loop re-measure; interest intake classifier; evidence domain scorecard; LOOP_2026-08-12 | free_core 0.6.5, interest_intake, domain_scorecard, D-0040 |

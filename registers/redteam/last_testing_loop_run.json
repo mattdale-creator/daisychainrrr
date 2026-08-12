@@ -1,6 +1,6 @@
 {
   "schema": "ttllm.testing_loop_run.v1",
-  "utc": "2026-08-08T14:34:29Z",
+  "utc": "2026-08-12T15:12:15Z",
   "ethos": "Measure twice. Attack the skeleton. Publish the red. Never fake the green.",
   "procedure": "docs/security/TESTING_LOOP.md",
   "first_cycle_record": "docs/audits/loops/LOOP_2026-08-08.md",

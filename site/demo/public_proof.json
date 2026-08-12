@@ -1,7 +1,7 @@
 {
   "schema": "ttllm.public_proof.v1",
-  "utc": "2026-08-08T21:26:50Z",
-  "free_core_version": "0.6.4",
+  "utc": "2026-08-12T15:16:50Z",
+  "free_core_version": "0.6.5",
   "ethos": {
     "product_is_the_proof": true,
     "free_public_core_never_paywalled": true,
@@ -33,8 +33,8 @@
     "present": true,
     "verify_ok": true,
     "fresh": true,
-    "merkle_root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
-    "count": 10558,
+    "merkle_root": "e7303753447875a8ec1c75c1dfc24a77f21642b13f83aa8e3d2bd220b89979bf",
+    "count": 10563,
     "green": true,
     "inclusion_readme_ok": true
   },
@@ -76,12 +76,12 @@
   },
   "status_seal": {
     "present": true,
-    "merkle_root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
-    "count": 10558,
+    "merkle_root": "e7303753447875a8ec1c75c1dfc24a77f21642b13f83aa8e3d2bd220b89979bf",
+    "count": 10563,
     "verify_ok": true,
     "fresh": true,
-    "fresh_merkle_root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
-    "fresh_count": 10558
+    "fresh_merkle_root": "e7303753447875a8ec1c75c1dfc24a77f21642b13f83aa8e3d2bd220b89979bf",
+    "fresh_count": 10563
   },
   "recipe": [
     "git clone https://github.com/mattdale-creator/daisychainrrr",

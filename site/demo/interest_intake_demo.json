@@ -1,0 +1,122 @@
+{
+  "schema": "ttllm.interest_intake.v1",
+  "pre_revenue": true,
+  "selling": false,
+  "count": 5,
+  "path_counts": {
+    "refuse_close_core": 1,
+    "commercial_interest_only": 1,
+    "fund_scale_hard_gate": 1,
+    "verify_unpaid": 1,
+    "general_inquiry": 1
+  },
+  "verdicts": [
+    {
+      "path": "refuse_close_core",
+      "severity": "refuse",
+      "title": "Close-core / exclusive bone ask",
+      "action": "Refuse. Free public core never paywalled or closed. Send commercial/REFUSE_RESPONSE.md template. Log material pressure.",
+      "artefact": "commercial/REFUSE_RESPONSE.md",
+      "matched": [
+        "exclusive free-core weights"
+      ],
+      "pre_revenue": true,
+      "selling": false,
+      "hard_gates": []
+    },
+    {
+      "path": "commercial_interest_only",
+      "severity": "capture",
+      "title": "Paid-layer interest (outside free core)",
+      "action": "Capture as interest only. No invoice, SOW, or reserved capacity until T6 entity + T7 bank/KYC + T11 counterparty. Share commercial SKU one-pagers + BOUNDARY.",
+      "artefact": "commercial/PRE_REVENUE_OPERATING_PACK.md",
+      "matched": [
+        "hosted infra with SLA",
+        "enterprise ttlink",
+        "SLA"
+      ],
+      "pre_revenue": true,
+      "selling": false,
+      "hard_gates": [
+        "T6_entity",
+        "T7_bank_kyc",
+        "T11_first_revenue_counterparty"
+      ]
+    },
+    {
+      "path": "fund_scale_hard_gate",
+      "severity": "hard_gate",
+      "title": "Scale / capital interest",
+      "action": "Do not claim a raise. Point to hard gate T8 and docs/placeholders/capital/. Free core stays public.",
+      "artefact": "docs/HARD_TECHNOLOGICAL_GATES.md",
+      "matched": [
+        "32B",
+        "Term sheet"
+      ],
+      "pre_revenue": true,
+      "selling": false,
+      "hard_gates": [
+        "T8_capital"
+      ]
+    },
+    {
+      "path": "verify_unpaid",
+      "severity": "help",
+      "title": "Verification / unpaid proof",
+      "action": "Point to unpaid public proof: python3 scripts/public_proof.py, https://ttllms.com/demo, https://ttllms.com/status, GitHub clone.",
+      "artefact": "scripts/public_proof.py",
+      "matched": [
+        "verify",
+        "seal"
+      ],
+      "pre_revenue": true,
+      "selling": false,
+      "hard_gates": []
+    },
+    {
+      "path": "general_inquiry",
+      "severity": "help",
+      "title": "General inquiry",
+      "action": "Reply from md@0265.au with BOUNDARY summary, free-core links, and commercial.html if relevant. Still pre-revenue.",
+      "artefact": "commercial/PRE_REVENUE_OPERATING_PACK.md",
+      "matched": [],
+      "pre_revenue": true,
+      "selling": false,
+      "hard_gates": []
+    }
+  ],
+  "integrity": {
+    "ok": true,
+    "no_auto_invoice": true,
+    "refuse_close_core_supported": true,
+    "refuse_hits": 1
+  },
+  "ethos": {
+    "free_public_core_never_paywalled": true,
+    "monetise_outside_core": true,
+    "no_fake_invoices": true
+  },
+  "demo_corpus_ok": true,
+  "demo_expected": [
+    {
+      "text": "We will invest if you exclusive free-core weights for paying customers only.",
+      "expected_path": "refuse_close_core"
+    },
+    {
+      "text": "Interested in hosted infra with SLA and enterprise ttlink tooling.",
+      "expected_path": "commercial_interest_only"
+    },
+    {
+      "text": "Can we fund a 32B train at scale? Term sheet ready.",
+      "expected_path": "fund_scale_hard_gate"
+    },
+    {
+      "text": "How do I verify the Merkle seal and re-run public_proof unpaid?",
+      "expected_path": "verify_unpaid"
+    },
+    {
+      "text": "Hello \u2014 what is TTLLM?",
+      "expected_path": "general_inquiry"
+    }
+  ]
+}

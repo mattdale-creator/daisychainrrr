@@ -3,8 +3,8 @@
   "ethos": "product is the proof \u2014 offline, unpaid, free public core",
   "manifest": "manifests/FREE_CORE_SEAL.json",
   "path": "README.md",
-  "merkle_root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
-  "leaf_count": 10558,
+  "merkle_root": "7c20f36950c91cea6c8891674000791e71c97f076b4e2b269e6367cafd380687",
+  "leaf_count": 10563,
   "proof": {
     "schema": "ttllm.merkle_proof.v1",
     "leaf_index": 2,
@@ -20,7 +20,7 @@
       },
       {
         "position": "right",
-        "hash": "aef82e1b1fc59b918bab01b24bc893f8c3e309669e08b8fe74bbed1d84a7d2d2"
+        "hash": "f7e62763772504621a3b6d4de0bd175298baafd44bb86633a442ba88794cbc9d"
       },
       {
         "position": "right",
@@ -64,10 +64,10 @@
       },
       {
         "position": "right",
-        "hash": "79bd0096d019fa210f8e5b7797aaa07a782d57f371b71661443736f0cef4e4d5"
+        "hash": "ed109c7ffe0f8e7fab808408508af288ad43d2f5792abb964488f6ebe785570c"
       }
     ],
-    "root": "57ec02a1909fa1738c0bba69faada4fab89e34d42f827f201d3e2b2f8b74d18d",
+    "root": "7c20f36950c91cea6c8891674000791e71c97f076b4e2b269e6367cafd380687",
     "path": "README.md"
   },
   "verified": true,
